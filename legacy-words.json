@@ -1,0 +1,2606 @@
+{
+  "de": [
+    {
+      "title": "Ciało i zabawki",
+      "words": [
+        {
+          "pl": "lalka",
+          "word": "die Puppe"
+        },
+        {
+          "pl": "piłka",
+          "word": "der Ball"
+        },
+        {
+          "pl": "dłoń",
+          "word": "die Hand"
+        },
+        {
+          "pl": "noga",
+          "word": "das Bein"
+        },
+        {
+          "pl": "głowa",
+          "word": "der Kopf"
+        }
+      ]
+    },
+    {
+      "title": "Dom",
+      "words": [
+        {
+          "pl": "dom",
+          "word": "das Haus"
+        },
+        {
+          "pl": "drzwi",
+          "word": "die Tür"
+        },
+        {
+          "pl": "okno",
+          "word": "das Fenster"
+        },
+        {
+          "pl": "stół",
+          "word": "der Tisch"
+        },
+        {
+          "pl": "krzesło",
+          "word": "der Stuhl"
+        }
+      ]
+    },
+    {
+      "title": "Zwierzęta",
+      "words": [
+        {
+          "pl": "kot",
+          "word": "die Katze"
+        },
+        {
+          "pl": "pies",
+          "word": "der Hund"
+        },
+        {
+          "pl": "ptak",
+          "word": "der Vogel"
+        },
+        {
+          "pl": "ryba",
+          "word": "der Fisch"
+        },
+        {
+          "pl": "mysz",
+          "word": "die Maus"
+        }
+      ]
+    },
+    {
+      "title": "Rodzina",
+      "words": [
+        {
+          "pl": "mama",
+          "word": "die Mutter"
+        },
+        {
+          "pl": "tata",
+          "word": "der Vater"
+        },
+        {
+          "pl": "siostra",
+          "word": "die Schwester"
+        },
+        {
+          "pl": "brat",
+          "word": "der Bruder"
+        },
+        {
+          "pl": "dziecko",
+          "word": "das Kind"
+        }
+      ]
+    },
+    {
+      "title": "Jedzenie",
+      "words": [
+        {
+          "pl": "chleb",
+          "word": "das Brot"
+        },
+        {
+          "pl": "woda",
+          "word": "das Wasser"
+        },
+        {
+          "pl": "jabłko",
+          "word": "der Apfel"
+        },
+        {
+          "pl": "mleko",
+          "word": "die Milch"
+        },
+        {
+          "pl": "jajko",
+          "word": "das Ei"
+        }
+      ]
+    },
+    {
+      "title": "Podróż i rozrywka",
+      "words": [
+        {
+          "pl": "rower",
+          "word": "das Fahrrad"
+        },
+        {
+          "pl": "samochód",
+          "word": "das Auto"
+        },
+        {
+          "pl": "pociąg",
+          "word": "der Zug"
+        },
+        {
+          "pl": "książka",
+          "word": "das Buch"
+        },
+        {
+          "pl": "zabawka",
+          "word": "das Spielzeug"
+        }
+      ]
+    },
+    {
+      "title": "Ubrania",
+      "words": [
+        {
+          "pl": "czapka",
+          "word": "die Mütze"
+        },
+        {
+          "pl": "but",
+          "word": "der Schuh"
+        },
+        {
+          "pl": "płaszcz",
+          "word": "der Mantel"
+        },
+        {
+          "pl": "koszula",
+          "word": "das Hemd"
+        },
+        {
+          "pl": "sukienka",
+          "word": "das Kleid"
+        }
+      ]
+    },
+    {
+      "title": "Przyroda",
+      "words": [
+        {
+          "pl": "drzewo",
+          "word": "der Baum"
+        },
+        {
+          "pl": "słońce",
+          "word": "die Sonne"
+        },
+        {
+          "pl": "księżyc",
+          "word": "der Mond"
+        },
+        {
+          "pl": "deszcz",
+          "word": "der Regen"
+        },
+        {
+          "pl": "kwiat",
+          "word": "die Blume"
+        }
+      ]
+    },
+    {
+      "title": "Twarz i ciało",
+      "words": [
+        {
+          "pl": "oko",
+          "word": "das Auge"
+        },
+        {
+          "pl": "ucho",
+          "word": "das Ohr"
+        },
+        {
+          "pl": "nos",
+          "word": "die Nase"
+        },
+        {
+          "pl": "usta",
+          "word": "der Mund"
+        },
+        {
+          "pl": "palec",
+          "word": "der Finger"
+        }
+      ]
+    },
+    {
+      "title": "Szkoła",
+      "words": [
+        {
+          "pl": "szkoła",
+          "word": "die Schule"
+        },
+        {
+          "pl": "długopis",
+          "word": "der Kugelschreiber"
+        },
+        {
+          "pl": "zeszyt",
+          "word": "das Heft"
+        },
+        {
+          "pl": "plecak",
+          "word": "der Rucksack"
+        },
+        {
+          "pl": "nauczyciel",
+          "word": "der Lehrer"
+        }
+      ]
+    },
+    {
+      "title": "Miasto",
+      "words": [
+        {
+          "pl": "ulica",
+          "word": "die Straße"
+        },
+        {
+          "pl": "sklep",
+          "word": "das Geschäft"
+        },
+        {
+          "pl": "most",
+          "word": "die Brücke"
+        },
+        {
+          "pl": "plac",
+          "word": "der Platz"
+        },
+        {
+          "pl": "park",
+          "word": "der Park"
+        }
+      ]
+    },
+    {
+      "title": "W domu",
+      "words": [
+        {
+          "pl": "łóżko",
+          "word": "das Bett"
+        },
+        {
+          "pl": "lampa",
+          "word": "die Lampe"
+        },
+        {
+          "pl": "kubek",
+          "word": "die Tasse"
+        },
+        {
+          "pl": "talerz",
+          "word": "der Teller"
+        },
+        {
+          "pl": "klucz",
+          "word": "der Schlüssel"
+        }
+      ]
+    },
+    {
+      "title": "Kuchnia",
+      "words": [
+        {
+          "pl": "łyżka",
+          "word": "der Löffel"
+        },
+        {
+          "pl": "widelec",
+          "word": "die Gabel"
+        },
+        {
+          "pl": "nóż",
+          "word": "das Messer"
+        },
+        {
+          "pl": "lodówka",
+          "word": "der Kühlschrank"
+        },
+        {
+          "pl": "piec",
+          "word": "der Ofen"
+        }
+      ]
+    },
+    {
+      "title": "Wakacje",
+      "words": [
+        {
+          "pl": "plaża",
+          "word": "der Strand"
+        },
+        {
+          "pl": "morze",
+          "word": "das Meer"
+        },
+        {
+          "pl": "hotel",
+          "word": "das Hotel"
+        },
+        {
+          "pl": "bilet",
+          "word": "die Fahrkarte"
+        },
+        {
+          "pl": "walizka",
+          "word": "der Koffer"
+        }
+      ]
+    },
+    {
+      "title": "Praca i technologia",
+      "words": [
+        {
+          "pl": "komputer",
+          "word": "der Computer"
+        },
+        {
+          "pl": "ekran",
+          "word": "der Bildschirm"
+        },
+        {
+          "pl": "telefon",
+          "word": "das Telefon"
+        },
+        {
+          "pl": "biuro",
+          "word": "das Büro"
+        },
+        {
+          "pl": "klawiatura",
+          "word": "die Tastatur"
+        }
+      ]
+    },
+    {
+      "title": "Czas i pogoda",
+      "words": [
+        {
+          "pl": "dzień",
+          "word": "der Tag"
+        },
+        {
+          "pl": "noc",
+          "word": "die Nacht"
+        },
+        {
+          "pl": "godzina",
+          "word": "die Stunde"
+        },
+        {
+          "pl": "wiatr",
+          "word": "der Wind"
+        },
+        {
+          "pl": "chmura",
+          "word": "die Wolke"
+        }
+      ]
+    },
+    {
+      "title": "Zimowa pogoda",
+      "words": [
+        {
+          "pl": "śnieg",
+          "word": "der Schnee"
+        },
+        {
+          "pl": "lód",
+          "word": "das Eis"
+        },
+        {
+          "pl": "burza",
+          "word": "das Gewitter"
+        },
+        {
+          "pl": "mgła",
+          "word": "der Nebel"
+        },
+        {
+          "pl": "grzmot",
+          "word": "der Donner"
+        }
+      ]
+    },
+    {
+      "title": "W komunikacji miejskiej",
+      "words": [
+        {
+          "pl": "tramwaj",
+          "word": "die Straßenbahn"
+        },
+        {
+          "pl": "autobus",
+          "word": "der Bus"
+        },
+        {
+          "pl": "przystanek",
+          "word": "die Haltestelle"
+        },
+        {
+          "pl": "peron",
+          "word": "der Bahnsteig"
+        },
+        {
+          "pl": "kierowca",
+          "word": "der Fahrer"
+        }
+      ]
+    },
+    {
+      "title": "Na lotnisku",
+      "words": [
+        {
+          "pl": "samolot",
+          "word": "das Flugzeug"
+        },
+        {
+          "pl": "lotnisko",
+          "word": "der Flughafen"
+        },
+        {
+          "pl": "paszport",
+          "word": "der Reisepass"
+        },
+        {
+          "pl": "bramka",
+          "word": "das Gate"
+        },
+        {
+          "pl": "lot",
+          "word": "der Flug"
+        }
+      ]
+    },
+    {
+      "title": "W restauracji",
+      "words": [
+        {
+          "pl": "menu",
+          "word": "die Speisekarte"
+        },
+        {
+          "pl": "kelner",
+          "word": "der Kellner"
+        },
+        {
+          "pl": "rachunek",
+          "word": "die Rechnung"
+        },
+        {
+          "pl": "szklanka",
+          "word": "das Glas"
+        },
+        {
+          "pl": "serwetka",
+          "word": "die Serviette"
+        }
+      ]
+    },
+    {
+      "title": "Narzędzia",
+      "words": [
+        {
+          "pl": "młotek",
+          "word": "der Hammer"
+        },
+        {
+          "pl": "śrubokręt",
+          "word": "der Schraubenzieher"
+        },
+        {
+          "pl": "gwóźdź",
+          "word": "der Nagel"
+        },
+        {
+          "pl": "śruba",
+          "word": "die Schraube"
+        },
+        {
+          "pl": "piła",
+          "word": "die Säge"
+        }
+      ]
+    },
+    {
+      "title": "Łazienka",
+      "words": [
+        {
+          "pl": "umywalka",
+          "word": "das Waschbecken"
+        },
+        {
+          "pl": "lustro",
+          "word": "der Spiegel"
+        },
+        {
+          "pl": "ręcznik",
+          "word": "das Handtuch"
+        },
+        {
+          "pl": "mydło",
+          "word": "die Seife"
+        },
+        {
+          "pl": "prysznic",
+          "word": "die Dusche"
+        }
+      ]
+    },
+    {
+      "title": "Gadżety elektroniczne",
+      "words": [
+        {
+          "pl": "mysz komputerowa",
+          "word": "die Computermaus"
+        },
+        {
+          "pl": "ładowarka",
+          "word": "das Ladegerät"
+        },
+        {
+          "pl": "bateria",
+          "word": "die Batterie"
+        },
+        {
+          "pl": "głośnik",
+          "word": "der Lautsprecher"
+        },
+        {
+          "pl": "słuchawki",
+          "word": "die Kopfhörer"
+        }
+      ]
+    },
+    {
+      "title": "Praca przy biurku",
+      "words": [
+        {
+          "pl": "dokument",
+          "word": "das Dokument"
+        },
+        {
+          "pl": "projekt",
+          "word": "das Projekt"
+        },
+        {
+          "pl": "spotkanie",
+          "word": "die Besprechung"
+        },
+        {
+          "pl": "termin",
+          "word": "der Termin"
+        },
+        {
+          "pl": "raport",
+          "word": "der Bericht"
+        }
+      ]
+    },
+    {
+      "title": "W lesie",
+      "words": [
+        {
+          "pl": "liść",
+          "word": "das Blatt"
+        },
+        {
+          "pl": "gałąź",
+          "word": "der Ast"
+        },
+        {
+          "pl": "korzeń",
+          "word": "die Wurzel"
+        },
+        {
+          "pl": "grzyb",
+          "word": "der Pilz"
+        },
+        {
+          "pl": "ścieżka",
+          "word": "der Pfad"
+        }
+      ]
+    },
+    {
+      "title": "Góry",
+      "words": [
+        {
+          "pl": "dolina",
+          "word": "das Tal"
+        },
+        {
+          "pl": "szczyt",
+          "word": "der Gipfel"
+        },
+        {
+          "pl": "skała",
+          "word": "der Felsen"
+        },
+        {
+          "pl": "zbocze",
+          "word": "der Hang"
+        },
+        {
+          "pl": "plecak turystyczny",
+          "word": "der Wanderrucksack"
+        }
+      ]
+    },
+    {
+      "title": "Nad wodą",
+      "words": [
+        {
+          "pl": "rzeka",
+          "word": "der Fluss"
+        },
+        {
+          "pl": "jezioro",
+          "word": "der See"
+        },
+        {
+          "pl": "brzeg",
+          "word": "das Ufer"
+        },
+        {
+          "pl": "fala",
+          "word": "die Welle"
+        },
+        {
+          "pl": "statek",
+          "word": "das Schiff"
+        }
+      ]
+    },
+    {
+      "title": "Ogród",
+      "words": [
+        {
+          "pl": "trawnik",
+          "word": "der Rasen"
+        },
+        {
+          "pl": "donica",
+          "word": "der Blumentopf"
+        },
+        {
+          "pl": "płot",
+          "word": "der Zaun"
+        },
+        {
+          "pl": "nasiono",
+          "word": "der Samen"
+        },
+        {
+          "pl": "łopata",
+          "word": "die Schaufel"
+        }
+      ]
+    },
+    {
+      "title": "Produkty spożywcze",
+      "words": [
+        {
+          "pl": "ser",
+          "word": "der Käse"
+        },
+        {
+          "pl": "masło",
+          "word": "die Butter"
+        },
+        {
+          "pl": "ryż",
+          "word": "der Reis"
+        },
+        {
+          "pl": "makaron",
+          "word": "die Nudeln"
+        },
+        {
+          "pl": "marchewka",
+          "word": "die Karotte"
+        }
+      ]
+    },
+    {
+      "title": "Owoce i warzywa",
+      "words": [
+        {
+          "pl": "banan",
+          "word": "die Banane"
+        },
+        {
+          "pl": "pomidor",
+          "word": "die Tomate"
+        },
+        {
+          "pl": "ziemniak",
+          "word": "die Kartoffel"
+        },
+        {
+          "pl": "cebula",
+          "word": "die Zwiebel"
+        },
+        {
+          "pl": "pomarańcza",
+          "word": "die Orange"
+        }
+      ]
+    },
+    {
+      "title": "Naprawa domu",
+      "words": [
+        {
+          "pl": "ściana",
+          "word": "die Wand"
+        },
+        {
+          "pl": "podłoga",
+          "word": "der Fußboden"
+        },
+        {
+          "pl": "sufit",
+          "word": "die Decke"
+        },
+        {
+          "pl": "farba",
+          "word": "die Farbe"
+        },
+        {
+          "pl": "pędzel",
+          "word": "der Pinsel"
+        }
+      ]
+    },
+    {
+      "title": "Zdrowie",
+      "words": [
+        {
+          "pl": "lekarz",
+          "word": "der Arzt"
+        },
+        {
+          "pl": "pielęgniarka",
+          "word": "die Krankenschwester"
+        },
+        {
+          "pl": "apteka",
+          "word": "die Apotheke"
+        },
+        {
+          "pl": "recepta",
+          "word": "das Rezept"
+        },
+        {
+          "pl": "termometr",
+          "word": "das Thermometer"
+        }
+      ]
+    },
+    {
+      "title": "Części ciała",
+      "words": [
+        {
+          "pl": "ramię",
+          "word": "der Arm"
+        },
+        {
+          "pl": "kolano",
+          "word": "das Knie"
+        },
+        {
+          "pl": "plecy",
+          "word": "der Rücken"
+        },
+        {
+          "pl": "brzuch",
+          "word": "der Bauch"
+        },
+        {
+          "pl": "serce",
+          "word": "das Herz"
+        }
+      ]
+    },
+    {
+      "title": "Sport",
+      "words": [
+        {
+          "pl": "mecz",
+          "word": "das Spiel"
+        },
+        {
+          "pl": "bramka (sport)",
+          "word": "das Tor"
+        },
+        {
+          "pl": "zawodnik",
+          "word": "der Spieler"
+        },
+        {
+          "pl": "trener",
+          "word": "der Trainer"
+        },
+        {
+          "pl": "zwycięstwo",
+          "word": "der Sieg"
+        }
+      ]
+    },
+    {
+      "title": "Muzyka",
+      "words": [
+        {
+          "pl": "piosenka",
+          "word": "das Lied"
+        },
+        {
+          "pl": "melodia",
+          "word": "die Melodie"
+        },
+        {
+          "pl": "gitara",
+          "word": "die Gitarre"
+        },
+        {
+          "pl": "pianino",
+          "word": "das Klavier"
+        },
+        {
+          "pl": "koncert",
+          "word": "das Konzert"
+        }
+      ]
+    },
+    {
+      "title": "Nauka",
+      "words": [
+        {
+          "pl": "lekcja",
+          "word": "die Unterrichtsstunde"
+        },
+        {
+          "pl": "ćwiczenie",
+          "word": "die Übung"
+        },
+        {
+          "pl": "pytanie",
+          "word": "die Frage"
+        },
+        {
+          "pl": "odpowiedź",
+          "word": "die Antwort"
+        },
+        {
+          "pl": "błąd",
+          "word": "der Fehler"
+        }
+      ]
+    },
+    {
+      "title": "Zakupy",
+      "words": [
+        {
+          "pl": "cena",
+          "word": "der Preis"
+        },
+        {
+          "pl": "pieniądz",
+          "word": "das Geld"
+        },
+        {
+          "pl": "zniżka",
+          "word": "der Rabatt"
+        },
+        {
+          "pl": "koszyk",
+          "word": "der Einkaufskorb"
+        },
+        {
+          "pl": "paragon",
+          "word": "der Kassenbon"
+        }
+      ]
+    },
+    {
+      "title": "Ludzkie emocje",
+      "words": [
+        {
+          "pl": "radość",
+          "word": "die Freude"
+        },
+        {
+          "pl": "strach",
+          "word": "die Angst"
+        },
+        {
+          "pl": "smutek",
+          "word": "die Traurigkeit"
+        },
+        {
+          "pl": "nadzieja",
+          "word": "die Hoffnung"
+        },
+        {
+          "pl": "spokój",
+          "word": "die Ruhe"
+        }
+      ]
+    },
+    {
+      "title": "Czas i terminy",
+      "words": [
+        {
+          "pl": "tydzień",
+          "word": "die Woche"
+        },
+        {
+          "pl": "miesiąc",
+          "word": "der Monat"
+        },
+        {
+          "pl": "rok",
+          "word": "das Jahr"
+        },
+        {
+          "pl": "minuta",
+          "word": "die Minute"
+        },
+        {
+          "pl": "sekunda",
+          "word": "die Sekunde"
+        }
+      ]
+    },
+    {
+      "title": "Uroczystości",
+      "words": [
+        {
+          "pl": "urodziny",
+          "word": "der Geburtstag"
+        },
+        {
+          "pl": "ślub",
+          "word": "die Hochzeit"
+        },
+        {
+          "pl": "prezent",
+          "word": "das Geschenk"
+        },
+        {
+          "pl": "impreza",
+          "word": "die Feier"
+        },
+        {
+          "pl": "zaproszenie",
+          "word": "die Einladung"
+        }
+      ]
+    },
+    {
+      "title": "W mieście 2",
+      "words": [
+        {
+          "pl": "ratusz",
+          "word": "das Rathaus"
+        },
+        {
+          "pl": "biblioteka",
+          "word": "die Bibliothek"
+        },
+        {
+          "pl": "muzeum",
+          "word": "das Museum"
+        },
+        {
+          "pl": "kościół",
+          "word": "die Kirche"
+        },
+        {
+          "pl": "szpital",
+          "word": "das Krankenhaus"
+        }
+      ]
+    },
+    {
+      "title": "Mieszkanie",
+      "words": [
+        {
+          "pl": "szafa",
+          "word": "der Schrank"
+        },
+        {
+          "pl": "sofa",
+          "word": "das Sofa"
+        },
+        {
+          "pl": "dywan",
+          "word": "der Teppich"
+        },
+        {
+          "pl": "balkon",
+          "word": "der Balkon"
+        },
+        {
+          "pl": "kominek",
+          "word": "der Kamin"
+        }
+      ]
+    },
+    {
+      "title": "Ubrania 2",
+      "words": [
+        {
+          "pl": "spodnie",
+          "word": "die Hose"
+        },
+        {
+          "pl": "spódnica",
+          "word": "der Rock"
+        },
+        {
+          "pl": "rękawiczka",
+          "word": "der Handschuh"
+        },
+        {
+          "pl": "pasek",
+          "word": "der Gürtel"
+        },
+        {
+          "pl": "szalik",
+          "word": "der Schal"
+        }
+      ]
+    },
+    {
+      "title": "Ptaki i owady",
+      "words": [
+        {
+          "pl": "motyl",
+          "word": "der Schmetterling"
+        },
+        {
+          "pl": "pszczoła",
+          "word": "die Biene"
+        },
+        {
+          "pl": "mrówka",
+          "word": "die Ameise"
+        },
+        {
+          "pl": "wrona",
+          "word": "die Krähe"
+        },
+        {
+          "pl": "kaczka",
+          "word": "die Ente"
+        }
+      ]
+    },
+    {
+      "title": "Dzikie zwierzęta",
+      "words": [
+        {
+          "pl": "wilk",
+          "word": "der Wolf"
+        },
+        {
+          "pl": "lis",
+          "word": "der Fuchs"
+        },
+        {
+          "pl": "niedźwiedź",
+          "word": "der Bär"
+        },
+        {
+          "pl": "jeleń",
+          "word": "der Hirsch"
+        },
+        {
+          "pl": "zając",
+          "word": "der Hase"
+        }
+      ]
+    },
+    {
+      "title": "Przedmioty codzienne",
+      "words": [
+        {
+          "pl": "portfel",
+          "word": "die Geldbörse"
+        },
+        {
+          "pl": "zegarek",
+          "word": "die Armbanduhr"
+        },
+        {
+          "pl": "parasol",
+          "word": "der Regenschirm"
+        },
+        {
+          "pl": "okulary",
+          "word": "die Brille"
+        },
+        {
+          "pl": "grzechotka",
+          "word": "die Rassel"
+        }
+      ]
+    },
+    {
+      "title": "W podróży 2",
+      "words": [
+        {
+          "pl": "mapa",
+          "word": "die Karte"
+        },
+        {
+          "pl": "kompas",
+          "word": "der Kompass"
+        },
+        {
+          "pl": "kierunek",
+          "word": "die Richtung"
+        },
+        {
+          "pl": "granica",
+          "word": "die Grenze"
+        },
+        {
+          "pl": "stolica",
+          "word": "die Hauptstadt"
+        }
+      ]
+    },
+    {
+      "title": "Architektura",
+      "words": [
+        {
+          "pl": "wieża",
+          "word": "der Turm"
+        },
+        {
+          "pl": "schody",
+          "word": "die Treppe"
+        },
+        {
+          "pl": "piwnica",
+          "word": "der Keller"
+        },
+        {
+          "pl": "dach",
+          "word": "das Dach"
+        },
+        {
+          "pl": "brama",
+          "word": "das Eingangstor"
+        }
+      ]
+    },
+    {
+      "title": "Świat i geografia",
+      "words": [
+        {
+          "pl": "kontynent",
+          "word": "der Kontinent"
+        },
+        {
+          "pl": "wyspa",
+          "word": "die Insel"
+        },
+        {
+          "pl": "pustynia",
+          "word": "die Wüste"
+        },
+        {
+          "pl": "ocean",
+          "word": "der Ozean"
+        },
+        {
+          "pl": "wulkan",
+          "word": "der Vulkan"
+        }
+      ]
+    },
+    {
+      "title": "Gwiazdy i niebo",
+      "words": [
+        {
+          "pl": "gwiazda",
+          "word": "der Stern"
+        },
+        {
+          "pl": "planeta",
+          "word": "der Planet"
+        },
+        {
+          "pl": "rakieta",
+          "word": "die Rakete"
+        },
+        {
+          "pl": "niebo",
+          "word": "der Himmel"
+        },
+        {
+          "pl": "kometa",
+          "word": "der Komet"
+        }
+      ]
+    },
+    {
+      "title": "Media i kultura",
+      "words": [
+        {
+          "pl": "film",
+          "word": "der Film"
+        },
+        {
+          "pl": "serial",
+          "word": "die Serie"
+        },
+        {
+          "pl": "aktor",
+          "word": "der Schauspieler"
+        },
+        {
+          "pl": "reżyser",
+          "word": "der Regisseur"
+        },
+        {
+          "pl": "wystawa",
+          "word": "die Ausstellung"
+        }
+      ]
+    },
+    {
+      "title": "Praca i rozwój",
+      "words": [
+        {
+          "pl": "umiejętność",
+          "word": "die Fähigkeit"
+        },
+        {
+          "pl": "doświadczenie",
+          "word": "die Erfahrung"
+        },
+        {
+          "pl": "cel",
+          "word": "das Ziel"
+        },
+        {
+          "pl": "wyzwanie",
+          "word": "die Herausforderung"
+        },
+        {
+          "pl": "osiągnięcie",
+          "word": "der Erfolg"
+        }
+      ]
+    }
+  ],
+  "es": [
+    {
+      "title": "Ciało i zabawki",
+      "words": [
+        {
+          "pl": "lalka",
+          "word": "la muñeca"
+        },
+        {
+          "pl": "piłka",
+          "word": "la pelota"
+        },
+        {
+          "pl": "dłoń",
+          "word": "la mano"
+        },
+        {
+          "pl": "noga",
+          "word": "la pierna"
+        },
+        {
+          "pl": "głowa",
+          "word": "la cabeza"
+        }
+      ]
+    },
+    {
+      "title": "Dom",
+      "words": [
+        {
+          "pl": "dom",
+          "word": "la casa"
+        },
+        {
+          "pl": "drzwi",
+          "word": "la puerta"
+        },
+        {
+          "pl": "okno",
+          "word": "la ventana"
+        },
+        {
+          "pl": "stół",
+          "word": "la mesa"
+        },
+        {
+          "pl": "krzesło",
+          "word": "la silla"
+        }
+      ]
+    },
+    {
+      "title": "Zwierzęta",
+      "words": [
+        {
+          "pl": "kot",
+          "word": "el gato"
+        },
+        {
+          "pl": "pies",
+          "word": "el perro"
+        },
+        {
+          "pl": "ptak",
+          "word": "el pájaro"
+        },
+        {
+          "pl": "ryba",
+          "word": "el pez"
+        },
+        {
+          "pl": "mysz",
+          "word": "el ratón"
+        }
+      ]
+    },
+    {
+      "title": "Rodzina",
+      "words": [
+        {
+          "pl": "mama",
+          "word": "la madre"
+        },
+        {
+          "pl": "tata",
+          "word": "el padre"
+        },
+        {
+          "pl": "siostra",
+          "word": "la hermana"
+        },
+        {
+          "pl": "brat",
+          "word": "el hermano"
+        },
+        {
+          "pl": "dziecko",
+          "word": "el niño"
+        }
+      ]
+    },
+    {
+      "title": "Jedzenie",
+      "words": [
+        {
+          "pl": "chleb",
+          "word": "el pan"
+        },
+        {
+          "pl": "woda",
+          "word": "el agua"
+        },
+        {
+          "pl": "jabłko",
+          "word": "la manzana"
+        },
+        {
+          "pl": "mleko",
+          "word": "la leche"
+        },
+        {
+          "pl": "jajko",
+          "word": "el huevo"
+        }
+      ]
+    },
+    {
+      "title": "Podróż i rozrywka",
+      "words": [
+        {
+          "pl": "rower",
+          "word": "la bicicleta"
+        },
+        {
+          "pl": "samochód",
+          "word": "el coche"
+        },
+        {
+          "pl": "pociąg",
+          "word": "el tren"
+        },
+        {
+          "pl": "książka",
+          "word": "el libro"
+        },
+        {
+          "pl": "zabawka",
+          "word": "el juguete"
+        }
+      ]
+    },
+    {
+      "title": "Ubrania",
+      "words": [
+        {
+          "pl": "czapka",
+          "word": "el gorro"
+        },
+        {
+          "pl": "but",
+          "word": "el zapato"
+        },
+        {
+          "pl": "płaszcz",
+          "word": "el abrigo"
+        },
+        {
+          "pl": "koszula",
+          "word": "la camisa"
+        },
+        {
+          "pl": "sukienka",
+          "word": "el vestido"
+        }
+      ]
+    },
+    {
+      "title": "Przyroda",
+      "words": [
+        {
+          "pl": "drzewo",
+          "word": "el árbol"
+        },
+        {
+          "pl": "słońce",
+          "word": "el sol"
+        },
+        {
+          "pl": "księżyc",
+          "word": "la luna"
+        },
+        {
+          "pl": "deszcz",
+          "word": "la lluvia"
+        },
+        {
+          "pl": "kwiat",
+          "word": "la flor"
+        }
+      ]
+    },
+    {
+      "title": "Twarz i ciało",
+      "words": [
+        {
+          "pl": "oko",
+          "word": "el ojo"
+        },
+        {
+          "pl": "ucho",
+          "word": "la oreja"
+        },
+        {
+          "pl": "nos",
+          "word": "la nariz"
+        },
+        {
+          "pl": "usta",
+          "word": "la boca"
+        },
+        {
+          "pl": "palec",
+          "word": "el dedo"
+        }
+      ]
+    },
+    {
+      "title": "Szkoła",
+      "words": [
+        {
+          "pl": "szkoła",
+          "word": "la escuela"
+        },
+        {
+          "pl": "długopis",
+          "word": "el bolígrafo"
+        },
+        {
+          "pl": "zeszyt",
+          "word": "el cuaderno"
+        },
+        {
+          "pl": "plecak",
+          "word": "la mochila"
+        },
+        {
+          "pl": "nauczyciel",
+          "word": "el profesor"
+        }
+      ]
+    },
+    {
+      "title": "Miasto",
+      "words": [
+        {
+          "pl": "ulica",
+          "word": "la calle"
+        },
+        {
+          "pl": "sklep",
+          "word": "la tienda"
+        },
+        {
+          "pl": "most",
+          "word": "el puente"
+        },
+        {
+          "pl": "plac",
+          "word": "la plaza"
+        },
+        {
+          "pl": "park",
+          "word": "el parque"
+        }
+      ]
+    },
+    {
+      "title": "W domu",
+      "words": [
+        {
+          "pl": "łóżko",
+          "word": "la cama"
+        },
+        {
+          "pl": "lampa",
+          "word": "la lámpara"
+        },
+        {
+          "pl": "kubek",
+          "word": "la taza"
+        },
+        {
+          "pl": "talerz",
+          "word": "el plato"
+        },
+        {
+          "pl": "klucz",
+          "word": "la llave"
+        }
+      ]
+    },
+    {
+      "title": "Kuchnia",
+      "words": [
+        {
+          "pl": "łyżka",
+          "word": "la cuchara"
+        },
+        {
+          "pl": "widelec",
+          "word": "el tenedor"
+        },
+        {
+          "pl": "nóż",
+          "word": "el cuchillo"
+        },
+        {
+          "pl": "lodówka",
+          "word": "la nevera"
+        },
+        {
+          "pl": "piec",
+          "word": "el horno"
+        }
+      ]
+    },
+    {
+      "title": "Wakacje",
+      "words": [
+        {
+          "pl": "plaża",
+          "word": "la playa"
+        },
+        {
+          "pl": "morze",
+          "word": "el mar"
+        },
+        {
+          "pl": "hotel",
+          "word": "el hotel"
+        },
+        {
+          "pl": "bilet",
+          "word": "el billete"
+        },
+        {
+          "pl": "walizka",
+          "word": "la maleta"
+        }
+      ]
+    },
+    {
+      "title": "Praca i technologia",
+      "words": [
+        {
+          "pl": "komputer",
+          "word": "el ordenador"
+        },
+        {
+          "pl": "ekran",
+          "word": "la pantalla"
+        },
+        {
+          "pl": "telefon",
+          "word": "el teléfono"
+        },
+        {
+          "pl": "biuro",
+          "word": "la oficina"
+        },
+        {
+          "pl": "klawiatura",
+          "word": "el teclado"
+        }
+      ]
+    },
+    {
+      "title": "Czas i pogoda",
+      "words": [
+        {
+          "pl": "dzień",
+          "word": "el día"
+        },
+        {
+          "pl": "noc",
+          "word": "la noche"
+        },
+        {
+          "pl": "godzina",
+          "word": "la hora"
+        },
+        {
+          "pl": "wiatr",
+          "word": "el viento"
+        },
+        {
+          "pl": "chmura",
+          "word": "la nube"
+        }
+      ]
+    },
+    {
+      "title": "Zimowa pogoda",
+      "words": [
+        {
+          "pl": "śnieg",
+          "word": "la nieve"
+        },
+        {
+          "pl": "lód",
+          "word": "el hielo"
+        },
+        {
+          "pl": "burza",
+          "word": "la tormenta"
+        },
+        {
+          "pl": "mgła",
+          "word": "la niebla"
+        },
+        {
+          "pl": "grzmot",
+          "word": "el trueno"
+        }
+      ]
+    },
+    {
+      "title": "W komunikacji miejskiej",
+      "words": [
+        {
+          "pl": "tramwaj",
+          "word": "el tranvía"
+        },
+        {
+          "pl": "autobus",
+          "word": "el autobús"
+        },
+        {
+          "pl": "przystanek",
+          "word": "la parada"
+        },
+        {
+          "pl": "peron",
+          "word": "el andén"
+        },
+        {
+          "pl": "kierowca",
+          "word": "el conductor"
+        }
+      ]
+    },
+    {
+      "title": "Na lotnisku",
+      "words": [
+        {
+          "pl": "samolot",
+          "word": "el avión"
+        },
+        {
+          "pl": "lotnisko",
+          "word": "el aeropuerto"
+        },
+        {
+          "pl": "paszport",
+          "word": "el pasaporte"
+        },
+        {
+          "pl": "bramka",
+          "word": "la puerta de embarque"
+        },
+        {
+          "pl": "lot",
+          "word": "el vuelo"
+        }
+      ]
+    },
+    {
+      "title": "W restauracji",
+      "words": [
+        {
+          "pl": "menu",
+          "word": "el menú"
+        },
+        {
+          "pl": "kelner",
+          "word": "el camarero"
+        },
+        {
+          "pl": "rachunek",
+          "word": "la cuenta"
+        },
+        {
+          "pl": "szklanka",
+          "word": "el vaso"
+        },
+        {
+          "pl": "serwetka",
+          "word": "la servilleta"
+        }
+      ]
+    },
+    {
+      "title": "Narzędzia",
+      "words": [
+        {
+          "pl": "młotek",
+          "word": "el martillo"
+        },
+        {
+          "pl": "śrubokręt",
+          "word": "el destornillador"
+        },
+        {
+          "pl": "gwóźdź",
+          "word": "el clavo"
+        },
+        {
+          "pl": "śruba",
+          "word": "el tornillo"
+        },
+        {
+          "pl": "piła",
+          "word": "la sierra"
+        }
+      ]
+    },
+    {
+      "title": "Łazienka",
+      "words": [
+        {
+          "pl": "umywalka",
+          "word": "el lavabo"
+        },
+        {
+          "pl": "lustro",
+          "word": "el espejo"
+        },
+        {
+          "pl": "ręcznik",
+          "word": "la toalla"
+        },
+        {
+          "pl": "mydło",
+          "word": "el jabón"
+        },
+        {
+          "pl": "prysznic",
+          "word": "la ducha"
+        }
+      ]
+    },
+    {
+      "title": "Gadżety elektroniczne",
+      "words": [
+        {
+          "pl": "mysz komputerowa",
+          "word": "el ratón de ordenador"
+        },
+        {
+          "pl": "ładowarka",
+          "word": "el cargador"
+        },
+        {
+          "pl": "bateria",
+          "word": "la batería"
+        },
+        {
+          "pl": "głośnik",
+          "word": "el altavoz"
+        },
+        {
+          "pl": "słuchawki",
+          "word": "los auriculares"
+        }
+      ]
+    },
+    {
+      "title": "Praca przy biurku",
+      "words": [
+        {
+          "pl": "dokument",
+          "word": "el documento"
+        },
+        {
+          "pl": "projekt",
+          "word": "el proyecto"
+        },
+        {
+          "pl": "spotkanie",
+          "word": "la reunión"
+        },
+        {
+          "pl": "termin",
+          "word": "el plazo"
+        },
+        {
+          "pl": "raport",
+          "word": "el informe"
+        }
+      ]
+    },
+    {
+      "title": "W lesie",
+      "words": [
+        {
+          "pl": "liść",
+          "word": "la hoja"
+        },
+        {
+          "pl": "gałąź",
+          "word": "la rama"
+        },
+        {
+          "pl": "korzeń",
+          "word": "la raíz"
+        },
+        {
+          "pl": "grzyb",
+          "word": "la seta"
+        },
+        {
+          "pl": "ścieżka",
+          "word": "el sendero"
+        }
+      ]
+    },
+    {
+      "title": "Góry",
+      "words": [
+        {
+          "pl": "dolina",
+          "word": "el valle"
+        },
+        {
+          "pl": "szczyt",
+          "word": "la cumbre"
+        },
+        {
+          "pl": "skała",
+          "word": "la roca"
+        },
+        {
+          "pl": "zbocze",
+          "word": "la ladera"
+        },
+        {
+          "pl": "plecak turystyczny",
+          "word": "la mochila de senderismo"
+        }
+      ]
+    },
+    {
+      "title": "Nad wodą",
+      "words": [
+        {
+          "pl": "rzeka",
+          "word": "el río"
+        },
+        {
+          "pl": "jezioro",
+          "word": "el lago"
+        },
+        {
+          "pl": "brzeg",
+          "word": "la orilla"
+        },
+        {
+          "pl": "fala",
+          "word": "la ola"
+        },
+        {
+          "pl": "statek",
+          "word": "el barco"
+        }
+      ]
+    },
+    {
+      "title": "Ogród",
+      "words": [
+        {
+          "pl": "trawnik",
+          "word": "el césped"
+        },
+        {
+          "pl": "donica",
+          "word": "la maceta"
+        },
+        {
+          "pl": "płot",
+          "word": "la valla"
+        },
+        {
+          "pl": "nasiono",
+          "word": "la semilla"
+        },
+        {
+          "pl": "łopata",
+          "word": "la pala"
+        }
+      ]
+    },
+    {
+      "title": "Produkty spożywcze",
+      "words": [
+        {
+          "pl": "ser",
+          "word": "el queso"
+        },
+        {
+          "pl": "masło",
+          "word": "la mantequilla"
+        },
+        {
+          "pl": "ryż",
+          "word": "el arroz"
+        },
+        {
+          "pl": "makaron",
+          "word": "la pasta"
+        },
+        {
+          "pl": "marchewka",
+          "word": "la zanahoria"
+        }
+      ]
+    },
+    {
+      "title": "Owoce i warzywa",
+      "words": [
+        {
+          "pl": "banan",
+          "word": "el plátano"
+        },
+        {
+          "pl": "pomidor",
+          "word": "el tomate"
+        },
+        {
+          "pl": "ziemniak",
+          "word": "la patata"
+        },
+        {
+          "pl": "cebula",
+          "word": "la cebolla"
+        },
+        {
+          "pl": "pomarańcza",
+          "word": "la naranja"
+        }
+      ]
+    },
+    {
+      "title": "Naprawa domu",
+      "words": [
+        {
+          "pl": "ściana",
+          "word": "la pared"
+        },
+        {
+          "pl": "podłoga",
+          "word": "el suelo"
+        },
+        {
+          "pl": "sufit",
+          "word": "el techo"
+        },
+        {
+          "pl": "farba",
+          "word": "la pintura"
+        },
+        {
+          "pl": "pędzel",
+          "word": "el pincel"
+        }
+      ]
+    },
+    {
+      "title": "Zdrowie",
+      "words": [
+        {
+          "pl": "lekarz",
+          "word": "el médico"
+        },
+        {
+          "pl": "pielęgniarka",
+          "word": "la enfermera"
+        },
+        {
+          "pl": "apteka",
+          "word": "la farmacia"
+        },
+        {
+          "pl": "recepta",
+          "word": "la receta"
+        },
+        {
+          "pl": "termometr",
+          "word": "el termómetro"
+        }
+      ]
+    },
+    {
+      "title": "Części ciała",
+      "words": [
+        {
+          "pl": "ramię",
+          "word": "el brazo"
+        },
+        {
+          "pl": "kolano",
+          "word": "la rodilla"
+        },
+        {
+          "pl": "plecy",
+          "word": "la espalda"
+        },
+        {
+          "pl": "brzuch",
+          "word": "el vientre"
+        },
+        {
+          "pl": "serce",
+          "word": "el corazón"
+        }
+      ]
+    },
+    {
+      "title": "Sport",
+      "words": [
+        {
+          "pl": "mecz",
+          "word": "el partido"
+        },
+        {
+          "pl": "bramka (sport)",
+          "word": "la portería"
+        },
+        {
+          "pl": "zawodnik",
+          "word": "el jugador"
+        },
+        {
+          "pl": "trener",
+          "word": "el entrenador"
+        },
+        {
+          "pl": "zwycięstwo",
+          "word": "la victoria"
+        }
+      ]
+    },
+    {
+      "title": "Muzyka",
+      "words": [
+        {
+          "pl": "piosenka",
+          "word": "la canción"
+        },
+        {
+          "pl": "melodia",
+          "word": "la melodía"
+        },
+        {
+          "pl": "gitara",
+          "word": "la guitarra"
+        },
+        {
+          "pl": "pianino",
+          "word": "el piano"
+        },
+        {
+          "pl": "koncert",
+          "word": "el concierto"
+        }
+      ]
+    },
+    {
+      "title": "Nauka",
+      "words": [
+        {
+          "pl": "lekcja",
+          "word": "la clase"
+        },
+        {
+          "pl": "ćwiczenie",
+          "word": "el ejercicio"
+        },
+        {
+          "pl": "pytanie",
+          "word": "la pregunta"
+        },
+        {
+          "pl": "odpowiedź",
+          "word": "la respuesta"
+        },
+        {
+          "pl": "błąd",
+          "word": "el error"
+        }
+      ]
+    },
+    {
+      "title": "Zakupy",
+      "words": [
+        {
+          "pl": "cena",
+          "word": "el precio"
+        },
+        {
+          "pl": "pieniądz",
+          "word": "el dinero"
+        },
+        {
+          "pl": "zniżka",
+          "word": "el descuento"
+        },
+        {
+          "pl": "koszyk",
+          "word": "la cesta de la compra"
+        },
+        {
+          "pl": "paragon",
+          "word": "el recibo"
+        }
+      ]
+    },
+    {
+      "title": "Ludzkie emocje",
+      "words": [
+        {
+          "pl": "radość",
+          "word": "la alegría"
+        },
+        {
+          "pl": "strach",
+          "word": "el miedo"
+        },
+        {
+          "pl": "smutek",
+          "word": "la tristeza"
+        },
+        {
+          "pl": "nadzieja",
+          "word": "la esperanza"
+        },
+        {
+          "pl": "spokój",
+          "word": "la calma"
+        }
+      ]
+    },
+    {
+      "title": "Czas i terminy",
+      "words": [
+        {
+          "pl": "tydzień",
+          "word": "la semana"
+        },
+        {
+          "pl": "miesiąc",
+          "word": "el mes"
+        },
+        {
+          "pl": "rok",
+          "word": "el año"
+        },
+        {
+          "pl": "minuta",
+          "word": "el minuto"
+        },
+        {
+          "pl": "sekunda",
+          "word": "el segundo"
+        }
+      ]
+    },
+    {
+      "title": "Uroczystości",
+      "words": [
+        {
+          "pl": "urodziny",
+          "word": "el cumpleaños"
+        },
+        {
+          "pl": "ślub",
+          "word": "la boda"
+        },
+        {
+          "pl": "prezent",
+          "word": "el regalo"
+        },
+        {
+          "pl": "impreza",
+          "word": "la fiesta"
+        },
+        {
+          "pl": "zaproszenie",
+          "word": "la invitación"
+        }
+      ]
+    },
+    {
+      "title": "W mieście 2",
+      "words": [
+        {
+          "pl": "ratusz",
+          "word": "el ayuntamiento"
+        },
+        {
+          "pl": "biblioteka",
+          "word": "la biblioteca"
+        },
+        {
+          "pl": "muzeum",
+          "word": "el museo"
+        },
+        {
+          "pl": "kościół",
+          "word": "la iglesia"
+        },
+        {
+          "pl": "szpital",
+          "word": "el hospital"
+        }
+      ]
+    },
+    {
+      "title": "Mieszkanie",
+      "words": [
+        {
+          "pl": "szafa",
+          "word": "el armario"
+        },
+        {
+          "pl": "sofa",
+          "word": "el sofá"
+        },
+        {
+          "pl": "dywan",
+          "word": "la alfombra"
+        },
+        {
+          "pl": "balkon",
+          "word": "el balcón"
+        },
+        {
+          "pl": "kominek",
+          "word": "la chimenea"
+        }
+      ]
+    },
+    {
+      "title": "Ubrania 2",
+      "words": [
+        {
+          "pl": "spodnie",
+          "word": "los pantalones"
+        },
+        {
+          "pl": "spódnica",
+          "word": "la falda"
+        },
+        {
+          "pl": "rękawiczka",
+          "word": "el guante"
+        },
+        {
+          "pl": "pasek",
+          "word": "el cinturón"
+        },
+        {
+          "pl": "szalik",
+          "word": "la bufanda"
+        }
+      ]
+    },
+    {
+      "title": "Ptaki i owady",
+      "words": [
+        {
+          "pl": "motyl",
+          "word": "la mariposa"
+        },
+        {
+          "pl": "pszczoła",
+          "word": "la abeja"
+        },
+        {
+          "pl": "mrówka",
+          "word": "la hormiga"
+        },
+        {
+          "pl": "wrona",
+          "word": "el cuervo"
+        },
+        {
+          "pl": "kaczka",
+          "word": "el pato"
+        }
+      ]
+    },
+    {
+      "title": "Dzikie zwierzęta",
+      "words": [
+        {
+          "pl": "wilk",
+          "word": "el lobo"
+        },
+        {
+          "pl": "lis",
+          "word": "el zorro"
+        },
+        {
+          "pl": "niedźwiedź",
+          "word": "el oso"
+        },
+        {
+          "pl": "jeleń",
+          "word": "el ciervo"
+        },
+        {
+          "pl": "zając",
+          "word": "la liebre"
+        }
+      ]
+    },
+    {
+      "title": "Przedmioty codzienne",
+      "words": [
+        {
+          "pl": "portfel",
+          "word": "la cartera"
+        },
+        {
+          "pl": "zegarek",
+          "word": "el reloj de pulsera"
+        },
+        {
+          "pl": "parasol",
+          "word": "el paraguas"
+        },
+        {
+          "pl": "okulary",
+          "word": "las gafas"
+        },
+        {
+          "pl": "grzechotka",
+          "word": "el sonajero"
+        }
+      ]
+    },
+    {
+      "title": "W podróży 2",
+      "words": [
+        {
+          "pl": "mapa",
+          "word": "el mapa"
+        },
+        {
+          "pl": "kompas",
+          "word": "la brújula"
+        },
+        {
+          "pl": "kierunek",
+          "word": "la dirección"
+        },
+        {
+          "pl": "granica",
+          "word": "la frontera"
+        },
+        {
+          "pl": "stolica",
+          "word": "la capital"
+        }
+      ]
+    },
+    {
+      "title": "Architektura",
+      "words": [
+        {
+          "pl": "wieża",
+          "word": "la torre"
+        },
+        {
+          "pl": "schody",
+          "word": "la escalera"
+        },
+        {
+          "pl": "piwnica",
+          "word": "el sótano"
+        },
+        {
+          "pl": "dach",
+          "word": "el tejado"
+        },
+        {
+          "pl": "brama",
+          "word": "el portón"
+        }
+      ]
+    },
+    {
+      "title": "Świat i geografia",
+      "words": [
+        {
+          "pl": "kontynent",
+          "word": "el continente"
+        },
+        {
+          "pl": "wyspa",
+          "word": "la isla"
+        },
+        {
+          "pl": "pustynia",
+          "word": "el desierto"
+        },
+        {
+          "pl": "ocean",
+          "word": "el océano"
+        },
+        {
+          "pl": "wulkan",
+          "word": "el volcán"
+        }
+      ]
+    },
+    {
+      "title": "Gwiazdy i niebo",
+      "words": [
+        {
+          "pl": "gwiazda",
+          "word": "la estrella"
+        },
+        {
+          "pl": "planeta",
+          "word": "el planeta"
+        },
+        {
+          "pl": "rakieta",
+          "word": "el cohete"
+        },
+        {
+          "pl": "niebo",
+          "word": "el cielo"
+        },
+        {
+          "pl": "kometa",
+          "word": "el cometa"
+        }
+      ]
+    },
+    {
+      "title": "Media i kultura",
+      "words": [
+        {
+          "pl": "film",
+          "word": "la película"
+        },
+        {
+          "pl": "serial",
+          "word": "la serie"
+        },
+        {
+          "pl": "aktor",
+          "word": "el actor"
+        },
+        {
+          "pl": "reżyser",
+          "word": "el director"
+        },
+        {
+          "pl": "wystawa",
+          "word": "la exposición"
+        }
+      ]
+    },
+    {
+      "title": "Praca i rozwój",
+      "words": [
+        {
+          "pl": "umiejętność",
+          "word": "la habilidad"
+        },
+        {
+          "pl": "doświadczenie",
+          "word": "la experiencia"
+        },
+        {
+          "pl": "cel",
+          "word": "el objetivo"
+        },
+        {
+          "pl": "wyzwanie",
+          "word": "el desafío"
+        },
+        {
+          "pl": "osiągnięcie",
+          "word": "el logro"
+        }
+      ]
+    }
+  ]
+}

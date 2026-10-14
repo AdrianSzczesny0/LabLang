@@ -1,0 +1,1669 @@
+[
+  {
+    "id": "a0-01",
+    "level": "A0",
+    "titles": {
+      "de": "Die Katze Mimi",
+      "es": "La gata Mimi",
+      "pl": "Kotka Mimi"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Das ist Anna.",
+        "Anna hat eine Katze.",
+        "Die Katze heißt Mimi.",
+        "Mimi ist klein.",
+        "Mimi schläft auf dem Sofa."
+      ],
+      "es": [
+        "Esta es Ana.",
+        "Ana tiene una gata.",
+        "La gata se llama Mimi.",
+        "Mimi es pequeña.",
+        "Mimi duerme en el sofá."
+      ],
+      "pl": [
+        "To jest Ana.",
+        "Ana ma kotkę.",
+        "Kotka nazywa się Mimi.",
+        "Mimi jest mała.",
+        "Mimi śpi na kanapie."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a0-02",
+    "level": "A0",
+    "titles": {
+      "de": "Der rote Ball",
+      "es": "La pelota roja",
+      "pl": "Czerwona piłka"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Tom hat einen Ball.",
+        "Der Ball ist rot.",
+        "Tom spielt im Garten.",
+        "Der Ball liegt im Gras."
+      ],
+      "es": [
+        "Tom tiene una pelota.",
+        "La pelota es roja.",
+        "Tom juega en el jardín.",
+        "La pelota está en la hierba."
+      ],
+      "pl": [
+        "Tom ma piłkę.",
+        "Piłka jest czerwona.",
+        "Tom bawi się w ogrodzie.",
+        "Piłka leży w trawie."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-03",
+    "level": "A0",
+    "titles": {
+      "de": "Guten Morgen!",
+      "es": "¡Buenos días!",
+      "pl": "Dzień dobry!"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Guten Morgen, Anna!“",
+        "„Guten Morgen, Tom!“",
+        "„Wie geht es dir?“",
+        "„Gut, danke. Und dir?“",
+        "„Auch gut!“"
+      ],
+      "es": [
+        "«¡Buenos días, Ana!»",
+        "«¡Buenos días, Tom!»",
+        "«¿Cómo estás?»",
+        "«Bien, gracias. ¿Y tú?»",
+        "«¡Bien también!»"
+      ],
+      "pl": [
+        "„Dzień dobry, Ana!”",
+        "„Dzień dobry, Tom!”",
+        "„Jak się masz?”",
+        "„Dobrze, dzięki. A ty?”",
+        "„Też dobrze!”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-04",
+    "level": "A0",
+    "titles": {
+      "de": "Ein Glas Wasser",
+      "es": "Un vaso de agua",
+      "pl": "Szklanka wody"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Lena hat Durst.",
+        "Sie nimmt ein Glas.",
+        "Sie trinkt Wasser.",
+        "Das Wasser ist kalt."
+      ],
+      "es": [
+        "Lena tiene sed.",
+        "Ella toma un vaso.",
+        "Ella bebe agua.",
+        "El agua está fría."
+      ],
+      "pl": [
+        "Lenie chce się pić.",
+        "Bierze szklankę.",
+        "Pije wodę.",
+        "Woda jest zimna."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a0-05",
+    "level": "A0",
+    "titles": {
+      "de": "Meine Familie",
+      "es": "Mi familia",
+      "pl": "Moja rodzina"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Das ist meine Familie.",
+        "Meine Mutter heißt Eva.",
+        "Mein Vater heißt Jan.",
+        "Ich habe einen Bruder.",
+        "Wir wohnen zusammen."
+      ],
+      "es": [
+        "Esta es mi familia.",
+        "Mi madre se llama Eva.",
+        "Mi padre se llama Jan.",
+        "Tengo un hermano.",
+        "Vivimos juntos."
+      ],
+      "pl": [
+        "To jest moja rodzina.",
+        "Moja mama ma na imię Ewa.",
+        "Mój tata ma na imię Jan.",
+        "Mam brata.",
+        "Mieszkamy razem."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-06",
+    "level": "A0",
+    "titles": {
+      "de": "Im kleinen Laden",
+      "es": "En la tienda pequeña",
+      "pl": "W małym sklepie"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Hallo! Ich möchte Brot.“",
+        "„Ein Brot?“",
+        "„Ja, bitte.“",
+        "„Hier, bitte!“",
+        "„Danke!“"
+      ],
+      "es": [
+        "«¡Hola! Quiero pan».",
+        "«¿Un pan?»",
+        "«Sí, por favor».",
+        "«¡Aquí tiene!»",
+        "«¡Gracias!»"
+      ],
+      "pl": [
+        "„Dzień dobry! Chcę chleb.”",
+        "„Jeden chleb?”",
+        "„Tak, poproszę.”",
+        "„Proszę bardzo!”",
+        "„Dziękuję!”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-07",
+    "level": "A0",
+    "titles": {
+      "de": "Der Hund Max",
+      "es": "El perro Max",
+      "pl": "Pies Max"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Das ist Max.",
+        "Max ist ein Hund.",
+        "Max ist groß und braun.",
+        "Er läuft schnell.",
+        "Max mag Wasser."
+      ],
+      "es": [
+        "Este es Max.",
+        "Max es un perro.",
+        "Max es grande y marrón.",
+        "Corre rápido.",
+        "A Max le gusta el agua."
+      ],
+      "pl": [
+        "To jest Max.",
+        "Max jest psem.",
+        "Max jest duży i brązowy.",
+        "Biega szybko.",
+        "Max lubi wodę."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a0-08",
+    "level": "A0",
+    "titles": {
+      "de": "Im Zimmer",
+      "es": "En la habitación",
+      "pl": "W pokoju"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Hier ist mein Zimmer.",
+        "Das Bett ist weiß.",
+        "Der Tisch ist klein.",
+        "Auf dem Tisch liegt ein Buch."
+      ],
+      "es": [
+        "Esta es mi habitación.",
+        "La cama es blanca.",
+        "La mesa es pequeña.",
+        "Hay un libro sobre la mesa."
+      ],
+      "pl": [
+        "To jest mój pokój.",
+        "Łóżko jest białe.",
+        "Stół jest mały.",
+        "Na stole leży książka."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-09",
+    "level": "A0",
+    "titles": {
+      "de": "Wie heißt du?",
+      "es": "¿Cómo te llamas?",
+      "pl": "Jak masz na imię?"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Hallo! Wie heißt du?“",
+        "„Ich heiße Sara.“",
+        "„Und du?“",
+        "„Ich heiße Leo.“",
+        "„Freut mich!“"
+      ],
+      "es": [
+        "«¡Hola! ¿Cómo te llamas?»",
+        "«Me llamo Sara».",
+        "«¿Y tú?»",
+        "«Me llamo Leo».",
+        "«¡Mucho gusto!»"
+      ],
+      "pl": [
+        "„Cześć! Jak masz na imię?”",
+        "„Mam na imię Sara.”",
+        "„A ty?”",
+        "„Mam na imię Leo.”",
+        "„Miło mi!”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a0-10",
+    "level": "A0",
+    "titles": {
+      "de": "Es regnet",
+      "es": "Está lloviendo",
+      "pl": "Pada deszcz"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Heute regnet es.",
+        "Der Himmel ist grau.",
+        "Eva hat einen Schirm.",
+        "Sie geht nach Hause.",
+        "Zu Hause ist es warm."
+      ],
+      "es": [
+        "Hoy llueve.",
+        "El cielo está gris.",
+        "Eva tiene un paraguas.",
+        "Ella va a casa.",
+        "En casa hace calor."
+      ],
+      "pl": [
+        "Dzisiaj pada deszcz.",
+        "Niebo jest szare.",
+        "Ewa ma parasol.",
+        "Idzie do domu.",
+        "W domu jest ciepło."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a1-01",
+    "level": "A1",
+    "titles": {
+      "de": "Frühstück am Sonntag",
+      "es": "Desayuno el domingo",
+      "pl": "Niedzielne śniadanie"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Am Sonntag steht Paul spät auf.",
+        "Er macht Kaffee und schneidet Brot.",
+        "Seine Schwester isst ein Ei.",
+        "Sie sitzen zusammen in der Küche.",
+        "Danach räumen sie den Tisch ab."
+      ],
+      "es": [
+        "El domingo Pablo se levanta tarde.",
+        "Prepara café y corta pan.",
+        "Su hermana come un huevo.",
+        "Se sientan juntos en la cocina.",
+        "Después recogen la mesa."
+      ],
+      "pl": [
+        "W niedzielę Paweł wstaje późno.",
+        "Przygotowuje kawę i kroi chleb.",
+        "Jego siostra je jajko.",
+        "Siedzą razem w kuchni.",
+        "Potem sprzątają ze stołu."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-02",
+    "level": "A1",
+    "titles": {
+      "de": "Der verlorene Schlüssel",
+      "es": "La llave perdida",
+      "pl": "Zgubiony klucz"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Marta sucht ihren Schlüssel.",
+        "Sie schaut in die Tasche.",
+        "Dort ist nur ihr Telefon.",
+        "Dann sieht sie den Schlüssel auf dem Tisch.",
+        "„Da bist du ja!“, sagt sie."
+      ],
+      "es": [
+        "Marta busca su llave.",
+        "Mira dentro del bolso.",
+        "Allí solo está su teléfono.",
+        "Entonces ve la llave sobre la mesa.",
+        "«¡Aquí estás!», dice."
+      ],
+      "pl": [
+        "Marta szuka klucza.",
+        "Zagląda do torebki.",
+        "Jest tam tylko jej telefon.",
+        "Potem widzi klucz na stole.",
+        "„Tu jesteś!”, mówi."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-03",
+    "level": "A1",
+    "titles": {
+      "de": "Im Café",
+      "es": "En la cafetería",
+      "pl": "W kawiarni"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Was möchten Sie trinken?“",
+        "„Einen Tee, bitte.“",
+        "„Mit Zucker?“",
+        "„Nein, danke. Ohne Zucker.“",
+        "„Das macht drei Euro.“"
+      ],
+      "es": [
+        "«¿Qué desea tomar?»",
+        "«Un té, por favor».",
+        "«¿Con azúcar?»",
+        "«No, gracias. Sin azúcar».",
+        "«Son tres euros»."
+      ],
+      "pl": [
+        "„Co podać do picia?”",
+        "„Herbatę, poproszę.”",
+        "„Z cukrem?”",
+        "„Nie, dziękuję. Bez cukru.”",
+        "„To będzie trzy euro.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-04",
+    "level": "A1",
+    "titles": {
+      "de": "Ein Tag im Park",
+      "es": "Un día en el parque",
+      "pl": "Dzień w parku"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Heute scheint die Sonne.",
+        "Nina geht mit ihrem Hund in den Park.",
+        "Viele Kinder spielen auf dem Spielplatz.",
+        "Nina setzt sich auf eine Bank.",
+        "Ihr Hund schläft neben ihr."
+      ],
+      "es": [
+        "Hoy brilla el sol.",
+        "Nina va al parque con su perro.",
+        "Muchos niños juegan en el parque infantil.",
+        "Nina se sienta en un banco.",
+        "Su perro duerme a su lado."
+      ],
+      "pl": [
+        "Dzisiaj świeci słońce.",
+        "Nina idzie z psem do parku.",
+        "Wiele dzieci bawi się na placu zabaw.",
+        "Nina siada na ławce.",
+        "Jej pies śpi obok niej."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-05",
+    "level": "A1",
+    "titles": {
+      "de": "Der Bus kommt",
+      "es": "Llega el autobús",
+      "pl": "Nadjeżdża autobus"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Entschuldigung, fährt dieser Bus zum Bahnhof?“",
+        "„Ja, aber erst in zehn Minuten.“",
+        "„Wo kann ich eine Fahrkarte kaufen?“",
+        "„Direkt beim Fahrer.“",
+        "„Vielen Dank!“"
+      ],
+      "es": [
+        "«Perdone, ¿este autobús va a la estación?»",
+        "«Sí, pero sale dentro de diez minutos».",
+        "«¿Dónde puedo comprar un billete?»",
+        "«Directamente al conductor».",
+        "«¡Muchas gracias!»"
+      ],
+      "pl": [
+        "„Przepraszam, czy ten autobus jedzie na dworzec?”",
+        "„Tak, ale odjeżdża dopiero za dziesięć minut.”",
+        "„Gdzie mogę kupić bilet?”",
+        "„Bezpośrednio u kierowcy.”",
+        "„Bardzo dziękuję!”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-06",
+    "level": "A1",
+    "titles": {
+      "de": "Die neue Nachbarin",
+      "es": "La nueva vecina",
+      "pl": "Nowa sąsiadka"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Neben uns wohnt jetzt eine neue Nachbarin.",
+        "Sie heißt Maria und kommt aus Italien.",
+        "Jeden Morgen grüßt sie uns freundlich.",
+        "Heute bringt sie einen kleinen Kuchen.",
+        "Wir laden sie zum Kaffee ein."
+      ],
+      "es": [
+        "Ahora vive una nueva vecina al lado de nosotros.",
+        "Se llama María y viene de Italia.",
+        "Cada mañana nos saluda amablemente.",
+        "Hoy trae un pastel pequeño.",
+        "La invitamos a tomar café."
+      ],
+      "pl": [
+        "Obok nas mieszka teraz nowa sąsiadka.",
+        "Ma na imię Maria i pochodzi z Włoch.",
+        "Każdego ranka wita nas życzliwie.",
+        "Dzisiaj przynosi małe ciasto.",
+        "Zapraszamy ją na kawę."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a1-07",
+    "level": "A1",
+    "titles": {
+      "de": "Ein Geschenk",
+      "es": "Un regalo",
+      "pl": "Prezent"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Heute hat mein Freund Geburtstag.",
+        "Ich kaufe ein Buch für ihn.",
+        "Er liest sehr gern Geschichten.",
+        "Am Abend gebe ich ihm das Geschenk.",
+        "Er lächelt und sagt Danke."
+      ],
+      "es": [
+        "Hoy es el cumpleaños de mi amigo.",
+        "Le compro un libro.",
+        "Le gusta mucho leer historias.",
+        "Por la noche le doy el regalo.",
+        "Sonríe y dice gracias."
+      ],
+      "pl": [
+        "Dzisiaj mój przyjaciel ma urodziny.",
+        "Kupuję mu książkę.",
+        "Bardzo lubi czytać opowiadania.",
+        "Wieczorem daję mu prezent.",
+        "Uśmiecha się i mówi dziękuję."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-08",
+    "level": "A1",
+    "titles": {
+      "de": "Nach der Arbeit",
+      "es": "Después del trabajo",
+      "pl": "Po pracy"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Ich arbeite heute bis fünf Uhr.",
+        "Danach gehe ich einkaufen.",
+        "Ich brauche Milch, Reis und Gemüse.",
+        "Zu Hause koche ich ein einfaches Abendessen.",
+        "Später lese ich ein paar Seiten."
+      ],
+      "es": [
+        "Hoy trabajo hasta las cinco.",
+        "Después voy de compras.",
+        "Necesito leche, arroz y verduras.",
+        "En casa preparo una cena sencilla.",
+        "Más tarde leo unas páginas."
+      ],
+      "pl": [
+        "Dzisiaj pracuję do piątej.",
+        "Potem idę na zakupy.",
+        "Potrzebuję mleka, ryżu i warzyw.",
+        "W domu przygotowuję prostą kolację.",
+        "Później czytam kilka stron."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-09",
+    "level": "A1",
+    "titles": {
+      "de": "Ein Telefonat",
+      "es": "Una llamada telefónica",
+      "pl": "Rozmowa telefoniczna"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Hallo, hier ist Lisa. Hast du heute Zeit?“",
+        "„Ja, nach sechs Uhr.“",
+        "„Wollen wir spazieren gehen?“",
+        "„Gern! Wo treffen wir uns?“",
+        "„Vor dem Kino.“"
+      ],
+      "es": [
+        "«Hola, soy Lisa. ¿Tienes tiempo hoy?»",
+        "«Sí, después de las seis».",
+        "«¿Vamos a dar un paseo?»",
+        "«¡Claro! ¿Dónde quedamos?»",
+        "«Delante del cine»."
+      ],
+      "pl": [
+        "„Cześć, tu Lisa. Masz dziś czas?”",
+        "„Tak, po szóstej.”",
+        "„Pójdziemy na spacer?”",
+        "„Chętnie! Gdzie się spotkamy?”",
+        "„Przed kinem.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a1-10",
+    "level": "A1",
+    "titles": {
+      "de": "Ein freier Nachmittag",
+      "es": "Una tarde libre",
+      "pl": "Wolne popołudnie"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Am Nachmittag habe ich frei.",
+        "Ich möchte etwas Neues machen.",
+        "Zuerst male ich ein Bild.",
+        "Dann rufe ich meine Freundin an.",
+        "Wir gehen zusammen Eis essen."
+      ],
+      "es": [
+        "Por la tarde tengo tiempo libre.",
+        "Quiero hacer algo nuevo.",
+        "Primero pinto un cuadro.",
+        "Después llamo a mi amiga.",
+        "Vamos juntas a comer un helado."
+      ],
+      "pl": [
+        "Po południu mam wolne.",
+        "Chcę zrobić coś nowego.",
+        "Najpierw maluję obraz.",
+        "Potem dzwonię do koleżanki.",
+        "Idziemy razem na lody."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-01",
+    "level": "A2",
+    "titles": {
+      "de": "Ein Wochenende am Meer",
+      "es": "Un fin de semana junto al mar",
+      "pl": "Weekend nad morzem"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Letztes Wochenende sind wir ans Meer gefahren.",
+        "Am Samstag war es windig, aber sonnig.",
+        "Wir sind lange am Strand spazieren gegangen.",
+        "Abends haben wir in einem kleinen Restaurant gegessen.",
+        "Am Sonntag sind wir müde und glücklich zurückgekommen."
+      ],
+      "es": [
+        "El fin de semana pasado fuimos al mar.",
+        "El sábado hacía viento, pero sol.",
+        "Paseamos mucho tiempo por la playa.",
+        "Por la noche cenamos en un restaurante pequeño.",
+        "El domingo volvimos cansados y felices."
+      ],
+      "pl": [
+        "W zeszły weekend pojechaliśmy nad morze.",
+        "W sobotę wiało, ale było słonecznie.",
+        "Długo spacerowaliśmy po plaży.",
+        "Wieczorem zjedliśmy kolację w małej restauracji.",
+        "W niedzielę wróciliśmy zmęczeni i szczęśliwi."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-02",
+    "level": "A2",
+    "titles": {
+      "de": "Ein Problem mit dem Fahrrad",
+      "es": "Un problema con la bicicleta",
+      "pl": "Problem z rowerem"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Gestern wollte ich mit dem Fahrrad zur Arbeit fahren.",
+        "Aber ein Reifen war plötzlich platt.",
+        "Zum Glück wohnt mein Nachbar nebenan.",
+        "Er hat mir seine Pumpe geliehen.",
+        "Ich kam nur fünf Minuten zu spät."
+      ],
+      "es": [
+        "Ayer quería ir al trabajo en bicicleta.",
+        "Pero una rueda estaba desinflada.",
+        "Por suerte, mi vecino vive al lado.",
+        "Me prestó su bomba de aire.",
+        "Llegué solo cinco minutos tarde."
+      ],
+      "pl": [
+        "Wczoraj chciałem pojechać do pracy rowerem.",
+        "Ale jedna opona nagle była bez powietrza.",
+        "Na szczęście sąsiad mieszka obok.",
+        "Pożyczył mi pompkę.",
+        "Spóźniłem się tylko pięć minut."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a2-03",
+    "level": "A2",
+    "titles": {
+      "de": "Eine Reservierung",
+      "es": "Una reserva",
+      "pl": "Rezerwacja"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Guten Abend, haben Sie einen Tisch für zwei?“",
+        "„Haben Sie reserviert?“",
+        "„Nein, leider nicht.“",
+        "„In zwanzig Minuten wird ein Tisch frei.“",
+        "„Kein Problem, wir warten gern.“"
+      ],
+      "es": [
+        "«Buenas noches, ¿tiene una mesa para dos?»",
+        "«¿Tiene una reserva?»",
+        "«No, lamentablemente no».",
+        "«En veinte minutos quedará una mesa libre».",
+        "«No hay problema, esperamos»."
+      ],
+      "pl": [
+        "„Dobry wieczór, czy mają państwo stolik dla dwojga?”",
+        "„Czy ma pan rezerwację?”",
+        "„Niestety nie.”",
+        "„Za dwadzieścia minut zwolni się stolik.”",
+        "„Nie ma problemu, chętnie poczekamy.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-04",
+    "level": "A2",
+    "titles": {
+      "de": "Der erste Arbeitstag",
+      "es": "El primer día de trabajo",
+      "pl": "Pierwszy dzień pracy"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Am Montag hatte Julia ihren ersten Arbeitstag.",
+        "Sie war ein bisschen nervös.",
+        "Ihre Kollegin zeigte ihr das Büro.",
+        "In der Mittagspause lernte Julia das Team kennen.",
+        "Am Ende des Tages fühlte sich Julia schon besser."
+      ],
+      "es": [
+        "El lunes Julia tuvo su primer día de trabajo.",
+        "Estaba un poco nerviosa.",
+        "Su compañera le enseñó la oficina.",
+        "Durante la pausa para comer Julia conoció al equipo.",
+        "Al final del día Julia ya se sentía mejor."
+      ],
+      "pl": [
+        "W poniedziałek Julia miała pierwszy dzień pracy.",
+        "Była trochę zdenerwowana.",
+        "Koleżanka pokazała jej biuro.",
+        "W przerwie obiadowej Julia poznała zespół.",
+        "Pod koniec dnia Julia czuła się już lepiej."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-05",
+    "level": "A2",
+    "titles": {
+      "de": "Der unerwartete Besuch",
+      "es": "La visita inesperada",
+      "pl": "Niespodziewana wizyta"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Ich habe gerade gekocht, als es an der Tür klingelte.",
+        "Vor der Tür stand meine alte Schulfreundin.",
+        "Wir hatten uns seit Jahren nicht gesehen.",
+        "Sie hatte Kuchen mitgebracht.",
+        "Wir redeten bis spät am Abend."
+      ],
+      "es": [
+        "Estaba cocinando cuando sonó el timbre.",
+        "En la puerta estaba una vieja amiga del colegio.",
+        "Hacía años que no nos veíamos.",
+        "Había traído un pastel.",
+        "Hablamos hasta muy tarde."
+      ],
+      "pl": [
+        "Właśnie gotowałem, gdy zadzwonił dzwonek.",
+        "Przed drzwiami stała moja dawna koleżanka ze szkoły.",
+        "Nie widzieliśmy się od lat.",
+        "Przyniosła ciasto.",
+        "Rozmawialiśmy do późnego wieczora."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "a2-06",
+    "level": "A2",
+    "titles": {
+      "de": "Die falsche Adresse",
+      "es": "La dirección equivocada",
+      "pl": "Zły adres"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Wir suchten eine kleine Buchhandlung.",
+        "Das Navi zeigte uns aber eine falsche Straße.",
+        "Wir fragten einen Mann nach dem Weg.",
+        "Er erklärte uns, dass wir links abbiegen mussten.",
+        "Zehn Minuten später fanden wir den Laden."
+      ],
+      "es": [
+        "Buscábamos una librería pequeña.",
+        "Pero el navegador nos mostró una calle equivocada.",
+        "Preguntamos a un hombre cómo llegar.",
+        "Nos explicó que teníamos que girar a la izquierda.",
+        "Diez minutos después encontramos la tienda."
+      ],
+      "pl": [
+        "Szukaliśmy małej księgarni.",
+        "Jednak nawigacja wskazała nam złą ulicę.",
+        "Zapytaliśmy mężczyznę o drogę.",
+        "Wyjaśnił, że musimy skręcić w lewo.",
+        "Dziesięć minut później znaleźliśmy sklep."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-07",
+    "level": "A2",
+    "titles": {
+      "de": "Ein Rezept von Oma",
+      "es": "Una receta de la abuela",
+      "pl": "Przepis babci"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Meine Großmutter hat mir ihr Lieblingsrezept gezeigt.",
+        "Zuerst haben wir das Gemüse geschnitten.",
+        "Dann haben wir alles langsam gekocht.",
+        "Die Suppe roch wunderbar.",
+        "Jetzt kann ich sie auch allein zubereiten."
+      ],
+      "es": [
+        "Mi abuela me enseñó su receta favorita.",
+        "Primero cortamos las verduras.",
+        "Después cocinamos todo lentamente.",
+        "La sopa olía de maravilla.",
+        "Ahora también puedo prepararla yo solo."
+      ],
+      "pl": [
+        "Babcia pokazała mi swój ulubiony przepis.",
+        "Najpierw pokroiliśmy warzywa.",
+        "Potem wszystko gotowaliśmy powoli.",
+        "Zupa pachniała wspaniale.",
+        "Teraz mogę przygotować ją również samodzielnie."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-08",
+    "level": "A2",
+    "titles": {
+      "de": "Ein Missverständnis",
+      "es": "Un malentendido",
+      "pl": "Nieporozumienie"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Warum warst du gestern nicht da?“",
+        "„Ich dachte, wir treffen uns heute.“",
+        "„Ich habe dir doch geschrieben!“",
+        "„Oh, ich habe die Nachricht nicht gesehen.“",
+        "„Dann sehen wir uns eben morgen.“"
+      ],
+      "es": [
+        "«¿Por qué no viniste ayer?»",
+        "«Pensaba que habíamos quedado hoy».",
+        "«¡Pero si te escribí!»",
+        "«Ah, no vi el mensaje».",
+        "«Entonces nos vemos mañana»."
+      ],
+      "pl": [
+        "„Dlaczego wczoraj cię nie było?”",
+        "„Myślałem, że spotykamy się dzisiaj.”",
+        "„Przecież do ciebie pisałem!”",
+        "„Och, nie widziałem wiadomości.”",
+        "„W takim razie zobaczymy się jutro.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-09",
+    "level": "A2",
+    "titles": {
+      "de": "Die Bibliothek",
+      "es": "La biblioteca",
+      "pl": "Biblioteka"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Ich gehe oft in die Bibliothek, weil es dort ruhig ist.",
+        "Letzte Woche habe ich einen spannenden Roman gefunden.",
+        "Ich wollte nur ein Kapitel lesen.",
+        "Am Ende blieb ich drei Stunden.",
+        "Heute bringe ich das Buch zurück."
+      ],
+      "es": [
+        "Voy a menudo a la biblioteca porque allí hay tranquilidad.",
+        "La semana pasada encontré una novela emocionante.",
+        "Solo quería leer un capítulo.",
+        "Al final me quedé tres horas.",
+        "Hoy devuelvo el libro."
+      ],
+      "pl": [
+        "Często chodzę do biblioteki, bo jest tam spokojnie.",
+        "W zeszłym tygodniu znalazłem wciągającą powieść.",
+        "Chciałem przeczytać tylko jeden rozdział.",
+        "Ostatecznie zostałem trzy godziny.",
+        "Dzisiaj oddaję książkę."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "a2-10",
+    "level": "A2",
+    "titles": {
+      "de": "Eine neue Gewohnheit",
+      "es": "Un hábito nuevo",
+      "pl": "Nowy nawyk"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Seit einem Monat gehe ich jeden Morgen spazieren.",
+        "Am Anfang war es ziemlich schwer.",
+        "Jetzt freue ich mich auf die frische Luft.",
+        "Ich höre dabei manchmal einen Podcast.",
+        "So beginne ich den Tag mit mehr Energie."
+      ],
+      "es": [
+        "Desde hace un mes salgo a caminar cada mañana.",
+        "Al principio era bastante difícil.",
+        "Ahora tengo ganas de salir al aire libre.",
+        "A veces escucho un pódcast mientras camino.",
+        "Así empiezo el día con más energía."
+      ],
+      "pl": [
+        "Od miesiąca chodzę na spacer każdego ranka.",
+        "Na początku było to dość trudne.",
+        "Teraz cieszę się na świeże powietrze.",
+        "Czasami słucham wtedy podcastu.",
+        "Dzięki temu zaczynam dzień z większą energią."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-01",
+    "level": "B1",
+    "titles": {
+      "de": "Eine Entscheidung im Beruf",
+      "es": "Una decisión profesional",
+      "pl": "Decyzja zawodowa"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Seit einiger Zeit überlegt Daniel, ob er seine Stelle wechseln soll.",
+        "Sein aktuelles Team gefällt ihm, aber er lernt dort kaum noch etwas Neues.",
+        "Eine andere Firma bietet ihm mehr Verantwortung an.",
+        "Bevor er antwortet, spricht er mit seiner Familie.",
+        "Schließlich entscheidet er sich für die neue Herausforderung."
+      ],
+      "es": [
+        "Desde hace tiempo Daniel se pregunta si debería cambiar de trabajo.",
+        "Le gusta su equipo actual, pero allí apenas aprende cosas nuevas.",
+        "Otra empresa le ofrece más responsabilidad.",
+        "Antes de responder, habla con su familia.",
+        "Finalmente decide aceptar el nuevo reto."
+      ],
+      "pl": [
+        "Od pewnego czasu Daniel zastanawia się, czy powinien zmienić pracę.",
+        "Lubi swój obecny zespół, ale prawie nie uczy się tam niczego nowego.",
+        "Inna firma oferuje mu większą odpowiedzialność.",
+        "Zanim odpowie, rozmawia z rodziną.",
+        "Ostatecznie decyduje się na nowe wyzwanie."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b1-02",
+    "level": "B1",
+    "titles": {
+      "de": "Die Reise ohne Internet",
+      "es": "El viaje sin internet",
+      "pl": "Podróż bez internetu"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Als wir in den Bergen ankamen, hatten wir plötzlich keinen Empfang mehr.",
+        "Zuerst waren wir ziemlich unruhig, weil wir keine Karten laden konnten.",
+        "Zum Glück hatten wir eine Wanderkarte aus Papier dabei.",
+        "Unterwegs entdeckten wir einen kleinen Wasserfall.",
+        "Am Ende war die Pause vom Telefon sogar angenehm."
+      ],
+      "es": [
+        "Cuando llegamos a las montañas, de repente nos quedamos sin cobertura.",
+        "Al principio nos preocupamos porque no podíamos cargar los mapas.",
+        "Por suerte llevábamos un mapa de senderismo en papel.",
+        "Por el camino descubrimos una pequeña cascada.",
+        "Al final, el descanso del teléfono fue incluso agradable."
+      ],
+      "pl": [
+        "Gdy dotarliśmy w góry, nagle straciliśmy zasięg.",
+        "Na początku byliśmy zaniepokojeni, bo nie mogliśmy wczytać map.",
+        "Na szczęście mieliśmy papierową mapę turystyczną.",
+        "Po drodze odkryliśmy mały wodospad.",
+        "Ostatecznie przerwa od telefonu okazała się nawet przyjemna."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-03",
+    "level": "B1",
+    "titles": {
+      "de": "Eine Beschwerde im Hotel",
+      "es": "Una queja en el hotel",
+      "pl": "Reklamacja w hotelu"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Entschuldigung, in meinem Zimmer funktioniert die Heizung nicht.“",
+        "„Das tut uns sehr leid. Seit wann besteht das Problem?“",
+        "„Seit gestern Abend. Es war die ganze Nacht kalt.“",
+        "„Wir können Ihnen sofort ein anderes Zimmer anbieten.“",
+        "„Danke, das wäre eine gute Lösung.“"
+      ],
+      "es": [
+        "«Disculpe, la calefacción de mi habitación no funciona».",
+        "«Lo sentimos mucho. ¿Desde cuándo ocurre?»",
+        "«Desde anoche. Hizo frío toda la noche».",
+        "«Podemos ofrecerle otra habitación ahora mismo».",
+        "«Gracias, sería una buena solución»."
+      ],
+      "pl": [
+        "„Przepraszam, w moim pokoju nie działa ogrzewanie.”",
+        "„Bardzo nam przykro. Od kiedy jest ten problem?”",
+        "„Od wczoraj wieczorem. Przez całą noc było zimno.”",
+        "„Możemy od razu zaproponować inny pokój.”",
+        "„Dziękuję, to byłoby dobre rozwiązanie.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-04",
+    "level": "B1",
+    "titles": {
+      "de": "Ein schwieriges Gespräch",
+      "es": "Una conversación difícil",
+      "pl": "Trudna rozmowa"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Mila hatte sich mit ihrer Freundin gestritten und wusste nicht, was sie sagen sollte.",
+        "Sie schrieb zuerst eine lange Nachricht, löschte sie aber wieder.",
+        "Stattdessen schlug sie ein persönliches Treffen vor.",
+        "Beide hörten einander zu, ohne sich zu unterbrechen.",
+        "Danach verstanden sie sich deutlich besser."
+      ],
+      "es": [
+        "Mila se había peleado con su amiga y no sabía qué decir.",
+        "Primero escribió un mensaje largo, pero luego lo borró.",
+        "En lugar de eso, propuso verse en persona.",
+        "Las dos se escucharon sin interrumpirse.",
+        "Después se entendieron mucho mejor."
+      ],
+      "pl": [
+        "Mila pokłóciła się z przyjaciółką i nie wiedziała, co powiedzieć.",
+        "Najpierw napisała długą wiadomość, ale potem ją usunęła.",
+        "Zamiast tego zaproponowała spotkanie na żywo.",
+        "Obie słuchały się nawzajem bez przerywania.",
+        "Potem znacznie lepiej się rozumiały."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b1-05",
+    "level": "B1",
+    "titles": {
+      "de": "Das kleine Geschäft",
+      "es": "El pequeño negocio",
+      "pl": "Mały biznes"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Zwei Freunde wollten schon lange ein eigenes Geschäft eröffnen.",
+        "Einer kümmerte sich um die Webseite, der andere um die Kunden.",
+        "In den ersten Monaten verdienten sie nur wenig Geld.",
+        "Sie verbesserten ihren Service, nachdem sie Rückmeldungen bekommen hatten.",
+        "Nach einem Jahr konnten sie ihre erste Mitarbeiterin einstellen."
+      ],
+      "es": [
+        "Dos amigos llevaban mucho tiempo queriendo abrir su propio negocio.",
+        "Uno se encargaba de la página web y el otro de los clientes.",
+        "Durante los primeros meses ganaban muy poco dinero.",
+        "Mejoraron su servicio después de recibir comentarios.",
+        "Después de un año pudieron contratar a su primera empleada."
+      ],
+      "pl": [
+        "Dwaj przyjaciele od dawna chcieli otworzyć własną firmę.",
+        "Jeden zajmował się stroną internetową, drugi klientami.",
+        "W pierwszych miesiącach zarabiali bardzo mało.",
+        "Ulepszyli usługę po otrzymaniu opinii.",
+        "Po roku mogli zatrudnić pierwszą pracownicę."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-06",
+    "level": "B1",
+    "titles": {
+      "de": "Ein Dorf verändert sich",
+      "es": "Un pueblo cambia",
+      "pl": "Wieś się zmienia"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Früher gab es in unserem Dorf nur einen kleinen Laden.",
+        "Inzwischen sind viele junge Familien hierhergezogen.",
+        "Deshalb hat die Gemeinde einen neuen Spielplatz gebaut.",
+        "Einige Menschen freuen sich darüber, andere vermissen die alte Ruhe.",
+        "Bei der nächsten Versammlung wollen alle darüber sprechen."
+      ],
+      "es": [
+        "Antes en nuestro pueblo solo había una tienda pequeña.",
+        "Mientras tanto, muchas familias jóvenes se han mudado aquí.",
+        "Por eso el municipio ha construido un parque infantil nuevo.",
+        "Algunas personas se alegran, mientras que otras echan de menos la tranquilidad de antes.",
+        "En la próxima reunión todos quieren hablar del tema."
+      ],
+      "pl": [
+        "Dawniej w naszej wsi był tylko mały sklep.",
+        "W międzyczasie przeprowadziło się tutaj wiele młodych rodzin.",
+        "Dlatego gmina zbudowała nowy plac zabaw.",
+        "Niektórzy się cieszą, inni tęsknią za dawnym spokojem.",
+        "Na następnym zebraniu wszyscy chcą o tym porozmawiać."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-07",
+    "level": "B1",
+    "titles": {
+      "de": "Eine gute Idee?",
+      "es": "¿Una buena idea?",
+      "pl": "Dobry pomysł?"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Ich möchte jeden Tag eine neue Sprache üben.“",
+        "„Hast du denn genug Zeit dafür?“",
+        "„Vielleicht nur zwanzig Minuten am Abend.“",
+        "„Das klingt machbar, wenn du regelmäßig dranbleibst.“",
+        "„Genau. Lieber wenig, aber oft.“"
+      ],
+      "es": [
+        "«Quiero practicar un idioma nuevo todos los días».",
+        "«¿De verdad tienes tiempo suficiente?»",
+        "«Quizá solo veinte minutos por la noche».",
+        "«Parece posible si eres constante».",
+        "«Exacto. Mejor poco, pero a menudo»."
+      ],
+      "pl": [
+        "„Chcę codziennie ćwiczyć nowy język.”",
+        "„Masz na to dość czasu?”",
+        "„Może tylko dwadzieścia minut wieczorem.”",
+        "„Brzmi wykonalnie, jeśli będziesz systematyczny.”",
+        "„Właśnie. Lepiej mało, ale często.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-08",
+    "level": "B1",
+    "titles": {
+      "de": "Warum ich lese",
+      "es": "Por qué leo",
+      "pl": "Dlaczego czytam"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Als Kind habe ich Bücher gelesen, weil mich die Geschichten neugierig machten.",
+        "Heute lese ich auch, um neue Perspektiven kennenzulernen.",
+        "Manchmal verstehe ich ein Kapitel erst beim zweiten Mal.",
+        "Das stört mich nicht, denn ich entdecke dabei weitere Details.",
+        "Lesen ist für mich keine Pflicht, sondern eine kleine Reise."
+      ],
+      "es": [
+        "De niño leía libros porque las historias despertaban mi curiosidad.",
+        "Hoy también leo para conocer nuevas perspectivas.",
+        "A veces no entiendo un capítulo hasta la segunda lectura.",
+        "No me molesta, porque así descubro más detalles.",
+        "Para mí leer no es una obligación, sino un pequeño viaje."
+      ],
+      "pl": [
+        "Jako dziecko czytałem książki, bo historie rozbudzały moją ciekawość.",
+        "Dziś czytam także po to, by poznawać nowe perspektywy.",
+        "Czasami rozumiem rozdział dopiero przy drugim czytaniu.",
+        "Nie przeszkadza mi to, bo odkrywam wtedy kolejne szczegóły.",
+        "Czytanie nie jest dla mnie obowiązkiem, lecz małą podróżą."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-09",
+    "level": "B1",
+    "titles": {
+      "de": "Ein Plan für den Winter",
+      "es": "Un plan para el invierno",
+      "pl": "Plan na zimę"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Letzten Winter sind wir oft zu Hause geblieben, weil es so früh dunkel wurde.",
+        "Dieses Jahr möchten wir öfter etwas gemeinsam unternehmen.",
+        "Wir haben deshalb eine Liste mit kleinen Ausflügen geschrieben.",
+        "Wenn das Wetter gut ist, gehen wir in den Wald.",
+        "Wenn es regnet, besuchen wir ein Museum."
+      ],
+      "es": [
+        "El invierno pasado nos quedamos mucho en casa porque anochecía muy pronto.",
+        "Este año queremos hacer más cosas juntos.",
+        "Por eso hemos escrito una lista de excursiones cortas.",
+        "Si hace buen tiempo, vamos al bosque.",
+        "Si llueve, visitaremos un museo."
+      ],
+      "pl": [
+        "Zeszłej zimy często zostawaliśmy w domu, bo szybko robiło się ciemno.",
+        "W tym roku chcemy częściej robić coś razem.",
+        "Dlatego napisaliśmy listę krótkich wycieczek.",
+        "Gdy pogoda będzie dobra, pójdziemy do lasu.",
+        "Jeśli będzie padać, odwiedzimy muzeum."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b1-10",
+    "level": "B1",
+    "titles": {
+      "de": "Das vergessene Paket",
+      "es": "El paquete olvidado",
+      "pl": "Zapomniana paczka"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Am Freitag sollte ein wichtiges Paket ankommen, doch niemand war zu Hause.",
+        "Der Zusteller hinterließ eine Nachricht an der Tür.",
+        "Ich musste am nächsten Tag zur Postfiliale gehen.",
+        "Dort stellte sich heraus, dass das Paket noch unterwegs war.",
+        "Schließlich kam es am Montag direkt zu mir."
+      ],
+      "es": [
+        "El viernes tenía que llegar un paquete importante, pero no había nadie en casa.",
+        "El repartidor dejó una nota en la puerta.",
+        "Tuve que ir a la oficina de correos al día siguiente.",
+        "Allí resultó que el paquete todavía estaba en camino.",
+        "Al final llegó directamente a mi casa el lunes."
+      ],
+      "pl": [
+        "W piątek miała przyjść ważna paczka, ale nikogo nie było w domu.",
+        "Kurier zostawił informację na drzwiach.",
+        "Musiałem następnego dnia pójść na pocztę.",
+        "Na miejscu okazało się, że paczka wciąż była w drodze.",
+        "Ostatecznie dotarła w poniedziałek bezpośrednio do mnie."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b2-01",
+    "level": "B2",
+    "titles": {
+      "de": "Technologie und Aufmerksamkeit",
+      "es": "La tecnología y la atención",
+      "pl": "Technologia i uwaga"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Obwohl digitale Werkzeuge unseren Alltag erleichtern, beanspruchen sie einen großen Teil unserer Aufmerksamkeit.",
+        "Viele Menschen merken erst abends, wie oft sie ihr Telefon ohne konkreten Grund entsperrt haben.",
+        "Es hilft, Benachrichtigungen bewusst zu begrenzen, statt sich ausschließlich auf Willenskraft zu verlassen.",
+        "Entscheidend ist nicht, Technik abzulehnen, sondern selbst zu bestimmen, wann sie nützlich ist."
+      ],
+      "es": [
+        "Aunque las herramientas digitales facilitan nuestra vida diaria, consumen gran parte de nuestra atención.",
+        "Muchas personas no se dan cuenta hasta la noche de cuántas veces han desbloqueado el móvil sin motivo concreto.",
+        "Ayuda limitar conscientemente las notificaciones en vez de confiar únicamente en la fuerza de voluntad.",
+        "Lo importante no es rechazar la tecnología, sino decidir cuándo resulta útil."
+      ],
+      "pl": [
+        "Choć narzędzia cyfrowe ułatwiają codzienność, pochłaniają sporą część naszej uwagi.",
+        "Wiele osób dopiero wieczorem zauważa, jak często odblokowywało telefon bez konkretnego powodu.",
+        "Pomaga świadome ograniczanie powiadomień zamiast polegania wyłącznie na silnej woli.",
+        "Najważniejsze nie jest odrzucanie technologii, lecz samodzielne decydowanie, kiedy jest użyteczna."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-02",
+    "level": "B2",
+    "titles": {
+      "de": "Ein Kompromiss im Team",
+      "es": "Un compromiso en el equipo",
+      "pl": "Kompromis w zespole"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Wenn wir den Termin verschieben, verlieren wir möglicherweise das Vertrauen des Kunden.“",
+        "„Wenn wir zu früh liefern, riskieren wir allerdings ernsthafte Fehler.“",
+        "„Könnten wir zunächst eine eingeschränkte Version veröffentlichen?“",
+        "„Das wäre vertretbar, sofern die wichtigsten Funktionen zuverlässig laufen.“",
+        "„Dann halten wir die offenen Risiken schriftlich fest.“"
+      ],
+      "es": [
+        "«Si aplazamos la fecha, podríamos perder la confianza del cliente».",
+        "«Sin embargo, si entregamos demasiado pronto, corremos el riesgo de cometer errores graves».",
+        "«¿Podríamos lanzar primero una versión limitada?»",
+        "«Sería razonable, siempre que las funciones principales sean fiables».",
+        "«Entonces dejemos constancia por escrito de los riesgos pendientes»."
+      ],
+      "pl": [
+        "„Jeśli przesuniemy termin, możemy stracić zaufanie klienta.”",
+        "„Jeśli jednak dostarczymy za wcześnie, ryzykujemy poważne błędy.”",
+        "„Czy moglibyśmy najpierw wypuścić ograniczoną wersję?”",
+        "„To byłoby rozsądne, pod warunkiem że najważniejsze funkcje działają niezawodnie.”",
+        "„W takim razie zapiszmy pozostałe ryzyka.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-03",
+    "level": "B2",
+    "titles": {
+      "de": "Die Stadt der Zukunft",
+      "es": "La ciudad del futuro",
+      "pl": "Miasto przyszłości"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "In vielen Städten wird darüber diskutiert, wie öffentlicher Raum gerechter verteilt werden könnte.",
+        "Während manche mehr Parkplätze fordern, wünschen sich andere sichere Radwege und breitere Gehwege.",
+        "Eine überzeugende Lösung muss die Bedürfnisse unterschiedlicher Gruppen berücksichtigen.",
+        "Deshalb sind transparente Entscheidungen genauso wichtig wie gute technische Konzepte."
+      ],
+      "es": [
+        "En muchas ciudades se debate cómo podría distribuirse de manera más justa el espacio público.",
+        "Mientras algunos piden más aparcamientos, otros quieren carriles bici seguros y aceras más anchas.",
+        "Una solución convincente debe tener en cuenta las necesidades de distintos grupos.",
+        "Por eso las decisiones transparentes son tan importantes como las buenas soluciones técnicas."
+      ],
+      "pl": [
+        "W wielu miastach trwa dyskusja, jak sprawiedliwiej podzielić przestrzeń publiczną.",
+        "Podczas gdy jedni domagają się większej liczby parkingów, inni chcą bezpiecznych dróg rowerowych i szerszych chodników.",
+        "Przekonujące rozwiązanie musi uwzględniać potrzeby różnych grup.",
+        "Dlatego przejrzyste decyzje są równie ważne jak dobre rozwiązania techniczne."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b2-04",
+    "level": "B2",
+    "titles": {
+      "de": "Ein unerwartetes Ergebnis",
+      "es": "Un resultado inesperado",
+      "pl": "Nieoczekiwany wynik"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Das Experiment schien zunächst die ursprüngliche Vermutung zu bestätigen.",
+        "Bei genauerer Betrachtung zeigte sich jedoch, dass ein wichtiger Faktor übersehen worden war.",
+        "Das Team wiederholte die Messungen unter strengeren Bedingungen.",
+        "Die neuen Daten widersprachen der ersten Interpretation deutlich.",
+        "Gerade diese Korrektur führte schließlich zu einer interessanteren Erkenntnis."
+      ],
+      "es": [
+        "Al principio, el experimento parecía confirmar la hipótesis inicial.",
+        "Sin embargo, al analizarlo con más detalle, se descubrió que se había pasado por alto un factor importante.",
+        "El equipo repitió las mediciones en condiciones más estrictas.",
+        "Los nuevos datos contradecían claramente la primera interpretación.",
+        "Fue precisamente esa corrección la que finalmente llevó a un hallazgo más interesante."
+      ],
+      "pl": [
+        "Początkowo eksperyment zdawał się potwierdzać pierwotną hipotezę.",
+        "Jednak po dokładniejszej analizie okazało się, że przeoczono ważny czynnik.",
+        "Zespół powtórzył pomiary w bardziej rygorystycznych warunkach.",
+        "Nowe dane wyraźnie przeczyły pierwszej interpretacji.",
+        "Właśnie ta korekta doprowadziła ostatecznie do ciekawszego odkrycia."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-05",
+    "level": "B2",
+    "titles": {
+      "de": "Was bedeutet Erfolg?",
+      "es": "¿Qué significa el éxito?",
+      "pl": "Co oznacza sukces?"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Früher habe ich Erfolg fast ausschließlich an messbaren Ergebnissen festgemacht.",
+        "Mit der Zeit wurde mir bewusst, wie viel dabei unsichtbar blieb.",
+        "Ein ruhiger Abend mit der Familie kann wertvoller sein als ein weiterer erledigter Punkt auf der Aufgabenliste.",
+        "Heute versuche ich deshalb, Leistung und Lebensqualität gemeinsam zu betrachten."
+      ],
+      "es": [
+        "Antes medía el éxito casi exclusivamente por resultados cuantificables.",
+        "Con el tiempo me di cuenta de cuánto quedaba fuera de esa medida.",
+        "Una tarde tranquila con la familia puede valer más que otra tarea tachada de la lista.",
+        "Por eso ahora intento considerar tanto el rendimiento como la calidad de vida."
+      ],
+      "pl": [
+        "Dawniej mierzyłem sukces niemal wyłącznie wymiernymi wynikami.",
+        "Z czasem uświadomiłem sobie, jak wiele umykało takiej ocenie.",
+        "Spokojny wieczór z rodziną może być cenniejszy niż kolejne odhaczone zadanie.",
+        "Dlatego dziś staram się patrzeć łącznie na osiągnięcia i jakość życia."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-06",
+    "level": "B2",
+    "titles": {
+      "de": "Ein Buch ohne Ende",
+      "es": "Un libro sin final",
+      "pl": "Książka bez zakończenia"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Der Roman, den ich gestern beendet habe, ließ überraschend viele Fragen offen.",
+        "Zunächst ärgerte ich mich darüber, weil ich eine eindeutige Auflösung erwartet hatte.",
+        "Je länger ich darüber nachdachte, desto interessanter fand ich diese Entscheidung.",
+        "Vielleicht wollte die Autorin, dass wir die Geschichte selbst zu Ende denken."
+      ],
+      "es": [
+        "La novela que terminé ayer dejó sorprendentemente muchas preguntas sin respuesta.",
+        "Al principio me molestó, porque esperaba un desenlace claro.",
+        "Cuanto más pensaba en ello, más interesante me parecía aquella decisión.",
+        "Quizá la autora quería que completáramos la historia por nuestra cuenta."
+      ],
+      "pl": [
+        "Powieść, którą skończyłem wczoraj, pozostawiła zaskakująco wiele pytań bez odpowiedzi.",
+        "Początkowo mnie to zirytowało, bo oczekiwałem jednoznacznego rozwiązania.",
+        "Im dłużej o tym myślałem, tym ciekawsza wydawała mi się ta decyzja.",
+        "Być może autorka chciała, abyśmy sami dopowiedzieli zakończenie."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b2-07",
+    "level": "B2",
+    "titles": {
+      "de": "Eine Debatte über Bildung",
+      "es": "Un debate sobre la educación",
+      "pl": "Debata o edukacji"
+    },
+    "kind": "dialogue",
+    "lines": {
+      "de": [
+        "„Sollten Schulen mehr Zeit für praktische Projekte einplanen?“",
+        "„Ja, solange grundlegende Kenntnisse nicht vernachlässigt werden.“",
+        "„Allerdings lernen Kinder auch durch eigenes Ausprobieren.“",
+        "„Vielleicht wäre eine ausgewogene Mischung sinnvoller als ein radikaler Wechsel.“"
+      ],
+      "es": [
+        "«¿Deberían las escuelas dedicar más tiempo a proyectos prácticos?»",
+        "«Sí, siempre que no se descuiden los conocimientos fundamentales».",
+        "«Sin embargo, los niños también aprenden experimentando por sí mismos».",
+        "«Tal vez una combinación equilibrada sería más útil que un cambio radical»."
+      ],
+      "pl": [
+        "„Czy szkoły powinny przeznaczać więcej czasu na projekty praktyczne?”",
+        "„Tak, o ile nie zaniedba się podstawowej wiedzy.”",
+        "„Jednak dzieci uczą się także poprzez samodzielne próbowanie.”",
+        "„Może zrównoważone połączenie byłoby sensowniejsze niż radykalna zmiana.”"
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-08",
+    "level": "B2",
+    "titles": {
+      "de": "Ein schwieriger Umzug",
+      "es": "Una mudanza complicada",
+      "pl": "Trudna przeprowadzka"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Wir hatten unterschätzt, wie viele Entscheidungen ein Umzug in eine andere Stadt mit sich bringt.",
+        "Abgesehen von der Wohnung mussten wir uns um Schule, Verkehr und zahlreiche Formalitäten kümmern.",
+        "Besonders schwierig war es, vertraute Gewohnheiten hinter uns zu lassen.",
+        "Rückblickend hat uns die Erfahrung jedoch selbstständiger gemacht."
+      ],
+      "es": [
+        "Habíamos subestimado cuántas decisiones implica mudarse a otra ciudad.",
+        "Además de la vivienda, tuvimos que ocuparnos del colegio, el transporte y numerosos trámites.",
+        "Lo más difícil fue dejar atrás las costumbres conocidas.",
+        "Sin embargo, mirando atrás, la experiencia nos hizo más independientes."
+      ],
+      "pl": [
+        "Nie doceniliśmy, ile decyzji wiąże się z przeprowadzką do innego miasta.",
+        "Poza mieszkaniem musieliśmy zająć się szkołą, transportem i wieloma formalnościami.",
+        "Najtrudniej było zostawić za sobą znajome przyzwyczajenia.",
+        "Z perspektywy czasu to doświadczenie uczyniło nas jednak bardziej samodzielnymi."
+      ]
+    },
+    "audioRecommended": true
+  },
+  {
+    "id": "b2-09",
+    "level": "B2",
+    "titles": {
+      "de": "Die Grenzen der Planung",
+      "es": "Los límites de la planificación",
+      "pl": "Granice planowania"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "Ein sorgfältiger Plan kann Unsicherheit verringern, aber niemals vollständig beseitigen.",
+        "Deshalb ist es hilfreich, nicht nur Ziele, sondern auch mögliche Abweichungen zu berücksichtigen.",
+        "Wer jede Veränderung als Scheitern betrachtet, übersieht oft neue Möglichkeiten.",
+        "Flexibilität bedeutet nicht, auf Vorbereitung zu verzichten, sondern sinnvoll darauf aufzubauen."
+      ],
+      "es": [
+        "Un plan cuidadoso puede reducir la incertidumbre, pero nunca eliminarla por completo.",
+        "Por eso conviene considerar no solo los objetivos, sino también las posibles desviaciones.",
+        "Quien interpreta cada cambio como un fracaso suele pasar por alto nuevas oportunidades.",
+        "Ser flexible no significa renunciar a prepararse, sino aprovechar bien esa preparación."
+      ],
+      "pl": [
+        "Staranny plan może ograniczyć niepewność, ale nigdy nie wyeliminuje jej całkowicie.",
+        "Dlatego warto uwzględnić nie tylko cele, lecz także możliwe odstępstwa.",
+        "Kto uważa każdą zmianę za porażkę, często przeocza nowe możliwości.",
+        "Elastyczność nie oznacza rezygnacji z przygotowania, tylko rozsądne wykorzystanie go."
+      ]
+    },
+    "audioRecommended": false
+  },
+  {
+    "id": "b2-10",
+    "level": "B2",
+    "titles": {
+      "de": "Die Kunst des Zuhörens",
+      "es": "El arte de escuchar",
+      "pl": "Sztuka słuchania"
+    },
+    "kind": "story",
+    "lines": {
+      "de": [
+        "In Gesprächen warten wir häufig nur darauf, selbst wieder sprechen zu können.",
+        "Dabei entgehen uns wichtige Zwischentöne, die nicht ausdrücklich genannt werden.",
+        "Wer aufmerksam nachfragt, zeigt nicht nur Respekt, sondern versteht häufig auch das eigentliche Problem besser.",
+        "Gutes Zuhören ist deshalb eine aktive Fähigkeit und keine bloße Gesprächspause."
+      ],
+      "es": [
+        "En las conversaciones a menudo solo esperamos nuestro turno para volver a hablar.",
+        "Así se nos escapan matices importantes que no se expresan de forma explícita.",
+        "Quien hace preguntas con atención no solo muestra respeto, sino que suele comprender mejor el problema de fondo.",
+        "Por eso escuchar bien es una habilidad activa y no simplemente una pausa para dejar hablar al otro."
+      ],
+      "pl": [
+        "W rozmowach często jedynie czekamy na swoją kolej, by znów mówić.",
+        "W ten sposób umykają nam istotne niuanse, których nie wyrażono wprost.",
+        "Kto uważnie dopytuje, nie tylko okazuje szacunek, ale często lepiej rozumie istotę problemu.",
+        "Dlatego dobre słuchanie jest aktywną umiejętnością, a nie zwykłą przerwą w mówieniu."
+      ]
+    },
+    "audioRecommended": true
+  }
+]
