@@ -1,0 +1,5199 @@
+[
+  {
+    "id": "en-a0-01",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "The Cat Mimi",
+      "pl": "Kotka Mimi",
+      "fr": "La chatte Mimi",
+      "it": "La gatta Mimi"
+    },
+    "sentences": [
+      "This is Anna.",
+      "Anna has a cat.",
+      "The cat is named Mimi.",
+      "Mimi is small.",
+      "Mimi sleeps on the sofa."
+    ],
+    "translations": {
+      "pl": [
+        "To jest Anna.",
+        "Anna ma kota.",
+        "Kot ma na imię Mimi.",
+        "Mimi jest mała.",
+        "Mimi śpi na kanapie."
+      ],
+      "en": [
+        "This is Anna.",
+        "Anna has a cat.",
+        "The cat is named Mimi.",
+        "Mimi is small.",
+        "Mimi sleeps on the sofa."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "cat",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "sofa",
+        "gloss": {
+          "pl": "kanapa",
+          "en": "sofa"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "Anna",
+        "gloss": {
+          "pl": "Anna",
+          "en": "Anna"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is the cat's name?",
+          "pl": "Jak ma na imię kot?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Mimi"
+          ],
+          "pl": [
+            "Mimi"
+          ]
+        },
+        "explanation": {
+          "en": "The text says the cat is named Mimi.",
+          "pl": "Tekst mówi, że kot ma na imię Mimi."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does Mimi sleep?",
+          "pl": "Gdzie śpi Mimi?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "on the sofa"
+          ],
+          "pl": [
+            "na kanapie"
+          ]
+        },
+        "explanation": {
+          "en": "Mimi sleeps on the sofa.",
+          "pl": "Mimi śpi na kanapie."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-02",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 1,
+    "titles": {
+      "en": "The Red Ball",
+      "pl": "Czerwona piłka"
+    },
+    "sentences": [
+      "Tom has a ball.",
+      "The ball is red.",
+      "Tom plays in the garden.",
+      "The ball rolls on the grass."
+    ],
+    "translations": {
+      "pl": [
+        "Tom ma piłkę.",
+        "Piłka jest czerwona.",
+        "Tom bawi się w ogrodzie.",
+        "Piłka toczy się po trawie."
+      ],
+      "en": [
+        "Tom has a ball.",
+        "The ball is red.",
+        "Tom plays in the garden.",
+        "The ball rolls on the grass."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "ball",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "garden",
+        "gloss": {
+          "pl": "ogród",
+          "en": "garden"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "grass",
+        "gloss": {
+          "pl": "trawa",
+          "en": "grass"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What color is the ball?",
+          "pl": "Jakiego koloru jest piłka?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "red"
+          ],
+          "pl": [
+            "czerwony"
+          ]
+        },
+        "explanation": {
+          "en": "The ball is red.",
+          "pl": "Piłka jest czerwona."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does Tom play?",
+          "pl": "Gdzie bawi się Tom?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "in the garden"
+          ],
+          "pl": [
+            "w ogrodzie"
+          ]
+        },
+        "explanation": {
+          "en": "Tom plays in the garden.",
+          "pl": "Tom bawi się w ogrodzie."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-03",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Good Morning!",
+      "pl": "Dzień dobry!",
+      "fr": "Bonjour !",
+      "it": "Buongiorno!"
+    },
+    "sentences": [
+      "\"Good morning, Anna!\"",
+      "\"Good morning, Tom!\"",
+      "\"How are you?\"",
+      "\"Fine, thanks. And you?\"",
+      "\"Good too!\""
+    ],
+    "translations": {
+      "pl": [
+        "\"Dzień dobry, Anno!\"",
+        "\"Dzień dobry, Tom!\"",
+        "\"Jak się masz?\"",
+        "\"Dobrze, dzięki. A ty?\"",
+        "\"Też dobrze!\""
+      ],
+      "en": [
+        "\"Good morning, Anna!\"",
+        "\"Good morning, Tom!\"",
+        "\"How are you?\"",
+        "\"Fine, thanks. And you?\"",
+        "\"Good too!\""
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "morning",
+        "gloss": {
+          "pl": "rano",
+          "en": "morning"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "thanks",
+        "gloss": {
+          "pl": "dzięki",
+          "en": "thanks"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does Tom feel?",
+          "pl": "Jak czuje się Tom?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "good"
+          ],
+          "pl": [
+            "dobrze"
+          ]
+        },
+        "explanation": {
+          "en": "Tom says he is fine.",
+          "pl": "Tom mówi, że czuje się dobrze."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who greets first?",
+          "pl": "Kto wita pierwszy?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Anna"
+          ],
+          "pl": [
+            "Anna"
+          ]
+        },
+        "explanation": {
+          "en": "Anna says good morning first.",
+          "pl": "Anna mówi dzień dobry pierwsza."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-04",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "food",
+    "estimatedMinutes": 1,
+    "titles": {
+      "en": "A Glass of Water",
+      "pl": "Szklanka wody"
+    },
+    "sentences": [
+      "Lena is thirsty.",
+      "She takes a glass.",
+      "She drinks cold water.",
+      "She feels better."
+    ],
+    "translations": {
+      "pl": [
+        "Lena ma pragnienie.",
+        "Bierze szklankę.",
+        "Pije zimną wodę.",
+        "Czuje się lepiej."
+      ],
+      "en": [
+        "Lena is thirsty.",
+        "She takes a glass.",
+        "She drinks cold water.",
+        "She feels better."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "water",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "glass",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "glass"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does Lena drink?",
+          "pl": "Co pije Lena?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "water"
+          ],
+          "pl": [
+            "wodę"
+          ]
+        },
+        "explanation": {
+          "en": "She drinks water.",
+          "pl": "Pije wodę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does she feel at the end?",
+          "pl": "Jak czuje się na końcu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "better"
+          ],
+          "pl": [
+            "lepiej"
+          ]
+        },
+        "explanation": {
+          "en": "She feels better.",
+          "pl": "Czuje się lepiej."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-05",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "A Sunny Day",
+      "pl": "Słoneczny dzień"
+    },
+    "sentences": [
+      "The sun is bright.",
+      "Emma opens the window.",
+      "Birds sing in the park.",
+      "Emma smiles."
+    ],
+    "translations": {
+      "pl": [
+        "Słońce świeci jasno.",
+        "Emma otwiera okno.",
+        "Ptaki śpiewają w parku.",
+        "Emma się uśmiecha."
+      ],
+      "en": [
+        "The sun is bright.",
+        "Emma opens the window.",
+        "Birds sing in the park.",
+        "Emma smiles."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "sun",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "window",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "park",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does Emma open?",
+          "pl": "Co otwiera Emma?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "the window"
+          ],
+          "pl": [
+            "okno"
+          ]
+        },
+        "explanation": {
+          "en": "Emma opens the window.",
+          "pl": "Emma otwiera okno."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where do birds sing?",
+          "pl": "Gdzie śpiewają ptaki?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "in the park"
+          ],
+          "pl": [
+            "w parku"
+          ]
+        },
+        "explanation": {
+          "en": "Birds sing in the park.",
+          "pl": "Ptaki śpiewają w parku."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-06",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "family",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "My Dog Max",
+      "pl": "Mój pies Max"
+    },
+    "sentences": [
+      "This is my dog Max.",
+      "Max is friendly.",
+      "He wags his tail.",
+      "We walk every evening."
+    ],
+    "translations": {
+      "pl": [
+        "To jest mój pies Max.",
+        "Max jest przyjazny.",
+        "Merda ogonem.",
+        "Spacerujemy każdego wieczoru."
+      ],
+      "en": [
+        "This is my dog Max.",
+        "Max is friendly.",
+        "He wags his tail.",
+        "We walk every evening."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "dog",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "tail",
+        "gloss": {
+          "pl": "ogon",
+          "en": "tail"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "evening",
+        "gloss": {
+          "pl": "wieczór",
+          "en": "evening"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is the dog's name?",
+          "pl": "Jak ma na imię pies?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Max"
+          ],
+          "pl": [
+            "Max"
+          ]
+        },
+        "explanation": {
+          "en": "The dog is Max.",
+          "pl": "Pies ma na imię Max."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When do they walk?",
+          "pl": "Kiedy spacerują?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "every evening"
+          ],
+          "pl": [
+            "każdego wieczoru"
+          ]
+        },
+        "explanation": {
+          "en": "They walk every evening.",
+          "pl": "Spacerują każdego wieczoru."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-07",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "school",
+    "estimatedMinutes": 1,
+    "titles": {
+      "en": "Three Red Apples",
+      "pl": "Trzy czerwone jabłka"
+    },
+    "sentences": [
+      "I see three apples.",
+      "The apples are red.",
+      "I put them in a bag.",
+      "Mom makes a pie."
+    ],
+    "translations": {
+      "pl": [
+        "Widzę trzy jabłka.",
+        "Jabłka są czerwone.",
+        "Wkładam je do torby.",
+        "Mama robi ciasto."
+      ],
+      "en": [
+        "I see three apples.",
+        "The apples are red.",
+        "I put them in a bag.",
+        "Mom makes a pie."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "apple",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "bag",
+        "gloss": {
+          "pl": "torba",
+          "en": "bag"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "pie",
+        "gloss": {
+          "pl": "ciasto",
+          "en": "pie"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How many apples?",
+          "pl": "Ile jabłek?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "three"
+          ],
+          "pl": [
+            "trzy"
+          ]
+        },
+        "explanation": {
+          "en": "There are three apples.",
+          "pl": "Są trzy jabłka."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does Mom make?",
+          "pl": "Co robi mama?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a pie"
+          ],
+          "pl": [
+            "ciasto"
+          ]
+        },
+        "explanation": {
+          "en": "Mom makes a pie.",
+          "pl": "Mama robi ciasto."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-08",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 1,
+    "titles": {
+      "en": "Good Night, Leo",
+      "pl": "Dobranoc, Leo"
+    },
+    "sentences": [
+      "Leo brushes his teeth.",
+      "He puts on pajamas.",
+      "His mom reads a short story.",
+      "Leo falls asleep."
+    ],
+    "translations": {
+      "pl": [
+        "Leo myje zęby.",
+        "Zakłada piżamę.",
+        "Mama czyta krótką historię.",
+        "Leo zasypia."
+      ],
+      "en": [
+        "Leo brushes his teeth.",
+        "He puts on pajamas.",
+        "His mom reads a short story.",
+        "Leo falls asleep."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "teeth",
+        "gloss": {
+          "pl": "zęby",
+          "en": "teeth"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "pajamas",
+        "gloss": {
+          "pl": "piżama",
+          "en": "pajamas"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "story",
+        "gloss": {
+          "pl": "historia",
+          "en": "story"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does Leo wear?",
+          "pl": "Co zakłada Leo?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "pajamas"
+          ],
+          "pl": [
+            "piżamę"
+          ]
+        },
+        "explanation": {
+          "en": "He wears pajamas.",
+          "pl": "Zakłada piżamę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who reads a story?",
+          "pl": "Kto czyta historię?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "his mom"
+          ],
+          "pl": [
+            "mama"
+          ]
+        },
+        "explanation": {
+          "en": "His mom reads.",
+          "pl": "Czyta mama."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-09",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "dialogue",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "At the Bakery",
+      "pl": "W piekarni"
+    },
+    "sentences": [
+      "\"Hello!\"",
+      "\"I would like one bread, please.\"",
+      "\"Here you are.\"",
+      "\"Thank you. Goodbye!\""
+    ],
+    "translations": {
+      "pl": [
+        "\"Dzień dobry!\"",
+        "\"Poproszę jeden chleb.\"",
+        "\"Proszę bardzo.\"",
+        "\"Dziękuję. Do widzenia!\""
+      ],
+      "en": [
+        "\"Hello!\"",
+        "\"I would like one bread, please.\"",
+        "\"Here you are.\"",
+        "\"Thank you. Goodbye!\""
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "bread",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "bakery",
+        "gloss": {
+          "pl": "piekarnia",
+          "en": "bakery"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the customer buy?",
+          "pl": "Co kupuje klient?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "bread"
+          ],
+          "pl": [
+            "chleb"
+          ]
+        },
+        "explanation": {
+          "en": "The customer wants bread.",
+          "pl": "Klient chce chleb."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the customer say last?",
+          "pl": "Co klient mówi na końcu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Goodbye"
+          ],
+          "pl": [
+            "Do widzenia"
+          ]
+        },
+        "explanation": {
+          "en": "The customer says goodbye.",
+          "pl": "Klient mówi do widzenia."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a0-10",
+    "targetLang": "en",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "The Blue Backpack",
+      "pl": "Niebieski plecak"
+    },
+    "sentences": [
+      "Sara has a blue backpack.",
+      "She puts a book inside.",
+      "She goes to school.",
+      "Her teacher says hello."
+    ],
+    "translations": {
+      "pl": [
+        "Sara ma niebieski plecak.",
+        "Wkłada do niego książkę.",
+        "Idzie do szkoły.",
+        "Nauczyciel wita ją."
+      ],
+      "en": [
+        "Sara has a blue backpack.",
+        "She puts a book inside.",
+        "She goes to school.",
+        "Her teacher says hello."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "backpack",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "book",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "school",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What color is the backpack?",
+          "pl": "Jakiego koloru plecak?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "blue"
+          ],
+          "pl": [
+            "niebieski"
+          ]
+        },
+        "explanation": {
+          "en": "The backpack is blue.",
+          "pl": "Plecak jest niebieski."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does Sara go?",
+          "pl": "Dokąd idzie Sara?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "to school"
+          ],
+          "pl": [
+            "do szkoły"
+          ]
+        },
+        "explanation": {
+          "en": "She goes to school.",
+          "pl": "Idzie do szkoły."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-01",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Lost Umbrella",
+      "pl": "Zgubiony parasol"
+    },
+    "sentences": [
+      "It rains in the city.",
+      "Mark leaves the bus.",
+      "He cannot find his umbrella.",
+      "A woman returns it to him.",
+      "Mark thanks her warmly."
+    ],
+    "translations": {
+      "pl": [
+        "W mieście pada deszcz.",
+        "Mark wysiada z autobusu.",
+        "Nie może znaleźć parasola.",
+        "Kobieta oddaje mu go.",
+        "Mark serdecznie dziękuje."
+      ],
+      "en": [
+        "It rains in the city.",
+        "Mark leaves the bus.",
+        "He cannot find his umbrella.",
+        "A woman returns it to him.",
+        "Mark thanks her warmly."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "umbrella",
+        "gloss": {
+          "pl": "parasol",
+          "en": "umbrella"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "bus",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "city",
+        "gloss": {
+          "pl": "miasto",
+          "en": "city"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is the weather?",
+          "pl": "Jaka jest pogoda?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "rain"
+          ],
+          "pl": [
+            "deszcz"
+          ]
+        },
+        "explanation": {
+          "en": "It rains.",
+          "pl": "Pada deszcz."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who returns the umbrella?",
+          "pl": "Kto oddaje parasol?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a woman"
+          ],
+          "pl": [
+            "kobieta"
+          ]
+        },
+        "explanation": {
+          "en": "A woman returns it.",
+          "pl": "Kobieta go oddaje."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-02",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "dialogue",
+    "category": "travel",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Delayed Train",
+      "pl": "Opóźniony pociąg"
+    },
+    "sentences": [
+      "\"Attention please.\"",
+      "\"The ten fifteen train is delayed.\"",
+      "\"It will arrive at ten forty.\"",
+      "\"We are sorry for the inconvenience.\""
+    ],
+    "translations": {
+      "pl": [
+        "\"Proszę o uwagę.\"",
+        "\"Pociąg o dziesiątej piętnaście jest opóźniony.\"",
+        "\"Przyjedzie o dziesiątej czterdzieści.\"",
+        "\"Przepraszamy za niedogodności.\""
+      ],
+      "en": [
+        "\"Attention please.\"",
+        "\"The ten fifteen train is delayed.\"",
+        "\"It will arrive at ten forty.\"",
+        "\"We are sorry for the inconvenience.\""
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "train",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "delay",
+        "gloss": {
+          "pl": "opóźnienie",
+          "en": "delay"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When will the train arrive?",
+          "pl": "Kiedy przyjedzie pociąg?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "ten forty"
+          ],
+          "pl": [
+            "dziesiąta czterdzieści"
+          ]
+        },
+        "explanation": {
+          "en": "It arrives at ten forty.",
+          "pl": "Przyjedzie o dziesiątej czterdzieści."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Is the train on time?",
+          "pl": "Czy pociąg jest punktualny?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "no"
+          ],
+          "pl": [
+            "nie"
+          ]
+        },
+        "explanation": {
+          "en": "It is delayed.",
+          "pl": "Jest opóźniony."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-03",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "food",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Vegetable Soup",
+      "pl": "Zupa warzywna"
+    },
+    "sentences": [
+      "Dad cuts carrots and potatoes.",
+      "He boils water in a pot.",
+      "The kitchen smells good.",
+      "We eat soup with bread.",
+      "Everyone is happy."
+    ],
+    "translations": {
+      "pl": [
+        "Tata kroi marchewki i ziemniaki.",
+        "Gotuje wodę w garnku.",
+        "Kuchnia ładnie pachnie.",
+        "Jemy zupę z chlebem.",
+        "Wszyscy są szczęśliwi."
+      ],
+      "en": [
+        "Dad cuts carrots and potatoes.",
+        "He boils water in a pot.",
+        "The kitchen smells good.",
+        "We eat soup with bread.",
+        "Everyone is happy."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "soup",
+        "gloss": {
+          "pl": "zupa",
+          "en": "soup"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "carrot",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "carrot"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "pot",
+        "gloss": {
+          "pl": "garnek",
+          "en": "pot"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who cooks?",
+          "pl": "Kto gotuje?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Dad"
+          ],
+          "pl": [
+            "tata"
+          ]
+        },
+        "explanation": {
+          "en": "Dad cuts vegetables.",
+          "pl": "Tata kroi warzywa."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do they eat with the soup?",
+          "pl": "Co jedzą do zupy?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "bread"
+          ],
+          "pl": [
+            "chleb"
+          ]
+        },
+        "explanation": {
+          "en": "They eat soup with bread.",
+          "pl": "Jedzą zupę z chlebem."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-04",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "family",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Homework Help",
+      "pl": "Pomoc w zadaniu"
+    },
+    "sentences": [
+      "Lucy has math homework.",
+      "She does not understand one task.",
+      "Her brother explains it slowly.",
+      "Lucy finishes and hugs him."
+    ],
+    "translations": {
+      "pl": [
+        "Lucy ma zadanie z matematyki.",
+        "Nie rozumie jednego zadania.",
+        "Brat tłumaczy powoli.",
+        "Lucy kończy i go przytula."
+      ],
+      "en": [
+        "Lucy has math homework.",
+        "She does not understand one task.",
+        "Her brother explains it slowly.",
+        "Lucy finishes and hugs him."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "homework",
+        "gloss": {
+          "pl": "praca domowa",
+          "en": "homework"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "brother",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "math",
+        "gloss": {
+          "pl": "matematyka",
+          "en": "math"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What subject is the homework?",
+          "pl": "Z jakiego przedmiotu zadanie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "math"
+          ],
+          "pl": [
+            "matematyka"
+          ]
+        },
+        "explanation": {
+          "en": "It is math homework.",
+          "pl": "To zadanie z matematyki."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who helps Lucy?",
+          "pl": "Kto pomaga Lucy?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "her brother"
+          ],
+          "pl": [
+            "brat"
+          ]
+        },
+        "explanation": {
+          "en": "Her brother explains.",
+          "pl": "Brat tłumaczy."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-05",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Market List",
+      "pl": "Lista na targ"
+    },
+    "sentences": [
+      "Grandma writes a shopping list.",
+      "She needs milk, eggs, and tomatoes.",
+      "At the market she compares prices.",
+      "She saves a little money."
+    ],
+    "translations": {
+      "pl": [
+        "Babcia pisze listę zakupów.",
+        "Potrzebuje mleka, jajek i pomidorów.",
+        "Na targu porównuje ceny.",
+        "Oszczędza trochę pieniędzy."
+      ],
+      "en": [
+        "Grandma writes a shopping list.",
+        "She needs milk, eggs, and tomatoes.",
+        "At the market she compares prices.",
+        "She saves a little money."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "market",
+        "gloss": {
+          "pl": "targ",
+          "en": "market"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "list",
+        "gloss": {
+          "pl": "lista",
+          "en": "list"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "price",
+        "gloss": {
+          "pl": "cena",
+          "en": "price"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does Grandma shop?",
+          "pl": "Gdzie robi zakupy babcia?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "at the market"
+          ],
+          "pl": [
+            "na targu"
+          ]
+        },
+        "explanation": {
+          "en": "She goes to the market.",
+          "pl": "Idzie na targ."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is on the list?",
+          "pl": "Co jest na liście?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "milk, eggs, and tomatoes"
+          ],
+          "pl": [
+            "mleko, jajka i pomidory"
+          ]
+        },
+        "explanation": {
+          "en": "She needs those items.",
+          "pl": "Potrzebuje tych produktów."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-06",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "dialogue",
+    "category": "qa",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "At the Dentist",
+      "pl": "U dentysty"
+    },
+    "sentences": [
+      "\"Open your mouth, please.\"",
+      "\"Does it hurt?\"",
+      "\"A little.\"",
+      "\"You have clean teeth. Well done!\""
+    ],
+    "translations": {
+      "pl": [
+        "\"Proszę otworzyć usta.\"",
+        "\"Czy boli?\"",
+        "\"Trochę.\"",
+        "\"Masz czyste zęby. Dobra robota!\""
+      ],
+      "en": [
+        "\"Open your mouth, please.\"",
+        "\"Does it hurt?\"",
+        "\"A little.\"",
+        "\"You have clean teeth. Well done!\""
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "dentist",
+        "gloss": {
+          "pl": "dentysta",
+          "en": "dentist"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "teeth",
+        "gloss": {
+          "pl": "zęby",
+          "en": "teeth"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Does it hurt a lot?",
+          "pl": "Czy bardzo boli?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a little"
+          ],
+          "pl": [
+            "trochę"
+          ]
+        },
+        "explanation": {
+          "en": "The patient says a little.",
+          "pl": "Pacjent mówi, że trochę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How are the teeth?",
+          "pl": "Jak wyglądają zęby?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "clean"
+          ],
+          "pl": [
+            "czyste"
+          ]
+        },
+        "explanation": {
+          "en": "The dentist says they are clean.",
+          "pl": "Dentysta mówi, że są czyste."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-07",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "family",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Birthday Surprise",
+      "pl": "Niespodzianka urodzinowa"
+    },
+    "sentences": [
+      "Today is Nina's birthday.",
+      "Her friends hide in the living room.",
+      "Nina opens the door.",
+      "They shout surprise and sing."
+    ],
+    "translations": {
+      "pl": [
+        "Dziś są urodziny Niny.",
+        "Przyjaciele chowają się w salonie.",
+        "Nina otwiera drzwi.",
+        "Krzykną niespodzianka i śpiewają."
+      ],
+      "en": [
+        "Today is Nina's birthday.",
+        "Her friends hide in the living room.",
+        "Nina opens the door.",
+        "They shout surprise and sing."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "birthday",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "birthday"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "surprise",
+        "gloss": {
+          "pl": "niespodzianka",
+          "en": "surprise"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "friends",
+        "gloss": {
+          "pl": "przyjaciele",
+          "en": "friends"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do friends shout?",
+          "pl": "Co krzyczą przyjaciele?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "surprise"
+          ],
+          "pl": [
+            "niespodzianka"
+          ]
+        },
+        "explanation": {
+          "en": "They shout surprise.",
+          "pl": "Krzykną niespodzianka."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where do they hide?",
+          "pl": "Gdzie się chowają?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "living room"
+          ],
+          "pl": [
+            "salon"
+          ]
+        },
+        "explanation": {
+          "en": "They hide in the living room.",
+          "pl": "Chowają się w salonie."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-08",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Rainy Bus Ride",
+      "pl": "Deszczowa jazda autobusem"
+    },
+    "sentences": [
+      "The sky is grey.",
+      "People wait under a shelter.",
+      "The bus arrives with wet windows.",
+      "A boy shares his seat with an old man."
+    ],
+    "translations": {
+      "pl": [
+        "Niebo jest szare.",
+        "Ludzie czekają pod wiatą.",
+        "Autobus przyjeżdża z mokrymi szybami.",
+        "Chłopiec ustępuje miejsca starszemu panu."
+      ],
+      "en": [
+        "The sky is grey.",
+        "People wait under a shelter.",
+        "The bus arrives with wet windows.",
+        "A boy shares his seat with an old man."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "bus",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "rain",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "seat",
+        "gloss": {
+          "pl": "miejsce",
+          "en": "seat"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What color is the sky?",
+          "pl": "Jakiego koloru niebo?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "grey"
+          ],
+          "pl": [
+            "szare"
+          ]
+        },
+        "explanation": {
+          "en": "The sky is grey.",
+          "pl": "Niebo jest szare."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who gets a seat?",
+          "pl": "Kto dostaje miejsce?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "an old man"
+          ],
+          "pl": [
+            "starszy pan"
+          ]
+        },
+        "explanation": {
+          "en": "The boy shares with an old man.",
+          "pl": "Chłopiec ustępuje starszemu panu."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-09",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "school",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "First Library Card",
+      "pl": "Pierwsza karta biblioteczna"
+    },
+    "sentences": [
+      "Mia visits the library for the first time.",
+      "She chooses a thin adventure book.",
+      "The librarian gives her a card.",
+      "Mia reads on the bus home."
+    ],
+    "translations": {
+      "pl": [
+        "Mia pierwszy raz idzie do biblioteki.",
+        "Wybiera cienką książkę przygodową.",
+        "Bibliotekarka daje jej kartę.",
+        "Mia czyta w autobusie do domu."
+      ],
+      "en": [
+        "Mia visits the library for the first time.",
+        "She chooses a thin adventure book.",
+        "The librarian gives her a card.",
+        "Mia reads on the bus home."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "library",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "library"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "book",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "card",
+        "gloss": {
+          "pl": "karta",
+          "en": "card"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What book does Mia choose?",
+          "pl": "Jaką książkę wybiera Mia?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "adventure book"
+          ],
+          "pl": [
+            "książkę przygodową"
+          ]
+        },
+        "explanation": {
+          "en": "She chooses an adventure book.",
+          "pl": "Wybiera książkę przygodową."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does she read?",
+          "pl": "Gdzie czyta?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "on the bus"
+          ],
+          "pl": [
+            "w autobusie"
+          ]
+        },
+        "explanation": {
+          "en": "She reads on the bus home.",
+          "pl": "Czyta w autobusie do domu."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a1-10",
+    "targetLang": "en",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "en": "Local Football Match",
+      "pl": "Mecz piłki nożnej"
+    },
+    "sentences": [
+      "On Saturday the town team plays.",
+      "The score is one to one.",
+      "In the last minute they score.",
+      "The crowd cheers loudly."
+    ],
+    "translations": {
+      "pl": [
+        "W sobotę gra drużyna z miasta.",
+        "Wynik to jeden do jednego.",
+        "W ostatniej minucie strzelają gola.",
+        "Kibice głośno wiwatują."
+      ],
+      "en": [
+        "On Saturday the town team plays.",
+        "The score is one to one.",
+        "In the last minute they score.",
+        "The crowd cheers loudly."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "team",
+        "gloss": {
+          "pl": "drużyna",
+          "en": "team"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "score",
+        "gloss": {
+          "pl": "wynik",
+          "en": "score"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "crowd",
+        "gloss": {
+          "pl": "tłum",
+          "en": "crowd"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When is the match?",
+          "pl": "Kiedy jest mecz?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Saturday"
+          ],
+          "pl": [
+            "w sobotę"
+          ]
+        },
+        "explanation": {
+          "en": "It is on Saturday.",
+          "pl": "Jest w sobotę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is the final mood?",
+          "pl": "Jaka jest atmosfera na końcu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "cheering"
+          ],
+          "pl": [
+            "wiwaty"
+          ]
+        },
+        "explanation": {
+          "en": "The crowd cheers.",
+          "pl": "Kibice wiwatują."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-a2-01",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Camping by the Lake",
+      "pl": "Biwoak nad jeziorem"
+    },
+    "sentences": [
+      "We drive to a quiet lake.",
+      "We pitch a tent before sunset.",
+      "Fish jump in the water.",
+      "At night we hear an owl.",
+      "In the morning mist covers the grass.",
+      "We pack up and leave no trash."
+    ],
+    "translations": {
+      "pl": [
+        "Jedziemy nad spokojne jezioro.",
+        "Rozbijamy namiot przed zachodem słońca.",
+        "Ryby wyskakują z wody.",
+        "W nocy słyszymy sowę.",
+        "Rano mgła okrywa trawę.",
+        "Pakujemy się i nie zostawiamy śmieci."
+      ],
+      "en": [
+        "We drive to a quiet lake.",
+        "We pitch a tent before sunset.",
+        "Fish jump in the water.",
+        "At night we hear an owl.",
+        "In the morning mist covers the grass.",
+        "We pack up and leave no trash."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "tent",
+        "gloss": {
+          "pl": "namiot",
+          "en": "tent"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "lake",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "lake"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "owl",
+        "gloss": {
+          "pl": "sowa",
+          "en": "owl"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "mist",
+        "gloss": {
+          "pl": "mgła",
+          "en": "mist"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do they pitch?",
+          "pl": "Co rozbijają?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a tent"
+          ],
+          "pl": [
+            "namiot"
+          ]
+        },
+        "explanation": {
+          "en": "They pitch a tent.",
+          "pl": "Rozbijają namiot."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What covers the grass in the morning?",
+          "pl": "Co okrywa trawę rano?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "mist"
+          ],
+          "pl": [
+            "mgła"
+          ]
+        },
+        "explanation": {
+          "en": "Mist covers the grass.",
+          "pl": "Mgła okrywa trawę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-02",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "technology",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Cracked Phone Screen",
+      "pl": "Pęknięty ekran telefonu"
+    },
+    "sentences": [
+      "Jay drops his phone on the stairs.",
+      "The screen has a long crack.",
+      "He backs up his photos online.",
+      "The repair shop replaces the glass.",
+      "Jay buys a stronger case."
+    ],
+    "translations": {
+      "pl": [
+        "Jay upuszcza telefon na schody.",
+        "Ekran ma długą pęknięcie.",
+        "Robi kopię zdjęć online.",
+        "W serwisie wymieniają szybę.",
+        "Jay kupuje mocniejsze etui."
+      ],
+      "en": [
+        "Jay drops his phone on the stairs.",
+        "The screen has a long crack.",
+        "He backs up his photos online.",
+        "The repair shop replaces the glass.",
+        "Jay buys a stronger case."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "screen",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "crack",
+        "gloss": {
+          "pl": "pęknięcie",
+          "en": "crack"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "repair",
+        "gloss": {
+          "pl": "naprawa",
+          "en": "repair"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Where does Jay drop the phone?",
+          "pl": "Gdzie upuszcza telefon?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "on the stairs"
+          ],
+          "pl": [
+            "na schody"
+          ]
+        },
+        "explanation": {
+          "en": "He drops it on the stairs.",
+          "pl": "Upuszcza go na schody."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does he buy after repair?",
+          "pl": "Co kupuje po naprawie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a stronger case"
+          ],
+          "pl": [
+            "mocniejsze etui"
+          ]
+        },
+        "explanation": {
+          "en": "He buys a stronger case.",
+          "pl": "Kupuje mocniejsze etui."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-03",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "fairy_tale",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "The Three Goats",
+      "pl": "Trzy kozy"
+    },
+    "sentences": [
+      "Three goats live on a hill.",
+      "They want grass on the other side.",
+      "A troll lives under the bridge.",
+      "The biggest goat pushes the troll away.",
+      "All three eat and return home."
+    ],
+    "translations": {
+      "pl": [
+        "Trzy kozy mieszkają na wzgórzu.",
+        "Chcą trawy po drugiej stronie.",
+        "Troll mieszka pod mostem.",
+        "Największa koza odpycha trolla.",
+        "Wszystkie trzy jedzą i wracają do domu."
+      ],
+      "en": [
+        "Three goats live on a hill.",
+        "They want grass on the other side.",
+        "A troll lives under the bridge.",
+        "The biggest goat pushes the troll away.",
+        "All three eat and return home."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "goat",
+        "gloss": {
+          "pl": "koza",
+          "en": "goat"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "bridge",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "troll",
+        "gloss": {
+          "pl": "troll",
+          "en": "troll"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who lives under the bridge?",
+          "pl": "Kto mieszka pod mostem?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a troll"
+          ],
+          "pl": [
+            "troll"
+          ]
+        },
+        "explanation": {
+          "en": "A troll lives there.",
+          "pl": "Mieszka tam troll."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Which goat pushes the troll?",
+          "pl": "Która koza odpycha trolla?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "the biggest"
+          ],
+          "pl": [
+            "największa"
+          ]
+        },
+        "explanation": {
+          "en": "The biggest goat pushes him.",
+          "pl": "Największa koza go odpycha."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-04",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Job Interview Prep",
+      "pl": "Przygotowanie do rozmowy"
+    },
+    "sentences": [
+      "Elena has an interview tomorrow.",
+      "She researches the company website.",
+      "She prepares two questions to ask.",
+      "Her friend listens to her answers.",
+      "Elena sleeps early and stays calm."
+    ],
+    "translations": {
+      "pl": [
+        "Elena ma jutro rozmowę.",
+        "Czyta stronę firmy.",
+        "Przygotowuje dwa pytania.",
+        "Przyjaciółka słucha jej odpowiedzi.",
+        "Elena wcześnie śpi i jest spokojna."
+      ],
+      "en": [
+        "Elena has an interview tomorrow.",
+        "She researches the company website.",
+        "She prepares two questions to ask.",
+        "Her friend listens to her answers.",
+        "Elena sleeps early and stays calm."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "interview",
+        "gloss": {
+          "pl": "rozmowa kwalifikacyjna",
+          "en": "interview"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "company",
+        "gloss": {
+          "pl": "firma",
+          "en": "company"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "question",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "question"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When is the interview?",
+          "pl": "Kiedy jest rozmowa?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "tomorrow"
+          ],
+          "pl": [
+            "jutro"
+          ]
+        },
+        "explanation": {
+          "en": "It is tomorrow.",
+          "pl": "Jest jutro."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How many questions does she prepare?",
+          "pl": "Ile pytań przygotowuje?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "two"
+          ],
+          "pl": [
+            "dwa"
+          ]
+        },
+        "explanation": {
+          "en": "She prepares two questions.",
+          "pl": "Przygotowuje dwa pytania."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-05",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Museum Tour",
+      "pl": "Zwiedzanie muzeum"
+    },
+    "sentences": [
+      "Our class visits the city museum.",
+      "A guide explains an old ship model.",
+      "We must not touch the glass cases.",
+      "In the gift shop I buy a postcard.",
+      "On the bus we draw what we saw."
+    ],
+    "translations": {
+      "pl": [
+        "Klasa idzie do muzeum miasta.",
+        "Przewodnik tłumaczy model starego statku.",
+        "Nie wolno dotykać gablot.",
+        "W sklepie kupuję pocztówkę.",
+        "W autobusie rysujemy to, co widzieliśmy."
+      ],
+      "en": [
+        "Our class visits the city museum.",
+        "A guide explains an old ship model.",
+        "We must not touch the glass cases.",
+        "In the gift shop I buy a postcard.",
+        "On the bus we draw what we saw."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "museum",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "museum"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "guide",
+        "gloss": {
+          "pl": "przewodnik",
+          "en": "guide"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "postcard",
+        "gloss": {
+          "pl": "pocztówka",
+          "en": "postcard"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What must they not do?",
+          "pl": "Czego nie wolno robić?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "touch the cases"
+          ],
+          "pl": [
+            "dotykać gablot"
+          ]
+        },
+        "explanation": {
+          "en": "They must not touch the glass cases.",
+          "pl": "Nie wolno dotykać gablot."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the narrator buy?",
+          "pl": "Co kupuje narrator?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a postcard"
+          ],
+          "pl": [
+            "pocztówkę"
+          ]
+        },
+        "explanation": {
+          "en": "They buy a postcard.",
+          "pl": "Kupuje pocztówkę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-06",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "food",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Grandma's Pasta",
+      "pl": "Makaron babci"
+    },
+    "sentences": [
+      "Nonna rolls fresh pasta dough.",
+      "She simmers tomato sauce for an hour.",
+      "Garlic and basil fill the kitchen.",
+      "The whole family sets the table.",
+      "We eat slowly and tell stories."
+    ],
+    "translations": {
+      "pl": [
+        "Babcia wałkuje świeże ciasto na makaron.",
+        "Dusi sos pomidorowy przez godzinę.",
+        "Czosnek i bazylia wypełniają kuchnię.",
+        "Cała rodzina nakrywa do stołu.",
+        "Jemy powoli i opowiadamy historie."
+      ],
+      "en": [
+        "Nonna rolls fresh pasta dough.",
+        "She simmers tomato sauce for an hour.",
+        "Garlic and basil fill the kitchen.",
+        "The whole family sets the table.",
+        "We eat slowly and tell stories."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "pasta",
+        "gloss": {
+          "pl": "makaron",
+          "en": "pasta"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "sauce",
+        "gloss": {
+          "pl": "sos",
+          "en": "sauce"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "basil",
+        "gloss": {
+          "pl": "bazylia",
+          "en": "basil"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How long simmers the sauce?",
+          "pl": "Jak długo dusi się sos?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "an hour"
+          ],
+          "pl": [
+            "godzinę"
+          ]
+        },
+        "explanation": {
+          "en": "It simmers for an hour.",
+          "pl": "Dusi się godzinę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who sets the table?",
+          "pl": "Kto nakrywa do stołu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "the whole family"
+          ],
+          "pl": [
+            "cała rodzina"
+          ]
+        },
+        "explanation": {
+          "en": "The whole family sets the table.",
+          "pl": "Cała rodzina nakrywa."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-07",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Street Festival",
+      "pl": "Festiwal uliczny"
+    },
+    "sentences": [
+      "Main Street closes to cars today.",
+      "Musicians play on two small stages.",
+      "Children paint flags at a workshop.",
+      "I try spicy food from a food truck.",
+      "Fireworks end the night."
+    ],
+    "translations": {
+      "pl": [
+        "Dziś główna ulica jest zamknięta dla aut.",
+        "Muzycy grają na dwóch małych scenach.",
+        "Dzieci malują flagi na warsztatach.",
+        "Próbuję pikantnego jedzenia z food trucka.",
+        "Fajerwerki kończą noc."
+      ],
+      "en": [
+        "Main Street closes to cars today.",
+        "Musicians play on two small stages.",
+        "Children paint flags at a workshop.",
+        "I try spicy food from a food truck.",
+        "Fireworks end the night."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "festival",
+        "gloss": {
+          "pl": "festiwal",
+          "en": "festival"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "stage",
+        "gloss": {
+          "pl": "scena",
+          "en": "stage"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "fireworks",
+        "gloss": {
+          "pl": "fajerwerki",
+          "en": "fireworks"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What closes to cars?",
+          "pl": "Co jest zamknięte dla aut?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Main Street"
+          ],
+          "pl": [
+            "główna ulica"
+          ]
+        },
+        "explanation": {
+          "en": "Main Street closes.",
+          "pl": "Główna ulica jest zamknięta."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does the night end?",
+          "pl": "Jak kończy się noc?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "fireworks"
+          ],
+          "pl": [
+            "fajerwerkami"
+          ]
+        },
+        "explanation": {
+          "en": "Fireworks end the night.",
+          "pl": "Fajerwerki kończą noc."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-08",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Flat Tire",
+      "pl": "Przebita opona"
+    },
+    "sentences": [
+      "We ride bikes to the river.",
+      "My rear tire loses air quickly.",
+      "We stop under a tree.",
+      "I change the inner tube with help.",
+      "We still arrive before lunch."
+    ],
+    "translations": {
+      "pl": [
+        "Jedziemy rowerem nad rzekę.",
+        "Tylna opona szybko traci powietrze.",
+        "Zatrzymujemy się pod drzewem.",
+        "Wymieniam dętkę z pomocą.",
+        "I tak docieramy przed lunchem."
+      ],
+      "en": [
+        "We ride bikes to the river.",
+        "My rear tire loses air quickly.",
+        "We stop under a tree.",
+        "I change the inner tube with help.",
+        "We still arrive before lunch."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "tire",
+        "gloss": {
+          "pl": "opona",
+          "en": "tire"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "bike",
+        "gloss": {
+          "pl": "rower",
+          "en": "bike"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "tube",
+        "gloss": {
+          "pl": "dętka",
+          "en": "tube"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Which tire has a problem?",
+          "pl": "Która opona ma problem?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "rear tire"
+          ],
+          "pl": [
+            "tylna"
+          ]
+        },
+        "explanation": {
+          "en": "The rear tire loses air.",
+          "pl": "Tylna traci powietrze."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Do they cancel the trip?",
+          "pl": "Czy rezygnują z wyjazdu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "no"
+          ],
+          "pl": [
+            "nie"
+          ]
+        },
+        "explanation": {
+          "en": "They still arrive before lunch.",
+          "pl": "Docierają przed lunchem."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-09",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Wrong Email",
+      "pl": "Zły e-mail"
+    },
+    "sentences": [
+      "Martin writes a long complaint.",
+      "He sends it to the whole team by mistake.",
+      "His manager replies calmly.",
+      "Martin apologizes in a short meeting.",
+      "They agree on clearer subject lines."
+    ],
+    "translations": {
+      "pl": [
+        "Martin pisze długą skargę.",
+        "Przez pomyłkę wysyła ją do całego zespołu.",
+        "Szef odpowiada spokojnie.",
+        "Martin przeprasza na krótkim spotkaniu.",
+        "Ustalają jaśniejsze tematy wiadomości."
+      ],
+      "en": [
+        "Martin writes a long complaint.",
+        "He sends it to the whole team by mistake.",
+        "His manager replies calmly.",
+        "Martin apologizes in a short meeting.",
+        "They agree on clearer subject lines."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "email",
+        "gloss": {
+          "pl": "e-mail",
+          "en": "email"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "team",
+        "gloss": {
+          "pl": "zespół",
+          "en": "team"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "apology",
+        "gloss": {
+          "pl": "przeprosiny",
+          "en": "apology"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who receives the email by mistake?",
+          "pl": "Kto dostaje e-mail przez pomyłkę?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "the whole team"
+          ],
+          "pl": [
+            "cały zespół"
+          ]
+        },
+        "explanation": {
+          "en": "The whole team receives it.",
+          "pl": "Dostaje go cały zespół."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does Martin apologize?",
+          "pl": "Jak przeprasza Martin?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "in a meeting"
+          ],
+          "pl": [
+            "na spotkaniu"
+          ]
+        },
+        "explanation": {
+          "en": "He apologizes in a short meeting.",
+          "pl": "Przeprasza na spotkaniu."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-a2-10",
+    "targetLang": "en",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "en": "Winter Flu",
+      "pl": "Grypa zimowa"
+    },
+    "sentences": [
+      "I wake up with a sore throat.",
+      "My temperature is slightly high.",
+      "I drink tea and rest on the sofa.",
+      "My neighbor leaves soup at the door.",
+      "After three days I feel stronger."
+    ],
+    "translations": {
+      "pl": [
+        "Budzę się z bólem gardła.",
+        "Temperatura jest lekko podwyższona.",
+        "Piję herbatę i odpoczywam na kanapie.",
+        "Sąsiad zostawia zupę przy drzwiach.",
+        "Po trzech dniach czuję się mocniejszy."
+      ],
+      "en": [
+        "I wake up with a sore throat.",
+        "My temperature is slightly high.",
+        "I drink tea and rest on the sofa.",
+        "My neighbor leaves soup at the door.",
+        "After three days I feel stronger."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "throat",
+        "gloss": {
+          "pl": "gardło",
+          "en": "throat"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "temperature",
+        "gloss": {
+          "pl": "temperatura",
+          "en": "temperature"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "soup",
+        "gloss": {
+          "pl": "zupa",
+          "en": "soup"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What symptom appears first?",
+          "pl": "Jaki objaw pojawia się pierwszy?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "sore throat"
+          ],
+          "pl": [
+            "ból gardła"
+          ]
+        },
+        "explanation": {
+          "en": "A sore throat appears.",
+          "pl": "Pojawia się ból gardła."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who leaves soup?",
+          "pl": "Kto zostawia zupę?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "neighbor"
+          ],
+          "pl": [
+            "sąsiad"
+          ]
+        },
+        "explanation": {
+          "en": "The neighbor leaves soup.",
+          "pl": "Sąsiad zostawia zupę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-01",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Remote Work at the Café",
+      "pl": "Praca zdalna w kawiarni"
+    },
+    "sentences": [
+      "Since March I work remotely twice a week.",
+      "I choose a café with fast Wi‑Fi and quiet corners.",
+      "Headphones help me focus during video calls.",
+      "Yesterday the barista remembered my order.",
+      "I finish tasks faster than at home.",
+      "Still I miss chatting with colleagues in person."
+    ],
+    "translations": {
+      "pl": [
+        "Od marca pracuję zdalnie dwa razy w tygodniu.",
+        "Wybieram kawiarnię z szybkim Wi‑Fi i cichymi kącikami.",
+        "Słuchawki pomagają skupić się podczas rozmów wideo.",
+        "Wczoraj barista pamiętała moje zamówienie.",
+        "Kończę zadania szybciej niż w domu.",
+        "Tęsknię jednak za rozmowami z kolegami na żywo."
+      ],
+      "en": [
+        "Since March I work remotely twice a week.",
+        "I choose a café with fast Wi‑Fi and quiet corners.",
+        "Headphones help me focus during video calls.",
+        "Yesterday the barista remembered my order.",
+        "I finish tasks faster than at home.",
+        "Still I miss chatting with colleagues in person."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "remote work",
+        "gloss": {
+          "pl": "praca zdalna",
+          "en": "remote work"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "Wi‑Fi",
+        "gloss": {
+          "pl": "Wi‑Fi",
+          "en": "Wi-Fi"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "colleague",
+        "gloss": {
+          "pl": "kolega",
+          "en": "colleague"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How often does the narrator work remotely?",
+          "pl": "Jak często pracuje zdalnie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "twice a week"
+          ],
+          "pl": [
+            "dwa razy w tygodniu"
+          ]
+        },
+        "explanation": {
+          "en": "Twice a week since March.",
+          "pl": "Dwa razy w tygodniu od marca."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the narrator miss?",
+          "pl": "Za czym tęskni?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "chatting with colleagues"
+          ],
+          "pl": [
+            "rozmowami z kolegami"
+          ]
+        },
+        "explanation": {
+          "en": "They miss in-person chats.",
+          "pl": "Tęskni za rozmowami na żywo."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-02",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Cross-Country Train",
+      "pl": "Pociąg przez kraj"
+    },
+    "sentences": [
+      "We board an overnight train at dusk.",
+      "Couchettes are small but clean.",
+      "At midnight the train crosses a wide river.",
+      "I talk with a student who studies architecture.",
+      "Sunrise paints the fields gold.",
+      "We arrive tired yet excited for the city."
+    ],
+    "translations": {
+      "pl": [
+        "Wsiadamy do nocnego pociągu o zmierzchu.",
+        "Kuszetki są małe, ale czyste.",
+        "O północy pociąg przekracza szeroką rzekę.",
+        "Rozmawiam ze studentem architektury.",
+        "Wschód słońca maluje pola na złoto.",
+        "Docieramy zmęczeni, ale podekscytowani miastem."
+      ],
+      "en": [
+        "We board an overnight train at dusk.",
+        "Couchettes are small but clean.",
+        "At midnight the train crosses a wide river.",
+        "I talk with a student who studies architecture.",
+        "Sunrise paints the fields gold.",
+        "We arrive tired yet excited for the city."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "train",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "sunrise",
+        "gloss": {
+          "pl": "wschód słońca",
+          "en": "sunrise"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "architecture",
+        "gloss": {
+          "pl": "architektura",
+          "en": "architecture"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When do they board?",
+          "pl": "Kiedy wsiadają?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "at dusk"
+          ],
+          "pl": [
+            "o zmierzchu"
+          ]
+        },
+        "explanation": {
+          "en": "They board at dusk.",
+          "pl": "Wsiadają o zmierzchu."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who does the narrator talk with?",
+          "pl": "Z kim rozmawia narrator?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "a student"
+          ],
+          "pl": [
+            "studentem"
+          ]
+        },
+        "explanation": {
+          "en": "With a student of architecture.",
+          "pl": "Ze studentem architektury."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-03",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Apartment Hunt",
+      "pl": "Poszukiwanie mieszkania"
+    },
+    "sentences": [
+      "Olga and Paul search for a flat near the tram.",
+      "The first viewing smells of paint and has no balcony.",
+      "The second is bright but far from work.",
+      "They list pros and cons on paper.",
+      "The landlord of the third flat accepts their offer.",
+      "They celebrate with cheap pizza."
+    ],
+    "translations": {
+      "pl": [
+        "Olga i Paul szukają mieszkania przy tramwaju.",
+        "Pierwsze mieszkanie pachnie farbą i nie ma balkonu.",
+        "Drugie jest jasne, ale daleko od pracy.",
+        "Wypisują plusy i minusy na papierze.",
+        "Właściciel trzeciego mieszkania akceptuje ofertę.",
+        "Świętują tanią pizzą."
+      ],
+      "en": [
+        "Olga and Paul search for a flat near the tram.",
+        "The first viewing smells of paint and has no balcony.",
+        "The second is bright but far from work.",
+        "They list pros and cons on paper.",
+        "The landlord of the third flat accepts their offer.",
+        "They celebrate with cheap pizza."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "flat",
+        "gloss": {
+          "pl": "mieszkanie",
+          "en": "flat"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "balcony",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balcony"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "landlord",
+        "gloss": {
+          "pl": "właściciel",
+          "en": "landlord"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is wrong with the first flat?",
+          "pl": "Co jest nie tak z pierwszym mieszkaniem?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "no balcony"
+          ],
+          "pl": [
+            "brak balkonu"
+          ]
+        },
+        "explanation": {
+          "en": "It has no balcony.",
+          "pl": "Nie ma balkonu."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How do they celebrate?",
+          "pl": "Jak świętują?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "with pizza"
+          ],
+          "pl": [
+            "pizzą"
+          ]
+        },
+        "explanation": {
+          "en": "They celebrate with cheap pizza.",
+          "pl": "Świętują tanią pizzą."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-04",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Project Deadline",
+      "pl": "Termin projektu"
+    },
+    "sentences": [
+      "Our team must deliver a prototype by Friday.",
+      "Two developers disagree about the design.",
+      "The project manager schedules a short workshop.",
+      "We split tasks and test every evening.",
+      "On Friday the client smiles during the demo.",
+      "We go for noodles and sleep late."
+    ],
+    "translations": {
+      "pl": [
+        "Zespół musi dostarczyć prototyp do piątku.",
+        "Dwóch programistów spiera się o design.",
+        "Kierownik organizuje krótkie warsztaty.",
+        "Dzielimy zadania i testujemy każdego wieczora.",
+        "W piątek klient uśmiecha się na demo.",
+        "Idziemy na makaron i śpimy późno."
+      ],
+      "en": [
+        "Our team must deliver a prototype by Friday.",
+        "Two developers disagree about the design.",
+        "The project manager schedules a short workshop.",
+        "We split tasks and test every evening.",
+        "On Friday the client smiles during the demo.",
+        "We go for noodles and sleep late."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "prototype",
+        "gloss": {
+          "pl": "prototyp",
+          "en": "prototype"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "deadline",
+        "gloss": {
+          "pl": "termin",
+          "en": "deadline"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "client",
+        "gloss": {
+          "pl": "klient",
+          "en": "client"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When is the deadline?",
+          "pl": "Jaki jest termin?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Friday"
+          ],
+          "pl": [
+            "piątek"
+          ]
+        },
+        "explanation": {
+          "en": "Delivery is by Friday.",
+          "pl": "Termin to piątek."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does the client react?",
+          "pl": "Jak reaguje klient?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "smiles"
+          ],
+          "pl": [
+            "uśmiecha się"
+          ]
+        },
+        "explanation": {
+          "en": "The client smiles at the demo.",
+          "pl": "Klient uśmiecha się na demo."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-05",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Hiking Rescue",
+      "pl": "Akcja na szlaku"
+    },
+    "sentences": [
+      "We hike a marked trail after rainfall.",
+      "Rocks are slippery near the waterfall.",
+      "A hiker twists an ankle and cannot stand.",
+      "We call mountain rescue and share GPS data.",
+      "Helicopter noise echoes in the valley.",
+      "Everyone returns safe before dark."
+    ],
+    "translations": {
+      "pl": [
+        "Idziemy oznakowanym szlakiem po deszczu.",
+        "Skały są śliskie przy wodospadzie.",
+        "Turysta skręca kostkę i nie może stać.",
+        "Dzwonimy po górskie ratownictwo i podajemy GPS.",
+        "Hałas helikoptera odbija się w dolinie.",
+        "Wszyscy wracają cali przed zmrokiem."
+      ],
+      "en": [
+        "We hike a marked trail after rainfall.",
+        "Rocks are slippery near the waterfall.",
+        "A hiker twists an ankle and cannot stand.",
+        "We call mountain rescue and share GPS data.",
+        "Helicopter noise echoes in the valley.",
+        "Everyone returns safe before dark."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "trail",
+        "gloss": {
+          "pl": "szlak",
+          "en": "trail"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "waterfall",
+        "gloss": {
+          "pl": "wodospad",
+          "en": "waterfall"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "rescue",
+        "gloss": {
+          "pl": "ratownictwo",
+          "en": "rescue"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What injury happens?",
+          "pl": "Jaka jest kontuzja?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "twisted ankle"
+          ],
+          "pl": [
+            "skręcona kostka"
+          ]
+        },
+        "explanation": {
+          "en": "A hiker twists an ankle.",
+          "pl": "Turysta skręca kostkę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who do they call?",
+          "pl": "Do kogo dzwonią?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "mountain rescue"
+          ],
+          "pl": [
+            "górskie ratownictwo"
+          ]
+        },
+        "explanation": {
+          "en": "They call mountain rescue.",
+          "pl": "Dzwonią po ratownictwo."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-06",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "family",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Wedding Speech",
+      "pl": "Mowa weselna"
+    },
+    "sentences": [
+      "Daniel must speak at his sister's wedding.",
+      "He writes jokes but deletes half of them.",
+      "On the day his hands shake holding the mic.",
+      "He thanks the family and welcomes the new husband.",
+      "Guests laugh and cry at the same time.",
+      "Daniel sleeps peacefully on the train home."
+    ],
+    "translations": {
+      "pl": [
+        "Daniel ma mówić na weselu siostry.",
+        "Pisze żarty, ale usuwa połowę.",
+        "W dniu ślubu ręce mu drżą trzymając mikrofon.",
+        "Dziękuje rodzinie i witaj męża siostry.",
+        "Goście śmieją się i płaczą jednocześnie.",
+        "Daniel śpi spokojnie w pociągu do domu."
+      ],
+      "en": [
+        "Daniel must speak at his sister's wedding.",
+        "He writes jokes but deletes half of them.",
+        "On the day his hands shake holding the mic.",
+        "He thanks the family and welcomes the new husband.",
+        "Guests laugh and cry at the same time.",
+        "Daniel sleeps peacefully on the train home."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "wedding",
+        "gloss": {
+          "pl": "wesele",
+          "en": "wedding"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "speech",
+        "gloss": {
+          "pl": "mowa",
+          "en": "speech"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "guests",
+        "gloss": {
+          "pl": "goście",
+          "en": "guests"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Whose wedding is it?",
+          "pl": "Czyje to wesele?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "his sister's"
+          ],
+          "pl": [
+            "siostry"
+          ]
+        },
+        "explanation": {
+          "en": "It is his sister's wedding.",
+          "pl": "To wesele siostry."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How do guests react?",
+          "pl": "Jak reagują goście?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "laugh and cry"
+          ],
+          "pl": [
+            "śmieją się i płaczą"
+          ]
+        },
+        "explanation": {
+          "en": "They laugh and cry.",
+          "pl": "Śmieją się i płaczą."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-07",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Learning to Drive",
+      "pl": "Nauka jazdy"
+    },
+    "sentences": [
+      "Instructor Mia teaches parallel parking.",
+      "I confuse the clutch and stall twice.",
+      "Traffic behind me waits patiently.",
+      "Mia draws the maneuver on a notepad.",
+      "After an hour I park cleanly.",
+      "I treat myself to ice cream."
+    ],
+    "translations": {
+      "pl": [
+        "Instruktorka Mia uczy parkowania równoległego.",
+        "Mylię sprzęgło i dwa razy gasi silnik.",
+        "Kierowcy za mną czekają cierpliwie.",
+        "Mia rysuje manewr w notatniku.",
+        "Po godzinie parkuję czysto.",
+        "Nagradzam się lodem."
+      ],
+      "en": [
+        "Instructor Mia teaches parallel parking.",
+        "I confuse the clutch and stall twice.",
+        "Traffic behind me waits patiently.",
+        "Mia draws the maneuver on a notepad.",
+        "After an hour I park cleanly.",
+        "I treat myself to ice cream."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "instructor",
+        "gloss": {
+          "pl": "instruktor",
+          "en": "instructor"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "clutch",
+        "gloss": {
+          "pl": "sprzęgło",
+          "en": "clutch"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "parking",
+        "gloss": {
+          "pl": "parkowanie",
+          "en": "parking"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What skill is practiced?",
+          "pl": "Jakiej umiejętności się uczą?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "parallel parking"
+          ],
+          "pl": [
+            "parkowania równoległego"
+          ]
+        },
+        "explanation": {
+          "en": "They practice parallel parking.",
+          "pl": "Uczą parkowania równoległego."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What reward at the end?",
+          "pl": "Jaka nagroda na końcu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "ice cream"
+          ],
+          "pl": [
+            "lody"
+          ]
+        },
+        "explanation": {
+          "en": "The narrator buys ice cream.",
+          "pl": "Kupuje lody."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-08",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Noisy Neighbor",
+      "pl": "Hałaśliwy sąsiad"
+    },
+    "sentences": [
+      "\"Excuse me, your music is very loud.\"",
+      "\"Sorry, we did not realize.\"",
+      "\"Could you lower it after ten?\"",
+      "\"Of course, no problem.\"",
+      "\"Thank you for understanding.\""
+    ],
+    "translations": {
+      "pl": [
+        "\"Przepraszam, muzyka jest bardzo głośna.\"",
+        "\"Przepraszamy, nie zdawaliśmy sobie sprawy.\"",
+        "\"Czy możecie ściszyć po dziesiątej?\"",
+        "\"Jasne, bez problemu.\"",
+        "\"Dziękuję za zrozumienie.\""
+      ],
+      "en": [
+        "\"Excuse me, your music is very loud.\"",
+        "\"Sorry, we did not realize.\"",
+        "\"Could you lower it after ten?\"",
+        "\"Of course, no problem.\"",
+        "\"Thank you for understanding.\""
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "neighbor",
+        "gloss": {
+          "pl": "sąsiad",
+          "en": "neighbor"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "music",
+        "gloss": {
+          "pl": "muzyka",
+          "en": "music"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is the problem?",
+          "pl": "Jaki jest problem?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "loud music"
+          ],
+          "pl": [
+            "głośna muzyka"
+          ]
+        },
+        "explanation": {
+          "en": "The music is too loud.",
+          "pl": "Muzyka jest zbyt głośna."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "After what time should they lower it?",
+          "pl": "Po której godzinie mają ściszyć?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "ten"
+          ],
+          "pl": [
+            "dziesiątej"
+          ]
+        },
+        "explanation": {
+          "en": "After ten o'clock.",
+          "pl": "Po dziesiątej."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "en-b1-09",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Shelter Volunteer",
+      "pl": "Wolontariat w schronisku"
+    },
+    "sentences": [
+      "Every Saturday I walk dogs at the shelter.",
+      "Today a shy greyhound arrives.",
+      "I sit quietly until she sniffs my hand.",
+      "We walk only fifty meters but she wags her tail.",
+      "A couple adopts her the next week.",
+      "I sign up for another month."
+    ],
+    "translations": {
+      "pl": [
+        "W każdą sobotę wyprowadzam psy ze schroniska.",
+        "Dziś przyjeżdża nieśmiała chart.",
+        "Siedzę cicho, aż powącha moją dłoń.",
+        "Spacerujemy tylko pięćdziesiąt metrów, ale merda ogonem.",
+        "Para adoptuje ją w następnym tygodniu.",
+        "Zapisuję się na kolejny miesiąc."
+      ],
+      "en": [
+        "Every Saturday I walk dogs at the shelter.",
+        "Today a shy greyhound arrives.",
+        "I sit quietly until she sniffs my hand.",
+        "We walk only fifty meters but she wags her tail.",
+        "A couple adopts her the next week.",
+        "I sign up for another month."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "shelter",
+        "gloss": {
+          "pl": "schronisko",
+          "en": "shelter"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "greyhound",
+        "gloss": {
+          "pl": "chart",
+          "en": "greyhound"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "adoption",
+        "gloss": {
+          "pl": "adopcja",
+          "en": "adoption"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Which dog arrives?",
+          "pl": "Jaki pies przyjeżdża?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "greyhound"
+          ],
+          "pl": [
+            "chart"
+          ]
+        },
+        "explanation": {
+          "en": "A shy greyhound arrives.",
+          "pl": "Przyjeżdża nieśmiały chart."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens next week?",
+          "pl": "Co dzieje się w następnym tygodniu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "adoption"
+          ],
+          "pl": [
+            "adopcja"
+          ]
+        },
+        "explanation": {
+          "en": "A couple adopts her.",
+          "pl": "Para ją adoptuje."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b1-10",
+    "targetLang": "en",
+    "level": "B1",
+    "kind": "story",
+    "category": "conversation",
+    "estimatedMinutes": 4,
+    "titles": {
+      "en": "Language Exchange",
+      "pl": "Wymiana językowa"
+    },
+    "sentences": [
+      "I meet Rosa at a language café.",
+      "She wants Polish phrases for travel.",
+      "I want confidence speaking Spanish.",
+      "We switch languages every fifteen minutes.",
+      "A waiter joins and corrects our accents.",
+      "We exchange numbers and plan next Tuesday."
+    ],
+    "translations": {
+      "pl": [
+        "Spotykam Rosę w kawiarni językowej.",
+        "Ona chce polskich zwrotów na podróż.",
+        "Ja chcę pewności w hiszpańskim.",
+        "Co piętnaście minut zmieniamy języki.",
+        "Kelner dołącza i poprawia akcent.",
+        "Wymieniamy numery i umawiamy się na wtorek."
+      ],
+      "en": [
+        "I meet Rosa at a language café.",
+        "She wants Polish phrases for travel.",
+        "I want confidence speaking Spanish.",
+        "We switch languages every fifteen minutes.",
+        "A waiter joins and corrects our accents.",
+        "We exchange numbers and plan next Tuesday."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "exchange",
+        "gloss": {
+          "pl": "wymiana",
+          "en": "exchange"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "phrase",
+        "gloss": {
+          "pl": "zwrot",
+          "en": "phrase"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "accent",
+        "gloss": {
+          "pl": "akcent",
+          "en": "accent"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How often do they switch languages?",
+          "pl": "Jak często zmieniają języki?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "every fifteen minutes"
+          ],
+          "pl": [
+            "co piętnaście minut"
+          ]
+        },
+        "explanation": {
+          "en": "They switch every fifteen minutes.",
+          "pl": "Zmieniają co piętnaście minut."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When is the next meeting?",
+          "pl": "Kiedy następne spotkanie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Tuesday"
+          ],
+          "pl": [
+            "we wtorek"
+          ]
+        },
+        "explanation": {
+          "en": "They plan next Tuesday.",
+          "pl": "Umawiają się na wtorek."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-01",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "technology",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Security Breach",
+      "pl": "Naruszenie bezpieczeństwa"
+    },
+    "sentences": [
+      "At dawn IT detects unusual login attempts from abroad.",
+      "Customer data might be exposed.",
+      "The CEO cancels meetings and joins a crisis call.",
+      "Engineers reset passwords and enable two-factor auth.",
+      "Legal teams draft a transparent email to users.",
+      "Within forty-eight hours audits show limited damage.",
+      "Trust recovers slowly but procedures improve."
+    ],
+    "translations": {
+      "pl": [
+        "O świcie IT wykrywa nietypowe logowania z zagranicy.",
+        "Dane klientów mogą wyciec.",
+        "CEO odwołuje spotkania i dołącza do rozmowy kryzysowej.",
+        "Inżynierowie resetują hasła i włączają 2FA.",
+        "Zespoły prawne piszą transparentny e-mail do użytkowników.",
+        "W czterdzieści osiem godzin audyty pokazują ograniczone szkody.",
+        "Zaufanie wraca powoli, ale procedury się poprawiają."
+      ],
+      "en": [
+        "At dawn IT detects unusual login attempts from abroad.",
+        "Customer data might be exposed.",
+        "The CEO cancels meetings and joins a crisis call.",
+        "Engineers reset passwords and enable two-factor auth.",
+        "Legal teams draft a transparent email to users.",
+        "Within forty-eight hours audits show limited damage.",
+        "Trust recovers slowly but procedures improve."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "breach",
+        "gloss": {
+          "pl": "naruszenie",
+          "en": "breach"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "audit",
+        "gloss": {
+          "pl": "audyt",
+          "en": "audit"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "two-factor auth",
+        "gloss": {
+          "pl": "uwierzytelnianie dwuskładnikowe",
+          "en": "two-factor auth"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What is detected at dawn?",
+          "pl": "Co wykryto o świcie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "unusual logins"
+          ],
+          "pl": [
+            "nietypowe logowania"
+          ]
+        },
+        "explanation": {
+          "en": "Unusual login attempts.",
+          "pl": "Nietypowe logowania."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do engineers enable?",
+          "pl": "Co włączają inżynierowie?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "two-factor auth"
+          ],
+          "pl": [
+            "2FA"
+          ]
+        },
+        "explanation": {
+          "en": "They enable two-factor authentication.",
+          "pl": "Włączają uwierzytelnianie dwuskładnikowe."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-02",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "Ethical Dilemma",
+      "pl": "Dylemat etyczny"
+    },
+    "sentences": [
+      "A supplier offers a hidden discount for quick approval.",
+      "My manager asks me to sign today.",
+      "The discount violates company policy.",
+      "I request time to consult compliance.",
+      "Compliance confirms the risk of fraud.",
+      "We choose a slower but honest negotiation.",
+      "The supplier eventually accepts standard terms."
+    ],
+    "translations": {
+      "pl": [
+        "Dostawca oferuje ukrytą zniżkę za szybką akceptację.",
+        "Szef prosi o podpis dziś.",
+        "Zniżka łamie politykę firmy.",
+        "Proszę o czas na konsultację z compliance.",
+        "Compliance potwierdza ryzyko oszustwa.",
+        "Wybieramy wolniejsze, uczciwe negocjacje.",
+        "Dostawca ostatecznie akceptuje standardowe warunki."
+      ],
+      "en": [
+        "A supplier offers a hidden discount for quick approval.",
+        "My manager asks me to sign today.",
+        "The discount violates company policy.",
+        "I request time to consult compliance.",
+        "Compliance confirms the risk of fraud.",
+        "We choose a slower but honest negotiation.",
+        "The supplier eventually accepts standard terms."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "supplier",
+        "gloss": {
+          "pl": "dostawca",
+          "en": "supplier"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "policy",
+        "gloss": {
+          "pl": "polityka",
+          "en": "policy"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "fraud",
+        "gloss": {
+          "pl": "oszustwo",
+          "en": "fraud"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What violates policy?",
+          "pl": "Co łamie politykę?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "hidden discount"
+          ],
+          "pl": [
+            "ukryta zniżka"
+          ]
+        },
+        "explanation": {
+          "en": "The hidden discount violates policy.",
+          "pl": "Ukryta zniżka łamie politykę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "Who confirms fraud risk?",
+          "pl": "Kto potwierdza ryzyko oszustwa?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "compliance"
+          ],
+          "pl": [
+            "compliance"
+          ]
+        },
+        "explanation": {
+          "en": "Compliance confirms it.",
+          "pl": "Compliance to potwierdza."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-03",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "travel",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Immigration Interview",
+      "pl": "Rozmowa imigracyjna"
+    },
+    "sentences": [
+      "I arrive early at the consulate with a folder of papers.",
+      "Security scans my bag and keeps my phone.",
+      "The officer asks about my job and housing plans.",
+      "I answer clearly and show bank statements.",
+      "She stamps a document and explains next steps.",
+      "Outside, rain falls but I feel relief."
+    ],
+    "translations": {
+      "pl": [
+        "Jadę wcześnie do konsulatu z teczką papierów.",
+        "Ochrona skanuje torbę i zatrzymuje telefon.",
+        "Urzędnik pyta o pracę i plany mieszkaniowe.",
+        "Odpowiadam jasno i pokazuję wyciągi bankowe.",
+        "Stawia pieczęć i tłumaczy kolejne kroki.",
+        "Na zewnątrz pada deszcz, ale czuję ulgę."
+      ],
+      "en": [
+        "I arrive early at the consulate with a folder of papers.",
+        "Security scans my bag and keeps my phone.",
+        "The officer asks about my job and housing plans.",
+        "I answer clearly and show bank statements.",
+        "She stamps a document and explains next steps.",
+        "Outside, rain falls but I feel relief."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "consulate",
+        "gloss": {
+          "pl": "konsulat",
+          "en": "consulate"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "stamp",
+        "gloss": {
+          "pl": "pieczęć",
+          "en": "stamp"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "statement",
+        "gloss": {
+          "pl": "wyciąg",
+          "en": "statement"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does security keep?",
+          "pl": "Co zatrzymuje ochrona?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "phone"
+          ],
+          "pl": [
+            "telefon"
+          ]
+        },
+        "explanation": {
+          "en": "They keep the phone.",
+          "pl": "Zatrzymują telefon."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How does the narrator feel outside?",
+          "pl": "Jak czuje się narrator na zewnątrz?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "relief"
+          ],
+          "pl": [
+            "ulga"
+          ]
+        },
+        "explanation": {
+          "en": "They feel relief.",
+          "pl": "Czuje ulgę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-04",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "qa",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "Climate Panel Debate",
+      "pl": "Debata klimatyczna"
+    },
+    "sentences": [
+      "Experts gather for a televised climate panel.",
+      "One scientist presents ice-core data.",
+      "A mayor describes flooded streets in her city.",
+      "A student asks why action feels slow.",
+      "Panelists disagree on carbon taxes but agree on urgency.",
+      "Viewers submit questions through an app.",
+      "The host ends with a call for local projects."
+    ],
+    "translations": {
+      "pl": [
+        "Eksperci zbierają się na telewizyjny panel klimatyczny.",
+        "Jeden naukowiec prezentuje dane z rdzeni lodowych.",
+        "Burmistrz opisuje zalane ulice w swoim mieście.",
+        "Student pyta, dlaczego działania są wolne.",
+        "Paneliści spierają się o podatki węglowe, ale zgadzają się co do pilności.",
+        "Widzowie wysyłają pytania przez aplikację.",
+        "Prowadzący kończy wezwaniem do lokalnych projektów."
+      ],
+      "en": [
+        "Experts gather for a televised climate panel.",
+        "One scientist presents ice-core data.",
+        "A mayor describes flooded streets in her city.",
+        "A student asks why action feels slow.",
+        "Panelists disagree on carbon taxes but agree on urgency.",
+        "Viewers submit questions through an app.",
+        "The host ends with a call for local projects."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "panel",
+        "gloss": {
+          "pl": "panel",
+          "en": "panel"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "carbon tax",
+        "gloss": {
+          "pl": "podatek węglowy",
+          "en": "carbon tax"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "urgency",
+        "gloss": {
+          "pl": "pilność",
+          "en": "urgency"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What data is presented?",
+          "pl": "Jakie dane są prezentowane?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "ice-core data"
+          ],
+          "pl": [
+            "dane z rdzeni lodowych"
+          ]
+        },
+        "explanation": {
+          "en": "Ice-core data is shown.",
+          "pl": "Prezentowane są dane z rdzeni lodowych."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do they agree on?",
+          "pl": "W czym się zgadzają?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "urgency"
+          ],
+          "pl": [
+            "pilność"
+          ]
+        },
+        "explanation": {
+          "en": "They agree on urgency.",
+          "pl": "Zgadzają się co do pilności."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-05",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "Startup Pitch",
+      "pl": "Prezentacja startupu"
+    },
+    "sentences": [
+      "Two founders enter a glass office for a pitch.",
+      "Their slide deck crashes on the projector.",
+      "Instead they tell a story about a farmer losing crops.",
+      "Investors lean forward and ask about scalability.",
+      "One investor offers a small seed round with mentorship.",
+      "Founders leave with homework, not champagne."
+    ],
+    "translations": {
+      "pl": [
+        "Dwóch założycieli wchodzi do szklanej sali na pitch.",
+        "Prezentacja pada na projektorze.",
+        "Zamiast tego opowiadają historię rolnika tracącego plony.",
+        "Inwestorzy pochylają się i pytają o skalowalność.",
+        "Jeden inwestor oferuje małą rundę seed z mentorem.",
+        "Wychodzą z zadaniami, nie z szampanem."
+      ],
+      "en": [
+        "Two founders enter a glass office for a pitch.",
+        "Their slide deck crashes on the projector.",
+        "Instead they tell a story about a farmer losing crops.",
+        "Investors lean forward and ask about scalability.",
+        "One investor offers a small seed round with mentorship.",
+        "Founders leave with homework, not champagne."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "pitch",
+        "gloss": {
+          "pl": "prezentacja",
+          "en": "pitch"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "investor",
+        "gloss": {
+          "pl": "inwestor",
+          "en": "investor"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "scalability",
+        "gloss": {
+          "pl": "skalowalność",
+          "en": "scalability"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What fails during the pitch?",
+          "pl": "Co zawodzi podczas pitchu?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "slide deck"
+          ],
+          "pl": [
+            "prezentacja"
+          ]
+        },
+        "explanation": {
+          "en": "The slide deck crashes.",
+          "pl": "Prezentacja pada."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do they leave with?",
+          "pl": "Z czym wychodzą?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "homework"
+          ],
+          "pl": [
+            "zadaniami"
+          ]
+        },
+        "explanation": {
+          "en": "They leave with homework.",
+          "pl": "Wychodzą z zadaniami."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-06",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Rejected Manuscript",
+      "pl": "Odrzucony manuskrypt"
+    },
+    "sentences": [
+      "After two years Lara finishes her novel.",
+      "She submits it to five publishers.",
+      "Four replies are polite rejections.",
+      "The fifth editor asks for a stronger opening chapter.",
+      "Lara rewrites the first twenty pages.",
+      "She resubmits and waits with quieter hope."
+    ],
+    "translations": {
+      "pl": [
+        "Po dwóch latach Lara kończy powieść.",
+        "Wysyła ją do pięciu wydawnictw.",
+        "Cztery odpowiedzi to grzeczne odmowy.",
+        "Piąty redaktor prosi o mocniejszy początek.",
+        "Lara przepisuje pierwsze dwadzieścia stron.",
+        "Wysyła ponownie i czeka ze spokojniejszą nadzieją."
+      ],
+      "en": [
+        "After two years Lara finishes her novel.",
+        "She submits it to five publishers.",
+        "Four replies are polite rejections.",
+        "The fifth editor asks for a stronger opening chapter.",
+        "Lara rewrites the first twenty pages.",
+        "She resubmits and waits with quieter hope."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "manuscript",
+        "gloss": {
+          "pl": "manuskrypt",
+          "en": "manuscript"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "publisher",
+        "gloss": {
+          "pl": "wydawnictwo",
+          "en": "publisher"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "chapter",
+        "gloss": {
+          "pl": "rozdział",
+          "en": "chapter"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How many publishers reply with rejection?",
+          "pl": "Ile wydawnictw odmawia?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "four"
+          ],
+          "pl": [
+            "cztery"
+          ]
+        },
+        "explanation": {
+          "en": "Four are rejections.",
+          "pl": "Cztery to odmowy."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the fifth editor want?",
+          "pl": "Czego chce piąty redaktor?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "stronger opening"
+          ],
+          "pl": [
+            "mocniejszy początek"
+          ]
+        },
+        "explanation": {
+          "en": "A stronger opening chapter.",
+          "pl": "Mocniejszy początek."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-07",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "workplace",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "Hospital Ethics Board",
+      "pl": "Komisja etyki szpitala"
+    },
+    "sentences": [
+      "Doctors present a case of experimental treatment.",
+      "The patient is conscious but tired.",
+      "Family members disagree on consent.",
+      "Ethics board members ask about alternatives.",
+      "A nurse describes the patient's daily pain.",
+      "Board votes to continue standard care for now.",
+      "Documentation will be reviewed in one month."
+    ],
+    "translations": {
+      "pl": [
+        "Lekarze przedstawiają przypadek leczenia eksperymentalnego.",
+        "Pacjent jest przytomny, ale zmęczony.",
+        "Rodzina nie zgadza się co do zgody.",
+        "Członkowie komisji pytają o alternatywy.",
+        "Pielęgniarka opisuje codzienny ból pacjenta.",
+        "Komisja głosuje za kontynuacją standardowej opieki.",
+        "Dokumentacja zostanie oceniona za miesiąc."
+      ],
+      "en": [
+        "Doctors present a case of experimental treatment.",
+        "The patient is conscious but tired.",
+        "Family members disagree on consent.",
+        "Ethics board members ask about alternatives.",
+        "A nurse describes the patient's daily pain.",
+        "Board votes to continue standard care for now.",
+        "Documentation will be reviewed in one month."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "consent",
+        "gloss": {
+          "pl": "zgoda",
+          "en": "consent"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "treatment",
+        "gloss": {
+          "pl": "leczenie",
+          "en": "treatment"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "board",
+        "gloss": {
+          "pl": "komisja",
+          "en": "board"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do family members disagree on?",
+          "pl": "W czym rodzina się nie zgadza?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "consent"
+          ],
+          "pl": [
+            "zgoda"
+          ]
+        },
+        "explanation": {
+          "en": "They disagree on consent.",
+          "pl": "Spierają się o zgodę."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "When will docs be reviewed?",
+          "pl": "Kiedy ocenią dokumentację?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "in one month"
+          ],
+          "pl": [
+            "za miesiąc"
+          ]
+        },
+        "explanation": {
+          "en": "Review in one month.",
+          "pl": "Za miesiąc."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-08",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "technology",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "AI Assistant Privacy",
+      "pl": "Prywatność asystenta AI"
+    },
+    "sentences": [
+      "Users discover voice logs stored longer than promised.",
+      "Journalists question the company's transparency.",
+      "Engineers propose automatic deletion after thirty days.",
+      "Marketing worries about feature slowdown.",
+      "CEO hosts a live Q&A and admits mistakes.",
+      "Update rolls out with clearer settings toggles.",
+      "Downloads rebound within a week."
+    ],
+    "translations": {
+      "pl": [
+        "Użytkownicy odkrywają, że logi głosu są przechowywane dłużej niż obiecano.",
+        "Dziennikarze pytają o transparentność firmy.",
+        "Inżynierowie proponują auto-usuwanie po trzydziestu dniach.",
+        "Marketing boi się spowolnienia funkcji.",
+        "CEO prowadzi Q&A na żywo i przyznaje błędy.",
+        "Aktualizacja wprowadza jaśniejsze ustawienia.",
+        "Pobrania wracają w tydzień."
+      ],
+      "en": [
+        "Users discover voice logs stored longer than promised.",
+        "Journalists question the company's transparency.",
+        "Engineers propose automatic deletion after thirty days.",
+        "Marketing worries about feature slowdown.",
+        "CEO hosts a live Q&A and admits mistakes.",
+        "Update rolls out with clearer settings toggles.",
+        "Downloads rebound within a week."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "privacy",
+        "gloss": {
+          "pl": "prywatność",
+          "en": "privacy"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "transparency",
+        "gloss": {
+          "pl": "transparentność",
+          "en": "transparency"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "update",
+        "gloss": {
+          "pl": "aktualizacja",
+          "en": "update"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What do users discover?",
+          "pl": "Co odkrywają użytkownicy?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "voice logs stored too long"
+          ],
+          "pl": [
+            "długie przechowywanie logów"
+          ]
+        },
+        "explanation": {
+          "en": "Logs stored longer than promised.",
+          "pl": "Logi przechowywane zbyt długo."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the update add?",
+          "pl": "Co dodaje aktualizacja?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "clearer settings"
+          ],
+          "pl": [
+            "jaśniejsze ustawienia"
+          ]
+        },
+        "explanation": {
+          "en": "Clearer settings toggles.",
+          "pl": "Jaśniejsze ustawienia."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-09",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "conversation",
+    "estimatedMinutes": 5,
+    "titles": {
+      "en": "Cultural Misunderstanding",
+      "pl": "Kulturowe nieporozumienie"
+    },
+    "sentences": [
+      "A diplomat hosts delegates from three continents.",
+      "A gift of clocks is meant kindly.",
+      "One guest interprets it as bad luck.",
+      "Interpreters pause and clarify symbolism.",
+      "The host apologizes and offers local crafts instead.",
+      "Laughter returns during a shared meal.",
+      "Protocols are updated for future visits."
+    ],
+    "translations": {
+      "pl": [
+        "Dyplomata gości delegatów z trzech kontynentów.",
+        "Prezent zegarów jest dobry w intencji.",
+        "Jeden gość widzi w tym pech.",
+        "Tłumacze wyjaśniają symbolikę.",
+        "Gospodarz przeprasza i daje lokalne rękodzieło.",
+        "Śmiech wraca przy wspólnym posiłku.",
+        "Protokoły są aktualizowane na przyszłość."
+      ],
+      "en": [
+        "A diplomat hosts delegates from three continents.",
+        "A gift of clocks is meant kindly.",
+        "One guest interprets it as bad luck.",
+        "Interpreters pause and clarify symbolism.",
+        "The host apologizes and offers local crafts instead.",
+        "Laughter returns during a shared meal.",
+        "Protocols are updated for future visits."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "diplomat",
+        "gloss": {
+          "pl": "dyplomata",
+          "en": "diplomat"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "interpreter",
+        "gloss": {
+          "pl": "tłumacz",
+          "en": "interpreter"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "protocol",
+        "gloss": {
+          "pl": "protokół",
+          "en": "protocol"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What gift causes trouble?",
+          "pl": "Jaki prezent sprawia problem?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "clocks"
+          ],
+          "pl": [
+            "zegary"
+          ]
+        },
+        "explanation": {
+          "en": "Clocks are misinterpreted.",
+          "pl": "Zegary są źle zinterpretowane."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What replaces the gift?",
+          "pl": "Czym zastępują prezent?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "local crafts"
+          ],
+          "pl": [
+            "lokalne rękodzieło"
+          ]
+        },
+        "explanation": {
+          "en": "Local crafts are offered.",
+          "pl": "Oferują lokalne rękodzieło."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "en-b2-10",
+    "targetLang": "en",
+    "level": "B2",
+    "kind": "story",
+    "category": "technology",
+    "estimatedMinutes": 6,
+    "titles": {
+      "en": "Editing a Documentary",
+      "pl": "Montaż dokumentu"
+    },
+    "sentences": [
+      "An editor assembles footage from three countries.",
+      "Some interviews are in languages she does not speak.",
+      "Translators provide subtitles with cultural notes.",
+      "She cuts a scene that feels sensational.",
+      "Directors debate but keep her version.",
+      "The film premieres at a small festival.",
+      "Audience questions focus on dignity, not drama."
+    ],
+    "translations": {
+      "pl": [
+        "Montażystka składa materiał z trzech krajów.",
+        "Część wywiadów jest w językach, których nie zna.",
+        "Tłumacze dodają napisy z notami kulturowymi.",
+        "Wycina scenę, która wydaje się sensacyjna.",
+        "Reżyserzy dyskutują, ale zostawiają jej wersję.",
+        "Film premier na małym festiwalu.",
+        "Pytania publiczności dotyczą godności, nie dramatu."
+      ],
+      "en": [
+        "An editor assembles footage from three countries.",
+        "Some interviews are in languages she does not speak.",
+        "Translators provide subtitles with cultural notes.",
+        "She cuts a scene that feels sensational.",
+        "Directors debate but keep her version.",
+        "The film premieres at a small festival.",
+        "Audience questions focus on dignity, not drama."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "footage",
+        "gloss": {
+          "pl": "materiał filmowy",
+          "en": "footage"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "subtitle",
+        "gloss": {
+          "pl": "napisy",
+          "en": "subtitle"
+        },
+        "pos": "noun"
+      },
+      {
+        "word": "premiere",
+        "gloss": {
+          "pl": "premiera",
+          "en": "premiere"
+        },
+        "pos": "noun"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "How many countries in footage?",
+          "pl": "Z ilu krajów materiał?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "three"
+          ],
+          "pl": [
+            "trzech"
+          ]
+        },
+        "explanation": {
+          "en": "Footage from three countries.",
+          "pl": "Materiał z trzech krajów."
+        }
+      },
+      {
+        "id": "q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What does the audience focus on?",
+          "pl": "Na czym skupia się publiczność?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "dignity"
+          ],
+          "pl": [
+            "godności"
+          ]
+        },
+        "explanation": {
+          "en": "Questions focus on dignity.",
+          "pl": "Pytania o godność."
+        }
+      }
+    ],
+    "audioRecommended": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "langlab",
+  "version": "3.0.0",
+  "private": true,
+  "description": "LangLab 3.0 multilingual learning PWA",
+  "scripts": {
+    "test": "node tests/run-tests.mjs",
+    "start": "python3 -m http.server 8000",
+    "migrate-legacy": "python3 scripts/migrate_legacy_content.py"
+  },
+  "type": "module"
+}

@@ -1,0 +1,3590 @@
+[
+  {
+    "week": 1,
+    "title": {
+      "pl": "Ciało i zabawki",
+      "en": "Ciało i zabawki"
+    },
+    "words": [
+      {
+        "id": "es-w01-01",
+        "word": "la muñeca",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "lalka",
+          "en": "doll"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w01-02",
+        "word": "la pelota",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w01-03",
+        "word": "la mano",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "dłoń",
+          "en": "hand"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w01-04",
+        "word": "la pierna",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "noga",
+          "en": "leg"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w01-05",
+        "word": "la cabeza",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "głowa",
+          "en": "head"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "title": {
+      "pl": "Dom",
+      "en": "Dom"
+    },
+    "words": [
+      {
+        "id": "es-w02-01",
+        "word": "la casa",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "dom",
+          "en": "house"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w02-02",
+        "word": "la puerta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "drzwi",
+          "en": "door"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w02-03",
+        "word": "la ventana",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w02-04",
+        "word": "la mesa",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "stół",
+          "en": "table"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w02-05",
+        "word": "la silla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "krzesło",
+          "en": "chair"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "title": {
+      "pl": "Zwierzęta",
+      "en": "Zwierzęta"
+    },
+    "words": [
+      {
+        "id": "es-w03-01",
+        "word": "el gato",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w03-02",
+        "word": "el perro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w03-03",
+        "word": "el pájaro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ptak",
+          "en": "bird"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w03-04",
+        "word": "el pez",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ryba",
+          "en": "fish"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w03-05",
+        "word": "el ratón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "title": {
+      "pl": "Rodzina",
+      "en": "Rodzina"
+    },
+    "words": [
+      {
+        "id": "es-w04-01",
+        "word": "la madre",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "mama",
+          "en": "mama"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w04-02",
+        "word": "el padre",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "tata",
+          "en": "tata"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w04-03",
+        "word": "la hermana",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "siostra",
+          "en": "sister"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w04-04",
+        "word": "el hermano",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w04-05",
+        "word": "el niño",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "dziecko",
+          "en": "child"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "title": {
+      "pl": "Jedzenie",
+      "en": "Jedzenie"
+    },
+    "words": [
+      {
+        "id": "es-w05-01",
+        "word": "el pan",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w05-02",
+        "word": "el agua",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w05-03",
+        "word": "la manzana",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w05-04",
+        "word": "la leche",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "mleko",
+          "en": "milk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w05-05",
+        "word": "el huevo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "jajko",
+          "en": "jajko"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "title": {
+      "pl": "Podróż i rozrywka",
+      "en": "Podróż i rozrywka"
+    },
+    "words": [
+      {
+        "id": "es-w06-01",
+        "word": "la bicicleta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "rower",
+          "en": "bicycle"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w06-02",
+        "word": "el coche",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "samochód",
+          "en": "samochód"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w06-03",
+        "word": "el tren",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w06-04",
+        "word": "el libro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w06-05",
+        "word": "el juguete",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "zabawka",
+          "en": "zabawka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "title": {
+      "pl": "Ubrania",
+      "en": "Ubrania"
+    },
+    "words": [
+      {
+        "id": "es-w07-01",
+        "word": "el gorro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "czapka",
+          "en": "cap"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w07-02",
+        "word": "el zapato",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "but",
+          "en": "but"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w07-03",
+        "word": "el abrigo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "płaszcz",
+          "en": "płaszcz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w07-04",
+        "word": "la camisa",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "koszula",
+          "en": "shirt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w07-05",
+        "word": "el vestido",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "sukienka",
+          "en": "sukienka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "title": {
+      "pl": "Przyroda",
+      "en": "Przyroda"
+    },
+    "words": [
+      {
+        "id": "es-w08-01",
+        "word": "el árbol",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "drzewo",
+          "en": "tree"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w08-02",
+        "word": "el sol",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w08-03",
+        "word": "la luna",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "księżyc",
+          "en": "księżyc"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w08-04",
+        "word": "la lluvia",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w08-05",
+        "word": "la flor",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kwiat",
+          "en": "flower"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "title": {
+      "pl": "Twarz i ciało",
+      "en": "Twarz i ciało"
+    },
+    "words": [
+      {
+        "id": "es-w09-01",
+        "word": "el ojo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "oko",
+          "en": "oko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w09-02",
+        "word": "la oreja",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ucho",
+          "en": "ucho"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w09-03",
+        "word": "la nariz",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "nos",
+          "en": "nos"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w09-04",
+        "word": "la boca",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "usta",
+          "en": "usta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w09-05",
+        "word": "el dedo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "palec",
+          "en": "palec"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "title": {
+      "pl": "Szkoła",
+      "en": "Szkoła"
+    },
+    "words": [
+      {
+        "id": "es-w10-01",
+        "word": "la escuela",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w10-02",
+        "word": "el bolígrafo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "długopis",
+          "en": "długopis"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w10-03",
+        "word": "el cuaderno",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "zeszyt",
+          "en": "notebook"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w10-04",
+        "word": "la mochila",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w10-05",
+        "word": "el profesor",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "nauczyciel",
+          "en": "nauczyciel"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "title": {
+      "pl": "Miasto",
+      "en": "Miasto"
+    },
+    "words": [
+      {
+        "id": "es-w11-01",
+        "word": "la calle",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ulica",
+          "en": "street"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w11-02",
+        "word": "la tienda",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "sklep",
+          "en": "shop"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w11-03",
+        "word": "el puente",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w11-04",
+        "word": "la plaza",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "plac",
+          "en": "plac"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w11-05",
+        "word": "el parque",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "title": {
+      "pl": "W domu",
+      "en": "W domu"
+    },
+    "words": [
+      {
+        "id": "es-w12-01",
+        "word": "la cama",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "łóżko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w12-02",
+        "word": "la lámpara",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "lampa",
+          "en": "lampa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w12-03",
+        "word": "la taza",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kubek",
+          "en": "kubek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w12-04",
+        "word": "el plato",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "talerz",
+          "en": "talerz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w12-05",
+        "word": "la llave",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "klucz",
+          "en": "klucz"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "title": {
+      "pl": "Kuchnia",
+      "en": "Kuchnia"
+    },
+    "words": [
+      {
+        "id": "es-w13-01",
+        "word": "la cuchara",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "łyżka",
+          "en": "łyżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w13-02",
+        "word": "el tenedor",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "widelec",
+          "en": "widelec"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w13-03",
+        "word": "el cuchillo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "nóż",
+          "en": "nóż"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w13-04",
+        "word": "la nevera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "lodówka",
+          "en": "lodówka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w13-05",
+        "word": "el horno",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "piec",
+          "en": "piec"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "title": {
+      "pl": "Wakacje",
+      "en": "Wakacje"
+    },
+    "words": [
+      {
+        "id": "es-w14-01",
+        "word": "la playa",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "plaża",
+          "en": "plaża"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w14-02",
+        "word": "el mar",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "morze",
+          "en": "morze"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w14-03",
+        "word": "el hotel",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "hotel",
+          "en": "hotel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w14-04",
+        "word": "el billete",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "bilet",
+          "en": "ticket"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w14-05",
+        "word": "la maleta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "walizka",
+          "en": "suitcase"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "title": {
+      "pl": "Praca i technologia",
+      "en": "Praca i technologia"
+    },
+    "words": [
+      {
+        "id": "es-w15-01",
+        "word": "el ordenador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "komputer",
+          "en": "computer"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w15-02",
+        "word": "la pantalla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w15-03",
+        "word": "el teléfono",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "telefon",
+          "en": "phone"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w15-04",
+        "word": "la oficina",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "biuro",
+          "en": "office"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w15-05",
+        "word": "el teclado",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "klawiatura",
+          "en": "klawiatura"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "title": {
+      "pl": "Czas i pogoda",
+      "en": "Czas i pogoda"
+    },
+    "words": [
+      {
+        "id": "es-w16-01",
+        "word": "el día",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "dzień",
+          "en": "day"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w16-02",
+        "word": "la noche",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "noc",
+          "en": "noc"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w16-03",
+        "word": "la hora",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "godzina",
+          "en": "hour"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w16-04",
+        "word": "el viento",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "wiatr",
+          "en": "wind"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w16-05",
+        "word": "la nube",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "chmura",
+          "en": "cloud"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "title": {
+      "pl": "Zimowa pogoda",
+      "en": "Zimowa pogoda"
+    },
+    "words": [
+      {
+        "id": "es-w17-01",
+        "word": "la nieve",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w17-02",
+        "word": "el hielo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lód",
+          "en": "lód"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w17-03",
+        "word": "la tormenta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "burza",
+          "en": "burza"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w17-04",
+        "word": "la niebla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "mgła",
+          "en": "mgła"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w17-05",
+        "word": "el trueno",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "grzmot",
+          "en": "grzmot"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "title": {
+      "pl": "W komunikacji miejskiej",
+      "en": "W komunikacji miejskiej"
+    },
+    "words": [
+      {
+        "id": "es-w18-01",
+        "word": "el tranvía",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "tramwaj",
+          "en": "tramwaj"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w18-02",
+        "word": "el autobús",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w18-03",
+        "word": "la parada",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "przystanek",
+          "en": "przystanek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w18-04",
+        "word": "el andén",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "peron",
+          "en": "peron"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w18-05",
+        "word": "el conductor",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kierowca",
+          "en": "kierowca"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "title": {
+      "pl": "Na lotnisku",
+      "en": "Na lotnisku"
+    },
+    "words": [
+      {
+        "id": "es-w19-01",
+        "word": "el avión",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "samolot",
+          "en": "samolot"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w19-02",
+        "word": "el aeropuerto",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lotnisko",
+          "en": "lotnisko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w19-03",
+        "word": "el pasaporte",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "paszport",
+          "en": "paszport"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w19-04",
+        "word": "la puerta de embarque",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "bramka",
+          "en": "bramka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w19-05",
+        "word": "el vuelo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lot",
+          "en": "lot"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "title": {
+      "pl": "W restauracji",
+      "en": "W restauracji"
+    },
+    "words": [
+      {
+        "id": "es-w20-01",
+        "word": "el menú",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "menu",
+          "en": "menu"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w20-02",
+        "word": "el camarero",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kelner",
+          "en": "kelner"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w20-03",
+        "word": "la cuenta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "rachunek",
+          "en": "rachunek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w20-04",
+        "word": "el vaso",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "szklanka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w20-05",
+        "word": "la servilleta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "serwetka",
+          "en": "serwetka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "title": {
+      "pl": "Narzędzia",
+      "en": "Narzędzia"
+    },
+    "words": [
+      {
+        "id": "es-w21-01",
+        "word": "el martillo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "młotek",
+          "en": "młotek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w21-02",
+        "word": "el destornillador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "śrubokręt",
+          "en": "śrubokręt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w21-03",
+        "word": "el clavo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "gwóźdź",
+          "en": "gwóźdź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w21-04",
+        "word": "el tornillo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "śruba",
+          "en": "śruba"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w21-05",
+        "word": "la sierra",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "piła",
+          "en": "piła"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "title": {
+      "pl": "Łazienka",
+      "en": "Łazienka"
+    },
+    "words": [
+      {
+        "id": "es-w22-01",
+        "word": "el lavabo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "umywalka",
+          "en": "umywalka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w22-02",
+        "word": "el espejo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lustro",
+          "en": "lustro"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w22-03",
+        "word": "la toalla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ręcznik",
+          "en": "ręcznik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w22-04",
+        "word": "el jabón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "mydło",
+          "en": "mydło"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w22-05",
+        "word": "la ducha",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "prysznic",
+          "en": "prysznic"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "title": {
+      "pl": "Gadżety elektroniczne",
+      "en": "Gadżety elektroniczne"
+    },
+    "words": [
+      {
+        "id": "es-w23-01",
+        "word": "el ratón de ordenador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "mysz komputerowa",
+          "en": "mysz komputerowa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w23-02",
+        "word": "el cargador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ładowarka",
+          "en": "ładowarka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w23-03",
+        "word": "la batería",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "bateria",
+          "en": "bateria"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w23-04",
+        "word": "el altavoz",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "głośnik",
+          "en": "głośnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w23-05",
+        "word": "los auriculares",
+        "article": "los",
+        "example": "",
+        "gloss": {
+          "pl": "słuchawki",
+          "en": "słuchawki"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "title": {
+      "pl": "Praca przy biurku",
+      "en": "Praca przy biurku"
+    },
+    "words": [
+      {
+        "id": "es-w24-01",
+        "word": "el documento",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "dokument",
+          "en": "dokument"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w24-02",
+        "word": "el proyecto",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "projekt",
+          "en": "projekt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w24-03",
+        "word": "la reunión",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "spotkanie",
+          "en": "meeting"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w24-04",
+        "word": "el plazo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "termin",
+          "en": "termin"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w24-05",
+        "word": "el informe",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "raport",
+          "en": "raport"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "title": {
+      "pl": "W lesie",
+      "en": "W lesie"
+    },
+    "words": [
+      {
+        "id": "es-w25-01",
+        "word": "la hoja",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "liść",
+          "en": "liść"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w25-02",
+        "word": "la rama",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "gałąź",
+          "en": "gałąź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w25-03",
+        "word": "la raíz",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "korzeń",
+          "en": "korzeń"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w25-04",
+        "word": "la seta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "grzyb",
+          "en": "grzyb"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w25-05",
+        "word": "el sendero",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ścieżka",
+          "en": "ścieżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "title": {
+      "pl": "Góry",
+      "en": "Góry"
+    },
+    "words": [
+      {
+        "id": "es-w26-01",
+        "word": "el valle",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "dolina",
+          "en": "dolina"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w26-02",
+        "word": "la cumbre",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "szczyt",
+          "en": "szczyt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w26-03",
+        "word": "la roca",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "skała",
+          "en": "skała"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w26-04",
+        "word": "la ladera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "zbocze",
+          "en": "zbocze"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w26-05",
+        "word": "la mochila de senderismo",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "plecak turystyczny",
+          "en": "plecak turystyczny"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "title": {
+      "pl": "Nad wodą",
+      "en": "Nad wodą"
+    },
+    "words": [
+      {
+        "id": "es-w27-01",
+        "word": "el río",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "rzeka",
+          "en": "river"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w27-02",
+        "word": "el lago",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "jezioro"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w27-03",
+        "word": "la orilla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "brzeg",
+          "en": "brzeg"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w27-04",
+        "word": "la ola",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "fala",
+          "en": "fala"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w27-05",
+        "word": "el barco",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "statek",
+          "en": "statek"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "title": {
+      "pl": "Ogród",
+      "en": "Ogród"
+    },
+    "words": [
+      {
+        "id": "es-w28-01",
+        "word": "el césped",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "trawnik",
+          "en": "trawnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w28-02",
+        "word": "la maceta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "donica",
+          "en": "donica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w28-03",
+        "word": "la valla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "płot",
+          "en": "płot"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w28-04",
+        "word": "la semilla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "nasiono",
+          "en": "nasiono"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w28-05",
+        "word": "la pala",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "łopata",
+          "en": "łopata"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "title": {
+      "pl": "Produkty spożywcze",
+      "en": "Produkty spożywcze"
+    },
+    "words": [
+      {
+        "id": "es-w29-01",
+        "word": "el queso",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w29-02",
+        "word": "la mantequilla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "masło",
+          "en": "masło"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w29-03",
+        "word": "el arroz",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ryż",
+          "en": "ryż"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w29-04",
+        "word": "la pasta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "makaron",
+          "en": "makaron"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w29-05",
+        "word": "la zanahoria",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "marchewka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "title": {
+      "pl": "Owoce i warzywa",
+      "en": "Owoce i warzywa"
+    },
+    "words": [
+      {
+        "id": "es-w30-01",
+        "word": "el plátano",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "banan",
+          "en": "banan"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w30-02",
+        "word": "el tomate",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pomidor",
+          "en": "pomidor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w30-03",
+        "word": "la patata",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ziemniak",
+          "en": "ziemniak"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w30-04",
+        "word": "la cebolla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "cebula",
+          "en": "cebula"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w30-05",
+        "word": "la naranja",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "pomarańcza",
+          "en": "pomarańcza"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "title": {
+      "pl": "Naprawa domu",
+      "en": "Naprawa domu"
+    },
+    "words": [
+      {
+        "id": "es-w31-01",
+        "word": "la pared",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ściana",
+          "en": "ściana"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w31-02",
+        "word": "el suelo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "podłoga",
+          "en": "podłoga"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w31-03",
+        "word": "el techo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "sufit",
+          "en": "sufit"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w31-04",
+        "word": "la pintura",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "farba",
+          "en": "farba"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w31-05",
+        "word": "el pincel",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pędzel",
+          "en": "pędzel"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "title": {
+      "pl": "Zdrowie",
+      "en": "Zdrowie"
+    },
+    "words": [
+      {
+        "id": "es-w32-01",
+        "word": "el médico",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w32-02",
+        "word": "la enfermera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "pielęgniarka",
+          "en": "pielęgniarka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w32-03",
+        "word": "la farmacia",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "apteka",
+          "en": "pharmacy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w32-04",
+        "word": "la receta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "recepta",
+          "en": "recepta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w32-05",
+        "word": "el termómetro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "termometr",
+          "en": "termometr"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "title": {
+      "pl": "Części ciała",
+      "en": "Części ciała"
+    },
+    "words": [
+      {
+        "id": "es-w33-01",
+        "word": "el brazo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ramię",
+          "en": "ramię"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w33-02",
+        "word": "la rodilla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kolano",
+          "en": "kolano"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w33-03",
+        "word": "la espalda",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "plecy",
+          "en": "plecy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w33-04",
+        "word": "el vientre",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "brzuch",
+          "en": "brzuch"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w33-05",
+        "word": "el corazón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "serce",
+          "en": "serce"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "title": {
+      "pl": "Sport",
+      "en": "Sport"
+    },
+    "words": [
+      {
+        "id": "es-w34-01",
+        "word": "el partido",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "mecz",
+          "en": "mecz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w34-02",
+        "word": "la portería",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "bramka (sport)",
+          "en": "bramka (sport)"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w34-03",
+        "word": "el jugador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "zawodnik",
+          "en": "zawodnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w34-04",
+        "word": "el entrenador",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "trener",
+          "en": "trener"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w34-05",
+        "word": "la victoria",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "zwycięstwo",
+          "en": "zwycięstwo"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "title": {
+      "pl": "Muzyka",
+      "en": "Muzyka"
+    },
+    "words": [
+      {
+        "id": "es-w35-01",
+        "word": "la canción",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "piosenka",
+          "en": "piosenka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w35-02",
+        "word": "la melodía",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "melodia",
+          "en": "melodia"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w35-03",
+        "word": "la guitarra",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "gitara",
+          "en": "gitara"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w35-04",
+        "word": "el piano",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pianino",
+          "en": "pianino"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w35-05",
+        "word": "el concierto",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "koncert",
+          "en": "koncert"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "title": {
+      "pl": "Nauka",
+      "en": "Nauka"
+    },
+    "words": [
+      {
+        "id": "es-w36-01",
+        "word": "la clase",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "lekcja",
+          "en": "lekcja"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w36-02",
+        "word": "el ejercicio",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ćwiczenie",
+          "en": "ćwiczenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w36-03",
+        "word": "la pregunta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "pytanie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w36-04",
+        "word": "la respuesta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "odpowiedź",
+          "en": "odpowiedź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w36-05",
+        "word": "el error",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "błąd",
+          "en": "błąd"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "title": {
+      "pl": "Zakupy",
+      "en": "Zakupy"
+    },
+    "words": [
+      {
+        "id": "es-w37-01",
+        "word": "el precio",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "cena",
+          "en": "cena"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w37-02",
+        "word": "el dinero",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pieniądz",
+          "en": "pieniądz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w37-03",
+        "word": "el descuento",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "zniżka",
+          "en": "zniżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w37-04",
+        "word": "la cesta de la compra",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "koszyk",
+          "en": "koszyk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w37-05",
+        "word": "el recibo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "paragon",
+          "en": "paragon"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "title": {
+      "pl": "Ludzkie emocje",
+      "en": "Ludzkie emocje"
+    },
+    "words": [
+      {
+        "id": "es-w38-01",
+        "word": "la alegría",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "radość",
+          "en": "joy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w38-02",
+        "word": "el miedo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "strach",
+          "en": "fear"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w38-03",
+        "word": "la tristeza",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "smutek",
+          "en": "sadness"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w38-04",
+        "word": "la esperanza",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "nadzieja",
+          "en": "nadzieja"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w38-05",
+        "word": "la calma",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "spokój",
+          "en": "calm"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "title": {
+      "pl": "Czas i terminy",
+      "en": "Czas i terminy"
+    },
+    "words": [
+      {
+        "id": "es-w39-01",
+        "word": "la semana",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "tydzień",
+          "en": "week"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w39-02",
+        "word": "el mes",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "miesiąc",
+          "en": "month"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w39-03",
+        "word": "el año",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "rok",
+          "en": "year"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w39-04",
+        "word": "el minuto",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "minuta",
+          "en": "minuta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w39-05",
+        "word": "el segundo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "sekunda",
+          "en": "sekunda"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "title": {
+      "pl": "Uroczystości",
+      "en": "Uroczystości"
+    },
+    "words": [
+      {
+        "id": "es-w40-01",
+        "word": "el cumpleaños",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "urodziny"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w40-02",
+        "word": "la boda",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "ślub",
+          "en": "ślub"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w40-03",
+        "word": "el regalo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "prezent",
+          "en": "prezent"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w40-04",
+        "word": "la fiesta",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "impreza",
+          "en": "impreza"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w40-05",
+        "word": "la invitación",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "zaproszenie",
+          "en": "zaproszenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "title": {
+      "pl": "W mieście 2",
+      "en": "W mieście 2"
+    },
+    "words": [
+      {
+        "id": "es-w41-01",
+        "word": "el ayuntamiento",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ratusz",
+          "en": "ratusz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w41-02",
+        "word": "la biblioteca",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "biblioteka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w41-03",
+        "word": "el museo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "muzeum"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w41-04",
+        "word": "la iglesia",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kościół",
+          "en": "kościół"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w41-05",
+        "word": "el hospital",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "szpital",
+          "en": "szpital"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "title": {
+      "pl": "Mieszkanie",
+      "en": "Mieszkanie"
+    },
+    "words": [
+      {
+        "id": "es-w42-01",
+        "word": "el armario",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "szafa",
+          "en": "szafa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w42-02",
+        "word": "el sofá",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "sofa",
+          "en": "sofa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w42-03",
+        "word": "la alfombra",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "dywan",
+          "en": "dywan"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w42-04",
+        "word": "el balcón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balkon"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w42-05",
+        "word": "la chimenea",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kominek",
+          "en": "kominek"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "title": {
+      "pl": "Ubrania 2",
+      "en": "Ubrania 2"
+    },
+    "words": [
+      {
+        "id": "es-w43-01",
+        "word": "los pantalones",
+        "article": "los",
+        "example": "",
+        "gloss": {
+          "pl": "spodnie",
+          "en": "trousers"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w43-02",
+        "word": "la falda",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "spódnica",
+          "en": "spódnica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w43-03",
+        "word": "el guante",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "rękawiczka",
+          "en": "rękawiczka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w43-04",
+        "word": "el cinturón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pasek",
+          "en": "pasek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w43-05",
+        "word": "la bufanda",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "szalik",
+          "en": "szalik"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "title": {
+      "pl": "Ptaki i owady",
+      "en": "Ptaki i owady"
+    },
+    "words": [
+      {
+        "id": "es-w44-01",
+        "word": "la mariposa",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "motyl",
+          "en": "motyl"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w44-02",
+        "word": "la abeja",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "pszczoła",
+          "en": "pszczoła"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w44-03",
+        "word": "la hormiga",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "mrówka",
+          "en": "mrówka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w44-04",
+        "word": "el cuervo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "wrona",
+          "en": "wrona"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w44-05",
+        "word": "el pato",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "kaczka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 45,
+    "title": {
+      "pl": "Dzikie zwierzęta",
+      "en": "Dzikie zwierzęta"
+    },
+    "words": [
+      {
+        "id": "es-w45-01",
+        "word": "el lobo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wilk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w45-02",
+        "word": "el zorro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "lis",
+          "en": "lis"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w45-03",
+        "word": "el oso",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "niedźwiedź",
+          "en": "niedźwiedź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w45-04",
+        "word": "el ciervo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "jeleń",
+          "en": "jeleń"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w45-05",
+        "word": "la liebre",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "zając",
+          "en": "zając"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 46,
+    "title": {
+      "pl": "Przedmioty codzienne",
+      "en": "Przedmioty codzienne"
+    },
+    "words": [
+      {
+        "id": "es-w46-01",
+        "word": "la cartera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "portfel",
+          "en": "portfel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w46-02",
+        "word": "el reloj de pulsera",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "zegarek",
+          "en": "zegarek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w46-03",
+        "word": "el paraguas",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "parasol",
+          "en": "parasol"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w46-04",
+        "word": "las gafas",
+        "article": "las",
+        "example": "",
+        "gloss": {
+          "pl": "okulary",
+          "en": "okulary"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w46-05",
+        "word": "el sonajero",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "grzechotka",
+          "en": "grzechotka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 47,
+    "title": {
+      "pl": "W podróży 2",
+      "en": "W podróży 2"
+    },
+    "words": [
+      {
+        "id": "es-w47-01",
+        "word": "el mapa",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "mapa",
+          "en": "map"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w47-02",
+        "word": "la brújula",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kompas",
+          "en": "kompas"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w47-03",
+        "word": "la dirección",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "kierunek",
+          "en": "kierunek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w47-04",
+        "word": "la frontera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "granica",
+          "en": "granica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w47-05",
+        "word": "la capital",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "stolica",
+          "en": "stolica"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 48,
+    "title": {
+      "pl": "Architektura",
+      "en": "Architektura"
+    },
+    "words": [
+      {
+        "id": "es-w48-01",
+        "word": "la torre",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "wieża",
+          "en": "wieża"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w48-02",
+        "word": "la escalera",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "schody",
+          "en": "schody"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w48-03",
+        "word": "el sótano",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "piwnica",
+          "en": "piwnica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w48-04",
+        "word": "el tejado",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "dach",
+          "en": "dach"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w48-05",
+        "word": "el portón",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "brama",
+          "en": "brama"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 49,
+    "title": {
+      "pl": "Świat i geografia",
+      "en": "Świat i geografia"
+    },
+    "words": [
+      {
+        "id": "es-w49-01",
+        "word": "el continente",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kontynent",
+          "en": "kontynent"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w49-02",
+        "word": "la isla",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "wyspa",
+          "en": "wyspa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w49-03",
+        "word": "el desierto",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "pustynia",
+          "en": "pustynia"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w49-04",
+        "word": "el océano",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "ocean",
+          "en": "ocean"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w49-05",
+        "word": "el volcán",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "wulkan",
+          "en": "wulkan"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 50,
+    "title": {
+      "pl": "Gwiazdy i niebo",
+      "en": "Gwiazdy i niebo"
+    },
+    "words": [
+      {
+        "id": "es-w50-01",
+        "word": "la estrella",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "gwiazda",
+          "en": "gwiazda"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w50-02",
+        "word": "el planeta",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "planeta",
+          "en": "planeta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w50-03",
+        "word": "el cohete",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "rakieta",
+          "en": "rakieta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w50-04",
+        "word": "el cielo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "niebo",
+          "en": "niebo"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w50-05",
+        "word": "el cometa",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "kometa",
+          "en": "kometa"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 51,
+    "title": {
+      "pl": "Media i kultura",
+      "en": "Media i kultura"
+    },
+    "words": [
+      {
+        "id": "es-w51-01",
+        "word": "la película",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "film",
+          "en": "film"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w51-02",
+        "word": "la serie",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "serial",
+          "en": "serial"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w51-03",
+        "word": "el actor",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "aktor",
+          "en": "aktor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w51-04",
+        "word": "el director",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "reżyser",
+          "en": "reżyser"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w51-05",
+        "word": "la exposición",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "wystawa",
+          "en": "wystawa"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 52,
+    "title": {
+      "pl": "Praca i rozwój",
+      "en": "Praca i rozwój"
+    },
+    "words": [
+      {
+        "id": "es-w52-01",
+        "word": "la habilidad",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "umiejętność",
+          "en": "umiejętność"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w52-02",
+        "word": "la experiencia",
+        "article": "la",
+        "example": "",
+        "gloss": {
+          "pl": "doświadczenie",
+          "en": "doświadczenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w52-03",
+        "word": "el objetivo",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "cel",
+          "en": "cel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w52-04",
+        "word": "el desafío",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "wyzwanie",
+          "en": "wyzwanie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "es-w52-05",
+        "word": "el logro",
+        "article": "el",
+        "example": "",
+        "gloss": {
+          "pl": "osiągnięcie",
+          "en": "osiągnięcie"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,3330 @@
+[
+  {
+    "week": 1,
+    "title": {
+      "en": "Body and toys",
+      "pl": "Ciało i zabawki"
+    },
+    "words": [
+      {
+        "id": "en-w01-01",
+        "word": "the doll",
+        "article": null,
+        "example": "The doll is on the bed.",
+        "gloss": {
+          "pl": "lalka",
+          "en": "doll"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w01-02",
+        "word": "the ball",
+        "article": null,
+        "example": "The ball is red.",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w01-03",
+        "word": "the hand",
+        "article": null,
+        "example": "She washes her hand.",
+        "gloss": {
+          "pl": "dłoń",
+          "en": "hand"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w01-04",
+        "word": "the leg",
+        "article": null,
+        "example": "The leg hurts a little.",
+        "gloss": {
+          "pl": "noga",
+          "en": "leg"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w01-05",
+        "word": "the head",
+        "article": null,
+        "example": "He nods his head.",
+        "gloss": {
+          "pl": "głowa",
+          "en": "head"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "title": {
+      "en": "Home",
+      "pl": "Dom"
+    },
+    "words": [
+      {
+        "id": "en-w02-01",
+        "word": "the house",
+        "article": null,
+        "example": "The house is old.",
+        "gloss": {
+          "pl": "dom",
+          "en": "house"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w02-02",
+        "word": "the door",
+        "article": null,
+        "example": "Close the door, please.",
+        "gloss": {
+          "pl": "drzwi",
+          "en": "door"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w02-03",
+        "word": "the window",
+        "article": null,
+        "example": "The window is open.",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w02-04",
+        "word": "the table",
+        "article": null,
+        "example": "The table is big.",
+        "gloss": {
+          "pl": "stół",
+          "en": "table"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w02-05",
+        "word": "the chair",
+        "article": null,
+        "example": "Sit on the chair.",
+        "gloss": {
+          "pl": "krzesło",
+          "en": "chair"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "title": {
+      "en": "Animals",
+      "pl": "Zwierzęta"
+    },
+    "words": [
+      {
+        "id": "en-w03-01",
+        "word": "the cat",
+        "article": null,
+        "example": "The cat sleeps.",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w03-02",
+        "word": "the dog",
+        "article": null,
+        "example": "The dog runs fast.",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w03-03",
+        "word": "the bird",
+        "article": null,
+        "example": "The bird sings.",
+        "gloss": {
+          "pl": "ptak",
+          "en": "bird"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w03-04",
+        "word": "the fish",
+        "article": null,
+        "example": "The fish swims.",
+        "gloss": {
+          "pl": "ryba",
+          "en": "fish"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w03-05",
+        "word": "the mouse",
+        "article": null,
+        "example": "The mouse is small.",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "title": {
+      "en": "Family",
+      "pl": "Rodzina"
+    },
+    "words": [
+      {
+        "id": "en-w04-01",
+        "word": "the mother",
+        "article": null,
+        "example": "My mother cooks.",
+        "gloss": {
+          "pl": "mama",
+          "en": "mother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w04-02",
+        "word": "the father",
+        "article": null,
+        "example": "My father reads.",
+        "gloss": {
+          "pl": "tata",
+          "en": "father"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w04-03",
+        "word": "the sister",
+        "article": null,
+        "example": "My sister is kind.",
+        "gloss": {
+          "pl": "siostra",
+          "en": "sister"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w04-04",
+        "word": "the brother",
+        "article": null,
+        "example": "My brother plays.",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w04-05",
+        "word": "the child",
+        "article": null,
+        "example": "The child laughs.",
+        "gloss": {
+          "pl": "dziecko",
+          "en": "child"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "title": {
+      "en": "Food",
+      "pl": "Jedzenie"
+    },
+    "words": [
+      {
+        "id": "en-w05-01",
+        "word": "the bread",
+        "article": null,
+        "example": "The bread is fresh.",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w05-02",
+        "word": "the water",
+        "article": null,
+        "example": "The water is cold.",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w05-03",
+        "word": "the apple",
+        "article": null,
+        "example": "The apple is green.",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w05-04",
+        "word": "the milk",
+        "article": null,
+        "example": "The milk is warm.",
+        "gloss": {
+          "pl": "mleko",
+          "en": "milk"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w05-05",
+        "word": "the egg",
+        "article": null,
+        "example": "The egg is on the plate.",
+        "gloss": {
+          "pl": "jajko",
+          "en": "egg"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "title": {
+      "en": "Travel and fun",
+      "pl": "Podróż i rozrywka"
+    },
+    "words": [
+      {
+        "id": "en-w06-01",
+        "word": "the bicycle",
+        "article": null,
+        "example": "The bicycle is new.",
+        "gloss": {
+          "pl": "rower",
+          "en": "bicycle"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w06-02",
+        "word": "the car",
+        "article": null,
+        "example": "The car is blue.",
+        "gloss": {
+          "pl": "samochód",
+          "en": "car"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w06-03",
+        "word": "the train",
+        "article": null,
+        "example": "The train arrives.",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w06-04",
+        "word": "the book",
+        "article": null,
+        "example": "The book is interesting.",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w06-05",
+        "word": "the toy",
+        "article": null,
+        "example": "The toy is broken.",
+        "gloss": {
+          "pl": "zabawka",
+          "en": "toy"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "title": {
+      "en": "Clothes",
+      "pl": "Ubrania"
+    },
+    "words": [
+      {
+        "id": "en-w07-01",
+        "word": "the cap",
+        "article": null,
+        "example": "The cap is warm.",
+        "gloss": {
+          "pl": "czapka",
+          "en": "cap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w07-02",
+        "word": "the shoe",
+        "article": null,
+        "example": "The shoe is dirty.",
+        "gloss": {
+          "pl": "but",
+          "en": "shoe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w07-03",
+        "word": "the coat",
+        "article": null,
+        "example": "The coat is heavy.",
+        "gloss": {
+          "pl": "płaszcz",
+          "en": "coat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w07-04",
+        "word": "the shirt",
+        "article": null,
+        "example": "The shirt is white.",
+        "gloss": {
+          "pl": "koszula",
+          "en": "shirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w07-05",
+        "word": "the dress",
+        "article": null,
+        "example": "The dress is pretty.",
+        "gloss": {
+          "pl": "sukienka",
+          "en": "dress"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "title": {
+      "en": "Nature",
+      "pl": "Przyroda"
+    },
+    "words": [
+      {
+        "id": "en-w08-01",
+        "word": "the tree",
+        "article": null,
+        "example": "The tree is tall.",
+        "gloss": {
+          "pl": "drzewo",
+          "en": "tree"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w08-02",
+        "word": "the sun",
+        "article": null,
+        "example": "The sun is bright.",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w08-03",
+        "word": "the moon",
+        "article": null,
+        "example": "The moon is full.",
+        "gloss": {
+          "pl": "księżyc",
+          "en": "moon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w08-04",
+        "word": "the rain",
+        "article": null,
+        "example": "The rain starts.",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w08-05",
+        "word": "the flower",
+        "article": null,
+        "example": "The flower smells good.",
+        "gloss": {
+          "pl": "kwiat",
+          "en": "flower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "title": {
+      "en": "Face and body",
+      "pl": "Twarz i ciało"
+    },
+    "words": [
+      {
+        "id": "en-w09-01",
+        "word": "the eye",
+        "article": null,
+        "example": "Her eye is blue.",
+        "gloss": {
+          "pl": "oko",
+          "en": "eye"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w09-02",
+        "word": "the ear",
+        "article": null,
+        "example": "My ear hurts.",
+        "gloss": {
+          "pl": "ucho",
+          "en": "ear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w09-03",
+        "word": "the nose",
+        "article": null,
+        "example": "His nose is red.",
+        "gloss": {
+          "pl": "nos",
+          "en": "nose"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w09-04",
+        "word": "the mouth",
+        "article": null,
+        "example": "Open your mouth.",
+        "gloss": {
+          "pl": "usta",
+          "en": "mouth"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w09-05",
+        "word": "the finger",
+        "article": null,
+        "example": "She points with her finger.",
+        "gloss": {
+          "pl": "palec",
+          "en": "finger"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "title": {
+      "en": "School",
+      "pl": "Szkoła"
+    },
+    "words": [
+      {
+        "id": "en-w10-01",
+        "word": "the school",
+        "article": null,
+        "example": "The school is near.",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w10-02",
+        "word": "the pen",
+        "article": null,
+        "example": "The pen writes well.",
+        "gloss": {
+          "pl": "długopis",
+          "en": "pen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w10-03",
+        "word": "the notebook",
+        "article": null,
+        "example": "The notebook is full.",
+        "gloss": {
+          "pl": "zeszyt",
+          "en": "notebook"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w10-04",
+        "word": "the backpack",
+        "article": null,
+        "example": "The backpack is heavy.",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w10-05",
+        "word": "the teacher",
+        "article": null,
+        "example": "The teacher smiles.",
+        "gloss": {
+          "pl": "nauczyciel",
+          "en": "teacher"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "title": {
+      "en": "City",
+      "pl": "Miasto"
+    },
+    "words": [
+      {
+        "id": "en-w11-01",
+        "word": "the street",
+        "article": null,
+        "example": "The street is quiet.",
+        "gloss": {
+          "pl": "ulica",
+          "en": "street"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w11-02",
+        "word": "the shop",
+        "article": null,
+        "example": "The shop opens at nine.",
+        "gloss": {
+          "pl": "sklep",
+          "en": "shop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w11-03",
+        "word": "the bridge",
+        "article": null,
+        "example": "The bridge is long.",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w11-04",
+        "word": "the square",
+        "article": null,
+        "example": "We meet at the square.",
+        "gloss": {
+          "pl": "plac",
+          "en": "square"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w11-05",
+        "word": "the park",
+        "article": null,
+        "example": "Children play in the park.",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "title": {
+      "en": "At home",
+      "pl": "W domu"
+    },
+    "words": [
+      {
+        "id": "en-w12-01",
+        "word": "the bed",
+        "article": null,
+        "example": "The bed is soft.",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "bed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w12-02",
+        "word": "the lamp",
+        "article": null,
+        "example": "Turn on the lamp.",
+        "gloss": {
+          "pl": "lampa",
+          "en": "lamp"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w12-03",
+        "word": "the mug",
+        "article": null,
+        "example": "The mug is hot.",
+        "gloss": {
+          "pl": "kubek",
+          "en": "mug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w12-04",
+        "word": "the plate",
+        "article": null,
+        "example": "The plate is clean.",
+        "gloss": {
+          "pl": "talerz",
+          "en": "plate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w12-05",
+        "word": "the key",
+        "article": null,
+        "example": "I lost the key.",
+        "gloss": {
+          "pl": "klucz",
+          "en": "key"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "title": {
+      "en": "Kitchen",
+      "pl": "Kuchnia"
+    },
+    "words": [
+      {
+        "id": "en-w13-01",
+        "word": "the spoon",
+        "article": null,
+        "example": "Use the spoon.",
+        "gloss": {
+          "pl": "łyżka",
+          "en": "spoon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w13-02",
+        "word": "the fork",
+        "article": null,
+        "example": "The fork is on the table.",
+        "gloss": {
+          "pl": "widelec",
+          "en": "fork"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w13-03",
+        "word": "the knife",
+        "article": null,
+        "example": "The knife is sharp.",
+        "gloss": {
+          "pl": "nóż",
+          "en": "knife"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w13-04",
+        "word": "the fridge",
+        "article": null,
+        "example": "The fridge is full.",
+        "gloss": {
+          "pl": "lodówka",
+          "en": "fridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w13-05",
+        "word": "the oven",
+        "article": null,
+        "example": "The oven is hot.",
+        "gloss": {
+          "pl": "piec",
+          "en": "oven"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "title": {
+      "en": "Vacation",
+      "pl": "Wakacje"
+    },
+    "words": [
+      {
+        "id": "en-w14-01",
+        "word": "the beach",
+        "article": null,
+        "example": "We walk on the beach.",
+        "gloss": {
+          "pl": "plaża",
+          "en": "beach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w14-02",
+        "word": "the sea",
+        "article": null,
+        "example": "The sea is calm.",
+        "gloss": {
+          "pl": "morze",
+          "en": "sea"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w14-03",
+        "word": "the hotel",
+        "article": null,
+        "example": "The hotel has a pool.",
+        "gloss": {
+          "pl": "hotel",
+          "en": "hotel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w14-04",
+        "word": "the ticket",
+        "article": null,
+        "example": "I buy a ticket.",
+        "gloss": {
+          "pl": "bilet",
+          "en": "ticket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w14-05",
+        "word": "the suitcase",
+        "article": null,
+        "example": "The suitcase is ready.",
+        "gloss": {
+          "pl": "walizka",
+          "en": "suitcase"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "title": {
+      "en": "Work and technology",
+      "pl": "Praca i technologia"
+    },
+    "words": [
+      {
+        "id": "en-w15-01",
+        "word": "the computer",
+        "article": null,
+        "example": "The computer is slow.",
+        "gloss": {
+          "pl": "komputer",
+          "en": "computer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w15-02",
+        "word": "the screen",
+        "article": null,
+        "example": "The screen is bright.",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w15-03",
+        "word": "the phone",
+        "article": null,
+        "example": "The phone rings.",
+        "gloss": {
+          "pl": "telefon",
+          "en": "phone"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w15-04",
+        "word": "the office",
+        "article": null,
+        "example": "The office is closed.",
+        "gloss": {
+          "pl": "biuro",
+          "en": "office"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w15-05",
+        "word": "the keyboard",
+        "article": null,
+        "example": "The keyboard is wireless.",
+        "gloss": {
+          "pl": "klawiatura",
+          "en": "keyboard"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "title": {
+      "en": "Time and weather",
+      "pl": "Czas i pogoda"
+    },
+    "words": [
+      {
+        "id": "en-w16-01",
+        "word": "the day",
+        "article": null,
+        "example": "Today is a good day.",
+        "gloss": {
+          "pl": "dzień",
+          "en": "day"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w16-02",
+        "word": "the night",
+        "article": null,
+        "example": "The night is dark.",
+        "gloss": {
+          "pl": "noc",
+          "en": "night"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w16-03",
+        "word": "the hour",
+        "article": null,
+        "example": "Wait one hour.",
+        "gloss": {
+          "pl": "godzina",
+          "en": "hour"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w16-04",
+        "word": "the wind",
+        "article": null,
+        "example": "The wind is strong.",
+        "gloss": {
+          "pl": "wiatr",
+          "en": "wind"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w16-05",
+        "word": "the cloud",
+        "article": null,
+        "example": "A cloud covers the sun.",
+        "gloss": {
+          "pl": "chmura",
+          "en": "cloud"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "title": {
+      "en": "Winter weather",
+      "pl": "Zimowa pogoda"
+    },
+    "words": [
+      {
+        "id": "en-w17-01",
+        "word": "the snow",
+        "article": null,
+        "example": "The snow falls softly.",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w17-02",
+        "word": "the ice",
+        "article": null,
+        "example": "The ice is slippery.",
+        "gloss": {
+          "pl": "lód",
+          "en": "ice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w17-03",
+        "word": "the storm",
+        "article": null,
+        "example": "The storm passes quickly.",
+        "gloss": {
+          "pl": "burza",
+          "en": "storm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w17-04",
+        "word": "the fog",
+        "article": null,
+        "example": "The fog is thick.",
+        "gloss": {
+          "pl": "mgła",
+          "en": "fog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w17-05",
+        "word": "the thunder",
+        "article": null,
+        "example": "Thunder follows lightning.",
+        "gloss": {
+          "pl": "grzmot",
+          "en": "thunder"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "title": {
+      "en": "Public transport",
+      "pl": "W komunikacji miejskiej"
+    },
+    "words": [
+      {
+        "id": "en-w18-01",
+        "word": "the tram",
+        "article": null,
+        "example": "The tram stops here.",
+        "gloss": {
+          "pl": "tramwaj",
+          "en": "tram"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w18-02",
+        "word": "the bus",
+        "article": null,
+        "example": "The bus is late.",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w18-03",
+        "word": "the stop",
+        "article": null,
+        "example": "We wait at the stop.",
+        "gloss": {
+          "pl": "przystanek",
+          "en": "stop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w18-04",
+        "word": "the platform",
+        "article": null,
+        "example": "The platform is crowded.",
+        "gloss": {
+          "pl": "peron",
+          "en": "platform"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w18-05",
+        "word": "the driver",
+        "article": null,
+        "example": "The driver is careful.",
+        "gloss": {
+          "pl": "kierowca",
+          "en": "driver"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "title": {
+      "en": "At the airport",
+      "pl": "Na lotnisku"
+    },
+    "words": [
+      {
+        "id": "en-w19-01",
+        "word": "the airplane",
+        "article": null,
+        "example": "The airplane lands.",
+        "gloss": {
+          "pl": "samolot",
+          "en": "airplane"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w19-02",
+        "word": "the airport",
+        "article": null,
+        "example": "The airport is busy.",
+        "gloss": {
+          "pl": "lotnisko",
+          "en": "airport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w19-03",
+        "word": "the passport",
+        "article": null,
+        "example": "Show your passport.",
+        "gloss": {
+          "pl": "paszport",
+          "en": "passport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w19-04",
+        "word": "the gate",
+        "article": null,
+        "example": "Our gate is number twelve.",
+        "gloss": {
+          "pl": "bramka",
+          "en": "gate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w19-05",
+        "word": "the flight",
+        "article": null,
+        "example": "The flight is on time.",
+        "gloss": {
+          "pl": "lot",
+          "en": "flight"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "title": {
+      "en": "At the restaurant",
+      "pl": "W restauracji"
+    },
+    "words": [
+      {
+        "id": "en-w20-01",
+        "word": "the menu",
+        "article": null,
+        "example": "Read the menu.",
+        "gloss": {
+          "pl": "menu",
+          "en": "menu"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w20-02",
+        "word": "the waiter",
+        "article": null,
+        "example": "The waiter brings water.",
+        "gloss": {
+          "pl": "kelner",
+          "en": "waiter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w20-03",
+        "word": "the bill",
+        "article": null,
+        "example": "May I have the bill?",
+        "gloss": {
+          "pl": "rachunek",
+          "en": "bill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w20-04",
+        "word": "the glass",
+        "article": null,
+        "example": "The glass is empty.",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "glass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w20-05",
+        "word": "the napkin",
+        "article": null,
+        "example": "Use a napkin.",
+        "gloss": {
+          "pl": "serwetka",
+          "en": "napkin"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "title": {
+      "en": "Tools",
+      "pl": "Narzędzia"
+    },
+    "words": [
+      {
+        "id": "en-w21-01",
+        "word": "the hammer",
+        "article": null,
+        "example": "He hits the nail with a hammer.",
+        "gloss": {
+          "pl": "młotek",
+          "en": "hammer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w21-02",
+        "word": "the screwdriver",
+        "article": null,
+        "example": "I need a screwdriver.",
+        "gloss": {
+          "pl": "śrubokręt",
+          "en": "screwdriver"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w21-03",
+        "word": "the nail",
+        "article": null,
+        "example": "The nail is bent.",
+        "gloss": {
+          "pl": "gwóźdź",
+          "en": "nail"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w21-04",
+        "word": "the screw",
+        "article": null,
+        "example": "Tighten the screw.",
+        "gloss": {
+          "pl": "śruba",
+          "en": "screw"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w21-05",
+        "word": "the saw",
+        "article": null,
+        "example": "The saw is sharp.",
+        "gloss": {
+          "pl": "piła",
+          "en": "saw"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "title": {
+      "en": "Bathroom",
+      "pl": "Łazienka"
+    },
+    "words": [
+      {
+        "id": "en-w22-01",
+        "word": "the sink",
+        "article": null,
+        "example": "Wash hands at the sink.",
+        "gloss": {
+          "pl": "umywalka",
+          "en": "sink"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w22-02",
+        "word": "the mirror",
+        "article": null,
+        "example": "Look in the mirror.",
+        "gloss": {
+          "pl": "lustro",
+          "en": "mirror"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w22-03",
+        "word": "the towel",
+        "article": null,
+        "example": "The towel is dry.",
+        "gloss": {
+          "pl": "ręcznik",
+          "en": "towel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w22-04",
+        "word": "the soap",
+        "article": null,
+        "example": "The soap smells nice.",
+        "gloss": {
+          "pl": "mydło",
+          "en": "soap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w22-05",
+        "word": "the shower",
+        "article": null,
+        "example": "Take a shower.",
+        "gloss": {
+          "pl": "prysznic",
+          "en": "shower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "title": {
+      "en": "Gadgets",
+      "pl": "Gadżety elektroniczne"
+    },
+    "words": [
+      {
+        "id": "en-w23-01",
+        "word": "the mouse",
+        "article": null,
+        "example": "The mouse does not work.",
+        "gloss": {
+          "pl": "mysz komputerowa",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w23-02",
+        "word": "the charger",
+        "article": null,
+        "example": "I forgot the charger.",
+        "gloss": {
+          "pl": "ładowarka",
+          "en": "charger"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w23-03",
+        "word": "the battery",
+        "article": null,
+        "example": "The battery is low.",
+        "gloss": {
+          "pl": "bateria",
+          "en": "battery"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w23-04",
+        "word": "the speaker",
+        "article": null,
+        "example": "The speaker is loud.",
+        "gloss": {
+          "pl": "głośnik",
+          "en": "speaker"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w23-05",
+        "word": "the headphones",
+        "article": null,
+        "example": "She wears headphones.",
+        "gloss": {
+          "pl": "słuchawki",
+          "en": "headphones"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "title": {
+      "en": "Desk work",
+      "pl": "Praca przy biurku"
+    },
+    "words": [
+      {
+        "id": "en-w24-01",
+        "word": "the document",
+        "article": null,
+        "example": "Sign the document.",
+        "gloss": {
+          "pl": "dokument",
+          "en": "document"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w24-02",
+        "word": "the project",
+        "article": null,
+        "example": "The project starts Monday.",
+        "gloss": {
+          "pl": "projekt",
+          "en": "project"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w24-03",
+        "word": "the meeting",
+        "article": null,
+        "example": "The meeting ends at five.",
+        "gloss": {
+          "pl": "spotkanie",
+          "en": "meeting"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w24-04",
+        "word": "the deadline",
+        "article": null,
+        "example": "The deadline is tomorrow.",
+        "gloss": {
+          "pl": "termin",
+          "en": "deadline"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w24-05",
+        "word": "the report",
+        "article": null,
+        "example": "Send the report today.",
+        "gloss": {
+          "pl": "raport",
+          "en": "report"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "title": {
+      "en": "In the forest",
+      "pl": "W lesie"
+    },
+    "words": [
+      {
+        "id": "en-w25-01",
+        "word": "the leaf",
+        "article": null,
+        "example": "A leaf falls.",
+        "gloss": {
+          "pl": "liść",
+          "en": "leaf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w25-02",
+        "word": "the branch",
+        "article": null,
+        "example": "The branch breaks.",
+        "gloss": {
+          "pl": "gałąź",
+          "en": "branch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w25-03",
+        "word": "the root",
+        "article": null,
+        "example": "The root is deep.",
+        "gloss": {
+          "pl": "korzeń",
+          "en": "root"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w25-04",
+        "word": "the mushroom",
+        "article": null,
+        "example": "Do not eat this mushroom.",
+        "gloss": {
+          "pl": "grzyb",
+          "en": "mushroom"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w25-05",
+        "word": "the path",
+        "article": null,
+        "example": "The path goes up.",
+        "gloss": {
+          "pl": "ścieżka",
+          "en": "path"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "title": {
+      "en": "Mountains",
+      "pl": "Góry"
+    },
+    "words": [
+      {
+        "id": "en-w26-01",
+        "word": "the valley",
+        "article": null,
+        "example": "The valley is green.",
+        "gloss": {
+          "pl": "dolina",
+          "en": "valley"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w26-02",
+        "word": "the summit",
+        "article": null,
+        "example": "We reach the summit.",
+        "gloss": {
+          "pl": "szczyt",
+          "en": "summit"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w26-03",
+        "word": "the rock",
+        "article": null,
+        "example": "The rock is slippery.",
+        "gloss": {
+          "pl": "skała",
+          "en": "rock"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w26-04",
+        "word": "the slope",
+        "article": null,
+        "example": "The slope is steep.",
+        "gloss": {
+          "pl": "zbocze",
+          "en": "slope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w26-05",
+        "word": "the hiking backpack",
+        "article": null,
+        "example": "The hiking backpack is light.",
+        "gloss": {
+          "pl": "plecak turystyczny",
+          "en": "hiking backpack"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "title": {
+      "en": "By the water",
+      "pl": "Nad wodą"
+    },
+    "words": [
+      {
+        "id": "en-w27-01",
+        "word": "the river",
+        "article": null,
+        "example": "The river flows fast.",
+        "gloss": {
+          "pl": "rzeka",
+          "en": "river"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w27-02",
+        "word": "the lake",
+        "article": null,
+        "example": "The lake is calm.",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "lake"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w27-03",
+        "word": "the shore",
+        "article": null,
+        "example": "We sit on the shore.",
+        "gloss": {
+          "pl": "brzeg",
+          "en": "shore"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w27-04",
+        "word": "the wave",
+        "article": null,
+        "example": "The wave is big.",
+        "gloss": {
+          "pl": "fala",
+          "en": "wave"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w27-05",
+        "word": "the ship",
+        "article": null,
+        "example": "The ship leaves port.",
+        "gloss": {
+          "pl": "statek",
+          "en": "ship"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "title": {
+      "en": "Garden",
+      "pl": "Ogród"
+    },
+    "words": [
+      {
+        "id": "en-w28-01",
+        "word": "the lawn",
+        "article": null,
+        "example": "Mow the lawn.",
+        "gloss": {
+          "pl": "trawnik",
+          "en": "lawn"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w28-02",
+        "word": "the flowerpot",
+        "article": null,
+        "example": "The flowerpot breaks.",
+        "gloss": {
+          "pl": "donica",
+          "en": "flowerpot"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w28-03",
+        "word": "the fence",
+        "article": null,
+        "example": "Paint the fence.",
+        "gloss": {
+          "pl": "płot",
+          "en": "fence"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w28-04",
+        "word": "the seed",
+        "article": null,
+        "example": "Plant the seed.",
+        "gloss": {
+          "pl": "nasiono",
+          "en": "seed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w28-05",
+        "word": "the shovel",
+        "article": null,
+        "example": "Dig with a shovel.",
+        "gloss": {
+          "pl": "łopata",
+          "en": "shovel"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "title": {
+      "en": "Groceries",
+      "pl": "Produkty spożywcze"
+    },
+    "words": [
+      {
+        "id": "en-w29-01",
+        "word": "the cheese",
+        "article": null,
+        "example": "The cheese tastes good.",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w29-02",
+        "word": "the butter",
+        "article": null,
+        "example": "Spread butter on bread.",
+        "gloss": {
+          "pl": "masło",
+          "en": "butter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w29-03",
+        "word": "the rice",
+        "article": null,
+        "example": "Cook the rice.",
+        "gloss": {
+          "pl": "ryż",
+          "en": "rice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w29-04",
+        "word": "the pasta",
+        "article": null,
+        "example": "The pasta is ready.",
+        "gloss": {
+          "pl": "makaron",
+          "en": "pasta"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w29-05",
+        "word": "the carrot",
+        "article": null,
+        "example": "Peel the carrot.",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "carrot"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "title": {
+      "en": "Fruit and vegetables",
+      "pl": "Owoce i warzywa"
+    },
+    "words": [
+      {
+        "id": "en-w30-01",
+        "word": "the banana",
+        "article": null,
+        "example": "The banana is ripe.",
+        "gloss": {
+          "pl": "banan",
+          "en": "banana"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w30-02",
+        "word": "the tomato",
+        "article": null,
+        "example": "Slice the tomato.",
+        "gloss": {
+          "pl": "pomidor",
+          "en": "tomato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w30-03",
+        "word": "the potato",
+        "article": null,
+        "example": "Boil the potato.",
+        "gloss": {
+          "pl": "ziemniak",
+          "en": "potato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w30-04",
+        "word": "the onion",
+        "article": null,
+        "example": "The onion makes me cry.",
+        "gloss": {
+          "pl": "cebula",
+          "en": "onion"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w30-05",
+        "word": "the orange",
+        "article": null,
+        "example": "Peel the orange.",
+        "gloss": {
+          "pl": "pomarańcza",
+          "en": "orange"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "title": {
+      "en": "Home repair",
+      "pl": "Naprawa domu"
+    },
+    "words": [
+      {
+        "id": "en-w31-01",
+        "word": "the wall",
+        "article": null,
+        "example": "Paint the wall white.",
+        "gloss": {
+          "pl": "ściana",
+          "en": "wall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w31-02",
+        "word": "the floor",
+        "article": null,
+        "example": "Sweep the floor.",
+        "gloss": {
+          "pl": "podłoga",
+          "en": "floor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w31-03",
+        "word": "the ceiling",
+        "article": null,
+        "example": "The ceiling is high.",
+        "gloss": {
+          "pl": "sufit",
+          "en": "ceiling"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w31-04",
+        "word": "the paint",
+        "article": null,
+        "example": "Buy white paint.",
+        "gloss": {
+          "pl": "farba",
+          "en": "paint"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w31-05",
+        "word": "the brush",
+        "article": null,
+        "example": "Clean the brush.",
+        "gloss": {
+          "pl": "pędzel",
+          "en": "brush"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "title": {
+      "en": "Health",
+      "pl": "Zdrowie"
+    },
+    "words": [
+      {
+        "id": "en-w32-01",
+        "word": "the doctor",
+        "article": null,
+        "example": "The doctor listens.",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w32-02",
+        "word": "the nurse",
+        "article": null,
+        "example": "The nurse is kind.",
+        "gloss": {
+          "pl": "pielęgniarka",
+          "en": "nurse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w32-03",
+        "word": "the pharmacy",
+        "article": null,
+        "example": "Go to the pharmacy.",
+        "gloss": {
+          "pl": "apteka",
+          "en": "pharmacy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w32-04",
+        "word": "the prescription",
+        "article": null,
+        "example": "I need a prescription.",
+        "gloss": {
+          "pl": "recepta",
+          "en": "prescription"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w32-05",
+        "word": "the thermometer",
+        "article": null,
+        "example": "The thermometer shows fever.",
+        "gloss": {
+          "pl": "termometr",
+          "en": "thermometer"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "title": {
+      "en": "Body parts",
+      "pl": "Części ciała"
+    },
+    "words": [
+      {
+        "id": "en-w33-01",
+        "word": "the arm",
+        "article": null,
+        "example": "He broke his arm.",
+        "gloss": {
+          "pl": "ramię",
+          "en": "arm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w33-02",
+        "word": "the knee",
+        "article": null,
+        "example": "My knee hurts.",
+        "gloss": {
+          "pl": "kolano",
+          "en": "knee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w33-03",
+        "word": "the back",
+        "article": null,
+        "example": "Straighten your back.",
+        "gloss": {
+          "pl": "plecy",
+          "en": "back"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w33-04",
+        "word": "the stomach",
+        "article": null,
+        "example": "My stomach is full.",
+        "gloss": {
+          "pl": "brzuch",
+          "en": "stomach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w33-05",
+        "word": "the heart",
+        "article": null,
+        "example": "My heart beats fast.",
+        "gloss": {
+          "pl": "serce",
+          "en": "heart"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "title": {
+      "en": "Sports",
+      "pl": "Sport"
+    },
+    "words": [
+      {
+        "id": "en-w34-01",
+        "word": "the match",
+        "article": null,
+        "example": "The match starts soon.",
+        "gloss": {
+          "pl": "mecz",
+          "en": "match"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w34-02",
+        "word": "the goal",
+        "article": null,
+        "example": "He scores a goal.",
+        "gloss": {
+          "pl": "bramka (sport)",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w34-03",
+        "word": "the player",
+        "article": null,
+        "example": "The player runs.",
+        "gloss": {
+          "pl": "zawodnik",
+          "en": "player"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w34-04",
+        "word": "the coach",
+        "article": null,
+        "example": "The coach shouts advice.",
+        "gloss": {
+          "pl": "trener",
+          "en": "coach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w34-05",
+        "word": "the victory",
+        "article": null,
+        "example": "Victory feels great.",
+        "gloss": {
+          "pl": "zwycięstwo",
+          "en": "victory"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "title": {
+      "en": "Music",
+      "pl": "Muzyka"
+    },
+    "words": [
+      {
+        "id": "en-w35-01",
+        "word": "the song",
+        "article": null,
+        "example": "Sing the song.",
+        "gloss": {
+          "pl": "piosenka",
+          "en": "song"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w35-02",
+        "word": "the melody",
+        "article": null,
+        "example": "The melody is simple.",
+        "gloss": {
+          "pl": "melodia",
+          "en": "melody"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w35-03",
+        "word": "the guitar",
+        "article": null,
+        "example": "He plays the guitar.",
+        "gloss": {
+          "pl": "gitara",
+          "en": "guitar"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w35-04",
+        "word": "the piano",
+        "article": null,
+        "example": "The piano is out of tune.",
+        "gloss": {
+          "pl": "pianino",
+          "en": "piano"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w35-05",
+        "word": "the concert",
+        "article": null,
+        "example": "We go to a concert.",
+        "gloss": {
+          "pl": "koncert",
+          "en": "concert"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "title": {
+      "en": "Learning",
+      "pl": "Nauka"
+    },
+    "words": [
+      {
+        "id": "en-w36-01",
+        "word": "the lesson",
+        "article": null,
+        "example": "The lesson is difficult.",
+        "gloss": {
+          "pl": "lekcja",
+          "en": "lesson"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w36-02",
+        "word": "the exercise",
+        "article": null,
+        "example": "Do the exercise.",
+        "gloss": {
+          "pl": "ćwiczenie",
+          "en": "exercise"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w36-03",
+        "word": "the question",
+        "article": null,
+        "example": "Ask a question.",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "question"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w36-04",
+        "word": "the answer",
+        "article": null,
+        "example": "Write the answer.",
+        "gloss": {
+          "pl": "odpowiedź",
+          "en": "answer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w36-05",
+        "word": "the mistake",
+        "article": null,
+        "example": "Everyone makes mistakes.",
+        "gloss": {
+          "pl": "błąd",
+          "en": "mistake"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "title": {
+      "en": "Shopping",
+      "pl": "Zakupy"
+    },
+    "words": [
+      {
+        "id": "en-w37-01",
+        "word": "the price",
+        "article": null,
+        "example": "The price is fair.",
+        "gloss": {
+          "pl": "cena",
+          "en": "price"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w37-02",
+        "word": "the money",
+        "article": null,
+        "example": "I need money.",
+        "gloss": {
+          "pl": "pieniądz",
+          "en": "money"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w37-03",
+        "word": "the discount",
+        "article": null,
+        "example": "There is a discount today.",
+        "gloss": {
+          "pl": "zniżka",
+          "en": "discount"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w37-04",
+        "word": "the basket",
+        "article": null,
+        "example": "Fill the basket.",
+        "gloss": {
+          "pl": "koszyk",
+          "en": "basket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w37-05",
+        "word": "the receipt",
+        "article": null,
+        "example": "Keep the receipt.",
+        "gloss": {
+          "pl": "paragon",
+          "en": "receipt"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "title": {
+      "en": "Emotions",
+      "pl": "Ludzkie emocje"
+    },
+    "words": [
+      {
+        "id": "en-w38-01",
+        "word": "the joy",
+        "article": null,
+        "example": "Joy fills the room.",
+        "gloss": {
+          "pl": "radość",
+          "en": "joy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w38-02",
+        "word": "the fear",
+        "article": null,
+        "example": "Fear is normal.",
+        "gloss": {
+          "pl": "strach",
+          "en": "fear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w38-03",
+        "word": "the sadness",
+        "article": null,
+        "example": "Sadness passes.",
+        "gloss": {
+          "pl": "smutek",
+          "en": "sadness"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w38-04",
+        "word": "the hope",
+        "article": null,
+        "example": "Hope keeps us going.",
+        "gloss": {
+          "pl": "nadzieja",
+          "en": "hope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w38-05",
+        "word": "the calm",
+        "article": null,
+        "example": "Enjoy the calm.",
+        "gloss": {
+          "pl": "spokój",
+          "en": "calm"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "title": {
+      "en": "Time and deadlines",
+      "pl": "Czas i terminy"
+    },
+    "words": [
+      {
+        "id": "en-w39-01",
+        "word": "the week",
+        "article": null,
+        "example": "This week is busy.",
+        "gloss": {
+          "pl": "tydzień",
+          "en": "week"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w39-02",
+        "word": "the month",
+        "article": null,
+        "example": "Next month we travel.",
+        "gloss": {
+          "pl": "miesiąc",
+          "en": "month"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w39-03",
+        "word": "the year",
+        "article": null,
+        "example": "Happy new year!",
+        "gloss": {
+          "pl": "rok",
+          "en": "year"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w39-04",
+        "word": "the minute",
+        "article": null,
+        "example": "Wait a minute.",
+        "gloss": {
+          "pl": "minuta",
+          "en": "minute"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w39-05",
+        "word": "the second",
+        "article": null,
+        "example": "One second, please.",
+        "gloss": {
+          "pl": "sekunda",
+          "en": "second"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "title": {
+      "en": "Celebrations",
+      "pl": "Uroczystości"
+    },
+    "words": [
+      {
+        "id": "en-w40-01",
+        "word": "the birthday",
+        "article": null,
+        "example": "Happy birthday!",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "birthday"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w40-02",
+        "word": "the wedding",
+        "article": null,
+        "example": "The wedding is in June.",
+        "gloss": {
+          "pl": "ślub",
+          "en": "wedding"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w40-03",
+        "word": "the gift",
+        "article": null,
+        "example": "She opens the gift.",
+        "gloss": {
+          "pl": "prezent",
+          "en": "gift"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w40-04",
+        "word": "the party",
+        "article": null,
+        "example": "The party lasts until midnight.",
+        "gloss": {
+          "pl": "impreza",
+          "en": "party"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w40-05",
+        "word": "the invitation",
+        "article": null,
+        "example": "I send an invitation.",
+        "gloss": {
+          "pl": "zaproszenie",
+          "en": "invitation"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "title": {
+      "en": "City landmarks",
+      "pl": "W mieście 2"
+    },
+    "words": [
+      {
+        "id": "en-w41-01",
+        "word": "the town hall",
+        "article": null,
+        "example": "The town hall is old.",
+        "gloss": {
+          "pl": "ratusz",
+          "en": "town hall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w41-02",
+        "word": "the library",
+        "article": null,
+        "example": "The library is quiet.",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "library"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w41-03",
+        "word": "the museum",
+        "article": null,
+        "example": "We visit the museum.",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "museum"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w41-04",
+        "word": "the church",
+        "article": null,
+        "example": "The church bell rings.",
+        "gloss": {
+          "pl": "kościół",
+          "en": "church"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w41-05",
+        "word": "the hospital",
+        "article": null,
+        "example": "The hospital is nearby.",
+        "gloss": {
+          "pl": "szpital",
+          "en": "hospital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "title": {
+      "en": "Apartment",
+      "pl": "Mieszkanie"
+    },
+    "words": [
+      {
+        "id": "en-w42-01",
+        "word": "the wardrobe",
+        "article": null,
+        "example": "The wardrobe is full.",
+        "gloss": {
+          "pl": "szafa",
+          "en": "wardrobe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w42-02",
+        "word": "the sofa",
+        "article": null,
+        "example": "Sit on the sofa.",
+        "gloss": {
+          "pl": "sofa",
+          "en": "sofa"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w42-03",
+        "word": "the rug",
+        "article": null,
+        "example": "The rug is soft.",
+        "gloss": {
+          "pl": "dywan",
+          "en": "rug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w42-04",
+        "word": "the balcony",
+        "article": null,
+        "example": "Flowers are on the balcony.",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balcony"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w42-05",
+        "word": "the fireplace",
+        "article": null,
+        "example": "Fire burns in the fireplace.",
+        "gloss": {
+          "pl": "kominek",
+          "en": "fireplace"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "title": {
+      "en": "More clothes",
+      "pl": "Ubrania 2"
+    },
+    "words": [
+      {
+        "id": "en-w43-01",
+        "word": "the trousers",
+        "article": null,
+        "example": "These trousers fit well.",
+        "gloss": {
+          "pl": "spodnie",
+          "en": "trousers"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w43-02",
+        "word": "the skirt",
+        "article": null,
+        "example": "The skirt is blue.",
+        "gloss": {
+          "pl": "spódnica",
+          "en": "skirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w43-03",
+        "word": "the glove",
+        "article": null,
+        "example": "I lost a glove.",
+        "gloss": {
+          "pl": "rękawiczka",
+          "en": "glove"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w43-04",
+        "word": "the belt",
+        "article": null,
+        "example": "Tighten your belt.",
+        "gloss": {
+          "pl": "pasek",
+          "en": "belt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w43-05",
+        "word": "the scarf",
+        "article": null,
+        "example": "Wear a warm scarf.",
+        "gloss": {
+          "pl": "szalik",
+          "en": "scarf"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "title": {
+      "en": "Birds and insects",
+      "pl": "Ptaki i owady"
+    },
+    "words": [
+      {
+        "id": "en-w44-01",
+        "word": "the butterfly",
+        "article": null,
+        "example": "A butterfly lands on the flower.",
+        "gloss": {
+          "pl": "motyl",
+          "en": "butterfly"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w44-02",
+        "word": "the bee",
+        "article": null,
+        "example": "The bee collects nectar.",
+        "gloss": {
+          "pl": "pszczoła",
+          "en": "bee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w44-03",
+        "word": "the ant",
+        "article": null,
+        "example": "An ant carries a crumb.",
+        "gloss": {
+          "pl": "mrówka",
+          "en": "ant"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w44-04",
+        "word": "the crow",
+        "article": null,
+        "example": "The crow flies away.",
+        "gloss": {
+          "pl": "wrona",
+          "en": "crow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w44-05",
+        "word": "the duck",
+        "article": null,
+        "example": "The duck swims.",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "duck"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 45,
+    "title": {
+      "en": "Wild animals",
+      "pl": "Dzikie zwierzęta"
+    },
+    "words": [
+      {
+        "id": "en-w45-01",
+        "word": "the wolf",
+        "article": null,
+        "example": "The wolf howls at night.",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wolf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w45-02",
+        "word": "the fox",
+        "article": null,
+        "example": "The fox is clever.",
+        "gloss": {
+          "pl": "lis",
+          "en": "fox"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w45-03",
+        "word": "the bear",
+        "article": null,
+        "example": "The bear sleeps in winter.",
+        "gloss": {
+          "pl": "niedźwiedź",
+          "en": "bear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w45-04",
+        "word": "the deer",
+        "article": null,
+        "example": "The deer runs into the forest.",
+        "gloss": {
+          "pl": "jeleń",
+          "en": "deer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w45-05",
+        "word": "the hare",
+        "article": null,
+        "example": "The hare jumps quickly.",
+        "gloss": {
+          "pl": "zając",
+          "en": "hare"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 46,
+    "title": {
+      "en": "Everyday objects",
+      "pl": "Przedmioty codzienne"
+    },
+    "words": [
+      {
+        "id": "en-w46-01",
+        "word": "the wallet",
+        "article": null,
+        "example": "My wallet is in my bag.",
+        "gloss": {
+          "pl": "portfel",
+          "en": "wallet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w46-02",
+        "word": "the watch",
+        "article": null,
+        "example": "The watch is slow.",
+        "gloss": {
+          "pl": "zegarek",
+          "en": "watch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w46-03",
+        "word": "the umbrella",
+        "article": null,
+        "example": "Take an umbrella.",
+        "gloss": {
+          "pl": "parasol",
+          "en": "umbrella"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w46-04",
+        "word": "the glasses",
+        "article": null,
+        "example": "I need my glasses.",
+        "gloss": {
+          "pl": "okulary",
+          "en": "glasses"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w46-05",
+        "word": "the rattle",
+        "article": null,
+        "example": "The baby shakes the rattle.",
+        "gloss": {
+          "pl": "grzechotka",
+          "en": "rattle"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 47,
+    "title": {
+      "en": "Travel again",
+      "pl": "W podróży 2"
+    },
+    "words": [
+      {
+        "id": "en-w47-01",
+        "word": "the map",
+        "article": null,
+        "example": "Study the map.",
+        "gloss": {
+          "pl": "mapa",
+          "en": "map"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w47-02",
+        "word": "the compass",
+        "article": null,
+        "example": "The compass points north.",
+        "gloss": {
+          "pl": "kompas",
+          "en": "compass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w47-03",
+        "word": "the direction",
+        "article": null,
+        "example": "Which direction do we go?",
+        "gloss": {
+          "pl": "kierunek",
+          "en": "direction"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w47-04",
+        "word": "the border",
+        "article": null,
+        "example": "We cross the border.",
+        "gloss": {
+          "pl": "granica",
+          "en": "border"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w47-05",
+        "word": "the capital",
+        "article": null,
+        "example": "Paris is the capital of France.",
+        "gloss": {
+          "pl": "stolica",
+          "en": "capital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 48,
+    "title": {
+      "en": "Architecture",
+      "pl": "Architektura"
+    },
+    "words": [
+      {
+        "id": "en-w48-01",
+        "word": "the tower",
+        "article": null,
+        "example": "The tower is visible.",
+        "gloss": {
+          "pl": "wieża",
+          "en": "tower"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w48-02",
+        "word": "the stairs",
+        "article": null,
+        "example": "Climb the stairs.",
+        "gloss": {
+          "pl": "schody",
+          "en": "stairs"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w48-03",
+        "word": "the basement",
+        "article": null,
+        "example": "Wine is in the basement.",
+        "gloss": {
+          "pl": "piwnica",
+          "en": "basement"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w48-04",
+        "word": "the roof",
+        "article": null,
+        "example": "Snow covers the roof.",
+        "gloss": {
+          "pl": "dach",
+          "en": "roof"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w48-05",
+        "word": "the gate",
+        "article": null,
+        "example": "Close the gate.",
+        "gloss": {
+          "pl": "brama",
+          "en": "gate"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 49,
+    "title": {
+      "en": "World geography",
+      "pl": "Świat i geografia"
+    },
+    "words": [
+      {
+        "id": "en-w49-01",
+        "word": "the continent",
+        "article": null,
+        "example": "Europe is a continent.",
+        "gloss": {
+          "pl": "kontynent",
+          "en": "continent"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w49-02",
+        "word": "the island",
+        "article": null,
+        "example": "We live on an island.",
+        "gloss": {
+          "pl": "wyspa",
+          "en": "island"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w49-03",
+        "word": "the desert",
+        "article": null,
+        "example": "The desert is dry.",
+        "gloss": {
+          "pl": "pustynia",
+          "en": "desert"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w49-04",
+        "word": "the ocean",
+        "article": null,
+        "example": "The ocean is deep.",
+        "gloss": {
+          "pl": "ocean",
+          "en": "ocean"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w49-05",
+        "word": "the volcano",
+        "article": null,
+        "example": "The volcano is active.",
+        "gloss": {
+          "pl": "wulkan",
+          "en": "volcano"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 50,
+    "title": {
+      "en": "Stars and sky",
+      "pl": "Gwiazdy i niebo"
+    },
+    "words": [
+      {
+        "id": "en-w50-01",
+        "word": "the star",
+        "article": null,
+        "example": "A star shines.",
+        "gloss": {
+          "pl": "gwiazda",
+          "en": "star"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w50-02",
+        "word": "the planet",
+        "article": null,
+        "example": "Earth is a planet.",
+        "gloss": {
+          "pl": "planeta",
+          "en": "planet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w50-03",
+        "word": "the rocket",
+        "article": null,
+        "example": "The rocket launches.",
+        "gloss": {
+          "pl": "rakieta",
+          "en": "rocket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w50-04",
+        "word": "the sky",
+        "article": null,
+        "example": "The sky turns pink.",
+        "gloss": {
+          "pl": "niebo",
+          "en": "sky"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w50-05",
+        "word": "the comet",
+        "article": null,
+        "example": "We see a comet.",
+        "gloss": {
+          "pl": "kometa",
+          "en": "comet"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 51,
+    "title": {
+      "en": "Media and culture",
+      "pl": "Media i kultura"
+    },
+    "words": [
+      {
+        "id": "en-w51-01",
+        "word": "the film",
+        "article": null,
+        "example": "The film starts at eight.",
+        "gloss": {
+          "pl": "film",
+          "en": "film"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w51-02",
+        "word": "the series",
+        "article": null,
+        "example": "We binge the series.",
+        "gloss": {
+          "pl": "serial",
+          "en": "series"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w51-03",
+        "word": "the actor",
+        "article": null,
+        "example": "The actor wins an award.",
+        "gloss": {
+          "pl": "aktor",
+          "en": "actor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w51-04",
+        "word": "the director",
+        "article": null,
+        "example": "The director cuts a scene.",
+        "gloss": {
+          "pl": "reżyser",
+          "en": "director"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w51-05",
+        "word": "the exhibition",
+        "article": null,
+        "example": "The exhibition opens today.",
+        "gloss": {
+          "pl": "wystawa",
+          "en": "exhibition"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 52,
+    "title": {
+      "en": "Work and growth",
+      "pl": "Praca i rozwój"
+    },
+    "words": [
+      {
+        "id": "en-w52-01",
+        "word": "the skill",
+        "article": null,
+        "example": "Practice improves skill.",
+        "gloss": {
+          "pl": "umiejętność",
+          "en": "skill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w52-02",
+        "word": "the experience",
+        "article": null,
+        "example": "Experience matters.",
+        "gloss": {
+          "pl": "doświadczenie",
+          "en": "experience"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w52-03",
+        "word": "the goal",
+        "article": null,
+        "example": "Set a clear goal.",
+        "gloss": {
+          "pl": "cel",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w52-04",
+        "word": "the challenge",
+        "article": null,
+        "example": "Accept the challenge.",
+        "gloss": {
+          "pl": "wyzwanie",
+          "en": "challenge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "en-w52-05",
+        "word": "the achievement",
+        "article": null,
+        "example": "Celebrate the achievement.",
+        "gloss": {
+          "pl": "osiągnięcie",
+          "en": "achievement"
+        },
+        "pos": "noun"
+      }
+    ]
+  }
+]

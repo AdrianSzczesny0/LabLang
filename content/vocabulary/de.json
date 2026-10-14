@@ -1,0 +1,3590 @@
+[
+  {
+    "week": 1,
+    "title": {
+      "pl": "Ciało i zabawki",
+      "en": "Ciało i zabawki"
+    },
+    "words": [
+      {
+        "id": "de-w01-01",
+        "word": "die Puppe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "lalka",
+          "en": "doll"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w01-02",
+        "word": "der Ball",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w01-03",
+        "word": "die Hand",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "dłoń",
+          "en": "hand"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w01-04",
+        "word": "das Bein",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "noga",
+          "en": "leg"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w01-05",
+        "word": "der Kopf",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "głowa",
+          "en": "head"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "title": {
+      "pl": "Dom",
+      "en": "Dom"
+    },
+    "words": [
+      {
+        "id": "de-w02-01",
+        "word": "das Haus",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "dom",
+          "en": "house"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w02-02",
+        "word": "die Tür",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "drzwi",
+          "en": "door"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w02-03",
+        "word": "das Fenster",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w02-04",
+        "word": "der Tisch",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "stół",
+          "en": "table"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w02-05",
+        "word": "der Stuhl",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "krzesło",
+          "en": "chair"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "title": {
+      "pl": "Zwierzęta",
+      "en": "Zwierzęta"
+    },
+    "words": [
+      {
+        "id": "de-w03-01",
+        "word": "die Katze",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w03-02",
+        "word": "der Hund",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w03-03",
+        "word": "der Vogel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ptak",
+          "en": "bird"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w03-04",
+        "word": "der Fisch",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ryba",
+          "en": "fish"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w03-05",
+        "word": "die Maus",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "title": {
+      "pl": "Rodzina",
+      "en": "Rodzina"
+    },
+    "words": [
+      {
+        "id": "de-w04-01",
+        "word": "die Mutter",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mama",
+          "en": "mama"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w04-02",
+        "word": "der Vater",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "tata",
+          "en": "tata"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w04-03",
+        "word": "die Schwester",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "siostra",
+          "en": "sister"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w04-04",
+        "word": "der Bruder",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w04-05",
+        "word": "das Kind",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "dziecko",
+          "en": "child"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "title": {
+      "pl": "Jedzenie",
+      "en": "Jedzenie"
+    },
+    "words": [
+      {
+        "id": "de-w05-01",
+        "word": "das Brot",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w05-02",
+        "word": "das Wasser",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w05-03",
+        "word": "der Apfel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w05-04",
+        "word": "die Milch",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mleko",
+          "en": "milk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w05-05",
+        "word": "das Ei",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "jajko",
+          "en": "jajko"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "title": {
+      "pl": "Podróż i rozrywka",
+      "en": "Podróż i rozrywka"
+    },
+    "words": [
+      {
+        "id": "de-w06-01",
+        "word": "das Fahrrad",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "rower",
+          "en": "bicycle"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w06-02",
+        "word": "das Auto",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "samochód",
+          "en": "samochód"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w06-03",
+        "word": "der Zug",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w06-04",
+        "word": "das Buch",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w06-05",
+        "word": "das Spielzeug",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "zabawka",
+          "en": "zabawka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "title": {
+      "pl": "Ubrania",
+      "en": "Ubrania"
+    },
+    "words": [
+      {
+        "id": "de-w07-01",
+        "word": "die Mütze",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "czapka",
+          "en": "cap"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w07-02",
+        "word": "der Schuh",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "but",
+          "en": "but"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w07-03",
+        "word": "der Mantel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "płaszcz",
+          "en": "płaszcz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w07-04",
+        "word": "das Hemd",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "koszula",
+          "en": "shirt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w07-05",
+        "word": "das Kleid",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "sukienka",
+          "en": "sukienka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "title": {
+      "pl": "Przyroda",
+      "en": "Przyroda"
+    },
+    "words": [
+      {
+        "id": "de-w08-01",
+        "word": "der Baum",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "drzewo",
+          "en": "tree"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w08-02",
+        "word": "die Sonne",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w08-03",
+        "word": "der Mond",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "księżyc",
+          "en": "księżyc"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w08-04",
+        "word": "der Regen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w08-05",
+        "word": "die Blume",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kwiat",
+          "en": "flower"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "title": {
+      "pl": "Twarz i ciało",
+      "en": "Twarz i ciało"
+    },
+    "words": [
+      {
+        "id": "de-w09-01",
+        "word": "das Auge",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "oko",
+          "en": "oko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w09-02",
+        "word": "das Ohr",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "ucho",
+          "en": "ucho"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w09-03",
+        "word": "die Nase",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "nos",
+          "en": "nos"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w09-04",
+        "word": "der Mund",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "usta",
+          "en": "usta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w09-05",
+        "word": "der Finger",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "palec",
+          "en": "palec"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "title": {
+      "pl": "Szkoła",
+      "en": "Szkoła"
+    },
+    "words": [
+      {
+        "id": "de-w10-01",
+        "word": "die Schule",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w10-02",
+        "word": "der Kugelschreiber",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "długopis",
+          "en": "długopis"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w10-03",
+        "word": "das Heft",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "zeszyt",
+          "en": "notebook"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w10-04",
+        "word": "der Rucksack",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w10-05",
+        "word": "der Lehrer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "nauczyciel",
+          "en": "nauczyciel"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "title": {
+      "pl": "Miasto",
+      "en": "Miasto"
+    },
+    "words": [
+      {
+        "id": "de-w11-01",
+        "word": "die Straße",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "ulica",
+          "en": "street"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w11-02",
+        "word": "das Geschäft",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "sklep",
+          "en": "shop"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w11-03",
+        "word": "die Brücke",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w11-04",
+        "word": "der Platz",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "plac",
+          "en": "plac"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w11-05",
+        "word": "der Park",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "title": {
+      "pl": "W domu",
+      "en": "W domu"
+    },
+    "words": [
+      {
+        "id": "de-w12-01",
+        "word": "das Bett",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "łóżko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w12-02",
+        "word": "die Lampe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "lampa",
+          "en": "lampa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w12-03",
+        "word": "die Tasse",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kubek",
+          "en": "kubek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w12-04",
+        "word": "der Teller",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "talerz",
+          "en": "talerz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w12-05",
+        "word": "der Schlüssel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "klucz",
+          "en": "klucz"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "title": {
+      "pl": "Kuchnia",
+      "en": "Kuchnia"
+    },
+    "words": [
+      {
+        "id": "de-w13-01",
+        "word": "der Löffel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "łyżka",
+          "en": "łyżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w13-02",
+        "word": "die Gabel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "widelec",
+          "en": "widelec"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w13-03",
+        "word": "das Messer",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "nóż",
+          "en": "nóż"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w13-04",
+        "word": "der Kühlschrank",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lodówka",
+          "en": "lodówka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w13-05",
+        "word": "der Ofen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "piec",
+          "en": "piec"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "title": {
+      "pl": "Wakacje",
+      "en": "Wakacje"
+    },
+    "words": [
+      {
+        "id": "de-w14-01",
+        "word": "der Strand",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "plaża",
+          "en": "plaża"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w14-02",
+        "word": "das Meer",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "morze",
+          "en": "morze"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w14-03",
+        "word": "das Hotel",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "hotel",
+          "en": "hotel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w14-04",
+        "word": "die Fahrkarte",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "bilet",
+          "en": "ticket"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w14-05",
+        "word": "der Koffer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "walizka",
+          "en": "suitcase"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "title": {
+      "pl": "Praca i technologia",
+      "en": "Praca i technologia"
+    },
+    "words": [
+      {
+        "id": "de-w15-01",
+        "word": "der Computer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "komputer",
+          "en": "computer"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w15-02",
+        "word": "der Bildschirm",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w15-03",
+        "word": "das Telefon",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "telefon",
+          "en": "phone"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w15-04",
+        "word": "das Büro",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "biuro",
+          "en": "office"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w15-05",
+        "word": "die Tastatur",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "klawiatura",
+          "en": "klawiatura"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "title": {
+      "pl": "Czas i pogoda",
+      "en": "Czas i pogoda"
+    },
+    "words": [
+      {
+        "id": "de-w16-01",
+        "word": "der Tag",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "dzień",
+          "en": "day"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w16-02",
+        "word": "die Nacht",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "noc",
+          "en": "noc"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w16-03",
+        "word": "die Stunde",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "godzina",
+          "en": "hour"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w16-04",
+        "word": "der Wind",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "wiatr",
+          "en": "wind"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w16-05",
+        "word": "die Wolke",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "chmura",
+          "en": "cloud"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "title": {
+      "pl": "Zimowa pogoda",
+      "en": "Zimowa pogoda"
+    },
+    "words": [
+      {
+        "id": "de-w17-01",
+        "word": "der Schnee",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w17-02",
+        "word": "das Eis",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "lód",
+          "en": "lód"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w17-03",
+        "word": "das Gewitter",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "burza",
+          "en": "burza"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w17-04",
+        "word": "der Nebel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "mgła",
+          "en": "mgła"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w17-05",
+        "word": "der Donner",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "grzmot",
+          "en": "grzmot"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "title": {
+      "pl": "W komunikacji miejskiej",
+      "en": "W komunikacji miejskiej"
+    },
+    "words": [
+      {
+        "id": "de-w18-01",
+        "word": "die Straßenbahn",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "tramwaj",
+          "en": "tramwaj"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w18-02",
+        "word": "der Bus",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w18-03",
+        "word": "die Haltestelle",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "przystanek",
+          "en": "przystanek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w18-04",
+        "word": "der Bahnsteig",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "peron",
+          "en": "peron"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w18-05",
+        "word": "der Fahrer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kierowca",
+          "en": "kierowca"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "title": {
+      "pl": "Na lotnisku",
+      "en": "Na lotnisku"
+    },
+    "words": [
+      {
+        "id": "de-w19-01",
+        "word": "das Flugzeug",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "samolot",
+          "en": "samolot"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w19-02",
+        "word": "der Flughafen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lotnisko",
+          "en": "lotnisko"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w19-03",
+        "word": "der Reisepass",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "paszport",
+          "en": "paszport"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w19-04",
+        "word": "das Gate",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "bramka",
+          "en": "bramka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w19-05",
+        "word": "der Flug",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lot",
+          "en": "lot"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "title": {
+      "pl": "W restauracji",
+      "en": "W restauracji"
+    },
+    "words": [
+      {
+        "id": "de-w20-01",
+        "word": "die Speisekarte",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "menu",
+          "en": "menu"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w20-02",
+        "word": "der Kellner",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kelner",
+          "en": "kelner"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w20-03",
+        "word": "die Rechnung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "rachunek",
+          "en": "rachunek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w20-04",
+        "word": "das Glas",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "szklanka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w20-05",
+        "word": "die Serviette",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "serwetka",
+          "en": "serwetka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "title": {
+      "pl": "Narzędzia",
+      "en": "Narzędzia"
+    },
+    "words": [
+      {
+        "id": "de-w21-01",
+        "word": "der Hammer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "młotek",
+          "en": "młotek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w21-02",
+        "word": "der Schraubenzieher",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "śrubokręt",
+          "en": "śrubokręt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w21-03",
+        "word": "der Nagel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "gwóźdź",
+          "en": "gwóźdź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w21-04",
+        "word": "die Schraube",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "śruba",
+          "en": "śruba"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w21-05",
+        "word": "die Säge",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "piła",
+          "en": "piła"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "title": {
+      "pl": "Łazienka",
+      "en": "Łazienka"
+    },
+    "words": [
+      {
+        "id": "de-w22-01",
+        "word": "das Waschbecken",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "umywalka",
+          "en": "umywalka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w22-02",
+        "word": "der Spiegel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lustro",
+          "en": "lustro"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w22-03",
+        "word": "das Handtuch",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "ręcznik",
+          "en": "ręcznik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w22-04",
+        "word": "die Seife",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mydło",
+          "en": "mydło"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w22-05",
+        "word": "die Dusche",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "prysznic",
+          "en": "prysznic"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "title": {
+      "pl": "Gadżety elektroniczne",
+      "en": "Gadżety elektroniczne"
+    },
+    "words": [
+      {
+        "id": "de-w23-01",
+        "word": "die Computermaus",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mysz komputerowa",
+          "en": "mysz komputerowa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w23-02",
+        "word": "das Ladegerät",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "ładowarka",
+          "en": "ładowarka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w23-03",
+        "word": "die Batterie",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "bateria",
+          "en": "bateria"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w23-04",
+        "word": "der Lautsprecher",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "głośnik",
+          "en": "głośnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w23-05",
+        "word": "die Kopfhörer",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "słuchawki",
+          "en": "słuchawki"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "title": {
+      "pl": "Praca przy biurku",
+      "en": "Praca przy biurku"
+    },
+    "words": [
+      {
+        "id": "de-w24-01",
+        "word": "das Dokument",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "dokument",
+          "en": "dokument"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w24-02",
+        "word": "das Projekt",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "projekt",
+          "en": "projekt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w24-03",
+        "word": "die Besprechung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "spotkanie",
+          "en": "meeting"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w24-04",
+        "word": "der Termin",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "termin",
+          "en": "termin"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w24-05",
+        "word": "der Bericht",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "raport",
+          "en": "raport"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "title": {
+      "pl": "W lesie",
+      "en": "W lesie"
+    },
+    "words": [
+      {
+        "id": "de-w25-01",
+        "word": "das Blatt",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "liść",
+          "en": "liść"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w25-02",
+        "word": "der Ast",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "gałąź",
+          "en": "gałąź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w25-03",
+        "word": "die Wurzel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "korzeń",
+          "en": "korzeń"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w25-04",
+        "word": "der Pilz",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "grzyb",
+          "en": "grzyb"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w25-05",
+        "word": "der Pfad",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ścieżka",
+          "en": "ścieżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "title": {
+      "pl": "Góry",
+      "en": "Góry"
+    },
+    "words": [
+      {
+        "id": "de-w26-01",
+        "word": "das Tal",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "dolina",
+          "en": "dolina"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w26-02",
+        "word": "der Gipfel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "szczyt",
+          "en": "szczyt"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w26-03",
+        "word": "der Felsen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "skała",
+          "en": "skała"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w26-04",
+        "word": "der Hang",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "zbocze",
+          "en": "zbocze"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w26-05",
+        "word": "der Wanderrucksack",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "plecak turystyczny",
+          "en": "plecak turystyczny"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "title": {
+      "pl": "Nad wodą",
+      "en": "Nad wodą"
+    },
+    "words": [
+      {
+        "id": "de-w27-01",
+        "word": "der Fluss",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "rzeka",
+          "en": "river"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w27-02",
+        "word": "der See",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "jezioro"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w27-03",
+        "word": "das Ufer",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "brzeg",
+          "en": "brzeg"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w27-04",
+        "word": "die Welle",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "fala",
+          "en": "fala"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w27-05",
+        "word": "das Schiff",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "statek",
+          "en": "statek"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "title": {
+      "pl": "Ogród",
+      "en": "Ogród"
+    },
+    "words": [
+      {
+        "id": "de-w28-01",
+        "word": "der Rasen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "trawnik",
+          "en": "trawnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w28-02",
+        "word": "der Blumentopf",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "donica",
+          "en": "donica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w28-03",
+        "word": "der Zaun",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "płot",
+          "en": "płot"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w28-04",
+        "word": "der Samen",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "nasiono",
+          "en": "nasiono"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w28-05",
+        "word": "die Schaufel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "łopata",
+          "en": "łopata"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "title": {
+      "pl": "Produkty spożywcze",
+      "en": "Produkty spożywcze"
+    },
+    "words": [
+      {
+        "id": "de-w29-01",
+        "word": "der Käse",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w29-02",
+        "word": "die Butter",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "masło",
+          "en": "masło"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w29-03",
+        "word": "der Reis",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ryż",
+          "en": "ryż"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w29-04",
+        "word": "die Nudeln",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "makaron",
+          "en": "makaron"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w29-05",
+        "word": "die Karotte",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "marchewka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "title": {
+      "pl": "Owoce i warzywa",
+      "en": "Owoce i warzywa"
+    },
+    "words": [
+      {
+        "id": "de-w30-01",
+        "word": "die Banane",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "banan",
+          "en": "banan"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w30-02",
+        "word": "die Tomate",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pomidor",
+          "en": "pomidor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w30-03",
+        "word": "die Kartoffel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "ziemniak",
+          "en": "ziemniak"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w30-04",
+        "word": "die Zwiebel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "cebula",
+          "en": "cebula"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w30-05",
+        "word": "die Orange",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pomarańcza",
+          "en": "pomarańcza"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "title": {
+      "pl": "Naprawa domu",
+      "en": "Naprawa domu"
+    },
+    "words": [
+      {
+        "id": "de-w31-01",
+        "word": "die Wand",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "ściana",
+          "en": "ściana"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w31-02",
+        "word": "der Fußboden",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "podłoga",
+          "en": "podłoga"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w31-03",
+        "word": "die Decke",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "sufit",
+          "en": "sufit"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w31-04",
+        "word": "die Farbe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "farba",
+          "en": "farba"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w31-05",
+        "word": "der Pinsel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "pędzel",
+          "en": "pędzel"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "title": {
+      "pl": "Zdrowie",
+      "en": "Zdrowie"
+    },
+    "words": [
+      {
+        "id": "de-w32-01",
+        "word": "der Arzt",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w32-02",
+        "word": "die Krankenschwester",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pielęgniarka",
+          "en": "pielęgniarka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w32-03",
+        "word": "die Apotheke",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "apteka",
+          "en": "pharmacy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w32-04",
+        "word": "das Rezept",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "recepta",
+          "en": "recepta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w32-05",
+        "word": "das Thermometer",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "termometr",
+          "en": "termometr"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "title": {
+      "pl": "Części ciała",
+      "en": "Części ciała"
+    },
+    "words": [
+      {
+        "id": "de-w33-01",
+        "word": "der Arm",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ramię",
+          "en": "ramię"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w33-02",
+        "word": "das Knie",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "kolano",
+          "en": "kolano"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w33-03",
+        "word": "der Rücken",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "plecy",
+          "en": "plecy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w33-04",
+        "word": "der Bauch",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "brzuch",
+          "en": "brzuch"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w33-05",
+        "word": "das Herz",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "serce",
+          "en": "serce"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "title": {
+      "pl": "Sport",
+      "en": "Sport"
+    },
+    "words": [
+      {
+        "id": "de-w34-01",
+        "word": "das Spiel",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "mecz",
+          "en": "mecz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w34-02",
+        "word": "das Tor",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "bramka (sport)",
+          "en": "bramka (sport)"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w34-03",
+        "word": "der Spieler",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "zawodnik",
+          "en": "zawodnik"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w34-04",
+        "word": "der Trainer",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "trener",
+          "en": "trener"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w34-05",
+        "word": "der Sieg",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "zwycięstwo",
+          "en": "zwycięstwo"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "title": {
+      "pl": "Muzyka",
+      "en": "Muzyka"
+    },
+    "words": [
+      {
+        "id": "de-w35-01",
+        "word": "das Lied",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "piosenka",
+          "en": "piosenka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w35-02",
+        "word": "die Melodie",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "melodia",
+          "en": "melodia"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w35-03",
+        "word": "die Gitarre",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "gitara",
+          "en": "gitara"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w35-04",
+        "word": "das Klavier",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "pianino",
+          "en": "pianino"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w35-05",
+        "word": "das Konzert",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "koncert",
+          "en": "koncert"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "title": {
+      "pl": "Nauka",
+      "en": "Nauka"
+    },
+    "words": [
+      {
+        "id": "de-w36-01",
+        "word": "die Unterrichtsstunde",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "lekcja",
+          "en": "lekcja"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w36-02",
+        "word": "die Übung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "ćwiczenie",
+          "en": "ćwiczenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w36-03",
+        "word": "die Frage",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "pytanie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w36-04",
+        "word": "die Antwort",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "odpowiedź",
+          "en": "odpowiedź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w36-05",
+        "word": "der Fehler",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "błąd",
+          "en": "błąd"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "title": {
+      "pl": "Zakupy",
+      "en": "Zakupy"
+    },
+    "words": [
+      {
+        "id": "de-w37-01",
+        "word": "der Preis",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "cena",
+          "en": "cena"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w37-02",
+        "word": "das Geld",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "pieniądz",
+          "en": "pieniądz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w37-03",
+        "word": "der Rabatt",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "zniżka",
+          "en": "zniżka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w37-04",
+        "word": "der Einkaufskorb",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "koszyk",
+          "en": "koszyk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w37-05",
+        "word": "der Kassenbon",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "paragon",
+          "en": "paragon"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "title": {
+      "pl": "Ludzkie emocje",
+      "en": "Ludzkie emocje"
+    },
+    "words": [
+      {
+        "id": "de-w38-01",
+        "word": "die Freude",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "radość",
+          "en": "joy"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w38-02",
+        "word": "die Angst",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "strach",
+          "en": "fear"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w38-03",
+        "word": "die Traurigkeit",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "smutek",
+          "en": "sadness"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w38-04",
+        "word": "die Hoffnung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "nadzieja",
+          "en": "nadzieja"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w38-05",
+        "word": "die Ruhe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "spokój",
+          "en": "calm"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "title": {
+      "pl": "Czas i terminy",
+      "en": "Czas i terminy"
+    },
+    "words": [
+      {
+        "id": "de-w39-01",
+        "word": "die Woche",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "tydzień",
+          "en": "week"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w39-02",
+        "word": "der Monat",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "miesiąc",
+          "en": "month"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w39-03",
+        "word": "das Jahr",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "rok",
+          "en": "year"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w39-04",
+        "word": "die Minute",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "minuta",
+          "en": "minuta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w39-05",
+        "word": "die Sekunde",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "sekunda",
+          "en": "sekunda"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "title": {
+      "pl": "Uroczystości",
+      "en": "Uroczystości"
+    },
+    "words": [
+      {
+        "id": "de-w40-01",
+        "word": "der Geburtstag",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "urodziny"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w40-02",
+        "word": "die Hochzeit",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "ślub",
+          "en": "ślub"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w40-03",
+        "word": "das Geschenk",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "prezent",
+          "en": "prezent"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w40-04",
+        "word": "die Feier",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "impreza",
+          "en": "impreza"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w40-05",
+        "word": "die Einladung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "zaproszenie",
+          "en": "zaproszenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "title": {
+      "pl": "W mieście 2",
+      "en": "W mieście 2"
+    },
+    "words": [
+      {
+        "id": "de-w41-01",
+        "word": "das Rathaus",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "ratusz",
+          "en": "ratusz"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w41-02",
+        "word": "die Bibliothek",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "biblioteka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w41-03",
+        "word": "das Museum",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "muzeum"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w41-04",
+        "word": "die Kirche",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kościół",
+          "en": "kościół"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w41-05",
+        "word": "das Krankenhaus",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "szpital",
+          "en": "szpital"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "title": {
+      "pl": "Mieszkanie",
+      "en": "Mieszkanie"
+    },
+    "words": [
+      {
+        "id": "de-w42-01",
+        "word": "der Schrank",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "szafa",
+          "en": "szafa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w42-02",
+        "word": "das Sofa",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "sofa",
+          "en": "sofa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w42-03",
+        "word": "der Teppich",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "dywan",
+          "en": "dywan"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w42-04",
+        "word": "der Balkon",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balkon"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w42-05",
+        "word": "der Kamin",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kominek",
+          "en": "kominek"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "title": {
+      "pl": "Ubrania 2",
+      "en": "Ubrania 2"
+    },
+    "words": [
+      {
+        "id": "de-w43-01",
+        "word": "die Hose",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "spodnie",
+          "en": "trousers"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w43-02",
+        "word": "der Rock",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "spódnica",
+          "en": "spódnica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w43-03",
+        "word": "der Handschuh",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "rękawiczka",
+          "en": "rękawiczka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w43-04",
+        "word": "der Gürtel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "pasek",
+          "en": "pasek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w43-05",
+        "word": "der Schal",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "szalik",
+          "en": "szalik"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "title": {
+      "pl": "Ptaki i owady",
+      "en": "Ptaki i owady"
+    },
+    "words": [
+      {
+        "id": "de-w44-01",
+        "word": "der Schmetterling",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "motyl",
+          "en": "motyl"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w44-02",
+        "word": "die Biene",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pszczoła",
+          "en": "pszczoła"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w44-03",
+        "word": "die Ameise",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mrówka",
+          "en": "mrówka"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w44-04",
+        "word": "die Krähe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "wrona",
+          "en": "wrona"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w44-05",
+        "word": "die Ente",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "kaczka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 45,
+    "title": {
+      "pl": "Dzikie zwierzęta",
+      "en": "Dzikie zwierzęta"
+    },
+    "words": [
+      {
+        "id": "de-w45-01",
+        "word": "der Wolf",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wilk"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w45-02",
+        "word": "der Fuchs",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "lis",
+          "en": "lis"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w45-03",
+        "word": "der Bär",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "niedźwiedź",
+          "en": "niedźwiedź"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w45-04",
+        "word": "der Hirsch",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "jeleń",
+          "en": "jeleń"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w45-05",
+        "word": "der Hase",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "zając",
+          "en": "zając"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 46,
+    "title": {
+      "pl": "Przedmioty codzienne",
+      "en": "Przedmioty codzienne"
+    },
+    "words": [
+      {
+        "id": "de-w46-01",
+        "word": "die Geldbörse",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "portfel",
+          "en": "portfel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w46-02",
+        "word": "die Armbanduhr",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "zegarek",
+          "en": "zegarek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w46-03",
+        "word": "der Regenschirm",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "parasol",
+          "en": "parasol"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w46-04",
+        "word": "die Brille",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "okulary",
+          "en": "okulary"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w46-05",
+        "word": "die Rassel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "grzechotka",
+          "en": "grzechotka"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 47,
+    "title": {
+      "pl": "W podróży 2",
+      "en": "W podróży 2"
+    },
+    "words": [
+      {
+        "id": "de-w47-01",
+        "word": "die Karte",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "mapa",
+          "en": "map"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w47-02",
+        "word": "der Kompass",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kompas",
+          "en": "kompas"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w47-03",
+        "word": "die Richtung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "kierunek",
+          "en": "kierunek"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w47-04",
+        "word": "die Grenze",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "granica",
+          "en": "granica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w47-05",
+        "word": "die Hauptstadt",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "stolica",
+          "en": "stolica"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 48,
+    "title": {
+      "pl": "Architektura",
+      "en": "Architektura"
+    },
+    "words": [
+      {
+        "id": "de-w48-01",
+        "word": "der Turm",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "wieża",
+          "en": "wieża"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w48-02",
+        "word": "die Treppe",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "schody",
+          "en": "schody"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w48-03",
+        "word": "der Keller",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "piwnica",
+          "en": "piwnica"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w48-04",
+        "word": "das Dach",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "dach",
+          "en": "dach"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w48-05",
+        "word": "das Eingangstor",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "brama",
+          "en": "brama"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 49,
+    "title": {
+      "pl": "Świat i geografia",
+      "en": "Świat i geografia"
+    },
+    "words": [
+      {
+        "id": "de-w49-01",
+        "word": "der Kontinent",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kontynent",
+          "en": "kontynent"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w49-02",
+        "word": "die Insel",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "wyspa",
+          "en": "wyspa"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w49-03",
+        "word": "die Wüste",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "pustynia",
+          "en": "pustynia"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w49-04",
+        "word": "der Ozean",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "ocean",
+          "en": "ocean"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w49-05",
+        "word": "der Vulkan",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "wulkan",
+          "en": "wulkan"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 50,
+    "title": {
+      "pl": "Gwiazdy i niebo",
+      "en": "Gwiazdy i niebo"
+    },
+    "words": [
+      {
+        "id": "de-w50-01",
+        "word": "der Stern",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "gwiazda",
+          "en": "gwiazda"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w50-02",
+        "word": "der Planet",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "planeta",
+          "en": "planeta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w50-03",
+        "word": "die Rakete",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "rakieta",
+          "en": "rakieta"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w50-04",
+        "word": "der Himmel",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "niebo",
+          "en": "niebo"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w50-05",
+        "word": "der Komet",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "kometa",
+          "en": "kometa"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 51,
+    "title": {
+      "pl": "Media i kultura",
+      "en": "Media i kultura"
+    },
+    "words": [
+      {
+        "id": "de-w51-01",
+        "word": "der Film",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "film",
+          "en": "film"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w51-02",
+        "word": "die Serie",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "serial",
+          "en": "serial"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w51-03",
+        "word": "der Schauspieler",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "aktor",
+          "en": "aktor"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w51-04",
+        "word": "der Regisseur",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "reżyser",
+          "en": "reżyser"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w51-05",
+        "word": "die Ausstellung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "wystawa",
+          "en": "wystawa"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "week": 52,
+    "title": {
+      "pl": "Praca i rozwój",
+      "en": "Praca i rozwój"
+    },
+    "words": [
+      {
+        "id": "de-w52-01",
+        "word": "die Fähigkeit",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "umiejętność",
+          "en": "umiejętność"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w52-02",
+        "word": "die Erfahrung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "doświadczenie",
+          "en": "doświadczenie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w52-03",
+        "word": "das Ziel",
+        "article": "das",
+        "example": "",
+        "gloss": {
+          "pl": "cel",
+          "en": "cel"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w52-04",
+        "word": "die Herausforderung",
+        "article": "die",
+        "example": "",
+        "gloss": {
+          "pl": "wyzwanie",
+          "en": "wyzwanie"
+        },
+        "pos": "noun",
+        "legacy": true
+      },
+      {
+        "id": "de-w52-05",
+        "word": "der Erfolg",
+        "article": "der",
+        "example": "",
+        "gloss": {
+          "pl": "osiągnięcie",
+          "en": "osiągnięcie"
+        },
+        "pos": "noun",
+        "legacy": true
+      }
+    ]
+  }
+]

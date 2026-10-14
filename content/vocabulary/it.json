@@ -1,0 +1,3330 @@
+[
+  {
+    "week": 1,
+    "title": {
+      "en": "Body and toys",
+      "pl": "Ciało i zabawki"
+    },
+    "words": [
+      {
+        "id": "it-w01-01",
+        "word": "la bambola",
+        "article": "la",
+        "example": "La bambola è sul letto.",
+        "gloss": {
+          "pl": "lalka",
+          "en": "doll"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w01-02",
+        "word": "la palla",
+        "article": "la",
+        "example": "La palla è rossa.",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w01-03",
+        "word": "la mano",
+        "article": "la",
+        "example": "Si lava la mano.",
+        "gloss": {
+          "pl": "dłoń",
+          "en": "hand"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w01-04",
+        "word": "la gamba",
+        "article": "la",
+        "example": "La gamba fa un po' male.",
+        "gloss": {
+          "pl": "noga",
+          "en": "leg"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w01-05",
+        "word": "la testa",
+        "article": "la",
+        "example": "Annuisce con la testa.",
+        "gloss": {
+          "pl": "głowa",
+          "en": "head"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "title": {
+      "en": "Home",
+      "pl": "Dom"
+    },
+    "words": [
+      {
+        "id": "it-w02-01",
+        "word": "la casa",
+        "article": "la",
+        "example": "La casa è vecchia.",
+        "gloss": {
+          "pl": "dom",
+          "en": "house"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w02-02",
+        "word": "la porta",
+        "article": "la",
+        "example": "Chiudi la porta, per favore.",
+        "gloss": {
+          "pl": "drzwi",
+          "en": "door"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w02-03",
+        "word": "la finestra",
+        "article": "la",
+        "example": "La finestra è aperta.",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w02-04",
+        "word": "il tavolo",
+        "article": "il",
+        "example": "Il tavolo è grande.",
+        "gloss": {
+          "pl": "stół",
+          "en": "table"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w02-05",
+        "word": "la sedia",
+        "article": "la",
+        "example": "Siediti sulla sedia.",
+        "gloss": {
+          "pl": "krzesło",
+          "en": "chair"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "title": {
+      "en": "Animals",
+      "pl": "Zwierzęta"
+    },
+    "words": [
+      {
+        "id": "it-w03-01",
+        "word": "il gatto",
+        "article": "il",
+        "example": "Il gatto dorme.",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w03-02",
+        "word": "il cane",
+        "article": "il",
+        "example": "Il cane corre veloce.",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w03-03",
+        "word": "l'uccello",
+        "article": "l'",
+        "example": "L'uccello canta.",
+        "gloss": {
+          "pl": "ptak",
+          "en": "bird"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w03-04",
+        "word": "il pesce",
+        "article": "il",
+        "example": "Il pesce nuota.",
+        "gloss": {
+          "pl": "ryba",
+          "en": "fish"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w03-05",
+        "word": "il topo",
+        "article": "il",
+        "example": "Il topo è piccolo.",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "title": {
+      "en": "Family",
+      "pl": "Rodzina"
+    },
+    "words": [
+      {
+        "id": "it-w04-01",
+        "word": "la madre",
+        "article": "la",
+        "example": "Mia madre cucina.",
+        "gloss": {
+          "pl": "mama",
+          "en": "mother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w04-02",
+        "word": "il padre",
+        "article": "il",
+        "example": "Mio padre legge.",
+        "gloss": {
+          "pl": "tata",
+          "en": "father"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w04-03",
+        "word": "la sorella",
+        "article": "la",
+        "example": "Mia sorella è gentile.",
+        "gloss": {
+          "pl": "siostra",
+          "en": "sister"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w04-04",
+        "word": "il fratello",
+        "article": "il",
+        "example": "Mio fratello gioca.",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w04-05",
+        "word": "il bambino",
+        "article": "il",
+        "example": "Il bambino ride.",
+        "gloss": {
+          "pl": "dziecko",
+          "en": "child"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "title": {
+      "en": "Food",
+      "pl": "Jedzenie"
+    },
+    "words": [
+      {
+        "id": "it-w05-01",
+        "word": "il pane",
+        "article": "il",
+        "example": "Il pane è fresco.",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w05-02",
+        "word": "l'acqua",
+        "article": "l'",
+        "example": "L'acqua è fredda.",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w05-03",
+        "word": "la mela",
+        "article": "la",
+        "example": "La mela è verde.",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w05-04",
+        "word": "il latte",
+        "article": "il",
+        "example": "Il latte è tiepido.",
+        "gloss": {
+          "pl": "mleko",
+          "en": "milk"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w05-05",
+        "word": "l'uovo",
+        "article": "l'",
+        "example": "L'uovo è nel piatto.",
+        "gloss": {
+          "pl": "jajko",
+          "en": "egg"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "title": {
+      "en": "Travel and fun",
+      "pl": "Podróż i rozrywka"
+    },
+    "words": [
+      {
+        "id": "it-w06-01",
+        "word": "la bicicletta",
+        "article": "la",
+        "example": "La bicicletta è nuova.",
+        "gloss": {
+          "pl": "rower",
+          "en": "bicycle"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w06-02",
+        "word": "la macchina",
+        "article": "la",
+        "example": "La macchina è blu.",
+        "gloss": {
+          "pl": "samochód",
+          "en": "car"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w06-03",
+        "word": "il treno",
+        "article": "il",
+        "example": "Il treno arriva.",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w06-04",
+        "word": "il libro",
+        "article": "il",
+        "example": "Il libro è interessante.",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w06-05",
+        "word": "il giocattolo",
+        "article": "il",
+        "example": "Il giocattolo è rotto.",
+        "gloss": {
+          "pl": "zabawka",
+          "en": "toy"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "title": {
+      "en": "Clothes",
+      "pl": "Ubrania"
+    },
+    "words": [
+      {
+        "id": "it-w07-01",
+        "word": "il berretto",
+        "article": "il",
+        "example": "Il berretto è caldo.",
+        "gloss": {
+          "pl": "czapka",
+          "en": "cap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w07-02",
+        "word": "la scarpa",
+        "article": "la",
+        "example": "La scarpa è sporca.",
+        "gloss": {
+          "pl": "but",
+          "en": "shoe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w07-03",
+        "word": "il cappotto",
+        "article": "il",
+        "example": "Il cappotto è pesante.",
+        "gloss": {
+          "pl": "płaszcz",
+          "en": "coat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w07-04",
+        "word": "la camicia",
+        "article": "la",
+        "example": "La camicia è bianca.",
+        "gloss": {
+          "pl": "koszula",
+          "en": "shirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w07-05",
+        "word": "il vestito",
+        "article": "il",
+        "example": "Il vestito è bello.",
+        "gloss": {
+          "pl": "sukienka",
+          "en": "dress"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "title": {
+      "en": "Nature",
+      "pl": "Przyroda"
+    },
+    "words": [
+      {
+        "id": "it-w08-01",
+        "word": "l'albero",
+        "article": "l'",
+        "example": "L'albero è alto.",
+        "gloss": {
+          "pl": "drzewo",
+          "en": "tree"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w08-02",
+        "word": "il sole",
+        "article": "il",
+        "example": "Il sole brilla.",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w08-03",
+        "word": "la luna",
+        "article": "la",
+        "example": "La luna è piena.",
+        "gloss": {
+          "pl": "księżyc",
+          "en": "moon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w08-04",
+        "word": "la pioggia",
+        "article": "la",
+        "example": "La pioggia inizia.",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w08-05",
+        "word": "il fiore",
+        "article": "il",
+        "example": "Il fiore profuma.",
+        "gloss": {
+          "pl": "kwiat",
+          "en": "flower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "title": {
+      "en": "Face and body",
+      "pl": "Twarz i ciało"
+    },
+    "words": [
+      {
+        "id": "it-w09-01",
+        "word": "l'occhio",
+        "article": "l'",
+        "example": "Il suo occhio è azzurro.",
+        "gloss": {
+          "pl": "oko",
+          "en": "eye"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w09-02",
+        "word": "l'orecchio",
+        "article": "l'",
+        "example": "Mi fa male l'orecchio.",
+        "gloss": {
+          "pl": "ucho",
+          "en": "ear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w09-03",
+        "word": "il naso",
+        "article": "il",
+        "example": "Il suo naso è rosso.",
+        "gloss": {
+          "pl": "nos",
+          "en": "nose"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w09-04",
+        "word": "la bocca",
+        "article": "la",
+        "example": "Apri la bocca.",
+        "gloss": {
+          "pl": "usta",
+          "en": "mouth"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w09-05",
+        "word": "il dito",
+        "article": "il",
+        "example": "Indica con il dito.",
+        "gloss": {
+          "pl": "palec",
+          "en": "finger"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "title": {
+      "en": "School",
+      "pl": "Szkoła"
+    },
+    "words": [
+      {
+        "id": "it-w10-01",
+        "word": "la scuola",
+        "article": "la",
+        "example": "La scuola è vicina.",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w10-02",
+        "word": "la penna",
+        "article": "la",
+        "example": "La penna scrive bene.",
+        "gloss": {
+          "pl": "długopis",
+          "en": "pen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w10-03",
+        "word": "il quaderno",
+        "article": "il",
+        "example": "Il quaderno è pieno.",
+        "gloss": {
+          "pl": "zeszyt",
+          "en": "notebook"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w10-04",
+        "word": "lo zaino",
+        "article": "lo",
+        "example": "Lo zaino è pesante.",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w10-05",
+        "word": "l'insegnante",
+        "article": "l'",
+        "example": "L'insegnante sorride.",
+        "gloss": {
+          "pl": "nauczyciel",
+          "en": "teacher"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "title": {
+      "en": "City",
+      "pl": "Miasto"
+    },
+    "words": [
+      {
+        "id": "it-w11-01",
+        "word": "la strada",
+        "article": "la",
+        "example": "La strada è tranquilla.",
+        "gloss": {
+          "pl": "ulica",
+          "en": "street"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w11-02",
+        "word": "il negozio",
+        "article": "il",
+        "example": "Il negozio apre alle nove.",
+        "gloss": {
+          "pl": "sklep",
+          "en": "shop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w11-03",
+        "word": "il ponte",
+        "article": "il",
+        "example": "Il ponte è lungo.",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w11-04",
+        "word": "la piazza",
+        "article": "la",
+        "example": "Ci incontriamo in piazza.",
+        "gloss": {
+          "pl": "plac",
+          "en": "square"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w11-05",
+        "word": "il parco",
+        "article": "il",
+        "example": "I bambini giocano al parco.",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "title": {
+      "en": "At home",
+      "pl": "W domu"
+    },
+    "words": [
+      {
+        "id": "it-w12-01",
+        "word": "il letto",
+        "article": "il",
+        "example": "Il letto è morbido.",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "bed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w12-02",
+        "word": "la lampada",
+        "article": "la",
+        "example": "Accendi la lampada.",
+        "gloss": {
+          "pl": "lampa",
+          "en": "lamp"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w12-03",
+        "word": "la tazza",
+        "article": "la",
+        "example": "La tazza è calda.",
+        "gloss": {
+          "pl": "kubek",
+          "en": "mug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w12-04",
+        "word": "il piatto",
+        "article": "il",
+        "example": "Il piatto è pulito.",
+        "gloss": {
+          "pl": "talerz",
+          "en": "plate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w12-05",
+        "word": "la chiave",
+        "article": "la",
+        "example": "Ho perso la chiave.",
+        "gloss": {
+          "pl": "klucz",
+          "en": "key"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "title": {
+      "en": "Kitchen",
+      "pl": "Kuchnia"
+    },
+    "words": [
+      {
+        "id": "it-w13-01",
+        "word": "il cucchiaio",
+        "article": "il",
+        "example": "Usa il cucchiaio.",
+        "gloss": {
+          "pl": "łyżka",
+          "en": "spoon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w13-02",
+        "word": "la forchetta",
+        "article": "la",
+        "example": "La forchetta è sul tavolo.",
+        "gloss": {
+          "pl": "widelec",
+          "en": "fork"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w13-03",
+        "word": "il coltello",
+        "article": "il",
+        "example": "Il coltello è affilato.",
+        "gloss": {
+          "pl": "nóż",
+          "en": "knife"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w13-04",
+        "word": "il frigorifero",
+        "article": "il",
+        "example": "Il frigorifero è pieno.",
+        "gloss": {
+          "pl": "lodówka",
+          "en": "fridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w13-05",
+        "word": "il forno",
+        "article": "il",
+        "example": "Il forno è caldo.",
+        "gloss": {
+          "pl": "piec",
+          "en": "oven"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "title": {
+      "en": "Vacation",
+      "pl": "Wakacje"
+    },
+    "words": [
+      {
+        "id": "it-w14-01",
+        "word": "la spiaggia",
+        "article": "la",
+        "example": "Camminiamo sulla spiaggia.",
+        "gloss": {
+          "pl": "plaża",
+          "en": "beach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w14-02",
+        "word": "il mare",
+        "article": "il",
+        "example": "Il mare è calmo.",
+        "gloss": {
+          "pl": "morze",
+          "en": "sea"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w14-03",
+        "word": "l'hotel",
+        "article": "l'",
+        "example": "L'hotel ha una piscina.",
+        "gloss": {
+          "pl": "hotel",
+          "en": "hotel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w14-04",
+        "word": "il biglietto",
+        "article": "il",
+        "example": "Compro un biglietto.",
+        "gloss": {
+          "pl": "bilet",
+          "en": "ticket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w14-05",
+        "word": "la valigia",
+        "article": "la",
+        "example": "La valigia è pronta.",
+        "gloss": {
+          "pl": "walizka",
+          "en": "suitcase"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "title": {
+      "en": "Work and technology",
+      "pl": "Praca i technologia"
+    },
+    "words": [
+      {
+        "id": "it-w15-01",
+        "word": "il computer",
+        "article": "il",
+        "example": "Il computer è lento.",
+        "gloss": {
+          "pl": "komputer",
+          "en": "computer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w15-02",
+        "word": "lo schermo",
+        "article": "lo",
+        "example": "Lo schermo è luminoso.",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w15-03",
+        "word": "il telefono",
+        "article": "il",
+        "example": "Il telefono squilla.",
+        "gloss": {
+          "pl": "telefon",
+          "en": "phone"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w15-04",
+        "word": "l'ufficio",
+        "article": "l'",
+        "example": "L'ufficio è chiuso.",
+        "gloss": {
+          "pl": "biuro",
+          "en": "office"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w15-05",
+        "word": "la tastiera",
+        "article": "la",
+        "example": "La tastiera è senza fili.",
+        "gloss": {
+          "pl": "klawiatura",
+          "en": "keyboard"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "title": {
+      "en": "Time and weather",
+      "pl": "Czas i pogoda"
+    },
+    "words": [
+      {
+        "id": "it-w16-01",
+        "word": "il giorno",
+        "article": "il",
+        "example": "Oggi è una bella giornata.",
+        "gloss": {
+          "pl": "dzień",
+          "en": "day"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w16-02",
+        "word": "la notte",
+        "article": "la",
+        "example": "La notte è buia.",
+        "gloss": {
+          "pl": "noc",
+          "en": "night"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w16-03",
+        "word": "l'ora",
+        "article": "l'",
+        "example": "Aspetta un'ora.",
+        "gloss": {
+          "pl": "godzina",
+          "en": "hour"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w16-04",
+        "word": "il vento",
+        "article": "il",
+        "example": "Il vento è forte.",
+        "gloss": {
+          "pl": "wiatr",
+          "en": "wind"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w16-05",
+        "word": "la nuvola",
+        "article": "la",
+        "example": "Una nuvola copre il sole.",
+        "gloss": {
+          "pl": "chmura",
+          "en": "cloud"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "title": {
+      "en": "Winter weather",
+      "pl": "Zimowa pogoda"
+    },
+    "words": [
+      {
+        "id": "it-w17-01",
+        "word": "la neve",
+        "article": "la",
+        "example": "La neve cade piano.",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w17-02",
+        "word": "il ghiaccio",
+        "article": "il",
+        "example": "Il ghiaccio è scivoloso.",
+        "gloss": {
+          "pl": "lód",
+          "en": "ice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w17-03",
+        "word": "il temporale",
+        "article": "il",
+        "example": "Il temporale passa in fretta.",
+        "gloss": {
+          "pl": "burza",
+          "en": "storm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w17-04",
+        "word": "la nebbia",
+        "article": "la",
+        "example": "La nebbia è fitta.",
+        "gloss": {
+          "pl": "mgła",
+          "en": "fog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w17-05",
+        "word": "il tuono",
+        "article": "il",
+        "example": "Il tuono segue il fulmine.",
+        "gloss": {
+          "pl": "grzmot",
+          "en": "thunder"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "title": {
+      "en": "Public transport",
+      "pl": "W komunikacji miejskiej"
+    },
+    "words": [
+      {
+        "id": "it-w18-01",
+        "word": "il tram",
+        "article": "il",
+        "example": "Il tram si ferma qui.",
+        "gloss": {
+          "pl": "tramwaj",
+          "en": "tram"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w18-02",
+        "word": "l'autobus",
+        "article": "l'",
+        "example": "L'autobus è in ritardo.",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w18-03",
+        "word": "la fermata",
+        "article": "la",
+        "example": "Aspettiamo alla fermata.",
+        "gloss": {
+          "pl": "przystanek",
+          "en": "stop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w18-04",
+        "word": "il binario",
+        "article": "il",
+        "example": "Il binario è affollato.",
+        "gloss": {
+          "pl": "peron",
+          "en": "platform"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w18-05",
+        "word": "l'autista",
+        "article": "l'",
+        "example": "L'autista è prudente.",
+        "gloss": {
+          "pl": "kierowca",
+          "en": "driver"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "title": {
+      "en": "At the airport",
+      "pl": "Na lotnisku"
+    },
+    "words": [
+      {
+        "id": "it-w19-01",
+        "word": "l'aereo",
+        "article": "l'",
+        "example": "L'aereo atterra.",
+        "gloss": {
+          "pl": "samolot",
+          "en": "airplane"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w19-02",
+        "word": "l'aeroporto",
+        "article": "l'",
+        "example": "L'aeroporto è affollato.",
+        "gloss": {
+          "pl": "lotnisko",
+          "en": "airport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w19-03",
+        "word": "il passaporto",
+        "article": "il",
+        "example": "Mostra il passaporto.",
+        "gloss": {
+          "pl": "paszport",
+          "en": "passport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w19-04",
+        "word": "il gate",
+        "article": "il",
+        "example": "Il nostro gate è il dodici.",
+        "gloss": {
+          "pl": "bramka",
+          "en": "gate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w19-05",
+        "word": "il volo",
+        "article": "il",
+        "example": "Il volo è puntuale.",
+        "gloss": {
+          "pl": "lot",
+          "en": "flight"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "title": {
+      "en": "At the restaurant",
+      "pl": "W restauracji"
+    },
+    "words": [
+      {
+        "id": "it-w20-01",
+        "word": "il menu",
+        "article": "il",
+        "example": "Leggi il menu.",
+        "gloss": {
+          "pl": "menu",
+          "en": "menu"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w20-02",
+        "word": "il cameriere",
+        "article": "il",
+        "example": "Il cameriere porta l'acqua.",
+        "gloss": {
+          "pl": "kelner",
+          "en": "waiter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w20-03",
+        "word": "il conto",
+        "article": "il",
+        "example": "Il conto, per favore.",
+        "gloss": {
+          "pl": "rachunek",
+          "en": "bill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w20-04",
+        "word": "il bicchiere",
+        "article": "il",
+        "example": "Il bicchiere è vuoto.",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "glass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w20-05",
+        "word": "il tovagliolo",
+        "article": "il",
+        "example": "Usa un tovagliolo.",
+        "gloss": {
+          "pl": "serwetka",
+          "en": "napkin"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "title": {
+      "en": "Tools",
+      "pl": "Narzędzia"
+    },
+    "words": [
+      {
+        "id": "it-w21-01",
+        "word": "il martello",
+        "article": "il",
+        "example": "Colpisce il chiodo con un martello.",
+        "gloss": {
+          "pl": "młotek",
+          "en": "hammer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w21-02",
+        "word": "il cacciavite",
+        "article": "il",
+        "example": "Ho bisogno di un cacciavite.",
+        "gloss": {
+          "pl": "śrubokręt",
+          "en": "screwdriver"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w21-03",
+        "word": "il chiodo",
+        "article": "il",
+        "example": "Il chiodo è piegato.",
+        "gloss": {
+          "pl": "gwóźdź",
+          "en": "nail"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w21-04",
+        "word": "la vite",
+        "article": "la",
+        "example": "Stringi la vite.",
+        "gloss": {
+          "pl": "śruba",
+          "en": "screw"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w21-05",
+        "word": "la sega",
+        "article": "la",
+        "example": "La sega è affilata.",
+        "gloss": {
+          "pl": "piła",
+          "en": "saw"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "title": {
+      "en": "Bathroom",
+      "pl": "Łazienka"
+    },
+    "words": [
+      {
+        "id": "it-w22-01",
+        "word": "il lavandino",
+        "article": "il",
+        "example": "Lavati le mani al lavandino.",
+        "gloss": {
+          "pl": "umywalka",
+          "en": "sink"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w22-02",
+        "word": "lo specchio",
+        "article": "lo",
+        "example": "Guardati allo specchio.",
+        "gloss": {
+          "pl": "lustro",
+          "en": "mirror"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w22-03",
+        "word": "l'asciugamano",
+        "article": "l'",
+        "example": "L'asciugamano è asciutto.",
+        "gloss": {
+          "pl": "ręcznik",
+          "en": "towel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w22-04",
+        "word": "il sapone",
+        "article": "il",
+        "example": "Il sapone profuma.",
+        "gloss": {
+          "pl": "mydło",
+          "en": "soap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w22-05",
+        "word": "la doccia",
+        "article": "la",
+        "example": "Fai una doccia.",
+        "gloss": {
+          "pl": "prysznic",
+          "en": "shower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "title": {
+      "en": "Gadgets",
+      "pl": "Gadżety elektroniczne"
+    },
+    "words": [
+      {
+        "id": "it-w23-01",
+        "word": "il mouse",
+        "article": "il",
+        "example": "Il mouse non funziona.",
+        "gloss": {
+          "pl": "mysz komputerowa",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w23-02",
+        "word": "il caricabatterie",
+        "article": "il",
+        "example": "Ho dimenticato il caricabatterie.",
+        "gloss": {
+          "pl": "ładowarka",
+          "en": "charger"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w23-03",
+        "word": "la batteria",
+        "article": "la",
+        "example": "La batteria è scarica.",
+        "gloss": {
+          "pl": "bateria",
+          "en": "battery"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w23-04",
+        "word": "l'altoparlante",
+        "article": "l'",
+        "example": "L'altoparlante è forte.",
+        "gloss": {
+          "pl": "głośnik",
+          "en": "speaker"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w23-05",
+        "word": "le cuffie",
+        "article": "le",
+        "example": "Indossa le cuffie.",
+        "gloss": {
+          "pl": "słuchawki",
+          "en": "headphones"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "title": {
+      "en": "Desk work",
+      "pl": "Praca przy biurku"
+    },
+    "words": [
+      {
+        "id": "it-w24-01",
+        "word": "il documento",
+        "article": "il",
+        "example": "Firma il documento.",
+        "gloss": {
+          "pl": "dokument",
+          "en": "document"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w24-02",
+        "word": "il progetto",
+        "article": "il",
+        "example": "Il progetto inizia lunedì.",
+        "gloss": {
+          "pl": "projekt",
+          "en": "project"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w24-03",
+        "word": "la riunione",
+        "article": "la",
+        "example": "La riunione finisce alle cinque.",
+        "gloss": {
+          "pl": "spotkanie",
+          "en": "meeting"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w24-04",
+        "word": "la scadenza",
+        "article": "la",
+        "example": "La scadenza è domani.",
+        "gloss": {
+          "pl": "termin",
+          "en": "deadline"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w24-05",
+        "word": "il rapporto",
+        "article": "il",
+        "example": "Invia il rapporto oggi.",
+        "gloss": {
+          "pl": "raport",
+          "en": "report"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "title": {
+      "en": "In the forest",
+      "pl": "W lesie"
+    },
+    "words": [
+      {
+        "id": "it-w25-01",
+        "word": "la foglia",
+        "article": "la",
+        "example": "Una foglia cade.",
+        "gloss": {
+          "pl": "liść",
+          "en": "leaf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w25-02",
+        "word": "il ramo",
+        "article": "il",
+        "example": "Il ramo si spezza.",
+        "gloss": {
+          "pl": "gałąź",
+          "en": "branch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w25-03",
+        "word": "la radice",
+        "article": "la",
+        "example": "La radice è profonda.",
+        "gloss": {
+          "pl": "korzeń",
+          "en": "root"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w25-04",
+        "word": "il fungo",
+        "article": "il",
+        "example": "Non mangiare questo fungo.",
+        "gloss": {
+          "pl": "grzyb",
+          "en": "mushroom"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w25-05",
+        "word": "il sentiero",
+        "article": "il",
+        "example": "Il sentiero sale.",
+        "gloss": {
+          "pl": "ścieżka",
+          "en": "path"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "title": {
+      "en": "Mountains",
+      "pl": "Góry"
+    },
+    "words": [
+      {
+        "id": "it-w26-01",
+        "word": "la valle",
+        "article": "la",
+        "example": "La valle è verde.",
+        "gloss": {
+          "pl": "dolina",
+          "en": "valley"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w26-02",
+        "word": "la cima",
+        "article": "la",
+        "example": "Raggiungiamo la cima.",
+        "gloss": {
+          "pl": "szczyt",
+          "en": "summit"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w26-03",
+        "word": "la roccia",
+        "article": "la",
+        "example": "La roccia è scivolosa.",
+        "gloss": {
+          "pl": "skała",
+          "en": "rock"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w26-04",
+        "word": "il pendio",
+        "article": "il",
+        "example": "Il pendio è ripido.",
+        "gloss": {
+          "pl": "zbocze",
+          "en": "slope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w26-05",
+        "word": "lo zaino da trekking",
+        "article": "lo",
+        "example": "Lo zaino da trekking è leggero.",
+        "gloss": {
+          "pl": "plecak turystyczny",
+          "en": "hiking backpack"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "title": {
+      "en": "By the water",
+      "pl": "Nad wodą"
+    },
+    "words": [
+      {
+        "id": "it-w27-01",
+        "word": "il fiume",
+        "article": "il",
+        "example": "Il fiume scorre veloce.",
+        "gloss": {
+          "pl": "rzeka",
+          "en": "river"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w27-02",
+        "word": "il lago",
+        "article": "il",
+        "example": "Il lago è calmo.",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "lake"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w27-03",
+        "word": "la riva",
+        "article": "la",
+        "example": "Ci sediamo sulla riva.",
+        "gloss": {
+          "pl": "brzeg",
+          "en": "shore"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w27-04",
+        "word": "l'onda",
+        "article": "l'",
+        "example": "L'onda è grande.",
+        "gloss": {
+          "pl": "fala",
+          "en": "wave"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w27-05",
+        "word": "la nave",
+        "article": "la",
+        "example": "La nave lascia il porto.",
+        "gloss": {
+          "pl": "statek",
+          "en": "ship"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "title": {
+      "en": "Garden",
+      "pl": "Ogród"
+    },
+    "words": [
+      {
+        "id": "it-w28-01",
+        "word": "il prato",
+        "article": "il",
+        "example": "Taglia l'erba del prato.",
+        "gloss": {
+          "pl": "trawnik",
+          "en": "lawn"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w28-02",
+        "word": "il vaso",
+        "article": "il",
+        "example": "Il vaso si rompe.",
+        "gloss": {
+          "pl": "donica",
+          "en": "flowerpot"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w28-03",
+        "word": "la recinzione",
+        "article": "la",
+        "example": "Dipingi la recinzione.",
+        "gloss": {
+          "pl": "płot",
+          "en": "fence"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w28-04",
+        "word": "il seme",
+        "article": "il",
+        "example": "Pianta il seme.",
+        "gloss": {
+          "pl": "nasiono",
+          "en": "seed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w28-05",
+        "word": "la pala",
+        "article": "la",
+        "example": "Scava con una pala.",
+        "gloss": {
+          "pl": "łopata",
+          "en": "shovel"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "title": {
+      "en": "Groceries",
+      "pl": "Produkty spożywcze"
+    },
+    "words": [
+      {
+        "id": "it-w29-01",
+        "word": "il formaggio",
+        "article": "il",
+        "example": "Il formaggio è buono.",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w29-02",
+        "word": "il burro",
+        "article": "il",
+        "example": "Spalma il burro sul pane.",
+        "gloss": {
+          "pl": "masło",
+          "en": "butter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w29-03",
+        "word": "il riso",
+        "article": "il",
+        "example": "Cuoci il riso.",
+        "gloss": {
+          "pl": "ryż",
+          "en": "rice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w29-04",
+        "word": "la pasta",
+        "article": "la",
+        "example": "La pasta è pronta.",
+        "gloss": {
+          "pl": "makaron",
+          "en": "pasta"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w29-05",
+        "word": "la carota",
+        "article": "la",
+        "example": "Pelare la carota.",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "carrot"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "title": {
+      "en": "Fruit and vegetables",
+      "pl": "Owoce i warzywa"
+    },
+    "words": [
+      {
+        "id": "it-w30-01",
+        "word": "la banana",
+        "article": "la",
+        "example": "La banana è matura.",
+        "gloss": {
+          "pl": "banan",
+          "en": "banana"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w30-02",
+        "word": "il pomodoro",
+        "article": "il",
+        "example": "Affetta il pomodoro.",
+        "gloss": {
+          "pl": "pomidor",
+          "en": "tomato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w30-03",
+        "word": "la patata",
+        "article": "la",
+        "example": "Fai bollire la patata.",
+        "gloss": {
+          "pl": "ziemniak",
+          "en": "potato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w30-04",
+        "word": "la cipolla",
+        "article": "la",
+        "example": "La cipolla mi fa piangere.",
+        "gloss": {
+          "pl": "cebula",
+          "en": "onion"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w30-05",
+        "word": "l'arancia",
+        "article": "l'",
+        "example": "Sbuccia l'arancia.",
+        "gloss": {
+          "pl": "pomarańcza",
+          "en": "orange"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "title": {
+      "en": "Home repair",
+      "pl": "Naprawa domu"
+    },
+    "words": [
+      {
+        "id": "it-w31-01",
+        "word": "il muro",
+        "article": "il",
+        "example": "Dipingi il muro di bianco.",
+        "gloss": {
+          "pl": "ściana",
+          "en": "wall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w31-02",
+        "word": "il pavimento",
+        "article": "il",
+        "example": "Spazza il pavimento.",
+        "gloss": {
+          "pl": "podłoga",
+          "en": "floor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w31-03",
+        "word": "il soffitto",
+        "article": "il",
+        "example": "Il soffitto è alto.",
+        "gloss": {
+          "pl": "sufit",
+          "en": "ceiling"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w31-04",
+        "word": "la vernice",
+        "article": "la",
+        "example": "Compra vernice bianca.",
+        "gloss": {
+          "pl": "farba",
+          "en": "paint"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w31-05",
+        "word": "il pennello",
+        "article": "il",
+        "example": "Pulisci il pennello.",
+        "gloss": {
+          "pl": "pędzel",
+          "en": "brush"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "title": {
+      "en": "Health",
+      "pl": "Zdrowie"
+    },
+    "words": [
+      {
+        "id": "it-w32-01",
+        "word": "il medico",
+        "article": "il",
+        "example": "Il medico ascolta.",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w32-02",
+        "word": "l'infermiera",
+        "article": "l'",
+        "example": "L'infermiera è gentile.",
+        "gloss": {
+          "pl": "pielęgniarka",
+          "en": "nurse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w32-03",
+        "word": "la farmacia",
+        "article": "la",
+        "example": "Vai in farmacia.",
+        "gloss": {
+          "pl": "apteka",
+          "en": "pharmacy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w32-04",
+        "word": "la ricetta",
+        "article": "la",
+        "example": "Ho bisogno di una ricetta.",
+        "gloss": {
+          "pl": "recepta",
+          "en": "prescription"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w32-05",
+        "word": "il termometro",
+        "article": "il",
+        "example": "Il termometro segna la febbre.",
+        "gloss": {
+          "pl": "termometr",
+          "en": "thermometer"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "title": {
+      "en": "Body parts",
+      "pl": "Części ciała"
+    },
+    "words": [
+      {
+        "id": "it-w33-01",
+        "word": "il braccio",
+        "article": "il",
+        "example": "Si è rotto il braccio.",
+        "gloss": {
+          "pl": "ramię",
+          "en": "arm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w33-02",
+        "word": "il ginocchio",
+        "article": "il",
+        "example": "Mi fa male il ginocchio.",
+        "gloss": {
+          "pl": "kolano",
+          "en": "knee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w33-03",
+        "word": "la schiena",
+        "article": "la",
+        "example": "Raddrizza la schiena.",
+        "gloss": {
+          "pl": "plecy",
+          "en": "back"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w33-04",
+        "word": "lo stomaco",
+        "article": "lo",
+        "example": "Ho lo stomaco pieno.",
+        "gloss": {
+          "pl": "brzuch",
+          "en": "stomach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w33-05",
+        "word": "il cuore",
+        "article": "il",
+        "example": "Il mio cuore batte forte.",
+        "gloss": {
+          "pl": "serce",
+          "en": "heart"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "title": {
+      "en": "Sports",
+      "pl": "Sport"
+    },
+    "words": [
+      {
+        "id": "it-w34-01",
+        "word": "la partita",
+        "article": "la",
+        "example": "La partita inizia presto.",
+        "gloss": {
+          "pl": "mecz",
+          "en": "match"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w34-02",
+        "word": "la porta",
+        "article": "la",
+        "example": "Segna un gol.",
+        "gloss": {
+          "pl": "bramka (sport)",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w34-03",
+        "word": "il giocatore",
+        "article": "il",
+        "example": "Il giocatore corre.",
+        "gloss": {
+          "pl": "zawodnik",
+          "en": "player"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w34-04",
+        "word": "l'allenatore",
+        "article": "l'",
+        "example": "L'allenatore urla consigli.",
+        "gloss": {
+          "pl": "trener",
+          "en": "coach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w34-05",
+        "word": "la vittoria",
+        "article": "la",
+        "example": "La vittoria è bella.",
+        "gloss": {
+          "pl": "zwycięstwo",
+          "en": "victory"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "title": {
+      "en": "Music",
+      "pl": "Muzyka"
+    },
+    "words": [
+      {
+        "id": "it-w35-01",
+        "word": "la canzone",
+        "article": "la",
+        "example": "Canta la canzone.",
+        "gloss": {
+          "pl": "piosenka",
+          "en": "song"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w35-02",
+        "word": "la melodia",
+        "article": "la",
+        "example": "La melodia è semplice.",
+        "gloss": {
+          "pl": "melodia",
+          "en": "melody"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w35-03",
+        "word": "la chitarra",
+        "article": "la",
+        "example": "Suona la chitarra.",
+        "gloss": {
+          "pl": "gitara",
+          "en": "guitar"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w35-04",
+        "word": "il pianoforte",
+        "article": "il",
+        "example": "Il pianoforte è stonato.",
+        "gloss": {
+          "pl": "pianino",
+          "en": "piano"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w35-05",
+        "word": "il concerto",
+        "article": "il",
+        "example": "Andiamo a un concerto.",
+        "gloss": {
+          "pl": "koncert",
+          "en": "concert"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "title": {
+      "en": "Learning",
+      "pl": "Nauka"
+    },
+    "words": [
+      {
+        "id": "it-w36-01",
+        "word": "la lezione",
+        "article": "la",
+        "example": "La lezione è difficile.",
+        "gloss": {
+          "pl": "lekcja",
+          "en": "lesson"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w36-02",
+        "word": "l'esercizio",
+        "article": "l'",
+        "example": "Fai l'esercizio.",
+        "gloss": {
+          "pl": "ćwiczenie",
+          "en": "exercise"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w36-03",
+        "word": "la domanda",
+        "article": "la",
+        "example": "Fai una domanda.",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "question"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w36-04",
+        "word": "la risposta",
+        "article": "la",
+        "example": "Scrivi la risposta.",
+        "gloss": {
+          "pl": "odpowiedź",
+          "en": "answer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w36-05",
+        "word": "l'errore",
+        "article": "l'",
+        "example": "Tutti fanno errori.",
+        "gloss": {
+          "pl": "błąd",
+          "en": "mistake"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "title": {
+      "en": "Shopping",
+      "pl": "Zakupy"
+    },
+    "words": [
+      {
+        "id": "it-w37-01",
+        "word": "il prezzo",
+        "article": "il",
+        "example": "Il prezzo è giusto.",
+        "gloss": {
+          "pl": "cena",
+          "en": "price"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w37-02",
+        "word": "i soldi",
+        "article": "i",
+        "example": "Ho bisogno di soldi.",
+        "gloss": {
+          "pl": "pieniądz",
+          "en": "money"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w37-03",
+        "word": "lo sconto",
+        "article": "lo",
+        "example": "Oggi c'è uno sconto.",
+        "gloss": {
+          "pl": "zniżka",
+          "en": "discount"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w37-04",
+        "word": "il cestino",
+        "article": "il",
+        "example": "Riempi il cestino.",
+        "gloss": {
+          "pl": "koszyk",
+          "en": "basket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w37-05",
+        "word": "lo scontrino",
+        "article": "lo",
+        "example": "Tieni lo scontrino.",
+        "gloss": {
+          "pl": "paragon",
+          "en": "receipt"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "title": {
+      "en": "Emotions",
+      "pl": "Ludzkie emocje"
+    },
+    "words": [
+      {
+        "id": "it-w38-01",
+        "word": "la gioia",
+        "article": "la",
+        "example": "La gioia riempie la stanza.",
+        "gloss": {
+          "pl": "radość",
+          "en": "joy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w38-02",
+        "word": "la paura",
+        "article": "la",
+        "example": "La paura è normale.",
+        "gloss": {
+          "pl": "strach",
+          "en": "fear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w38-03",
+        "word": "la tristezza",
+        "article": "la",
+        "example": "La tristezza passa.",
+        "gloss": {
+          "pl": "smutek",
+          "en": "sadness"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w38-04",
+        "word": "la speranza",
+        "article": "la",
+        "example": "La speranza ci fa andare avanti.",
+        "gloss": {
+          "pl": "nadzieja",
+          "en": "hope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w38-05",
+        "word": "la calma",
+        "article": "la",
+        "example": "Goditi la calma.",
+        "gloss": {
+          "pl": "spokój",
+          "en": "calm"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "title": {
+      "en": "Time and deadlines",
+      "pl": "Czas i terminy"
+    },
+    "words": [
+      {
+        "id": "it-w39-01",
+        "word": "la settimana",
+        "article": "la",
+        "example": "Questa settimana è piena.",
+        "gloss": {
+          "pl": "tydzień",
+          "en": "week"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w39-02",
+        "word": "il mese",
+        "article": "il",
+        "example": "Il mese prossimo viaggiamo.",
+        "gloss": {
+          "pl": "miesiąc",
+          "en": "month"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w39-03",
+        "word": "l'anno",
+        "article": "l'",
+        "example": "Buon anno!",
+        "gloss": {
+          "pl": "rok",
+          "en": "year"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w39-04",
+        "word": "il minuto",
+        "article": "il",
+        "example": "Aspetta un minuto.",
+        "gloss": {
+          "pl": "minuta",
+          "en": "minute"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w39-05",
+        "word": "il secondo",
+        "article": "il",
+        "example": "Un secondo, per favore.",
+        "gloss": {
+          "pl": "sekunda",
+          "en": "second"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "title": {
+      "en": "Celebrations",
+      "pl": "Uroczystości"
+    },
+    "words": [
+      {
+        "id": "it-w40-01",
+        "word": "il compleanno",
+        "article": "il",
+        "example": "Buon compleanno!",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "birthday"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w40-02",
+        "word": "il matrimonio",
+        "article": "il",
+        "example": "Il matrimonio è a giugno.",
+        "gloss": {
+          "pl": "ślub",
+          "en": "wedding"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w40-03",
+        "word": "il regalo",
+        "article": "il",
+        "example": "Apre il regalo.",
+        "gloss": {
+          "pl": "prezent",
+          "en": "gift"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w40-04",
+        "word": "la festa",
+        "article": "la",
+        "example": "La festa dura fino a mezzanotte.",
+        "gloss": {
+          "pl": "impreza",
+          "en": "party"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w40-05",
+        "word": "l'invito",
+        "article": "l'",
+        "example": "Invio un invito.",
+        "gloss": {
+          "pl": "zaproszenie",
+          "en": "invitation"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "title": {
+      "en": "City landmarks",
+      "pl": "W mieście 2"
+    },
+    "words": [
+      {
+        "id": "it-w41-01",
+        "word": "il municipio",
+        "article": "il",
+        "example": "Il municipio è antico.",
+        "gloss": {
+          "pl": "ratusz",
+          "en": "town hall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w41-02",
+        "word": "la biblioteca",
+        "article": "la",
+        "example": "La biblioteca è silenziosa.",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "library"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w41-03",
+        "word": "il museo",
+        "article": "il",
+        "example": "Visitiamo il museo.",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "museum"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w41-04",
+        "word": "la chiesa",
+        "article": "la",
+        "example": "La campana della chiesa suona.",
+        "gloss": {
+          "pl": "kościół",
+          "en": "church"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w41-05",
+        "word": "l'ospedale",
+        "article": "l'",
+        "example": "L'ospedale è vicino.",
+        "gloss": {
+          "pl": "szpital",
+          "en": "hospital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "title": {
+      "en": "Apartment",
+      "pl": "Mieszkanie"
+    },
+    "words": [
+      {
+        "id": "it-w42-01",
+        "word": "l'armadio",
+        "article": "l'",
+        "example": "L'armadio è pieno.",
+        "gloss": {
+          "pl": "szafa",
+          "en": "wardrobe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w42-02",
+        "word": "il divano",
+        "article": "il",
+        "example": "Siediti sul divano.",
+        "gloss": {
+          "pl": "sofa",
+          "en": "sofa"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w42-03",
+        "word": "il tappeto",
+        "article": "il",
+        "example": "Il tappeto è morbido.",
+        "gloss": {
+          "pl": "dywan",
+          "en": "rug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w42-04",
+        "word": "il balcone",
+        "article": "il",
+        "example": "Ci sono fiori sul balcone.",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balcony"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w42-05",
+        "word": "il camino",
+        "article": "il",
+        "example": "Il fuoco arde nel camino.",
+        "gloss": {
+          "pl": "kominek",
+          "en": "fireplace"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "title": {
+      "en": "More clothes",
+      "pl": "Ubrania 2"
+    },
+    "words": [
+      {
+        "id": "it-w43-01",
+        "word": "i pantaloni",
+        "article": "i",
+        "example": "Questi pantaloni stanno bene.",
+        "gloss": {
+          "pl": "spodnie",
+          "en": "trousers"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w43-02",
+        "word": "la gonna",
+        "article": "la",
+        "example": "La gonna è blu.",
+        "gloss": {
+          "pl": "spódnica",
+          "en": "skirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w43-03",
+        "word": "il guanto",
+        "article": "il",
+        "example": "Ho perso un guanto.",
+        "gloss": {
+          "pl": "rękawiczka",
+          "en": "glove"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w43-04",
+        "word": "la cintura",
+        "article": "la",
+        "example": "Stringi la cintura.",
+        "gloss": {
+          "pl": "pasek",
+          "en": "belt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w43-05",
+        "word": "la sciarpa",
+        "article": "la",
+        "example": "Indossa una sciarpa calda.",
+        "gloss": {
+          "pl": "szalik",
+          "en": "scarf"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "title": {
+      "en": "Birds and insects",
+      "pl": "Ptaki i owady"
+    },
+    "words": [
+      {
+        "id": "it-w44-01",
+        "word": "la farfalla",
+        "article": "la",
+        "example": "Una farfalla si posa sul fiore.",
+        "gloss": {
+          "pl": "motyl",
+          "en": "butterfly"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w44-02",
+        "word": "l'ape",
+        "article": "l'",
+        "example": "L'ape raccoglie nettare.",
+        "gloss": {
+          "pl": "pszczoła",
+          "en": "bee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w44-03",
+        "word": "la formica",
+        "article": "la",
+        "example": "Una formica porta una briciola.",
+        "gloss": {
+          "pl": "mrówka",
+          "en": "ant"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w44-04",
+        "word": "la cornacchia",
+        "article": "la",
+        "example": "La cornacchia vola via.",
+        "gloss": {
+          "pl": "wrona",
+          "en": "crow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w44-05",
+        "word": "l'anatra",
+        "article": "l'",
+        "example": "L'anatra nuota.",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "duck"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 45,
+    "title": {
+      "en": "Wild animals",
+      "pl": "Dzikie zwierzęta"
+    },
+    "words": [
+      {
+        "id": "it-w45-01",
+        "word": "il lupo",
+        "article": "il",
+        "example": "Il lupo ulula di notte.",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wolf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w45-02",
+        "word": "la volpe",
+        "article": "la",
+        "example": "La volpe è astuta.",
+        "gloss": {
+          "pl": "lis",
+          "en": "fox"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w45-03",
+        "word": "l'orso",
+        "article": "l'",
+        "example": "L'orso dorme in inverno.",
+        "gloss": {
+          "pl": "niedźwiedź",
+          "en": "bear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w45-04",
+        "word": "il cervo",
+        "article": "il",
+        "example": "Il cervo corre nel bosco.",
+        "gloss": {
+          "pl": "jeleń",
+          "en": "deer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w45-05",
+        "word": "la lepre",
+        "article": "la",
+        "example": "La lepre salta velocemente.",
+        "gloss": {
+          "pl": "zając",
+          "en": "hare"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 46,
+    "title": {
+      "en": "Everyday objects",
+      "pl": "Przedmioty codzienne"
+    },
+    "words": [
+      {
+        "id": "it-w46-01",
+        "word": "il portafoglio",
+        "article": "il",
+        "example": "Il mio portafoglio è nella borsa.",
+        "gloss": {
+          "pl": "portfel",
+          "en": "wallet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w46-02",
+        "word": "l'orologio",
+        "article": "l'",
+        "example": "L'orologio è in ritardo.",
+        "gloss": {
+          "pl": "zegarek",
+          "en": "watch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w46-03",
+        "word": "l'ombrello",
+        "article": "l'",
+        "example": "Prendi un ombrello.",
+        "gloss": {
+          "pl": "parasol",
+          "en": "umbrella"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w46-04",
+        "word": "gli occhiali",
+        "article": "gli",
+        "example": "Ho bisogno dei miei occhiali.",
+        "gloss": {
+          "pl": "okulary",
+          "en": "glasses"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w46-05",
+        "word": "il sonaglio",
+        "article": "il",
+        "example": "Il bambino scuote il sonaglio.",
+        "gloss": {
+          "pl": "grzechotka",
+          "en": "rattle"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 47,
+    "title": {
+      "en": "Travel again",
+      "pl": "W podróży 2"
+    },
+    "words": [
+      {
+        "id": "it-w47-01",
+        "word": "la mappa",
+        "article": "la",
+        "example": "Studia la mappa.",
+        "gloss": {
+          "pl": "mapa",
+          "en": "map"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w47-02",
+        "word": "la bussola",
+        "article": "la",
+        "example": "La bussola indica il nord.",
+        "gloss": {
+          "pl": "kompas",
+          "en": "compass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w47-03",
+        "word": "la direzione",
+        "article": "la",
+        "example": "In che direzione andiamo?",
+        "gloss": {
+          "pl": "kierunek",
+          "en": "direction"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w47-04",
+        "word": "il confine",
+        "article": "il",
+        "example": "Attraversiamo il confine.",
+        "gloss": {
+          "pl": "granica",
+          "en": "border"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w47-05",
+        "word": "la capitale",
+        "article": "la",
+        "example": "Roma è la capitale d'Italia.",
+        "gloss": {
+          "pl": "stolica",
+          "en": "capital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 48,
+    "title": {
+      "en": "Architecture",
+      "pl": "Architektura"
+    },
+    "words": [
+      {
+        "id": "it-w48-01",
+        "word": "la torre",
+        "article": "la",
+        "example": "La torre è visibile.",
+        "gloss": {
+          "pl": "wieża",
+          "en": "tower"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w48-02",
+        "word": "le scale",
+        "article": "le",
+        "example": "Sali le scale.",
+        "gloss": {
+          "pl": "schody",
+          "en": "stairs"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w48-03",
+        "word": "la cantina",
+        "article": "la",
+        "example": "Il vino è in cantina.",
+        "gloss": {
+          "pl": "piwnica",
+          "en": "basement"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w48-04",
+        "word": "il tetto",
+        "article": "il",
+        "example": "La neve copre il tetto.",
+        "gloss": {
+          "pl": "dach",
+          "en": "roof"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w48-05",
+        "word": "il cancello",
+        "article": "il",
+        "example": "Chiudi il cancello.",
+        "gloss": {
+          "pl": "brama",
+          "en": "gate"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 49,
+    "title": {
+      "en": "World geography",
+      "pl": "Świat i geografia"
+    },
+    "words": [
+      {
+        "id": "it-w49-01",
+        "word": "il continente",
+        "article": "il",
+        "example": "L'Europa è un continente.",
+        "gloss": {
+          "pl": "kontynent",
+          "en": "continent"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w49-02",
+        "word": "l'isola",
+        "article": "l'",
+        "example": "Viviamo su un'isola.",
+        "gloss": {
+          "pl": "wyspa",
+          "en": "island"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w49-03",
+        "word": "il deserto",
+        "article": "il",
+        "example": "Il deserto è arido.",
+        "gloss": {
+          "pl": "pustynia",
+          "en": "desert"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w49-04",
+        "word": "l'oceano",
+        "article": "l'",
+        "example": "L'oceano è profondo.",
+        "gloss": {
+          "pl": "ocean",
+          "en": "ocean"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w49-05",
+        "word": "il vulcano",
+        "article": "il",
+        "example": "Il vulcano è attivo.",
+        "gloss": {
+          "pl": "wulkan",
+          "en": "volcano"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 50,
+    "title": {
+      "en": "Stars and sky",
+      "pl": "Gwiazdy i niebo"
+    },
+    "words": [
+      {
+        "id": "it-w50-01",
+        "word": "la stella",
+        "article": "la",
+        "example": "Una stella brilla.",
+        "gloss": {
+          "pl": "gwiazda",
+          "en": "star"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w50-02",
+        "word": "il pianeta",
+        "article": "il",
+        "example": "La Terra è un pianeta.",
+        "gloss": {
+          "pl": "planeta",
+          "en": "planet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w50-03",
+        "word": "il razzo",
+        "article": "il",
+        "example": "Il razzo decolla.",
+        "gloss": {
+          "pl": "rakieta",
+          "en": "rocket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w50-04",
+        "word": "il cielo",
+        "article": "il",
+        "example": "Il cielo diventa rosa.",
+        "gloss": {
+          "pl": "niebo",
+          "en": "sky"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w50-05",
+        "word": "la cometa",
+        "article": "la",
+        "example": "Vediamo una cometa.",
+        "gloss": {
+          "pl": "kometa",
+          "en": "comet"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 51,
+    "title": {
+      "en": "Media and culture",
+      "pl": "Media i kultura"
+    },
+    "words": [
+      {
+        "id": "it-w51-01",
+        "word": "il film",
+        "article": "il",
+        "example": "Il film inizia alle otto.",
+        "gloss": {
+          "pl": "film",
+          "en": "film"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w51-02",
+        "word": "la serie",
+        "article": "la",
+        "example": "Guardiamo la serie tutta d'un fiato.",
+        "gloss": {
+          "pl": "serial",
+          "en": "series"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w51-03",
+        "word": "l'attore",
+        "article": "l'",
+        "example": "L'attore vince un premio.",
+        "gloss": {
+          "pl": "aktor",
+          "en": "actor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w51-04",
+        "word": "il regista",
+        "article": "il",
+        "example": "Il regista taglia una scena.",
+        "gloss": {
+          "pl": "reżyser",
+          "en": "director"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w51-05",
+        "word": "la mostra",
+        "article": "la",
+        "example": "La mostra apre oggi.",
+        "gloss": {
+          "pl": "wystawa",
+          "en": "exhibition"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 52,
+    "title": {
+      "en": "Work and growth",
+      "pl": "Praca i rozwój"
+    },
+    "words": [
+      {
+        "id": "it-w52-01",
+        "word": "l'abilità",
+        "article": "l'",
+        "example": "La pratica migliora l'abilità.",
+        "gloss": {
+          "pl": "umiejętność",
+          "en": "skill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w52-02",
+        "word": "l'esperienza",
+        "article": "l'",
+        "example": "L'esperienza conta.",
+        "gloss": {
+          "pl": "doświadczenie",
+          "en": "experience"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w52-03",
+        "word": "l'obiettivo",
+        "article": "l'",
+        "example": "Fissa un obiettivo chiaro.",
+        "gloss": {
+          "pl": "cel",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w52-04",
+        "word": "la sfida",
+        "article": "la",
+        "example": "Accetta la sfida.",
+        "gloss": {
+          "pl": "wyzwanie",
+          "en": "challenge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "it-w52-05",
+        "word": "il successo",
+        "article": "il",
+        "example": "Celebra il successo.",
+        "gloss": {
+          "pl": "osiągnięcie",
+          "en": "achievement"
+        },
+        "pos": "noun"
+      }
+    ]
+  }
+]

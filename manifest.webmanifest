@@ -1,8 +1,8 @@
 {
-  "name": "LangLab — niemiecki i hiszpański",
+  "name": "LangLab — Multilingual Learning",
   "short_name": "LangLab",
-  "description": "100 krótkich czytanek, dialogi, fiszki i nauka języków offline",
-  "lang": "pl",
+  "description": "German, Spanish, English, French and Italian readings, flashcards, tests and offline progress",
+  "lang": "en",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

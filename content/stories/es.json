@@ -1,0 +1,6511 @@
+[
+  {
+    "id": "es-a0-01",
+    "legacyId": "a0-01",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "La gata Mimi",
+      "pl": "Kotka Mimi",
+      "en": "The Cat Mimi",
+      "de": "Die Katze Mimi"
+    },
+    "sentences": [
+      "Esta es Ana.",
+      "Ana tiene una gata.",
+      "La gata se llama Mimi.",
+      "Mimi es pequeña.",
+      "Mimi duerme en el sofá."
+    ],
+    "translations": {
+      "pl": [
+        "To jest Ana.",
+        "Ana ma kotkę.",
+        "Kotka nazywa się Mimi.",
+        "Mimi jest mała.",
+        "Mimi śpi na kanapie."
+      ],
+      "en": [
+        "This is Anna.",
+        "Anna has a cat.",
+        "The cat is named Mimi.",
+        "Mimi is small.",
+        "Mimi sleeps on the sofa."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Esta",
+        "gloss": {
+          "pl": "To jest",
+          "en": "This is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ana",
+        "gloss": {
+          "pl": "Ana ma",
+          "en": "Anna has"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La gata",
+        "gloss": {
+          "pl": "Kotka nazywa",
+          "en": "The cat"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mimi",
+        "gloss": {
+          "pl": "Mimi jest",
+          "en": "Mimi is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-01-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "This is Anna.",
+            "This is Anna."
+          ],
+          "pl": [
+            "To jest Ana.",
+            "To jest Ana."
+          ],
+          "es": [
+            "Esta es Ana."
+          ]
+        },
+        "explanation": {
+          "en": "This is Anna.",
+          "pl": "To jest Ana."
+        }
+      },
+      {
+        "id": "es-a0-01-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Mimi sleeps on the sofa.",
+            "Mimi sleeps on the sofa."
+          ],
+          "pl": [
+            "Mimi śpi na kanapie.",
+            "Mimi śpi na kanapie."
+          ],
+          "es": [
+            "Mimi duerme en el sofá."
+          ]
+        },
+        "explanation": {
+          "en": "Mimi sleeps on the sofa.",
+          "pl": "Mimi śpi na kanapie."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a0-02",
+    "legacyId": "a0-02",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "La pelota roja",
+      "pl": "Czerwona piłka",
+      "en": "The Red Ball",
+      "de": "Der rote Ball"
+    },
+    "sentences": [
+      "Tom tiene una pelota.",
+      "La pelota es roja.",
+      "Tom juega en el jardín.",
+      "La pelota está en la hierba."
+    ],
+    "translations": {
+      "pl": [
+        "Tom ma piłkę.",
+        "Piłka jest czerwona.",
+        "Tom bawi się w ogrodzie.",
+        "Piłka leży w trawie."
+      ],
+      "en": [
+        "Tom has a ball.",
+        "The ball is red.",
+        "Tom plays in the garden.",
+        "The ball is lying in the grass."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Tom",
+        "gloss": {
+          "pl": "Tom ma",
+          "en": "Tom has"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La pelota",
+        "gloss": {
+          "pl": "Piłka jest",
+          "en": "The ball"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-02-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Tom has a ball.",
+            "Tom has a ball."
+          ],
+          "pl": [
+            "Tom ma piłkę.",
+            "Tom ma piłkę."
+          ],
+          "es": [
+            "Tom tiene una pelota."
+          ]
+        },
+        "explanation": {
+          "en": "Tom has a ball.",
+          "pl": "Tom ma piłkę."
+        }
+      },
+      {
+        "id": "es-a0-02-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "The ball is lying in the grass.",
+            "The ball is lying in the grass."
+          ],
+          "pl": [
+            "Piłka leży w trawie.",
+            "Piłka leży w trawie."
+          ],
+          "es": [
+            "La pelota está en la hierba."
+          ]
+        },
+        "explanation": {
+          "en": "The ball is lying in the grass.",
+          "pl": "Piłka leży w trawie."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-03",
+    "legacyId": "a0-03",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "¡Buenos días!",
+      "pl": "Dzień dobry!",
+      "en": "Good Morning!",
+      "de": "Guten Morgen!"
+    },
+    "sentences": [
+      "«¡Buenos días, Ana!»",
+      "«¡Buenos días, Tom!»",
+      "«¿Cómo estás?»",
+      "«Bien, gracias. ¿Y tú?»",
+      "«¡Bien también!»"
+    ],
+    "translations": {
+      "pl": [
+        "„Dzień dobry, Ana!”",
+        "„Dzień dobry, Tom!”",
+        "„Jak się masz?”",
+        "„Dobrze, dzięki. A ty?”",
+        "„Też dobrze!”"
+      ],
+      "en": [
+        "“Good morning, Anna!”",
+        "“Good morning, Tom!”",
+        "“How are you?”",
+        "“Fine, thanks. And you?”",
+        "“Fine too!”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¡Buenos",
+        "gloss": {
+          "pl": "Dzień dobry,",
+          "en": "“Good morning,"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Cómo",
+        "gloss": {
+          "pl": "Jak się",
+          "en": "“How are"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Bien,",
+        "gloss": {
+          "pl": "Dobrze, dzięki.",
+          "en": "“Fine, thanks."
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Bien",
+        "gloss": {
+          "pl": "Też dobrze!”",
+          "en": "“Fine too!”"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-03-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Good morning, Anna!”",
+            "“Good morning, Anna!”"
+          ],
+          "pl": [
+            "„Dzień dobry, Ana!”",
+            "„Dzień dobry, Ana!”"
+          ],
+          "es": [
+            "«¡Buenos días, Ana!»"
+          ]
+        },
+        "explanation": {
+          "en": "“Good morning, Anna!”",
+          "pl": "„Dzień dobry, Ana!”"
+        }
+      },
+      {
+        "id": "es-a0-03-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Fine too!”",
+            "“Fine too!”"
+          ],
+          "pl": [
+            "„Też dobrze!”",
+            "„Też dobrze!”"
+          ],
+          "es": [
+            "«¡Bien también!»"
+          ]
+        },
+        "explanation": {
+          "en": "“Fine too!”",
+          "pl": "„Też dobrze!”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-04",
+    "legacyId": "a0-04",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Un vaso de agua",
+      "pl": "Szklanka wody",
+      "en": "A Glass of Water",
+      "de": "Ein Glas Wasser"
+    },
+    "sentences": [
+      "Lena tiene sed.",
+      "Ella toma un vaso.",
+      "Ella bebe agua.",
+      "El agua está fría."
+    ],
+    "translations": {
+      "pl": [
+        "Lenie chce się pić.",
+        "Bierze szklankę.",
+        "Pije wodę.",
+        "Woda jest zimna."
+      ],
+      "en": [
+        "Lena is thirsty.",
+        "She takes a glass.",
+        "She drinks water.",
+        "The water is cold."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Lena",
+        "gloss": {
+          "pl": "Lenie chce",
+          "en": "Lena is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ella",
+        "gloss": {
+          "pl": "Bierze szklankę",
+          "en": "She takes"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El agua",
+        "gloss": {
+          "pl": "Woda jest",
+          "en": "The water"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-04-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Lena is thirsty.",
+            "Lena is thirsty."
+          ],
+          "pl": [
+            "Lenie chce się pić.",
+            "Lenie chce się pić."
+          ],
+          "es": [
+            "Lena tiene sed."
+          ]
+        },
+        "explanation": {
+          "en": "Lena is thirsty.",
+          "pl": "Lenie chce się pić."
+        }
+      },
+      {
+        "id": "es-a0-04-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "The water is cold.",
+            "The water is cold."
+          ],
+          "pl": [
+            "Woda jest zimna.",
+            "Woda jest zimna."
+          ],
+          "es": [
+            "El agua está fría."
+          ]
+        },
+        "explanation": {
+          "en": "The water is cold.",
+          "pl": "Woda jest zimna."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a0-05",
+    "legacyId": "a0-05",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Mi familia",
+      "pl": "Moja rodzina",
+      "en": "My Family",
+      "de": "Meine Familie"
+    },
+    "sentences": [
+      "Esta es mi familia.",
+      "Mi madre se llama Eva.",
+      "Mi padre se llama Jan.",
+      "Tengo un hermano.",
+      "Vivimos juntos."
+    ],
+    "translations": {
+      "pl": [
+        "To jest moja rodzina.",
+        "Moja mama ma na imię Ewa.",
+        "Mój tata ma na imię Jan.",
+        "Mam brata.",
+        "Mieszkamy razem."
+      ],
+      "en": [
+        "This is my family.",
+        "My mother is named Eva.",
+        "My father is named Jan.",
+        "I have a brother.",
+        "We live together."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Esta",
+        "gloss": {
+          "pl": "To jest",
+          "en": "This is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mi",
+        "gloss": {
+          "pl": "Moja mama",
+          "en": "My mother"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Tengo",
+        "gloss": {
+          "pl": "Mam brata",
+          "en": "I have"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Vivimos",
+        "gloss": {
+          "pl": "Mieszkamy razem",
+          "en": "We live"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-05-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "This is my family.",
+            "This is my family."
+          ],
+          "pl": [
+            "To jest moja rodzina.",
+            "To jest moja rodzina."
+          ],
+          "es": [
+            "Esta es mi familia."
+          ]
+        },
+        "explanation": {
+          "en": "This is my family.",
+          "pl": "To jest moja rodzina."
+        }
+      },
+      {
+        "id": "es-a0-05-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We live together.",
+            "We live together."
+          ],
+          "pl": [
+            "Mieszkamy razem.",
+            "Mieszkamy razem."
+          ],
+          "es": [
+            "Vivimos juntos."
+          ]
+        },
+        "explanation": {
+          "en": "We live together.",
+          "pl": "Mieszkamy razem."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-06",
+    "legacyId": "a0-06",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "En la tienda pequeña",
+      "pl": "W małym sklepie",
+      "en": "In the Small Shop",
+      "de": "Im kleinen Laden"
+    },
+    "sentences": [
+      "«¡Hola! Quiero pan».",
+      "«¿Un pan?»",
+      "«Sí, por favor».",
+      "«¡Aquí tiene!»",
+      "«¡Gracias!»"
+    ],
+    "translations": {
+      "pl": [
+        "„Dzień dobry! Chcę chleb.”",
+        "„Jeden chleb?”",
+        "„Tak, poproszę.”",
+        "„Proszę bardzo!”",
+        "„Dziękuję!”"
+      ],
+      "en": [
+        "“Hello! I would like some bread.”",
+        "“One loaf?”",
+        "“Yes, please.”",
+        "“Here you are!”",
+        "“Thank you!”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¡Hola!",
+        "gloss": {
+          "pl": "Dzień dobry!",
+          "en": "“Hello! I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Un",
+        "gloss": {
+          "pl": "Jeden chleb?”",
+          "en": "“One loaf?”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sí,",
+        "gloss": {
+          "pl": "Tak, poproszę.”",
+          "en": "“Yes, please.”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Aquí",
+        "gloss": {
+          "pl": "Proszę bardzo!”",
+          "en": "“Here you"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Gracias",
+        "gloss": {
+          "pl": "Dziękuję!”",
+          "en": "“Thank you!”"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-06-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Hello! I would like some bread.”",
+            "“Hello! I would like some bread.”"
+          ],
+          "pl": [
+            "„Dzień dobry! Chcę chleb.”",
+            "„Dzień dobry! Chcę chleb.”"
+          ],
+          "es": [
+            "«¡Hola! Quiero pan»."
+          ]
+        },
+        "explanation": {
+          "en": "“Hello! I would like some bread.”",
+          "pl": "„Dzień dobry! Chcę chleb.”"
+        }
+      },
+      {
+        "id": "es-a0-06-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Thank you!”",
+            "“Thank you!”"
+          ],
+          "pl": [
+            "„Dziękuję!”",
+            "„Dziękuję!”"
+          ],
+          "es": [
+            "«¡Gracias!»"
+          ]
+        },
+        "explanation": {
+          "en": "“Thank you!”",
+          "pl": "„Dziękuję!”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-07",
+    "legacyId": "a0-07",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "El perro Max",
+      "pl": "Pies Max",
+      "en": "The Dog Max",
+      "de": "Der Hund Max"
+    },
+    "sentences": [
+      "Este es Max.",
+      "Max es un perro.",
+      "Max es grande y marrón.",
+      "Corre rápido.",
+      "A Max le gusta el agua."
+    ],
+    "translations": {
+      "pl": [
+        "To jest Max.",
+        "Max jest psem.",
+        "Max jest duży i brązowy.",
+        "Biega szybko.",
+        "Max lubi wodę."
+      ],
+      "en": [
+        "This is Max.",
+        "Max is a dog.",
+        "Max is big and brown.",
+        "He runs fast.",
+        "Max likes water."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Este",
+        "gloss": {
+          "pl": "To jest",
+          "en": "This is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Max",
+        "gloss": {
+          "pl": "Max jest",
+          "en": "Max is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Corre",
+        "gloss": {
+          "pl": "Biega szybko",
+          "en": "He runs"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-07-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "This is Max.",
+            "This is Max."
+          ],
+          "pl": [
+            "To jest Max.",
+            "To jest Max."
+          ],
+          "es": [
+            "Este es Max."
+          ]
+        },
+        "explanation": {
+          "en": "This is Max.",
+          "pl": "To jest Max."
+        }
+      },
+      {
+        "id": "es-a0-07-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Max likes water.",
+            "Max likes water."
+          ],
+          "pl": [
+            "Max lubi wodę.",
+            "Max lubi wodę."
+          ],
+          "es": [
+            "A Max le gusta el agua."
+          ]
+        },
+        "explanation": {
+          "en": "Max likes water.",
+          "pl": "Max lubi wodę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a0-08",
+    "legacyId": "a0-08",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "En la habitación",
+      "pl": "W pokoju",
+      "en": "In the Room",
+      "de": "Im Zimmer"
+    },
+    "sentences": [
+      "Esta es mi habitación.",
+      "La cama es blanca.",
+      "La mesa es pequeña.",
+      "Hay un libro sobre la mesa."
+    ],
+    "translations": {
+      "pl": [
+        "To jest mój pokój.",
+        "Łóżko jest białe.",
+        "Stół jest mały.",
+        "Na stole leży książka."
+      ],
+      "en": [
+        "This is my room.",
+        "The bed is white.",
+        "The table is small.",
+        "There is a book on the table."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Esta",
+        "gloss": {
+          "pl": "To jest",
+          "en": "This is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La cama",
+        "gloss": {
+          "pl": "Łóżko jest",
+          "en": "The bed"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La mesa",
+        "gloss": {
+          "pl": "Stół jest",
+          "en": "The table"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hay",
+        "gloss": {
+          "pl": "Na stole",
+          "en": "There is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-08-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "This is my room.",
+            "This is my room."
+          ],
+          "pl": [
+            "To jest mój pokój.",
+            "To jest mój pokój."
+          ],
+          "es": [
+            "Esta es mi habitación."
+          ]
+        },
+        "explanation": {
+          "en": "This is my room.",
+          "pl": "To jest mój pokój."
+        }
+      },
+      {
+        "id": "es-a0-08-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "There is a book on the table.",
+            "There is a book on the table."
+          ],
+          "pl": [
+            "Na stole leży książka.",
+            "Na stole leży książka."
+          ],
+          "es": [
+            "Hay un libro sobre la mesa."
+          ]
+        },
+        "explanation": {
+          "en": "There is a book on the table.",
+          "pl": "Na stole leży książka."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-09",
+    "legacyId": "a0-09",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "¿Cómo te llamas?",
+      "pl": "Jak masz na imię?",
+      "en": "What Is Your Name?",
+      "de": "Wie heißt du?"
+    },
+    "sentences": [
+      "«¡Hola! ¿Cómo te llamas?»",
+      "«Me llamo Sara».",
+      "«¿Y tú?»",
+      "«Me llamo Leo».",
+      "«¡Mucho gusto!»"
+    ],
+    "translations": {
+      "pl": [
+        "„Cześć! Jak masz na imię?”",
+        "„Mam na imię Sara.”",
+        "„A ty?”",
+        "„Mam na imię Leo.”",
+        "„Miło mi!”"
+      ],
+      "en": [
+        "“Hi! What is your name?”",
+        "“My name is Sara.”",
+        "“And you?”",
+        "“My name is Leo.”",
+        "“Nice to meet you!”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¡Hola!",
+        "gloss": {
+          "pl": "Cześć! Jak",
+          "en": "“Hi! What"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Me",
+        "gloss": {
+          "pl": "Mam na",
+          "en": "“My name"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Y",
+        "gloss": {
+          "pl": "A ty?”",
+          "en": "“And you?”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Mucho",
+        "gloss": {
+          "pl": "Miło mi!”",
+          "en": "“Nice to"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-09-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Hi! What is your name?”",
+            "“Hi! What is your name?”"
+          ],
+          "pl": [
+            "„Cześć! Jak masz na imię?”",
+            "„Cześć! Jak masz na imię?”"
+          ],
+          "es": [
+            "«¡Hola! ¿Cómo te llamas?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Hi! What is your name?”",
+          "pl": "„Cześć! Jak masz na imię?”"
+        }
+      },
+      {
+        "id": "es-a0-09-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Nice to meet you!”",
+            "“Nice to meet you!”"
+          ],
+          "pl": [
+            "„Miło mi!”",
+            "„Miło mi!”"
+          ],
+          "es": [
+            "«¡Mucho gusto!»"
+          ]
+        },
+        "explanation": {
+          "en": "“Nice to meet you!”",
+          "pl": "„Miło mi!”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a0-10",
+    "legacyId": "a0-10",
+    "targetLang": "es",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Está lloviendo",
+      "pl": "Pada deszcz",
+      "en": "It Is Raining",
+      "de": "Es regnet"
+    },
+    "sentences": [
+      "Hoy llueve.",
+      "El cielo está gris.",
+      "Eva tiene un paraguas.",
+      "Ella va a casa.",
+      "En casa hace calor."
+    ],
+    "translations": {
+      "pl": [
+        "Dzisiaj pada deszcz.",
+        "Niebo jest szare.",
+        "Ewa ma parasol.",
+        "Idzie do domu.",
+        "W domu jest ciepło."
+      ],
+      "en": [
+        "It is raining today.",
+        "The sky is grey.",
+        "Eva has an umbrella.",
+        "She is going home.",
+        "It is warm at home."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj pada",
+          "en": "It is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El cielo",
+        "gloss": {
+          "pl": "Niebo jest",
+          "en": "The sky"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Eva",
+        "gloss": {
+          "pl": "Ewa ma",
+          "en": "Eva has"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ella",
+        "gloss": {
+          "pl": "Idzie do",
+          "en": "She is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "W domu",
+          "en": "It is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a0-10-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "It is raining today.",
+            "It is raining today."
+          ],
+          "pl": [
+            "Dzisiaj pada deszcz.",
+            "Dzisiaj pada deszcz."
+          ],
+          "es": [
+            "Hoy llueve."
+          ]
+        },
+        "explanation": {
+          "en": "It is raining today.",
+          "pl": "Dzisiaj pada deszcz."
+        }
+      },
+      {
+        "id": "es-a0-10-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "It is warm at home.",
+            "It is warm at home."
+          ],
+          "pl": [
+            "W domu jest ciepło.",
+            "W domu jest ciepło."
+          ],
+          "es": [
+            "En casa hace calor."
+          ]
+        },
+        "explanation": {
+          "en": "It is warm at home.",
+          "pl": "W domu jest ciepło."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a1-01",
+    "legacyId": "a1-01",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Desayuno el domingo",
+      "pl": "Niedzielne śniadanie",
+      "en": "Sunday Breakfast",
+      "de": "Frühstück am Sonntag"
+    },
+    "sentences": [
+      "El domingo Pablo se levanta tarde.",
+      "Prepara café y corta pan.",
+      "Su hermana come un huevo.",
+      "Se sientan juntos en la cocina.",
+      "Después recogen la mesa."
+    ],
+    "translations": {
+      "pl": [
+        "W niedzielę Paweł wstaje późno.",
+        "Przygotowuje kawę i kroi chleb.",
+        "Jego siostra je jajko.",
+        "Siedzą razem w kuchni.",
+        "Potem sprzątają ze stołu."
+      ],
+      "en": [
+        "On Sunday Paul gets up late.",
+        "He makes coffee and cuts bread.",
+        "His sister eats an egg.",
+        "They sit together in the kitchen.",
+        "Afterwards they clear the table."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "El domingo",
+        "gloss": {
+          "pl": "W niedzielę",
+          "en": "On Sunday"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Prepara",
+        "gloss": {
+          "pl": "Przygotowuje kawę",
+          "en": "He makes"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Su",
+        "gloss": {
+          "pl": "Jego siostra",
+          "en": "His sister"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Se",
+        "gloss": {
+          "pl": "Siedzą razem",
+          "en": "They sit"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Potem sprzątają",
+          "en": "Afterwards they"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-01-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "On Sunday Paul gets up late.",
+            "On Sunday Paul gets up late."
+          ],
+          "pl": [
+            "W niedzielę Paweł wstaje późno.",
+            "W niedzielę Paweł wstaje późno."
+          ],
+          "es": [
+            "El domingo Pablo se levanta tarde."
+          ]
+        },
+        "explanation": {
+          "en": "On Sunday Paul gets up late.",
+          "pl": "W niedzielę Paweł wstaje późno."
+        }
+      },
+      {
+        "id": "es-a1-01-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Afterwards they clear the table.",
+            "Afterwards they clear the table."
+          ],
+          "pl": [
+            "Potem sprzątają ze stołu.",
+            "Potem sprzątają ze stołu."
+          ],
+          "es": [
+            "Después recogen la mesa."
+          ]
+        },
+        "explanation": {
+          "en": "Afterwards they clear the table.",
+          "pl": "Potem sprzątają ze stołu."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-02",
+    "legacyId": "a1-02",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "La llave perdida",
+      "pl": "Zgubiony klucz",
+      "en": "The Lost Key",
+      "de": "Der verlorene Schlüssel"
+    },
+    "sentences": [
+      "Marta busca su llave.",
+      "Mira dentro del bolso.",
+      "Allí solo está su teléfono.",
+      "Entonces ve la llave sobre la mesa.",
+      "«¡Aquí estás!», dice."
+    ],
+    "translations": {
+      "pl": [
+        "Marta szuka klucza.",
+        "Zagląda do torebki.",
+        "Jest tam tylko jej telefon.",
+        "Potem widzi klucz na stole.",
+        "„Tu jesteś!”, mówi."
+      ],
+      "en": [
+        "Marta is looking for her key.",
+        "She looks in her bag.",
+        "There is only her phone there.",
+        "Then she sees the key on the table.",
+        "“There you are!” she says."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Marta",
+        "gloss": {
+          "pl": "Marta szuka",
+          "en": "Marta is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mira",
+        "gloss": {
+          "pl": "Zagląda do",
+          "en": "She looks"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Allí",
+        "gloss": {
+          "pl": "Jest tam",
+          "en": "There is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Entonces",
+        "gloss": {
+          "pl": "Potem widzi",
+          "en": "Then she"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Aquí",
+        "gloss": {
+          "pl": "Tu jesteś!”,",
+          "en": "“There you"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-02-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Marta is looking for her key.",
+            "Marta is looking for her key."
+          ],
+          "pl": [
+            "Marta szuka klucza.",
+            "Marta szuka klucza."
+          ],
+          "es": [
+            "Marta busca su llave."
+          ]
+        },
+        "explanation": {
+          "en": "Marta is looking for her key.",
+          "pl": "Marta szuka klucza."
+        }
+      },
+      {
+        "id": "es-a1-02-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“There you are!” she says.",
+            "“There you are!” she says."
+          ],
+          "pl": [
+            "„Tu jesteś!”, mówi.",
+            "„Tu jesteś!”, mówi."
+          ],
+          "es": [
+            "«¡Aquí estás!», dice."
+          ]
+        },
+        "explanation": {
+          "en": "“There you are!” she says.",
+          "pl": "„Tu jesteś!”, mówi."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-03",
+    "legacyId": "a1-03",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "En la cafetería",
+      "pl": "W kawiarni",
+      "en": "At the Café",
+      "de": "Im Café"
+    },
+    "sentences": [
+      "«¿Qué desea tomar?»",
+      "«Un té, por favor».",
+      "«¿Con azúcar?»",
+      "«No, gracias. Sin azúcar».",
+      "«Son tres euros»."
+    ],
+    "translations": {
+      "pl": [
+        "„Co podać do picia?”",
+        "„Herbatę, poproszę.”",
+        "„Z cukrem?”",
+        "„Nie, dziękuję. Bez cukru.”",
+        "„To będzie trzy euro.”"
+      ],
+      "en": [
+        "“What would you like to drink?”",
+        "“Tea, please.”",
+        "“With sugar?”",
+        "“No, thank you. Without sugar.”",
+        "“That will be three euros.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¿Qué",
+        "gloss": {
+          "pl": "Co podać",
+          "en": "“What would"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Un té,",
+        "gloss": {
+          "pl": "Herbatę, poproszę.”",
+          "en": "“Tea, please.”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Con",
+        "gloss": {
+          "pl": "Z cukrem?”",
+          "en": "“With sugar?”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "No,",
+        "gloss": {
+          "pl": "Nie, dziękuję.",
+          "en": "“No, thank"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Son",
+        "gloss": {
+          "pl": "To będzie",
+          "en": "“That will"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-03-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“What would you like to drink?”",
+            "“What would you like to drink?”"
+          ],
+          "pl": [
+            "„Co podać do picia?”",
+            "„Co podać do picia?”"
+          ],
+          "es": [
+            "«¿Qué desea tomar?»"
+          ]
+        },
+        "explanation": {
+          "en": "“What would you like to drink?”",
+          "pl": "„Co podać do picia?”"
+        }
+      },
+      {
+        "id": "es-a1-03-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“That will be three euros.”",
+            "“That will be three euros.”"
+          ],
+          "pl": [
+            "„To będzie trzy euro.”",
+            "„To będzie trzy euro.”"
+          ],
+          "es": [
+            "«Son tres euros»."
+          ]
+        },
+        "explanation": {
+          "en": "“That will be three euros.”",
+          "pl": "„To będzie trzy euro.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-04",
+    "legacyId": "a1-04",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Un día en el parque",
+      "pl": "Dzień w parku",
+      "en": "A Day in the Park",
+      "de": "Ein Tag im Park"
+    },
+    "sentences": [
+      "Hoy brilla el sol.",
+      "Nina va al parque con su perro.",
+      "Muchos niños juegan en el parque infantil.",
+      "Nina se sienta en un banco.",
+      "Su perro duerme a su lado."
+    ],
+    "translations": {
+      "pl": [
+        "Dzisiaj świeci słońce.",
+        "Nina idzie z psem do parku.",
+        "Wiele dzieci bawi się na placu zabaw.",
+        "Nina siada na ławce.",
+        "Jej pies śpi obok niej."
+      ],
+      "en": [
+        "The sun is shining today.",
+        "Nina goes to the park with her dog.",
+        "Many children are playing on the playground.",
+        "Nina sits down on a bench.",
+        "Her dog sleeps next to her."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj świeci",
+          "en": "The sun"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Nina",
+        "gloss": {
+          "pl": "Nina idzie",
+          "en": "Nina goes"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Muchos",
+        "gloss": {
+          "pl": "Wiele dzieci",
+          "en": "Many children"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Su",
+        "gloss": {
+          "pl": "Jej pies",
+          "en": "Her dog"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-04-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "The sun is shining today.",
+            "The sun is shining today."
+          ],
+          "pl": [
+            "Dzisiaj świeci słońce.",
+            "Dzisiaj świeci słońce."
+          ],
+          "es": [
+            "Hoy brilla el sol."
+          ]
+        },
+        "explanation": {
+          "en": "The sun is shining today.",
+          "pl": "Dzisiaj świeci słońce."
+        }
+      },
+      {
+        "id": "es-a1-04-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Her dog sleeps next to her.",
+            "Her dog sleeps next to her."
+          ],
+          "pl": [
+            "Jej pies śpi obok niej.",
+            "Jej pies śpi obok niej."
+          ],
+          "es": [
+            "Su perro duerme a su lado."
+          ]
+        },
+        "explanation": {
+          "en": "Her dog sleeps next to her.",
+          "pl": "Jej pies śpi obok niej."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-05",
+    "legacyId": "a1-05",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Llega el autobús",
+      "pl": "Nadjeżdża autobus",
+      "en": "The Bus Is Coming",
+      "de": "Der Bus kommt"
+    },
+    "sentences": [
+      "«Perdone, ¿este autobús va a la estación?»",
+      "«Sí, pero sale dentro de diez minutos».",
+      "«¿Dónde puedo comprar un billete?»",
+      "«Directamente al conductor».",
+      "«¡Muchas gracias!»"
+    ],
+    "translations": {
+      "pl": [
+        "„Przepraszam, czy ten autobus jedzie na dworzec?”",
+        "„Tak, ale odjeżdża dopiero za dziesięć minut.”",
+        "„Gdzie mogę kupić bilet?”",
+        "„Bezpośrednio u kierowcy.”",
+        "„Bardzo dziękuję!”"
+      ],
+      "en": [
+        "“Excuse me, does this bus go to the station?”",
+        "“Yes, but it leaves in ten minutes.”",
+        "“Where can I buy a ticket?”",
+        "“Directly from the driver.”",
+        "“Thank you very much!”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Perdone,",
+        "gloss": {
+          "pl": "Przepraszam, czy",
+          "en": "“Excuse me,"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sí,",
+        "gloss": {
+          "pl": "Tak, ale",
+          "en": "“Yes, but"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Dónde",
+        "gloss": {
+          "pl": "Gdzie mogę",
+          "en": "“Where can"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Directamente",
+        "gloss": {
+          "pl": "Bezpośrednio u",
+          "en": "“Directly from"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Muchas",
+        "gloss": {
+          "pl": "Bardzo dziękuję!”",
+          "en": "“Thank you"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-05-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Excuse me, does this bus go to the station?”",
+            "“Excuse me, does this bus go to the station?”"
+          ],
+          "pl": [
+            "„Przepraszam, czy ten autobus jedzie na dworzec?”",
+            "„Przepraszam, czy ten autobus jedzie na dworzec?”"
+          ],
+          "es": [
+            "«Perdone, ¿este autobús va a la estación?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Excuse me, does this bus go to the station?”",
+          "pl": "„Przepraszam, czy ten autobus jedzie na dworzec?”"
+        }
+      },
+      {
+        "id": "es-a1-05-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Thank you very much!”",
+            "“Thank you very much!”"
+          ],
+          "pl": [
+            "„Bardzo dziękuję!”",
+            "„Bardzo dziękuję!”"
+          ],
+          "es": [
+            "«¡Muchas gracias!»"
+          ]
+        },
+        "explanation": {
+          "en": "“Thank you very much!”",
+          "pl": "„Bardzo dziękuję!”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-06",
+    "legacyId": "a1-06",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "La nueva vecina",
+      "pl": "Nowa sąsiadka",
+      "en": "The New Neighbour",
+      "de": "Die neue Nachbarin"
+    },
+    "sentences": [
+      "Ahora vive una nueva vecina al lado de nosotros.",
+      "Se llama María y viene de Italia.",
+      "Cada mañana nos saluda amablemente.",
+      "Hoy trae un pastel pequeño.",
+      "La invitamos a tomar café."
+    ],
+    "translations": {
+      "pl": [
+        "Obok nas mieszka teraz nowa sąsiadka.",
+        "Ma na imię Maria i pochodzi z Włoch.",
+        "Każdego ranka wita nas życzliwie.",
+        "Dzisiaj przynosi małe ciasto.",
+        "Zapraszamy ją na kawę."
+      ],
+      "en": [
+        "A new neighbour lives next to us now.",
+        "Her name is Maria and she comes from Italy.",
+        "Every morning she greets us kindly.",
+        "Today she brings a small cake.",
+        "We invite her for coffee."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Ahora",
+        "gloss": {
+          "pl": "Obok nas",
+          "en": "A new"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Se",
+        "gloss": {
+          "pl": "Ma na",
+          "en": "Her name"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Cada",
+        "gloss": {
+          "pl": "Każdego ranka",
+          "en": "Every morning"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj przynosi",
+          "en": "Today she"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La invitamos",
+        "gloss": {
+          "pl": "Zapraszamy ją",
+          "en": "We invite"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-06-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "A new neighbour lives next to us now.",
+            "A new neighbour lives next to us now."
+          ],
+          "pl": [
+            "Obok nas mieszka teraz nowa sąsiadka.",
+            "Obok nas mieszka teraz nowa sąsiadka."
+          ],
+          "es": [
+            "Ahora vive una nueva vecina al lado de nosotros."
+          ]
+        },
+        "explanation": {
+          "en": "A new neighbour lives next to us now.",
+          "pl": "Obok nas mieszka teraz nowa sąsiadka."
+        }
+      },
+      {
+        "id": "es-a1-06-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We invite her for coffee.",
+            "We invite her for coffee."
+          ],
+          "pl": [
+            "Zapraszamy ją na kawę.",
+            "Zapraszamy ją na kawę."
+          ],
+          "es": [
+            "La invitamos a tomar café."
+          ]
+        },
+        "explanation": {
+          "en": "We invite her for coffee.",
+          "pl": "Zapraszamy ją na kawę."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a1-07",
+    "legacyId": "a1-07",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Un regalo",
+      "pl": "Prezent",
+      "en": "A Gift",
+      "de": "Ein Geschenk"
+    },
+    "sentences": [
+      "Hoy es el cumpleaños de mi amigo.",
+      "Le compro un libro.",
+      "Le gusta mucho leer historias.",
+      "Por la noche le doy el regalo.",
+      "Sonríe y dice gracias."
+    ],
+    "translations": {
+      "pl": [
+        "Dzisiaj mój przyjaciel ma urodziny.",
+        "Kupuję mu książkę.",
+        "Bardzo lubi czytać opowiadania.",
+        "Wieczorem daję mu prezent.",
+        "Uśmiecha się i mówi dziękuję."
+      ],
+      "en": [
+        "Today is my friend’s birthday.",
+        "I buy a book for him.",
+        "He really likes reading stories.",
+        "In the evening I give him the gift.",
+        "He smiles and says thank you."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj mój",
+          "en": "Today is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Le compro",
+        "gloss": {
+          "pl": "Kupuję mu",
+          "en": "I buy"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Le gusta",
+        "gloss": {
+          "pl": "Bardzo lubi",
+          "en": "He really"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Wieczorem daję",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sonríe",
+        "gloss": {
+          "pl": "Uśmiecha się",
+          "en": "He smiles"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-07-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Today is my friend’s birthday.",
+            "Today is my friend’s birthday."
+          ],
+          "pl": [
+            "Dzisiaj mój przyjaciel ma urodziny.",
+            "Dzisiaj mój przyjaciel ma urodziny."
+          ],
+          "es": [
+            "Hoy es el cumpleaños de mi amigo."
+          ]
+        },
+        "explanation": {
+          "en": "Today is my friend’s birthday.",
+          "pl": "Dzisiaj mój przyjaciel ma urodziny."
+        }
+      },
+      {
+        "id": "es-a1-07-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "He smiles and says thank you.",
+            "He smiles and says thank you."
+          ],
+          "pl": [
+            "Uśmiecha się i mówi dziękuję.",
+            "Uśmiecha się i mówi dziękuję."
+          ],
+          "es": [
+            "Sonríe y dice gracias."
+          ]
+        },
+        "explanation": {
+          "en": "He smiles and says thank you.",
+          "pl": "Uśmiecha się i mówi dziękuję."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-08",
+    "legacyId": "a1-08",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Después del trabajo",
+      "pl": "Po pracy",
+      "en": "After Work",
+      "de": "Nach der Arbeit"
+    },
+    "sentences": [
+      "Hoy trabajo hasta las cinco.",
+      "Después voy de compras.",
+      "Necesito leche, arroz y verduras.",
+      "En casa preparo una cena sencilla.",
+      "Más tarde leo unas páginas."
+    ],
+    "translations": {
+      "pl": [
+        "Dzisiaj pracuję do piątej.",
+        "Potem idę na zakupy.",
+        "Potrzebuję mleka, ryżu i warzyw.",
+        "W domu przygotowuję prostą kolację.",
+        "Później czytam kilka stron."
+      ],
+      "en": [
+        "I work until five today.",
+        "Afterwards I go shopping.",
+        "I need milk, rice and vegetables.",
+        "At home I cook a simple dinner.",
+        "Later I read a few pages."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj pracuję",
+          "en": "I work"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Potem idę",
+          "en": "Afterwards I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Necesito",
+        "gloss": {
+          "pl": "Potrzebuję mleka,",
+          "en": "I need"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "W domu",
+          "en": "At home"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Más",
+        "gloss": {
+          "pl": "Później czytam",
+          "en": "Later I"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-08-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "I work until five today.",
+            "I work until five today."
+          ],
+          "pl": [
+            "Dzisiaj pracuję do piątej.",
+            "Dzisiaj pracuję do piątej."
+          ],
+          "es": [
+            "Hoy trabajo hasta las cinco."
+          ]
+        },
+        "explanation": {
+          "en": "I work until five today.",
+          "pl": "Dzisiaj pracuję do piątej."
+        }
+      },
+      {
+        "id": "es-a1-08-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Later I read a few pages.",
+            "Later I read a few pages."
+          ],
+          "pl": [
+            "Później czytam kilka stron.",
+            "Później czytam kilka stron."
+          ],
+          "es": [
+            "Más tarde leo unas páginas."
+          ]
+        },
+        "explanation": {
+          "en": "Later I read a few pages.",
+          "pl": "Później czytam kilka stron."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-09",
+    "legacyId": "a1-09",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Una llamada telefónica",
+      "pl": "Rozmowa telefoniczna",
+      "en": "A Phone Call",
+      "de": "Ein Telefonat"
+    },
+    "sentences": [
+      "«Hola, soy Lisa. ¿Tienes tiempo hoy?»",
+      "«Sí, después de las seis».",
+      "«¿Vamos a dar un paseo?»",
+      "«¡Claro! ¿Dónde quedamos?»",
+      "«Delante del cine»."
+    ],
+    "translations": {
+      "pl": [
+        "„Cześć, tu Lisa. Masz dziś czas?”",
+        "„Tak, po szóstej.”",
+        "„Pójdziemy na spacer?”",
+        "„Chętnie! Gdzie się spotkamy?”",
+        "„Przed kinem.”"
+      ],
+      "en": [
+        "“Hi, this is Lisa. Do you have time today?”",
+        "“Yes, after six.”",
+        "“Shall we go for a walk?”",
+        "“Gladly! Where shall we meet?”",
+        "“In front of the cinema.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Hola,",
+        "gloss": {
+          "pl": "Cześć, tu",
+          "en": "“Hi, this"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sí,",
+        "gloss": {
+          "pl": "Tak, po",
+          "en": "“Yes, after"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Vamos",
+        "gloss": {
+          "pl": "Pójdziemy na",
+          "en": "“Shall we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Claro!",
+        "gloss": {
+          "pl": "Chętnie! Gdzie",
+          "en": "“Gladly! Where"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Delante",
+        "gloss": {
+          "pl": "Przed kinem.”",
+          "en": "“In front"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-09-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Hi, this is Lisa. Do you have time today?”",
+            "“Hi, this is Lisa. Do you have time today?”"
+          ],
+          "pl": [
+            "„Cześć, tu Lisa. Masz dziś czas?”",
+            "„Cześć, tu Lisa. Masz dziś czas?”"
+          ],
+          "es": [
+            "«Hola, soy Lisa. ¿Tienes tiempo hoy?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Hi, this is Lisa. Do you have time today?”",
+          "pl": "„Cześć, tu Lisa. Masz dziś czas?”"
+        }
+      },
+      {
+        "id": "es-a1-09-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“In front of the cinema.”",
+            "“In front of the cinema.”"
+          ],
+          "pl": [
+            "„Przed kinem.”",
+            "„Przed kinem.”"
+          ],
+          "es": [
+            "«Delante del cine»."
+          ]
+        },
+        "explanation": {
+          "en": "“In front of the cinema.”",
+          "pl": "„Przed kinem.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a1-10",
+    "legacyId": "a1-10",
+    "targetLang": "es",
+    "level": "A1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 2,
+    "titles": {
+      "es": "Una tarde libre",
+      "pl": "Wolne popołudnie",
+      "en": "A Free Afternoon",
+      "de": "Ein freier Nachmittag"
+    },
+    "sentences": [
+      "Por la tarde tengo tiempo libre.",
+      "Quiero hacer algo nuevo.",
+      "Primero pinto un cuadro.",
+      "Después llamo a mi amiga.",
+      "Vamos juntas a comer un helado."
+    ],
+    "translations": {
+      "pl": [
+        "Po południu mam wolne.",
+        "Chcę zrobić coś nowego.",
+        "Najpierw maluję obraz.",
+        "Potem dzwonię do koleżanki.",
+        "Idziemy razem na lody."
+      ],
+      "en": [
+        "I am free in the afternoon.",
+        "I want to do something new.",
+        "First I paint a picture.",
+        "Then I call my friend.",
+        "We go for ice cream together."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Po południu",
+          "en": "I am"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Quiero",
+        "gloss": {
+          "pl": "Chcę zrobić",
+          "en": "I want"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Primero",
+        "gloss": {
+          "pl": "Najpierw maluję",
+          "en": "First I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Potem dzwonię",
+          "en": "Then I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Vamos",
+        "gloss": {
+          "pl": "Idziemy razem",
+          "en": "We go"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a1-10-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "I am free in the afternoon.",
+            "I am free in the afternoon."
+          ],
+          "pl": [
+            "Po południu mam wolne.",
+            "Po południu mam wolne."
+          ],
+          "es": [
+            "Por la tarde tengo tiempo libre."
+          ]
+        },
+        "explanation": {
+          "en": "I am free in the afternoon.",
+          "pl": "Po południu mam wolne."
+        }
+      },
+      {
+        "id": "es-a1-10-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We go for ice cream together.",
+            "We go for ice cream together."
+          ],
+          "pl": [
+            "Idziemy razem na lody.",
+            "Idziemy razem na lody."
+          ],
+          "es": [
+            "Vamos juntas a comer un helado."
+          ]
+        },
+        "explanation": {
+          "en": "We go for ice cream together.",
+          "pl": "Idziemy razem na lody."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-01",
+    "legacyId": "a2-01",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Un fin de semana junto al mar",
+      "pl": "Weekend nad morzem",
+      "en": "A Weekend by the Sea",
+      "de": "Ein Wochenende am Meer"
+    },
+    "sentences": [
+      "El fin de semana pasado fuimos al mar.",
+      "El sábado hacía viento, pero sol.",
+      "Paseamos mucho tiempo por la playa.",
+      "Por la noche cenamos en un restaurante pequeño.",
+      "El domingo volvimos cansados y felices."
+    ],
+    "translations": {
+      "pl": [
+        "W zeszły weekend pojechaliśmy nad morze.",
+        "W sobotę wiało, ale było słonecznie.",
+        "Długo spacerowaliśmy po plaży.",
+        "Wieczorem zjedliśmy kolację w małej restauracji.",
+        "W niedzielę wróciliśmy zmęczeni i szczęśliwi."
+      ],
+      "en": [
+        "Last weekend we went to the sea.",
+        "On Saturday it was windy but sunny.",
+        "We walked along the beach for a long time.",
+        "In the evening we ate in a small restaurant.",
+        "On Sunday we came back tired and happy."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "El fin",
+        "gloss": {
+          "pl": "W zeszły",
+          "en": "Last weekend"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El sábado",
+        "gloss": {
+          "pl": "W sobotę",
+          "en": "On Saturday"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Paseamos",
+        "gloss": {
+          "pl": "Długo spacerowaliśmy",
+          "en": "We walked"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Wieczorem zjedliśmy",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El domingo",
+        "gloss": {
+          "pl": "W niedzielę",
+          "en": "On Sunday"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-01-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Last weekend we went to the sea.",
+            "Last weekend we went to the sea."
+          ],
+          "pl": [
+            "W zeszły weekend pojechaliśmy nad morze.",
+            "W zeszły weekend pojechaliśmy nad morze."
+          ],
+          "es": [
+            "El fin de semana pasado fuimos al mar."
+          ]
+        },
+        "explanation": {
+          "en": "Last weekend we went to the sea.",
+          "pl": "W zeszły weekend pojechaliśmy nad morze."
+        }
+      },
+      {
+        "id": "es-a2-01-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "On Sunday we came back tired and happy.",
+            "On Sunday we came back tired and happy."
+          ],
+          "pl": [
+            "W niedzielę wróciliśmy zmęczeni i szczęśliwi.",
+            "W niedzielę wróciliśmy zmęczeni i szczęśliwi."
+          ],
+          "es": [
+            "El domingo volvimos cansados y felices."
+          ]
+        },
+        "explanation": {
+          "en": "On Sunday we came back tired and happy.",
+          "pl": "W niedzielę wróciliśmy zmęczeni i szczęśliwi."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-02",
+    "legacyId": "a2-02",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Un problema con la bicicleta",
+      "pl": "Problem z rowerem",
+      "en": "A Problem with the Bike",
+      "de": "Ein Problem mit dem Fahrrad"
+    },
+    "sentences": [
+      "Ayer quería ir al trabajo en bicicleta.",
+      "Pero una rueda estaba desinflada.",
+      "Por suerte, mi vecino vive al lado.",
+      "Me prestó su bomba de aire.",
+      "Llegué solo cinco minutos tarde."
+    ],
+    "translations": {
+      "pl": [
+        "Wczoraj chciałem pojechać do pracy rowerem.",
+        "Ale jedna opona nagle była bez powietrza.",
+        "Na szczęście sąsiad mieszka obok.",
+        "Pożyczył mi pompkę.",
+        "Spóźniłem się tylko pięć minut."
+      ],
+      "en": [
+        "Yesterday I wanted to cycle to work.",
+        "But one tyre was suddenly flat.",
+        "Luckily my neighbour lives next door.",
+        "He lent me his pump.",
+        "I was only five minutes late."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Ayer",
+        "gloss": {
+          "pl": "Wczoraj chciałem",
+          "en": "Yesterday I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Pero",
+        "gloss": {
+          "pl": "Ale jedna",
+          "en": "But one"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Na szczęście",
+          "en": "Luckily my"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Me",
+        "gloss": {
+          "pl": "Pożyczył mi",
+          "en": "He lent"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Llegué",
+        "gloss": {
+          "pl": "Spóźniłem się",
+          "en": "I was"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-02-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Yesterday I wanted to cycle to work.",
+            "Yesterday I wanted to cycle to work."
+          ],
+          "pl": [
+            "Wczoraj chciałem pojechać do pracy rowerem.",
+            "Wczoraj chciałem pojechać do pracy rowerem."
+          ],
+          "es": [
+            "Ayer quería ir al trabajo en bicicleta."
+          ]
+        },
+        "explanation": {
+          "en": "Yesterday I wanted to cycle to work.",
+          "pl": "Wczoraj chciałem pojechać do pracy rowerem."
+        }
+      },
+      {
+        "id": "es-a2-02-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "I was only five minutes late.",
+            "I was only five minutes late."
+          ],
+          "pl": [
+            "Spóźniłem się tylko pięć minut.",
+            "Spóźniłem się tylko pięć minut."
+          ],
+          "es": [
+            "Llegué solo cinco minutos tarde."
+          ]
+        },
+        "explanation": {
+          "en": "I was only five minutes late.",
+          "pl": "Spóźniłem się tylko pięć minut."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a2-03",
+    "legacyId": "a2-03",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Una reserva",
+      "pl": "Rezerwacja",
+      "en": "A Reservation",
+      "de": "Eine Reservierung"
+    },
+    "sentences": [
+      "«Buenas noches, ¿tiene una mesa para dos?»",
+      "«¿Tiene una reserva?»",
+      "«No, lamentablemente no».",
+      "«En veinte minutos quedará una mesa libre».",
+      "«No hay problema, esperamos»."
+    ],
+    "translations": {
+      "pl": [
+        "„Dobry wieczór, czy mają państwo stolik dla dwojga?”",
+        "„Czy ma pan rezerwację?”",
+        "„Niestety nie.”",
+        "„Za dwadzieścia minut zwolni się stolik.”",
+        "„Nie ma problemu, chętnie poczekamy.”"
+      ],
+      "en": [
+        "“Good evening, do you have a table for two?”",
+        "“Do you have a reservation?”",
+        "“Unfortunately not.”",
+        "“A table will be free in twenty minutes.”",
+        "“No problem, we are happy to wait.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Buenas",
+        "gloss": {
+          "pl": "Dobry wieczór,",
+          "en": "“Good evening,"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Tiene",
+        "gloss": {
+          "pl": "Czy ma",
+          "en": "“Do you"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "No,",
+        "gloss": {
+          "pl": "Niestety nie.”",
+          "en": "“Unfortunately not.”"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "Za dwadzieścia",
+          "en": "“A table"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "No",
+        "gloss": {
+          "pl": "Nie ma",
+          "en": "“No problem,"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-03-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Good evening, do you have a table for two?”",
+            "“Good evening, do you have a table for two?”"
+          ],
+          "pl": [
+            "„Dobry wieczór, czy mają państwo stolik dla dwojga?”",
+            "„Dobry wieczór, czy mają państwo stolik dla dwojga?”"
+          ],
+          "es": [
+            "«Buenas noches, ¿tiene una mesa para dos?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Good evening, do you have a table for two?”",
+          "pl": "„Dobry wieczór, czy mają państwo stolik dla dwojga?”"
+        }
+      },
+      {
+        "id": "es-a2-03-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“No problem, we are happy to wait.”",
+            "“No problem, we are happy to wait.”"
+          ],
+          "pl": [
+            "„Nie ma problemu, chętnie poczekamy.”",
+            "„Nie ma problemu, chętnie poczekamy.”"
+          ],
+          "es": [
+            "«No hay problema, esperamos»."
+          ]
+        },
+        "explanation": {
+          "en": "“No problem, we are happy to wait.”",
+          "pl": "„Nie ma problemu, chętnie poczekamy.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-04",
+    "legacyId": "a2-04",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "El primer día de trabajo",
+      "pl": "Pierwszy dzień pracy",
+      "en": "The First Day at Work",
+      "de": "Der erste Arbeitstag"
+    },
+    "sentences": [
+      "El lunes Julia tuvo su primer día de trabajo.",
+      "Estaba un poco nerviosa.",
+      "Su compañera le enseñó la oficina.",
+      "Durante la pausa para comer Julia conoció al equipo.",
+      "Al final del día Julia ya se sentía mejor."
+    ],
+    "translations": {
+      "pl": [
+        "W poniedziałek Julia miała pierwszy dzień pracy.",
+        "Była trochę zdenerwowana.",
+        "Koleżanka pokazała jej biuro.",
+        "W przerwie obiadowej Julia poznała zespół.",
+        "Pod koniec dnia Julia czuła się już lepiej."
+      ],
+      "en": [
+        "On Monday Julia had her first day at work.",
+        "She was a little nervous.",
+        "Her colleague showed her the office.",
+        "During lunch break Julia met the team.",
+        "By the end of the day Julia already felt better."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "El lunes",
+        "gloss": {
+          "pl": "W poniedziałek",
+          "en": "On Monday"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Estaba",
+        "gloss": {
+          "pl": "Była trochę",
+          "en": "She was"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Su",
+        "gloss": {
+          "pl": "Koleżanka pokazała",
+          "en": "Her colleague"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Durante",
+        "gloss": {
+          "pl": "W przerwie",
+          "en": "During lunch"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Pod koniec",
+          "en": "By the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-04-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "On Monday Julia had her first day at work.",
+            "On Monday Julia had her first day at work."
+          ],
+          "pl": [
+            "W poniedziałek Julia miała pierwszy dzień pracy.",
+            "W poniedziałek Julia miała pierwszy dzień pracy."
+          ],
+          "es": [
+            "El lunes Julia tuvo su primer día de trabajo."
+          ]
+        },
+        "explanation": {
+          "en": "On Monday Julia had her first day at work.",
+          "pl": "W poniedziałek Julia miała pierwszy dzień pracy."
+        }
+      },
+      {
+        "id": "es-a2-04-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "By the end of the day Julia already felt better.",
+            "By the end of the day Julia already felt better."
+          ],
+          "pl": [
+            "Pod koniec dnia Julia czuła się już lepiej.",
+            "Pod koniec dnia Julia czuła się już lepiej."
+          ],
+          "es": [
+            "Al final del día Julia ya se sentía mejor."
+          ]
+        },
+        "explanation": {
+          "en": "By the end of the day Julia already felt better.",
+          "pl": "Pod koniec dnia Julia czuła się już lepiej."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-05",
+    "legacyId": "a2-05",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "La visita inesperada",
+      "pl": "Niespodziewana wizyta",
+      "en": "An Unexpected Visit",
+      "de": "Der unerwartete Besuch"
+    },
+    "sentences": [
+      "Estaba cocinando cuando sonó el timbre.",
+      "En la puerta estaba una vieja amiga del colegio.",
+      "Hacía años que no nos veíamos.",
+      "Había traído un pastel.",
+      "Hablamos hasta muy tarde."
+    ],
+    "translations": {
+      "pl": [
+        "Właśnie gotowałem, gdy zadzwonił dzwonek.",
+        "Przed drzwiami stała moja dawna koleżanka ze szkoły.",
+        "Nie widzieliśmy się od lat.",
+        "Przyniosła ciasto.",
+        "Rozmawialiśmy do późnego wieczora."
+      ],
+      "en": [
+        "I was cooking when the doorbell rang.",
+        "My old school friend was standing at the door.",
+        "We had not seen each other for years.",
+        "She had brought a cake.",
+        "We talked until late in the evening."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Estaba",
+        "gloss": {
+          "pl": "Właśnie gotowałem,",
+          "en": "I was"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "Przed drzwiami",
+          "en": "My old"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hacía",
+        "gloss": {
+          "pl": "Nie widzieliśmy",
+          "en": "We had"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Había",
+        "gloss": {
+          "pl": "Przyniosła ciasto",
+          "en": "She had"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hablamos",
+        "gloss": {
+          "pl": "Rozmawialiśmy do",
+          "en": "We talked"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-05-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "I was cooking when the doorbell rang.",
+            "I was cooking when the doorbell rang."
+          ],
+          "pl": [
+            "Właśnie gotowałem, gdy zadzwonił dzwonek.",
+            "Właśnie gotowałem, gdy zadzwonił dzwonek."
+          ],
+          "es": [
+            "Estaba cocinando cuando sonó el timbre."
+          ]
+        },
+        "explanation": {
+          "en": "I was cooking when the doorbell rang.",
+          "pl": "Właśnie gotowałem, gdy zadzwonił dzwonek."
+        }
+      },
+      {
+        "id": "es-a2-05-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We talked until late in the evening.",
+            "We talked until late in the evening."
+          ],
+          "pl": [
+            "Rozmawialiśmy do późnego wieczora.",
+            "Rozmawialiśmy do późnego wieczora."
+          ],
+          "es": [
+            "Hablamos hasta muy tarde."
+          ]
+        },
+        "explanation": {
+          "en": "We talked until late in the evening.",
+          "pl": "Rozmawialiśmy do późnego wieczora."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-a2-06",
+    "legacyId": "a2-06",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "La dirección equivocada",
+      "pl": "Zły adres",
+      "en": "The Wrong Address",
+      "de": "Die falsche Adresse"
+    },
+    "sentences": [
+      "Buscábamos una librería pequeña.",
+      "Pero el navegador nos mostró una calle equivocada.",
+      "Preguntamos a un hombre cómo llegar.",
+      "Nos explicó que teníamos que girar a la izquierda.",
+      "Diez minutos después encontramos la tienda."
+    ],
+    "translations": {
+      "pl": [
+        "Szukaliśmy małej księgarni.",
+        "Jednak nawigacja wskazała nam złą ulicę.",
+        "Zapytaliśmy mężczyznę o drogę.",
+        "Wyjaśnił, że musimy skręcić w lewo.",
+        "Dziesięć minut później znaleźliśmy sklep."
+      ],
+      "en": [
+        "We were looking for a small bookshop.",
+        "But the navigation showed us the wrong street.",
+        "We asked a man for directions.",
+        "He explained that we had to turn left.",
+        "Ten minutes later we found the shop."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Buscábamos",
+        "gloss": {
+          "pl": "Szukaliśmy małej",
+          "en": "We were"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Pero",
+        "gloss": {
+          "pl": "Jednak nawigacja",
+          "en": "But the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Preguntamos",
+        "gloss": {
+          "pl": "Zapytaliśmy mężczyznę",
+          "en": "We asked"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Nos",
+        "gloss": {
+          "pl": "Wyjaśnił, że",
+          "en": "He explained"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Diez",
+        "gloss": {
+          "pl": "Dziesięć minut",
+          "en": "Ten minutes"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-06-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We were looking for a small bookshop.",
+            "We were looking for a small bookshop."
+          ],
+          "pl": [
+            "Szukaliśmy małej księgarni.",
+            "Szukaliśmy małej księgarni."
+          ],
+          "es": [
+            "Buscábamos una librería pequeña."
+          ]
+        },
+        "explanation": {
+          "en": "We were looking for a small bookshop.",
+          "pl": "Szukaliśmy małej księgarni."
+        }
+      },
+      {
+        "id": "es-a2-06-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Ten minutes later we found the shop.",
+            "Ten minutes later we found the shop."
+          ],
+          "pl": [
+            "Dziesięć minut później znaleźliśmy sklep.",
+            "Dziesięć minut później znaleźliśmy sklep."
+          ],
+          "es": [
+            "Diez minutos después encontramos la tienda."
+          ]
+        },
+        "explanation": {
+          "en": "Ten minutes later we found the shop.",
+          "pl": "Dziesięć minut później znaleźliśmy sklep."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-07",
+    "legacyId": "a2-07",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Una receta de la abuela",
+      "pl": "Przepis babci",
+      "en": "Grandma’s Recipe",
+      "de": "Ein Rezept von Oma"
+    },
+    "sentences": [
+      "Mi abuela me enseñó su receta favorita.",
+      "Primero cortamos las verduras.",
+      "Después cocinamos todo lentamente.",
+      "La sopa olía de maravilla.",
+      "Ahora también puedo prepararla yo solo."
+    ],
+    "translations": {
+      "pl": [
+        "Babcia pokazała mi swój ulubiony przepis.",
+        "Najpierw pokroiliśmy warzywa.",
+        "Potem wszystko gotowaliśmy powoli.",
+        "Zupa pachniała wspaniale.",
+        "Teraz mogę przygotować ją również samodzielnie."
+      ],
+      "en": [
+        "My grandmother showed me her favourite recipe.",
+        "First we chopped the vegetables.",
+        "Then we cooked everything slowly.",
+        "The soup smelled wonderful.",
+        "Now I can prepare it on my own as well."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Mi",
+        "gloss": {
+          "pl": "Babcia pokazała",
+          "en": "My grandmother"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Primero",
+        "gloss": {
+          "pl": "Najpierw pokroiliśmy",
+          "en": "First we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Potem wszystko",
+          "en": "Then we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La sopa",
+        "gloss": {
+          "pl": "Zupa pachniała",
+          "en": "The soup"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ahora",
+        "gloss": {
+          "pl": "Teraz mogę",
+          "en": "Now I"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-07-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "My grandmother showed me her favourite recipe.",
+            "My grandmother showed me her favourite recipe."
+          ],
+          "pl": [
+            "Babcia pokazała mi swój ulubiony przepis.",
+            "Babcia pokazała mi swój ulubiony przepis."
+          ],
+          "es": [
+            "Mi abuela me enseñó su receta favorita."
+          ]
+        },
+        "explanation": {
+          "en": "My grandmother showed me her favourite recipe.",
+          "pl": "Babcia pokazała mi swój ulubiony przepis."
+        }
+      },
+      {
+        "id": "es-a2-07-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Now I can prepare it on my own as well.",
+            "Now I can prepare it on my own as well."
+          ],
+          "pl": [
+            "Teraz mogę przygotować ją również samodzielnie.",
+            "Teraz mogę przygotować ją również samodzielnie."
+          ],
+          "es": [
+            "Ahora también puedo prepararla yo solo."
+          ]
+        },
+        "explanation": {
+          "en": "Now I can prepare it on my own as well.",
+          "pl": "Teraz mogę przygotować ją również samodzielnie."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-08",
+    "legacyId": "a2-08",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Un malentendido",
+      "pl": "Nieporozumienie",
+      "en": "A Misunderstanding",
+      "de": "Ein Missverständnis"
+    },
+    "sentences": [
+      "«¿Por qué no viniste ayer?»",
+      "«Pensaba que habíamos quedado hoy».",
+      "«¡Pero si te escribí!»",
+      "«Ah, no vi el mensaje».",
+      "«Entonces nos vemos mañana»."
+    ],
+    "translations": {
+      "pl": [
+        "„Dlaczego wczoraj cię nie było?”",
+        "„Myślałem, że spotykamy się dzisiaj.”",
+        "„Przecież do ciebie pisałem!”",
+        "„Och, nie widziałem wiadomości.”",
+        "„W takim razie zobaczymy się jutro.”"
+      ],
+      "en": [
+        "“Why weren’t you there yesterday?”",
+        "“I thought we were meeting today.”",
+        "“But I wrote to you!”",
+        "“Oh, I didn’t see the message.”",
+        "“Then let’s see each other tomorrow.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¿Por",
+        "gloss": {
+          "pl": "Dlaczego wczoraj",
+          "en": "“Why weren’t"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Pensaba",
+        "gloss": {
+          "pl": "Myślałem, że",
+          "en": "“I thought"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¡Pero",
+        "gloss": {
+          "pl": "Przecież do",
+          "en": "“But I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ah,",
+        "gloss": {
+          "pl": "Och, nie",
+          "en": "“Oh, I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Entonces",
+        "gloss": {
+          "pl": "W takim",
+          "en": "“Then let’s"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-08-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Why weren’t you there yesterday?”",
+            "“Why weren’t you there yesterday?”"
+          ],
+          "pl": [
+            "„Dlaczego wczoraj cię nie było?”",
+            "„Dlaczego wczoraj cię nie było?”"
+          ],
+          "es": [
+            "«¿Por qué no viniste ayer?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Why weren’t you there yesterday?”",
+          "pl": "„Dlaczego wczoraj cię nie było?”"
+        }
+      },
+      {
+        "id": "es-a2-08-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Then let’s see each other tomorrow.”",
+            "“Then let’s see each other tomorrow.”"
+          ],
+          "pl": [
+            "„W takim razie zobaczymy się jutro.”",
+            "„W takim razie zobaczymy się jutro.”"
+          ],
+          "es": [
+            "«Entonces nos vemos mañana»."
+          ]
+        },
+        "explanation": {
+          "en": "“Then let’s see each other tomorrow.”",
+          "pl": "„W takim razie zobaczymy się jutro.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-09",
+    "legacyId": "a2-09",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "La biblioteca",
+      "pl": "Biblioteka",
+      "en": "The Library",
+      "de": "Die Bibliothek"
+    },
+    "sentences": [
+      "Voy a menudo a la biblioteca porque allí hay tranquilidad.",
+      "La semana pasada encontré una novela emocionante.",
+      "Solo quería leer un capítulo.",
+      "Al final me quedé tres horas.",
+      "Hoy devuelvo el libro."
+    ],
+    "translations": {
+      "pl": [
+        "Często chodzę do biblioteki, bo jest tam spokojnie.",
+        "W zeszłym tygodniu znalazłem wciągającą powieść.",
+        "Chciałem przeczytać tylko jeden rozdział.",
+        "Ostatecznie zostałem trzy godziny.",
+        "Dzisiaj oddaję książkę."
+      ],
+      "en": [
+        "I often go to the library because it is quiet there.",
+        "Last week I found an exciting novel.",
+        "I only wanted to read one chapter.",
+        "In the end I stayed for three hours.",
+        "Today I am returning the book."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Voy",
+        "gloss": {
+          "pl": "Często chodzę",
+          "en": "I often"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "La semana",
+        "gloss": {
+          "pl": "W zeszłym",
+          "en": "Last week"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Solo",
+        "gloss": {
+          "pl": "Chciałem przeczytać",
+          "en": "I only"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Ostatecznie zostałem",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dzisiaj oddaję",
+          "en": "Today I"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-09-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "I often go to the library because it is quiet there.",
+            "I often go to the library because it is quiet there."
+          ],
+          "pl": [
+            "Często chodzę do biblioteki, bo jest tam spokojnie.",
+            "Często chodzę do biblioteki, bo jest tam spokojnie."
+          ],
+          "es": [
+            "Voy a menudo a la biblioteca porque allí hay tranquilidad."
+          ]
+        },
+        "explanation": {
+          "en": "I often go to the library because it is quiet there.",
+          "pl": "Często chodzę do biblioteki, bo jest tam spokojnie."
+        }
+      },
+      {
+        "id": "es-a2-09-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Today I am returning the book.",
+            "Today I am returning the book."
+          ],
+          "pl": [
+            "Dzisiaj oddaję książkę.",
+            "Dzisiaj oddaję książkę."
+          ],
+          "es": [
+            "Hoy devuelvo el libro."
+          ]
+        },
+        "explanation": {
+          "en": "Today I am returning the book.",
+          "pl": "Dzisiaj oddaję książkę."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-a2-10",
+    "legacyId": "a2-10",
+    "targetLang": "es",
+    "level": "A2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 3,
+    "titles": {
+      "es": "Un hábito nuevo",
+      "pl": "Nowy nawyk",
+      "en": "A New Habit",
+      "de": "Eine neue Gewohnheit"
+    },
+    "sentences": [
+      "Desde hace un mes salgo a caminar cada mañana.",
+      "Al principio era bastante difícil.",
+      "Ahora tengo ganas de salir al aire libre.",
+      "A veces escucho un pódcast mientras camino.",
+      "Así empiezo el día con más energía."
+    ],
+    "translations": {
+      "pl": [
+        "Od miesiąca chodzę na spacer każdego ranka.",
+        "Na początku było to dość trudne.",
+        "Teraz cieszę się na świeże powietrze.",
+        "Czasami słucham wtedy podcastu.",
+        "Dzięki temu zaczynam dzień z większą energią."
+      ],
+      "en": [
+        "For a month I have been walking every morning.",
+        "At first it was quite hard.",
+        "Now I look forward to the fresh air.",
+        "Sometimes I listen to a podcast while walking.",
+        "That way I start the day with more energy."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Desde",
+        "gloss": {
+          "pl": "Od miesiąca",
+          "en": "For a"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Na początku",
+          "en": "At first"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ahora",
+        "gloss": {
+          "pl": "Teraz cieszę",
+          "en": "Now I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Así",
+        "gloss": {
+          "pl": "Dzięki temu",
+          "en": "That way"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-a2-10-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "For a month I have been walking every morning.",
+            "For a month I have been walking every morning."
+          ],
+          "pl": [
+            "Od miesiąca chodzę na spacer każdego ranka.",
+            "Od miesiąca chodzę na spacer każdego ranka."
+          ],
+          "es": [
+            "Desde hace un mes salgo a caminar cada mañana."
+          ]
+        },
+        "explanation": {
+          "en": "For a month I have been walking every morning.",
+          "pl": "Od miesiąca chodzę na spacer każdego ranka."
+        }
+      },
+      {
+        "id": "es-a2-10-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "That way I start the day with more energy.",
+            "That way I start the day with more energy."
+          ],
+          "pl": [
+            "Dzięki temu zaczynam dzień z większą energią.",
+            "Dzięki temu zaczynam dzień z większą energią."
+          ],
+          "es": [
+            "Así empiezo el día con más energía."
+          ]
+        },
+        "explanation": {
+          "en": "That way I start the day with more energy.",
+          "pl": "Dzięki temu zaczynam dzień z większą energią."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-01",
+    "legacyId": "b1-01",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Una decisión profesional",
+      "pl": "Decyzja zawodowa",
+      "en": "A Career Decision",
+      "de": "Eine Entscheidung im Beruf"
+    },
+    "sentences": [
+      "Desde hace tiempo Daniel se pregunta si debería cambiar de trabajo.",
+      "Le gusta su equipo actual, pero allí apenas aprende cosas nuevas.",
+      "Otra empresa le ofrece más responsabilidad.",
+      "Antes de responder, habla con su familia.",
+      "Finalmente decide aceptar el nuevo reto."
+    ],
+    "translations": {
+      "pl": [
+        "Od pewnego czasu Daniel zastanawia się, czy powinien zmienić pracę.",
+        "Lubi swój obecny zespół, ale prawie nie uczy się tam niczego nowego.",
+        "Inna firma oferuje mu większą odpowiedzialność.",
+        "Zanim odpowie, rozmawia z rodziną.",
+        "Ostatecznie decyduje się na nowe wyzwanie."
+      ],
+      "en": [
+        "For some time Daniel has been wondering whether he should change jobs.",
+        "He likes his current team, but he hardly learns anything new there.",
+        "Another company offers him more responsibility.",
+        "Before he answers, he talks with his family.",
+        "In the end he decides to take on the new challenge."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Desde",
+        "gloss": {
+          "pl": "Od pewnego",
+          "en": "For some"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Le gusta",
+        "gloss": {
+          "pl": "Lubi swój",
+          "en": "He likes"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Otra",
+        "gloss": {
+          "pl": "Inna firma",
+          "en": "Another company"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Antes",
+        "gloss": {
+          "pl": "Zanim odpowie,",
+          "en": "Before he"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Finalmente",
+        "gloss": {
+          "pl": "Ostatecznie decyduje",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-01-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "For some time Daniel has been wondering whether he should change jobs.",
+            "For some time Daniel has been wondering whether he should change jobs."
+          ],
+          "pl": [
+            "Od pewnego czasu Daniel zastanawia się, czy powinien zmienić pracę.",
+            "Od pewnego czasu Daniel zastanawia się, czy powinien zmienić pracę."
+          ],
+          "es": [
+            "Desde hace tiempo Daniel se pregunta si debería cambiar de trabajo."
+          ]
+        },
+        "explanation": {
+          "en": "For some time Daniel has been wondering whether he should change jobs.",
+          "pl": "Od pewnego czasu Daniel zastanawia się, czy powinien zmienić pracę."
+        }
+      },
+      {
+        "id": "es-b1-01-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In the end he decides to take on the new challenge.",
+            "In the end he decides to take on the new challenge."
+          ],
+          "pl": [
+            "Ostatecznie decyduje się na nowe wyzwanie.",
+            "Ostatecznie decyduje się na nowe wyzwanie."
+          ],
+          "es": [
+            "Finalmente decide aceptar el nuevo reto."
+          ]
+        },
+        "explanation": {
+          "en": "In the end he decides to take on the new challenge.",
+          "pl": "Ostatecznie decyduje się na nowe wyzwanie."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b1-02",
+    "legacyId": "b1-02",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "El viaje sin internet",
+      "pl": "Podróż bez internetu",
+      "en": "A Trip Without Internet",
+      "de": "Die Reise ohne Internet"
+    },
+    "sentences": [
+      "Cuando llegamos a las montañas, de repente nos quedamos sin cobertura.",
+      "Al principio nos preocupamos porque no podíamos cargar los mapas.",
+      "Por suerte llevábamos un mapa de senderismo en papel.",
+      "Por el camino descubrimos una pequeña cascada.",
+      "Al final, el descanso del teléfono fue incluso agradable."
+    ],
+    "translations": {
+      "pl": [
+        "Gdy dotarliśmy w góry, nagle straciliśmy zasięg.",
+        "Na początku byliśmy zaniepokojeni, bo nie mogliśmy wczytać map.",
+        "Na szczęście mieliśmy papierową mapę turystyczną.",
+        "Po drodze odkryliśmy mały wodospad.",
+        "Ostatecznie przerwa od telefonu okazała się nawet przyjemna."
+      ],
+      "en": [
+        "When we arrived in the mountains, we suddenly lost signal.",
+        "At first we were worried because we could not load maps.",
+        "Luckily we had a paper hiking map.",
+        "Along the way we discovered a small waterfall.",
+        "In the end the break from the phone even turned out pleasant."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Cuando",
+        "gloss": {
+          "pl": "Gdy dotarliśmy",
+          "en": "When we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Na początku",
+          "en": "At first"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Na szczęście",
+          "en": "Luckily we"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-02-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "When we arrived in the mountains, we suddenly lost signal.",
+            "When we arrived in the mountains, we suddenly lost signal."
+          ],
+          "pl": [
+            "Gdy dotarliśmy w góry, nagle straciliśmy zasięg.",
+            "Gdy dotarliśmy w góry, nagle straciliśmy zasięg."
+          ],
+          "es": [
+            "Cuando llegamos a las montañas, de repente nos quedamos sin cobertura."
+          ]
+        },
+        "explanation": {
+          "en": "When we arrived in the mountains, we suddenly lost signal.",
+          "pl": "Gdy dotarliśmy w góry, nagle straciliśmy zasięg."
+        }
+      },
+      {
+        "id": "es-b1-02-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In the end the break from the phone even turned out pleasant.",
+            "In the end the break from the phone even turned out pleasant."
+          ],
+          "pl": [
+            "Ostatecznie przerwa od telefonu okazała się nawet przyjemna.",
+            "Ostatecznie przerwa od telefonu okazała się nawet przyjemna."
+          ],
+          "es": [
+            "Al final, el descanso del teléfono fue incluso agradable."
+          ]
+        },
+        "explanation": {
+          "en": "In the end the break from the phone even turned out pleasant.",
+          "pl": "Ostatecznie przerwa od telefonu okazała się nawet przyjemna."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-03",
+    "legacyId": "b1-03",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Una queja en el hotel",
+      "pl": "Reklamacja w hotelu",
+      "en": "A Hotel Complaint",
+      "de": "Eine Beschwerde im Hotel"
+    },
+    "sentences": [
+      "«Disculpe, la calefacción de mi habitación no funciona».",
+      "«Lo sentimos mucho. ¿Desde cuándo ocurre?»",
+      "«Desde anoche. Hizo frío toda la noche».",
+      "«Podemos ofrecerle otra habitación ahora mismo».",
+      "«Gracias, sería una buena solución»."
+    ],
+    "translations": {
+      "pl": [
+        "„Przepraszam, w moim pokoju nie działa ogrzewanie.”",
+        "„Bardzo nam przykro. Od kiedy jest ten problem?”",
+        "„Od wczoraj wieczorem. Przez całą noc było zimno.”",
+        "„Możemy od razu zaproponować inny pokój.”",
+        "„Dziękuję, to byłoby dobre rozwiązanie.”"
+      ],
+      "en": [
+        "“Excuse me, the heating in my room is not working.”",
+        "“We are very sorry. Since when has this been a problem?”",
+        "“Since yesterday evening. It was cold all night.”",
+        "“We can offer you another room right away.”",
+        "“Thank you, that would be a good solution.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Disculpe,",
+        "gloss": {
+          "pl": "Przepraszam, w",
+          "en": "“Excuse me,"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Lo sentimos",
+        "gloss": {
+          "pl": "Bardzo nam",
+          "en": "“We are"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Desde",
+        "gloss": {
+          "pl": "Od wczoraj",
+          "en": "“Since yesterday"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Podemos",
+        "gloss": {
+          "pl": "Możemy od",
+          "en": "“We can"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Gracias,",
+        "gloss": {
+          "pl": "Dziękuję, to",
+          "en": "“Thank you,"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-03-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Excuse me, the heating in my room is not working.”",
+            "“Excuse me, the heating in my room is not working.”"
+          ],
+          "pl": [
+            "„Przepraszam, w moim pokoju nie działa ogrzewanie.”",
+            "„Przepraszam, w moim pokoju nie działa ogrzewanie.”"
+          ],
+          "es": [
+            "«Disculpe, la calefacción de mi habitación no funciona»."
+          ]
+        },
+        "explanation": {
+          "en": "“Excuse me, the heating in my room is not working.”",
+          "pl": "„Przepraszam, w moim pokoju nie działa ogrzewanie.”"
+        }
+      },
+      {
+        "id": "es-b1-03-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Thank you, that would be a good solution.”",
+            "“Thank you, that would be a good solution.”"
+          ],
+          "pl": [
+            "„Dziękuję, to byłoby dobre rozwiązanie.”",
+            "„Dziękuję, to byłoby dobre rozwiązanie.”"
+          ],
+          "es": [
+            "«Gracias, sería una buena solución»."
+          ]
+        },
+        "explanation": {
+          "en": "“Thank you, that would be a good solution.”",
+          "pl": "„Dziękuję, to byłoby dobre rozwiązanie.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-04",
+    "legacyId": "b1-04",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Una conversación difícil",
+      "pl": "Trudna rozmowa",
+      "en": "A Difficult Conversation",
+      "de": "Ein schwieriges Gespräch"
+    },
+    "sentences": [
+      "Mila se había peleado con su amiga y no sabía qué decir.",
+      "Primero escribió un mensaje largo, pero luego lo borró.",
+      "En lugar de eso, propuso verse en persona.",
+      "Las dos se escucharon sin interrumpirse.",
+      "Después se entendieron mucho mejor."
+    ],
+    "translations": {
+      "pl": [
+        "Mila pokłóciła się z przyjaciółką i nie wiedziała, co powiedzieć.",
+        "Najpierw napisała długą wiadomość, ale potem ją usunęła.",
+        "Zamiast tego zaproponowała spotkanie na żywo.",
+        "Obie słuchały się nawzajem bez przerywania.",
+        "Potem znacznie lepiej się rozumiały."
+      ],
+      "en": [
+        "Mila argued with her friend and did not know what to say.",
+        "First she wrote a long message, but then she deleted it.",
+        "Instead she suggested meeting in person.",
+        "They both listened to each other without interrupting.",
+        "Afterwards they understood each other much better."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Mila",
+        "gloss": {
+          "pl": "Mila pokłóciła",
+          "en": "Mila argued"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Primero",
+        "gloss": {
+          "pl": "Najpierw napisała",
+          "en": "First she"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "Zamiast tego",
+          "en": "Instead she"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Las dos",
+        "gloss": {
+          "pl": "Obie słuchały",
+          "en": "They both"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Potem znacznie",
+          "en": "Afterwards they"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-04-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Mila argued with her friend and did not know what to say.",
+            "Mila argued with her friend and did not know what to say."
+          ],
+          "pl": [
+            "Mila pokłóciła się z przyjaciółką i nie wiedziała, co powiedzieć.",
+            "Mila pokłóciła się z przyjaciółką i nie wiedziała, co powiedzieć."
+          ],
+          "es": [
+            "Mila se había peleado con su amiga y no sabía qué decir."
+          ]
+        },
+        "explanation": {
+          "en": "Mila argued with her friend and did not know what to say.",
+          "pl": "Mila pokłóciła się z przyjaciółką i nie wiedziała, co powiedzieć."
+        }
+      },
+      {
+        "id": "es-b1-04-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Afterwards they understood each other much better.",
+            "Afterwards they understood each other much better."
+          ],
+          "pl": [
+            "Potem znacznie lepiej się rozumiały.",
+            "Potem znacznie lepiej się rozumiały."
+          ],
+          "es": [
+            "Después se entendieron mucho mejor."
+          ]
+        },
+        "explanation": {
+          "en": "Afterwards they understood each other much better.",
+          "pl": "Potem znacznie lepiej się rozumiały."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b1-05",
+    "legacyId": "b1-05",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "El pequeño negocio",
+      "pl": "Mały biznes",
+      "en": "A Small Business",
+      "de": "Das kleine Geschäft"
+    },
+    "sentences": [
+      "Dos amigos llevaban mucho tiempo queriendo abrir su propio negocio.",
+      "Uno se encargaba de la página web y el otro de los clientes.",
+      "Durante los primeros meses ganaban muy poco dinero.",
+      "Mejoraron su servicio después de recibir comentarios.",
+      "Después de un año pudieron contratar a su primera empleada."
+    ],
+    "translations": {
+      "pl": [
+        "Dwaj przyjaciele od dawna chcieli otworzyć własną firmę.",
+        "Jeden zajmował się stroną internetową, drugi klientami.",
+        "W pierwszych miesiącach zarabiali bardzo mało.",
+        "Ulepszyli usługę po otrzymaniu opinii.",
+        "Po roku mogli zatrudnić pierwszą pracownicę."
+      ],
+      "en": [
+        "Two friends had long wanted to open their own company.",
+        "One handled the website, the other the customers.",
+        "In the first months they earned very little.",
+        "They improved the service after receiving feedback.",
+        "After a year they could hire their first employee."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Dos",
+        "gloss": {
+          "pl": "Dwaj przyjaciele",
+          "en": "Two friends"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Uno",
+        "gloss": {
+          "pl": "Jeden zajmował",
+          "en": "One handled"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Durante",
+        "gloss": {
+          "pl": "W pierwszych",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mejoraron",
+        "gloss": {
+          "pl": "Ulepszyli usługę",
+          "en": "They improved"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Después",
+        "gloss": {
+          "pl": "Po roku",
+          "en": "After a"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-05-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Two friends had long wanted to open their own company.",
+            "Two friends had long wanted to open their own company."
+          ],
+          "pl": [
+            "Dwaj przyjaciele od dawna chcieli otworzyć własną firmę.",
+            "Dwaj przyjaciele od dawna chcieli otworzyć własną firmę."
+          ],
+          "es": [
+            "Dos amigos llevaban mucho tiempo queriendo abrir su propio negocio."
+          ]
+        },
+        "explanation": {
+          "en": "Two friends had long wanted to open their own company.",
+          "pl": "Dwaj przyjaciele od dawna chcieli otworzyć własną firmę."
+        }
+      },
+      {
+        "id": "es-b1-05-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "After a year they could hire their first employee.",
+            "After a year they could hire their first employee."
+          ],
+          "pl": [
+            "Po roku mogli zatrudnić pierwszą pracownicę.",
+            "Po roku mogli zatrudnić pierwszą pracownicę."
+          ],
+          "es": [
+            "Después de un año pudieron contratar a su primera empleada."
+          ]
+        },
+        "explanation": {
+          "en": "After a year they could hire their first employee.",
+          "pl": "Po roku mogli zatrudnić pierwszą pracownicę."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-06",
+    "legacyId": "b1-06",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Un pueblo cambia",
+      "pl": "Wieś się zmienia",
+      "en": "A Village Is Changing",
+      "de": "Ein Dorf verändert sich"
+    },
+    "sentences": [
+      "Antes en nuestro pueblo solo había una tienda pequeña.",
+      "Mientras tanto, muchas familias jóvenes se han mudado aquí.",
+      "Por eso el municipio ha construido un parque infantil nuevo.",
+      "Algunas personas se alegran, mientras que otras echan de menos la tranquilidad de antes.",
+      "En la próxima reunión todos quieren hablar del tema."
+    ],
+    "translations": {
+      "pl": [
+        "Dawniej w naszej wsi był tylko mały sklep.",
+        "W międzyczasie przeprowadziło się tutaj wiele młodych rodzin.",
+        "Dlatego gmina zbudowała nowy plac zabaw.",
+        "Niektórzy się cieszą, inni tęsknią za dawnym spokojem.",
+        "Na następnym zebraniu wszyscy chcą o tym porozmawiać."
+      ],
+      "en": [
+        "In the past our village only had a small shop.",
+        "In the meantime many young families have moved here.",
+        "That is why the municipality built a new playground.",
+        "Some people are happy; others miss the old quiet.",
+        "At the next meeting everyone wants to talk about it."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Antes",
+        "gloss": {
+          "pl": "Dawniej w",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mientras",
+        "gloss": {
+          "pl": "W międzyczasie",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego gmina",
+          "en": "That is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Algunas",
+        "gloss": {
+          "pl": "Niektórzy się",
+          "en": "Some people"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "Na następnym",
+          "en": "At the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-06-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In the past our village only had a small shop.",
+            "In the past our village only had a small shop."
+          ],
+          "pl": [
+            "Dawniej w naszej wsi był tylko mały sklep.",
+            "Dawniej w naszej wsi był tylko mały sklep."
+          ],
+          "es": [
+            "Antes en nuestro pueblo solo había una tienda pequeña."
+          ]
+        },
+        "explanation": {
+          "en": "In the past our village only had a small shop.",
+          "pl": "Dawniej w naszej wsi był tylko mały sklep."
+        }
+      },
+      {
+        "id": "es-b1-06-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "At the next meeting everyone wants to talk about it.",
+            "At the next meeting everyone wants to talk about it."
+          ],
+          "pl": [
+            "Na następnym zebraniu wszyscy chcą o tym porozmawiać.",
+            "Na następnym zebraniu wszyscy chcą o tym porozmawiać."
+          ],
+          "es": [
+            "En la próxima reunión todos quieren hablar del tema."
+          ]
+        },
+        "explanation": {
+          "en": "At the next meeting everyone wants to talk about it.",
+          "pl": "Na następnym zebraniu wszyscy chcą o tym porozmawiać."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-07",
+    "legacyId": "b1-07",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "¿Una buena idea?",
+      "pl": "Dobry pomysł?",
+      "en": "A Good Idea?",
+      "de": "Eine gute Idee?"
+    },
+    "sentences": [
+      "«Quiero practicar un idioma nuevo todos los días».",
+      "«¿De verdad tienes tiempo suficiente?»",
+      "«Quizá solo veinte minutos por la noche».",
+      "«Parece posible si eres constante».",
+      "«Exacto. Mejor poco, pero a menudo»."
+    ],
+    "translations": {
+      "pl": [
+        "„Chcę codziennie ćwiczyć nowy język.”",
+        "„Masz na to dość czasu?”",
+        "„Może tylko dwadzieścia minut wieczorem.”",
+        "„Brzmi wykonalnie, jeśli będziesz systematyczny.”",
+        "„Właśnie. Lepiej mało, ale często.”"
+      ],
+      "en": [
+        "“I want to practise a new language every day.”",
+        "“Do you have enough time for that?”",
+        "“Maybe only twenty minutes in the evening.”",
+        "“That sounds doable if you stay consistent.”",
+        "“Exactly. Better little but often.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Quiero",
+        "gloss": {
+          "pl": "Chcę codziennie",
+          "en": "“I want"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿De",
+        "gloss": {
+          "pl": "Masz na",
+          "en": "“Do you"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Quizá",
+        "gloss": {
+          "pl": "Może tylko",
+          "en": "“Maybe only"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Parece",
+        "gloss": {
+          "pl": "Brzmi wykonalnie,",
+          "en": "“That sounds"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Exacto.",
+        "gloss": {
+          "pl": "Właśnie. Lepiej",
+          "en": "“Exactly. Better"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-07-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“I want to practise a new language every day.”",
+            "“I want to practise a new language every day.”"
+          ],
+          "pl": [
+            "„Chcę codziennie ćwiczyć nowy język.”",
+            "„Chcę codziennie ćwiczyć nowy język.”"
+          ],
+          "es": [
+            "«Quiero practicar un idioma nuevo todos los días»."
+          ]
+        },
+        "explanation": {
+          "en": "“I want to practise a new language every day.”",
+          "pl": "„Chcę codziennie ćwiczyć nowy język.”"
+        }
+      },
+      {
+        "id": "es-b1-07-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Exactly. Better little but often.”",
+            "“Exactly. Better little but often.”"
+          ],
+          "pl": [
+            "„Właśnie. Lepiej mało, ale często.”",
+            "„Właśnie. Lepiej mało, ale często.”"
+          ],
+          "es": [
+            "«Exacto. Mejor poco, pero a menudo»."
+          ]
+        },
+        "explanation": {
+          "en": "“Exactly. Better little but often.”",
+          "pl": "„Właśnie. Lepiej mało, ale często.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-08",
+    "legacyId": "b1-08",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Por qué leo",
+      "pl": "Dlaczego czytam",
+      "en": "Why I Read",
+      "de": "Warum ich lese"
+    },
+    "sentences": [
+      "De niño leía libros porque las historias despertaban mi curiosidad.",
+      "Hoy también leo para conocer nuevas perspectivas.",
+      "A veces no entiendo un capítulo hasta la segunda lectura.",
+      "No me molesta, porque así descubro más detalles.",
+      "Para mí leer no es una obligación, sino un pequeño viaje."
+    ],
+    "translations": {
+      "pl": [
+        "Jako dziecko czytałem książki, bo historie rozbudzały moją ciekawość.",
+        "Dziś czytam także po to, by poznawać nowe perspektywy.",
+        "Czasami rozumiem rozdział dopiero przy drugim czytaniu.",
+        "Nie przeszkadza mi to, bo odkrywam wtedy kolejne szczegóły.",
+        "Czytanie nie jest dla mnie obowiązkiem, lecz małą podróżą."
+      ],
+      "en": [
+        "As a child I read books because the stories made me curious.",
+        "Today I also read to discover new perspectives.",
+        "Sometimes I only understand a chapter the second time.",
+        "That does not bother me, because I notice more details then.",
+        "Reading is not a duty for me, but a small journey."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "De",
+        "gloss": {
+          "pl": "Jako dziecko",
+          "en": "As a"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Hoy",
+        "gloss": {
+          "pl": "Dziś czytam",
+          "en": "Today I"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "No",
+        "gloss": {
+          "pl": "Nie przeszkadza",
+          "en": "That does"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Para",
+        "gloss": {
+          "pl": "Czytanie nie",
+          "en": "Reading is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-08-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "As a child I read books because the stories made me curious.",
+            "As a child I read books because the stories made me curious."
+          ],
+          "pl": [
+            "Jako dziecko czytałem książki, bo historie rozbudzały moją ciekawość.",
+            "Jako dziecko czytałem książki, bo historie rozbudzały moją ciekawość."
+          ],
+          "es": [
+            "De niño leía libros porque las historias despertaban mi curiosidad."
+          ]
+        },
+        "explanation": {
+          "en": "As a child I read books because the stories made me curious.",
+          "pl": "Jako dziecko czytałem książki, bo historie rozbudzały moją ciekawość."
+        }
+      },
+      {
+        "id": "es-b1-08-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Reading is not a duty for me, but a small journey.",
+            "Reading is not a duty for me, but a small journey."
+          ],
+          "pl": [
+            "Czytanie nie jest dla mnie obowiązkiem, lecz małą podróżą.",
+            "Czytanie nie jest dla mnie obowiązkiem, lecz małą podróżą."
+          ],
+          "es": [
+            "Para mí leer no es una obligación, sino un pequeño viaje."
+          ]
+        },
+        "explanation": {
+          "en": "Reading is not a duty for me, but a small journey.",
+          "pl": "Czytanie nie jest dla mnie obowiązkiem, lecz małą podróżą."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-09",
+    "legacyId": "b1-09",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "Un plan para el invierno",
+      "pl": "Plan na zimę",
+      "en": "A Plan for Winter",
+      "de": "Ein Plan für den Winter"
+    },
+    "sentences": [
+      "El invierno pasado nos quedamos mucho en casa porque anochecía muy pronto.",
+      "Este año queremos hacer más cosas juntos.",
+      "Por eso hemos escrito una lista de excursiones cortas.",
+      "Si hace buen tiempo, vamos al bosque.",
+      "Si llueve, visitaremos un museo."
+    ],
+    "translations": {
+      "pl": [
+        "Zeszłej zimy często zostawaliśmy w domu, bo szybko robiło się ciemno.",
+        "W tym roku chcemy częściej robić coś razem.",
+        "Dlatego napisaliśmy listę krótkich wycieczek.",
+        "Gdy pogoda będzie dobra, pójdziemy do lasu.",
+        "Jeśli będzie padać, odwiedzimy muzeum."
+      ],
+      "en": [
+        "Last winter we often stayed at home because it got dark so early.",
+        "This year we want to do more things together.",
+        "So we wrote a list of short trips.",
+        "If the weather is good, we will go to the forest.",
+        "If it rains, we will visit a museum."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "El invierno",
+        "gloss": {
+          "pl": "Zeszłej zimy",
+          "en": "Last winter"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Este",
+        "gloss": {
+          "pl": "W tym",
+          "en": "This year"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego napisaliśmy",
+          "en": "So we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Si",
+        "gloss": {
+          "pl": "Gdy pogoda",
+          "en": "If the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-09-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Last winter we often stayed at home because it got dark so early.",
+            "Last winter we often stayed at home because it got dark so early."
+          ],
+          "pl": [
+            "Zeszłej zimy często zostawaliśmy w domu, bo szybko robiło się ciemno.",
+            "Zeszłej zimy często zostawaliśmy w domu, bo szybko robiło się ciemno."
+          ],
+          "es": [
+            "El invierno pasado nos quedamos mucho en casa porque anochecía muy pronto."
+          ]
+        },
+        "explanation": {
+          "en": "Last winter we often stayed at home because it got dark so early.",
+          "pl": "Zeszłej zimy często zostawaliśmy w domu, bo szybko robiło się ciemno."
+        }
+      },
+      {
+        "id": "es-b1-09-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "If it rains, we will visit a museum.",
+            "If it rains, we will visit a museum."
+          ],
+          "pl": [
+            "Jeśli będzie padać, odwiedzimy muzeum.",
+            "Jeśli będzie padać, odwiedzimy muzeum."
+          ],
+          "es": [
+            "Si llueve, visitaremos un museo."
+          ]
+        },
+        "explanation": {
+          "en": "If it rains, we will visit a museum.",
+          "pl": "Jeśli będzie padać, odwiedzimy muzeum."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b1-10",
+    "legacyId": "b1-10",
+    "targetLang": "es",
+    "level": "B1",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 4,
+    "titles": {
+      "es": "El paquete olvidado",
+      "pl": "Zapomniana paczka",
+      "en": "The Forgotten Parcel",
+      "de": "Das vergessene Paket"
+    },
+    "sentences": [
+      "El viernes tenía que llegar un paquete importante, pero no había nadie en casa.",
+      "El repartidor dejó una nota en la puerta.",
+      "Tuve que ir a la oficina de correos al día siguiente.",
+      "Allí resultó que el paquete todavía estaba en camino.",
+      "Al final llegó directamente a mi casa el lunes."
+    ],
+    "translations": {
+      "pl": [
+        "W piątek miała przyjść ważna paczka, ale nikogo nie było w domu.",
+        "Kurier zostawił informację na drzwiach.",
+        "Musiałem następnego dnia pójść na pocztę.",
+        "Na miejscu okazało się, że paczka wciąż była w drodze.",
+        "Ostatecznie dotarła w poniedziałek bezpośrednio do mnie."
+      ],
+      "en": [
+        "An important parcel was supposed to arrive on Friday, but nobody was home.",
+        "The courier left a note on the door.",
+        "I had to go to the post office the next day.",
+        "There it turned out that the parcel was still on the way.",
+        "In the end it arrived on Monday directly to me."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "El viernes",
+        "gloss": {
+          "pl": "W piątek",
+          "en": "An important"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El repartidor",
+        "gloss": {
+          "pl": "Kurier zostawił",
+          "en": "The courier"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Tuve",
+        "gloss": {
+          "pl": "Musiałem następnego",
+          "en": "I had"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Allí",
+        "gloss": {
+          "pl": "Na miejscu",
+          "en": "There it"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Ostatecznie dotarła",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b1-10-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "An important parcel was supposed to arrive on Friday, but nobody was home.",
+            "An important parcel was supposed to arrive on Friday, but nobody was home."
+          ],
+          "pl": [
+            "W piątek miała przyjść ważna paczka, ale nikogo nie było w domu.",
+            "W piątek miała przyjść ważna paczka, ale nikogo nie było w domu."
+          ],
+          "es": [
+            "El viernes tenía que llegar un paquete importante, pero no había nadie en casa."
+          ]
+        },
+        "explanation": {
+          "en": "An important parcel was supposed to arrive on Friday, but nobody was home.",
+          "pl": "W piątek miała przyjść ważna paczka, ale nikogo nie było w domu."
+        }
+      },
+      {
+        "id": "es-b1-10-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In the end it arrived on Monday directly to me.",
+            "In the end it arrived on Monday directly to me."
+          ],
+          "pl": [
+            "Ostatecznie dotarła w poniedziałek bezpośrednio do mnie.",
+            "Ostatecznie dotarła w poniedziałek bezpośrednio do mnie."
+          ],
+          "es": [
+            "Al final llegó directamente a mi casa el lunes."
+          ]
+        },
+        "explanation": {
+          "en": "In the end it arrived on Monday directly to me.",
+          "pl": "Ostatecznie dotarła w poniedziałek bezpośrednio do mnie."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b2-01",
+    "legacyId": "b2-01",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "La tecnología y la atención",
+      "pl": "Technologia i uwaga",
+      "en": "Technology and Attention",
+      "de": "Technologie und Aufmerksamkeit"
+    },
+    "sentences": [
+      "Aunque las herramientas digitales facilitan nuestra vida diaria, consumen gran parte de nuestra atención.",
+      "Muchas personas no se dan cuenta hasta la noche de cuántas veces han desbloqueado el móvil sin motivo concreto.",
+      "Ayuda limitar conscientemente las notificaciones en vez de confiar únicamente en la fuerza de voluntad.",
+      "Lo importante no es rechazar la tecnología, sino decidir cuándo resulta útil."
+    ],
+    "translations": {
+      "pl": [
+        "Choć narzędzia cyfrowe ułatwiają codzienność, pochłaniają sporą część naszej uwagi.",
+        "Wiele osób dopiero wieczorem zauważa, jak często odblokowywało telefon bez konkretnego powodu.",
+        "Pomaga świadome ograniczanie powiadomień zamiast polegania wyłącznie na silnej woli.",
+        "Najważniejsze nie jest odrzucanie technologii, lecz samodzielne decydowanie, kiedy jest użyteczna."
+      ],
+      "en": [
+        "Although digital tools make everyday life easier, they take up a large share of our attention.",
+        "Many people only notice in the evening how often they unlocked their phone for no clear reason.",
+        "Consciously limiting notifications helps more than relying on willpower alone.",
+        "The key is not rejecting technology, but deciding for yourself when it is useful."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Aunque",
+        "gloss": {
+          "pl": "Choć narzędzia",
+          "en": "Although digital"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Muchas",
+        "gloss": {
+          "pl": "Wiele osób",
+          "en": "Many people"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ayuda",
+        "gloss": {
+          "pl": "Pomaga świadome",
+          "en": "Consciously limiting"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Lo importante",
+        "gloss": {
+          "pl": "Najważniejsze nie",
+          "en": "The key"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-01-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Although digital tools make everyday life easier, they take up a large share of our attention.",
+            "Although digital tools make everyday life easier, they take up a large share of our attention."
+          ],
+          "pl": [
+            "Choć narzędzia cyfrowe ułatwiają codzienność, pochłaniają sporą część naszej uwagi.",
+            "Choć narzędzia cyfrowe ułatwiają codzienność, pochłaniają sporą część naszej uwagi."
+          ],
+          "es": [
+            "Aunque las herramientas digitales facilitan nuestra vida diaria, consumen gran parte de nuestra atención."
+          ]
+        },
+        "explanation": {
+          "en": "Although digital tools make everyday life easier, they take up a large share of our attention.",
+          "pl": "Choć narzędzia cyfrowe ułatwiają codzienność, pochłaniają sporą część naszej uwagi."
+        }
+      },
+      {
+        "id": "es-b2-01-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "The key is not rejecting technology, but deciding for yourself when it is useful.",
+            "The key is not rejecting technology, but deciding for yourself when it is useful."
+          ],
+          "pl": [
+            "Najważniejsze nie jest odrzucanie technologii, lecz samodzielne decydowanie, kiedy jest użyteczna.",
+            "Najważniejsze nie jest odrzucanie technologii, lecz samodzielne decydowanie, kiedy jest użyteczna."
+          ],
+          "es": [
+            "Lo importante no es rechazar la tecnología, sino decidir cuándo resulta útil."
+          ]
+        },
+        "explanation": {
+          "en": "The key is not rejecting technology, but deciding for yourself when it is useful.",
+          "pl": "Najważniejsze nie jest odrzucanie technologii, lecz samodzielne decydowanie, kiedy jest użyteczna."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-02",
+    "legacyId": "b2-02",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Un compromiso en el equipo",
+      "pl": "Kompromis w zespole",
+      "en": "A Compromise in the Team",
+      "de": "Ein Kompromiss im Team"
+    },
+    "sentences": [
+      "«Si aplazamos la fecha, podríamos perder la confianza del cliente».",
+      "«Sin embargo, si entregamos demasiado pronto, corremos el riesgo de cometer errores graves».",
+      "«¿Podríamos lanzar primero una versión limitada?»",
+      "«Sería razonable, siempre que las funciones principales sean fiables».",
+      "«Entonces dejemos constancia por escrito de los riesgos pendientes»."
+    ],
+    "translations": {
+      "pl": [
+        "„Jeśli przesuniemy termin, możemy stracić zaufanie klienta.”",
+        "„Jeśli jednak dostarczymy za wcześnie, ryzykujemy poważne błędy.”",
+        "„Czy moglibyśmy najpierw wypuścić ograniczoną wersję?”",
+        "„To byłoby rozsądne, pod warunkiem że najważniejsze funkcje działają niezawodnie.”",
+        "„W takim razie zapiszmy pozostałe ryzyka.”"
+      ],
+      "en": [
+        "“If we move the deadline, we may lose the client’s trust.”",
+        "“But if we deliver too early, we risk serious mistakes.”",
+        "“Could we release a limited version first?”",
+        "“That would be reasonable, as long as the most important features work reliably.”",
+        "“Then let’s write down the remaining risks.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Si",
+        "gloss": {
+          "pl": "Jeśli przesuniemy",
+          "en": "“If we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sin",
+        "gloss": {
+          "pl": "Jeśli jednak",
+          "en": "“But if"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "¿Podríamos",
+        "gloss": {
+          "pl": "Czy moglibyśmy",
+          "en": "“Could we"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sería",
+        "gloss": {
+          "pl": "To byłoby",
+          "en": "“That would"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Entonces",
+        "gloss": {
+          "pl": "W takim",
+          "en": "“Then let’s"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-02-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“If we move the deadline, we may lose the client’s trust.”",
+            "“If we move the deadline, we may lose the client’s trust.”"
+          ],
+          "pl": [
+            "„Jeśli przesuniemy termin, możemy stracić zaufanie klienta.”",
+            "„Jeśli przesuniemy termin, możemy stracić zaufanie klienta.”"
+          ],
+          "es": [
+            "«Si aplazamos la fecha, podríamos perder la confianza del cliente»."
+          ]
+        },
+        "explanation": {
+          "en": "“If we move the deadline, we may lose the client’s trust.”",
+          "pl": "„Jeśli przesuniemy termin, możemy stracić zaufanie klienta.”"
+        }
+      },
+      {
+        "id": "es-b2-02-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Then let’s write down the remaining risks.”",
+            "“Then let’s write down the remaining risks.”"
+          ],
+          "pl": [
+            "„W takim razie zapiszmy pozostałe ryzyka.”",
+            "„W takim razie zapiszmy pozostałe ryzyka.”"
+          ],
+          "es": [
+            "«Entonces dejemos constancia por escrito de los riesgos pendientes»."
+          ]
+        },
+        "explanation": {
+          "en": "“Then let’s write down the remaining risks.”",
+          "pl": "„W takim razie zapiszmy pozostałe ryzyka.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-03",
+    "legacyId": "b2-03",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "La ciudad del futuro",
+      "pl": "Miasto przyszłości",
+      "en": "The City of the Future",
+      "de": "Die Stadt der Zukunft"
+    },
+    "sentences": [
+      "En muchas ciudades se debate cómo podría distribuirse de manera más justa el espacio público.",
+      "Mientras algunos piden más aparcamientos, otros quieren carriles bici seguros y aceras más anchas.",
+      "Una solución convincente debe tener en cuenta las necesidades de distintos grupos.",
+      "Por eso las decisiones transparentes son tan importantes como las buenas soluciones técnicas."
+    ],
+    "translations": {
+      "pl": [
+        "W wielu miastach trwa dyskusja, jak sprawiedliwiej podzielić przestrzeń publiczną.",
+        "Podczas gdy jedni domagają się większej liczby parkingów, inni chcą bezpiecznych dróg rowerowych i szerszych chodników.",
+        "Przekonujące rozwiązanie musi uwzględniać potrzeby różnych grup.",
+        "Dlatego przejrzyste decyzje są równie ważne jak dobre rozwiązania techniczne."
+      ],
+      "en": [
+        "In many cities there is a debate about how to share public space more fairly.",
+        "While some demand more parking spaces, others want safe bike lanes and wider pavements.",
+        "A convincing solution must consider the needs of different groups.",
+        "That is why transparent decisions are just as important as good technical designs."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "W wielu",
+          "en": "In many"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Mientras",
+        "gloss": {
+          "pl": "Podczas gdy",
+          "en": "While some"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Una solución",
+        "gloss": {
+          "pl": "Przekonujące rozwiązanie",
+          "en": "A convincing"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego przejrzyste",
+          "en": "That is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-03-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In many cities there is a debate about how to share public space more fairly.",
+            "In many cities there is a debate about how to share public space more fairly."
+          ],
+          "pl": [
+            "W wielu miastach trwa dyskusja, jak sprawiedliwiej podzielić przestrzeń publiczną.",
+            "W wielu miastach trwa dyskusja, jak sprawiedliwiej podzielić przestrzeń publiczną."
+          ],
+          "es": [
+            "En muchas ciudades se debate cómo podría distribuirse de manera más justa el espacio público."
+          ]
+        },
+        "explanation": {
+          "en": "In many cities there is a debate about how to share public space more fairly.",
+          "pl": "W wielu miastach trwa dyskusja, jak sprawiedliwiej podzielić przestrzeń publiczną."
+        }
+      },
+      {
+        "id": "es-b2-03-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "That is why transparent decisions are just as important as good technical designs.",
+            "That is why transparent decisions are just as important as good technical designs."
+          ],
+          "pl": [
+            "Dlatego przejrzyste decyzje są równie ważne jak dobre rozwiązania techniczne.",
+            "Dlatego przejrzyste decyzje są równie ważne jak dobre rozwiązania techniczne."
+          ],
+          "es": [
+            "Por eso las decisiones transparentes son tan importantes como las buenas soluciones técnicas."
+          ]
+        },
+        "explanation": {
+          "en": "That is why transparent decisions are just as important as good technical designs.",
+          "pl": "Dlatego przejrzyste decyzje są równie ważne jak dobre rozwiązania techniczne."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b2-04",
+    "legacyId": "b2-04",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Un resultado inesperado",
+      "pl": "Nieoczekiwany wynik",
+      "en": "An Unexpected Result",
+      "de": "Ein unerwartetes Ergebnis"
+    },
+    "sentences": [
+      "Al principio, el experimento parecía confirmar la hipótesis inicial.",
+      "Sin embargo, al analizarlo con más detalle, se descubrió que se había pasado por alto un factor importante.",
+      "El equipo repitió las mediciones en condiciones más estrictas.",
+      "Los nuevos datos contradecían claramente la primera interpretación.",
+      "Fue precisamente esa corrección la que finalmente llevó a un hallazgo más interesante."
+    ],
+    "translations": {
+      "pl": [
+        "Początkowo eksperyment zdawał się potwierdzać pierwotną hipotezę.",
+        "Jednak po dokładniejszej analizie okazało się, że przeoczono ważny czynnik.",
+        "Zespół powtórzył pomiary w bardziej rygorystycznych warunkach.",
+        "Nowe dane wyraźnie przeczyły pierwszej interpretacji.",
+        "Właśnie ta korekta doprowadziła ostatecznie do ciekawszego odkrycia."
+      ],
+      "en": [
+        "At first the experiment seemed to confirm the original hypothesis.",
+        "After a closer look, however, an important factor had been overlooked.",
+        "The team repeated the measurements under stricter conditions.",
+        "The new data clearly contradicted the first interpretation.",
+        "It was exactly this correction that finally led to a more interesting discovery."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Początkowo eksperyment",
+          "en": "At first"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sin",
+        "gloss": {
+          "pl": "Jednak po",
+          "en": "After a"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "El equipo",
+        "gloss": {
+          "pl": "Zespół powtórzył",
+          "en": "The team"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Los nuevos",
+        "gloss": {
+          "pl": "Nowe dane",
+          "en": "The new"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Fue",
+        "gloss": {
+          "pl": "Właśnie ta",
+          "en": "It was"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-04-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "At first the experiment seemed to confirm the original hypothesis.",
+            "At first the experiment seemed to confirm the original hypothesis."
+          ],
+          "pl": [
+            "Początkowo eksperyment zdawał się potwierdzać pierwotną hipotezę.",
+            "Początkowo eksperyment zdawał się potwierdzać pierwotną hipotezę."
+          ],
+          "es": [
+            "Al principio, el experimento parecía confirmar la hipótesis inicial."
+          ]
+        },
+        "explanation": {
+          "en": "At first the experiment seemed to confirm the original hypothesis.",
+          "pl": "Początkowo eksperyment zdawał się potwierdzać pierwotną hipotezę."
+        }
+      },
+      {
+        "id": "es-b2-04-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "It was exactly this correction that finally led to a more interesting discovery.",
+            "It was exactly this correction that finally led to a more interesting discovery."
+          ],
+          "pl": [
+            "Właśnie ta korekta doprowadziła ostatecznie do ciekawszego odkrycia.",
+            "Właśnie ta korekta doprowadziła ostatecznie do ciekawszego odkrycia."
+          ],
+          "es": [
+            "Fue precisamente esa corrección la que finalmente llevó a un hallazgo más interesante."
+          ]
+        },
+        "explanation": {
+          "en": "It was exactly this correction that finally led to a more interesting discovery.",
+          "pl": "Właśnie ta korekta doprowadziła ostatecznie do ciekawszego odkrycia."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-05",
+    "legacyId": "b2-05",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "¿Qué significa el éxito?",
+      "pl": "Co oznacza sukces?",
+      "en": "What Does Success Mean?",
+      "de": "Was bedeutet Erfolg?"
+    },
+    "sentences": [
+      "Antes medía el éxito casi exclusivamente por resultados cuantificables.",
+      "Con el tiempo me di cuenta de cuánto quedaba fuera de esa medida.",
+      "Una tarde tranquila con la familia puede valer más que otra tarea tachada de la lista.",
+      "Por eso ahora intento considerar tanto el rendimiento como la calidad de vida."
+    ],
+    "translations": {
+      "pl": [
+        "Dawniej mierzyłem sukces niemal wyłącznie wymiernymi wynikami.",
+        "Z czasem uświadomiłem sobie, jak wiele umykało takiej ocenie.",
+        "Spokojny wieczór z rodziną może być cenniejszy niż kolejne odhaczone zadanie.",
+        "Dlatego dziś staram się patrzeć łącznie na osiągnięcia i jakość życia."
+      ],
+      "en": [
+        "In the past I measured success almost only by quantifiable results.",
+        "Over time I realised how much that view left out.",
+        "A quiet evening with family can be worth more than another checked-off task.",
+        "That is why I now try to look at achievements and quality of life together."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Antes",
+        "gloss": {
+          "pl": "Dawniej mierzyłem",
+          "en": "In the"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Con",
+        "gloss": {
+          "pl": "Z czasem",
+          "en": "Over time"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Una tarde",
+        "gloss": {
+          "pl": "Spokojny wieczór",
+          "en": "A quiet"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego dziś",
+          "en": "That is"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-05-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In the past I measured success almost only by quantifiable results.",
+            "In the past I measured success almost only by quantifiable results."
+          ],
+          "pl": [
+            "Dawniej mierzyłem sukces niemal wyłącznie wymiernymi wynikami.",
+            "Dawniej mierzyłem sukces niemal wyłącznie wymiernymi wynikami."
+          ],
+          "es": [
+            "Antes medía el éxito casi exclusivamente por resultados cuantificables."
+          ]
+        },
+        "explanation": {
+          "en": "In the past I measured success almost only by quantifiable results.",
+          "pl": "Dawniej mierzyłem sukces niemal wyłącznie wymiernymi wynikami."
+        }
+      },
+      {
+        "id": "es-b2-05-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "That is why I now try to look at achievements and quality of life together.",
+            "That is why I now try to look at achievements and quality of life together."
+          ],
+          "pl": [
+            "Dlatego dziś staram się patrzeć łącznie na osiągnięcia i jakość życia.",
+            "Dlatego dziś staram się patrzeć łącznie na osiągnięcia i jakość życia."
+          ],
+          "es": [
+            "Por eso ahora intento considerar tanto el rendimiento como la calidad de vida."
+          ]
+        },
+        "explanation": {
+          "en": "That is why I now try to look at achievements and quality of life together.",
+          "pl": "Dlatego dziś staram się patrzeć łącznie na osiągnięcia i jakość życia."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-06",
+    "legacyId": "b2-06",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Un libro sin final",
+      "pl": "Książka bez zakończenia",
+      "en": "A Book Without an Ending",
+      "de": "Ein Buch ohne Ende"
+    },
+    "sentences": [
+      "La novela que terminé ayer dejó sorprendentemente muchas preguntas sin respuesta.",
+      "Al principio me molestó, porque esperaba un desenlace claro.",
+      "Cuanto más pensaba en ello, más interesante me parecía aquella decisión.",
+      "Quizá la autora quería que completáramos la historia por nuestra cuenta."
+    ],
+    "translations": {
+      "pl": [
+        "Powieść, którą skończyłem wczoraj, pozostawiła zaskakująco wiele pytań bez odpowiedzi.",
+        "Początkowo mnie to zirytowało, bo oczekiwałem jednoznacznego rozwiązania.",
+        "Im dłużej o tym myślałem, tym ciekawsza wydawała mi się ta decyzja.",
+        "Być może autorka chciała, abyśmy sami dopowiedzieli zakończenie."
+      ],
+      "en": [
+        "The novel I finished yesterday left a surprising number of questions open.",
+        "At first I was annoyed because I had expected a clear ending.",
+        "The longer I thought about it, the more interesting that choice seemed.",
+        "Perhaps the author wanted us to finish the story ourselves."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "La novela",
+        "gloss": {
+          "pl": "Powieść, którą",
+          "en": "The novel"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Al",
+        "gloss": {
+          "pl": "Początkowo mnie",
+          "en": "At first"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Cuanto",
+        "gloss": {
+          "pl": "Im dłużej",
+          "en": "The longer"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Quizá",
+        "gloss": {
+          "pl": "Być może",
+          "en": "Perhaps the"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-06-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "The novel I finished yesterday left a surprising number of questions open.",
+            "The novel I finished yesterday left a surprising number of questions open."
+          ],
+          "pl": [
+            "Powieść, którą skończyłem wczoraj, pozostawiła zaskakująco wiele pytań bez odpowiedzi.",
+            "Powieść, którą skończyłem wczoraj, pozostawiła zaskakująco wiele pytań bez odpowiedzi."
+          ],
+          "es": [
+            "La novela que terminé ayer dejó sorprendentemente muchas preguntas sin respuesta."
+          ]
+        },
+        "explanation": {
+          "en": "The novel I finished yesterday left a surprising number of questions open.",
+          "pl": "Powieść, którą skończyłem wczoraj, pozostawiła zaskakująco wiele pytań bez odpowiedzi."
+        }
+      },
+      {
+        "id": "es-b2-06-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Perhaps the author wanted us to finish the story ourselves.",
+            "Perhaps the author wanted us to finish the story ourselves."
+          ],
+          "pl": [
+            "Być może autorka chciała, abyśmy sami dopowiedzieli zakończenie.",
+            "Być może autorka chciała, abyśmy sami dopowiedzieli zakończenie."
+          ],
+          "es": [
+            "Quizá la autora quería que completáramos la historia por nuestra cuenta."
+          ]
+        },
+        "explanation": {
+          "en": "Perhaps the author wanted us to finish the story ourselves.",
+          "pl": "Być może autorka chciała, abyśmy sami dopowiedzieli zakończenie."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b2-07",
+    "legacyId": "b2-07",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "dialogue",
+    "category": "conversation",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Un debate sobre la educación",
+      "pl": "Debata o edukacji",
+      "en": "A Debate on Education",
+      "de": "Eine Debatte über Bildung"
+    },
+    "sentences": [
+      "«¿Deberían las escuelas dedicar más tiempo a proyectos prácticos?»",
+      "«Sí, siempre que no se descuiden los conocimientos fundamentales».",
+      "«Sin embargo, los niños también aprenden experimentando por sí mismos».",
+      "«Tal vez una combinación equilibrada sería más útil que un cambio radical»."
+    ],
+    "translations": {
+      "pl": [
+        "„Czy szkoły powinny przeznaczać więcej czasu na projekty praktyczne?”",
+        "„Tak, o ile nie zaniedba się podstawowej wiedzy.”",
+        "„Jednak dzieci uczą się także poprzez samodzielne próbowanie.”",
+        "„Może zrównoważone połączenie byłoby sensowniejsze niż radykalna zmiana.”"
+      ],
+      "en": [
+        "“Should schools schedule more time for practical projects?”",
+        "“Yes, as long as basic knowledge is not neglected.”",
+        "“Still, children also learn by trying things themselves.”",
+        "“Maybe a balanced mix would make more sense than a radical change.”"
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "¿Deberían",
+        "gloss": {
+          "pl": "Czy szkoły",
+          "en": "“Should schools"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sí,",
+        "gloss": {
+          "pl": "Tak, o",
+          "en": "“Yes, as"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sin",
+        "gloss": {
+          "pl": "Jednak dzieci",
+          "en": "“Still, children"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Tal",
+        "gloss": {
+          "pl": "Może zrównoważone",
+          "en": "“Maybe a"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-07-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Should schools schedule more time for practical projects?”",
+            "“Should schools schedule more time for practical projects?”"
+          ],
+          "pl": [
+            "„Czy szkoły powinny przeznaczać więcej czasu na projekty praktyczne?”",
+            "„Czy szkoły powinny przeznaczać więcej czasu na projekty praktyczne?”"
+          ],
+          "es": [
+            "«¿Deberían las escuelas dedicar más tiempo a proyectos prácticos?»"
+          ]
+        },
+        "explanation": {
+          "en": "“Should schools schedule more time for practical projects?”",
+          "pl": "„Czy szkoły powinny przeznaczać więcej czasu na projekty praktyczne?”"
+        }
+      },
+      {
+        "id": "es-b2-07-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "“Maybe a balanced mix would make more sense than a radical change.”",
+            "“Maybe a balanced mix would make more sense than a radical change.”"
+          ],
+          "pl": [
+            "„Może zrównoważone połączenie byłoby sensowniejsze niż radykalna zmiana.”",
+            "„Może zrównoważone połączenie byłoby sensowniejsze niż radykalna zmiana.”"
+          ],
+          "es": [
+            "«Tal vez una combinación equilibrada sería más útil que un cambio radical»."
+          ]
+        },
+        "explanation": {
+          "en": "“Maybe a balanced mix would make more sense than a radical change.”",
+          "pl": "„Może zrównoważone połączenie byłoby sensowniejsze niż radykalna zmiana.”"
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-08",
+    "legacyId": "b2-08",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Una mudanza complicada",
+      "pl": "Trudna przeprowadzka",
+      "en": "A Difficult Move",
+      "de": "Ein schwieriger Umzug"
+    },
+    "sentences": [
+      "Habíamos subestimado cuántas decisiones implica mudarse a otra ciudad.",
+      "Además de la vivienda, tuvimos que ocuparnos del colegio, el transporte y numerosos trámites.",
+      "Lo más difícil fue dejar atrás las costumbres conocidas.",
+      "Sin embargo, mirando atrás, la experiencia nos hizo más independientes."
+    ],
+    "translations": {
+      "pl": [
+        "Nie doceniliśmy, ile decyzji wiąże się z przeprowadzką do innego miasta.",
+        "Poza mieszkaniem musieliśmy zająć się szkołą, transportem i wieloma formalnościami.",
+        "Najtrudniej było zostawić za sobą znajome przyzwyczajenia.",
+        "Z perspektywy czasu to doświadczenie uczyniło nas jednak bardziej samodzielnymi."
+      ],
+      "en": [
+        "We had underestimated how many decisions moving to another city involves.",
+        "Apart from the flat, we had to deal with school, transport and many formalities.",
+        "The hardest part was leaving familiar habits behind.",
+        "Looking back, though, the experience made us more independent."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Habíamos",
+        "gloss": {
+          "pl": "Nie doceniliśmy,",
+          "en": "We had"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Además",
+        "gloss": {
+          "pl": "Poza mieszkaniem",
+          "en": "Apart from"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Lo más",
+        "gloss": {
+          "pl": "Najtrudniej było",
+          "en": "The hardest"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Sin",
+        "gloss": {
+          "pl": "Z perspektywy",
+          "en": "Looking back,"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-08-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "We had underestimated how many decisions moving to another city involves.",
+            "We had underestimated how many decisions moving to another city involves."
+          ],
+          "pl": [
+            "Nie doceniliśmy, ile decyzji wiąże się z przeprowadzką do innego miasta.",
+            "Nie doceniliśmy, ile decyzji wiąże się z przeprowadzką do innego miasta."
+          ],
+          "es": [
+            "Habíamos subestimado cuántas decisiones implica mudarse a otra ciudad."
+          ]
+        },
+        "explanation": {
+          "en": "We had underestimated how many decisions moving to another city involves.",
+          "pl": "Nie doceniliśmy, ile decyzji wiąże się z przeprowadzką do innego miasta."
+        }
+      },
+      {
+        "id": "es-b2-08-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Looking back, though, the experience made us more independent.",
+            "Looking back, though, the experience made us more independent."
+          ],
+          "pl": [
+            "Z perspektywy czasu to doświadczenie uczyniło nas jednak bardziej samodzielnymi.",
+            "Z perspektywy czasu to doświadczenie uczyniło nas jednak bardziej samodzielnymi."
+          ],
+          "es": [
+            "Sin embargo, mirando atrás, la experiencia nos hizo más independientes."
+          ]
+        },
+        "explanation": {
+          "en": "Looking back, though, the experience made us more independent.",
+          "pl": "Z perspektywy czasu to doświadczenie uczyniło nas jednak bardziej samodzielnymi."
+        }
+      }
+    ],
+    "audioRecommended": true
+  },
+  {
+    "id": "es-b2-09",
+    "legacyId": "b2-09",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "Los límites de la planificación",
+      "pl": "Granice planowania",
+      "en": "The Limits of Planning",
+      "de": "Die Grenzen der Planung"
+    },
+    "sentences": [
+      "Un plan cuidadoso puede reducir la incertidumbre, pero nunca eliminarla por completo.",
+      "Por eso conviene considerar no solo los objetivos, sino también las posibles desviaciones.",
+      "Quien interpreta cada cambio como un fracaso suele pasar por alto nuevas oportunidades.",
+      "Ser flexible no significa renunciar a prepararse, sino aprovechar bien esa preparación."
+    ],
+    "translations": {
+      "pl": [
+        "Staranny plan może ograniczyć niepewność, ale nigdy nie wyeliminuje jej całkowicie.",
+        "Dlatego warto uwzględnić nie tylko cele, lecz także możliwe odstępstwa.",
+        "Kto uważa każdą zmianę za porażkę, często przeocza nowe możliwości.",
+        "Elastyczność nie oznacza rezygnacji z przygotowania, tylko rozsądne wykorzystanie go."
+      ],
+      "en": [
+        "A careful plan can reduce uncertainty, but never remove it completely.",
+        "That is why it helps to consider not only goals, but also possible deviations.",
+        "Anyone who treats every change as failure often misses new opportunities.",
+        "Flexibility does not mean giving up preparation; it means using it wisely."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "Un plan",
+        "gloss": {
+          "pl": "Staranny plan",
+          "en": "A careful"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego warto",
+          "en": "That is"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Quien",
+        "gloss": {
+          "pl": "Kto uważa",
+          "en": "Anyone who"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Ser",
+        "gloss": {
+          "pl": "Elastyczność nie",
+          "en": "Flexibility does"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-09-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "A careful plan can reduce uncertainty, but never remove it completely.",
+            "A careful plan can reduce uncertainty, but never remove it completely."
+          ],
+          "pl": [
+            "Staranny plan może ograniczyć niepewność, ale nigdy nie wyeliminuje jej całkowicie.",
+            "Staranny plan może ograniczyć niepewność, ale nigdy nie wyeliminuje jej całkowicie."
+          ],
+          "es": [
+            "Un plan cuidadoso puede reducir la incertidumbre, pero nunca eliminarla por completo."
+          ]
+        },
+        "explanation": {
+          "en": "A careful plan can reduce uncertainty, but never remove it completely.",
+          "pl": "Staranny plan może ograniczyć niepewność, ale nigdy nie wyeliminuje jej całkowicie."
+        }
+      },
+      {
+        "id": "es-b2-09-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Flexibility does not mean giving up preparation; it means using it wisely.",
+            "Flexibility does not mean giving up preparation; it means using it wisely."
+          ],
+          "pl": [
+            "Elastyczność nie oznacza rezygnacji z przygotowania, tylko rozsądne wykorzystanie go.",
+            "Elastyczność nie oznacza rezygnacji z przygotowania, tylko rozsądne wykorzystanie go."
+          ],
+          "es": [
+            "Ser flexible no significa renunciar a prepararse, sino aprovechar bien esa preparación."
+          ]
+        },
+        "explanation": {
+          "en": "Flexibility does not mean giving up preparation; it means using it wisely.",
+          "pl": "Elastyczność nie oznacza rezygnacji z przygotowania, tylko rozsądne wykorzystanie go."
+        }
+      }
+    ],
+    "audioRecommended": false
+  },
+  {
+    "id": "es-b2-10",
+    "legacyId": "b2-10",
+    "targetLang": "es",
+    "level": "B2",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 5,
+    "titles": {
+      "es": "El arte de escuchar",
+      "pl": "Sztuka słuchania",
+      "en": "The Art of Listening",
+      "de": "Die Kunst des Zuhörens"
+    },
+    "sentences": [
+      "En las conversaciones a menudo solo esperamos nuestro turno para volver a hablar.",
+      "Así se nos escapan matices importantes que no se expresan de forma explícita.",
+      "Quien hace preguntas con atención no solo muestra respeto, sino que suele comprender mejor el problema de fondo.",
+      "Por eso escuchar bien es una habilidad activa y no simplemente una pausa para dejar hablar al otro."
+    ],
+    "translations": {
+      "pl": [
+        "W rozmowach często jedynie czekamy na swoją kolej, by znów mówić.",
+        "W ten sposób umykają nam istotne niuanse, których nie wyrażono wprost.",
+        "Kto uważnie dopytuje, nie tylko okazuje szacunek, ale często lepiej rozumie istotę problemu.",
+        "Dlatego dobre słuchanie jest aktywną umiejętnością, a nie zwykłą przerwą w mówieniu."
+      ],
+      "en": [
+        "In conversations we often only wait for our turn to speak again.",
+        "That way we miss important nuances that are not said explicitly.",
+        "Anyone who asks attentive questions not only shows respect, but often understands the real problem better.",
+        "Good listening is therefore an active skill, not just a pause in speaking."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "En",
+        "gloss": {
+          "pl": "W rozmowach",
+          "en": "In conversations"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Así",
+        "gloss": {
+          "pl": "W ten",
+          "en": "That way"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Quien",
+        "gloss": {
+          "pl": "Kto uważnie",
+          "en": "Anyone who"
+        },
+        "pos": "phrase"
+      },
+      {
+        "word": "Por",
+        "gloss": {
+          "pl": "Dlatego dobre",
+          "en": "Good listening"
+        },
+        "pos": "phrase"
+      }
+    ],
+    "questions": [
+      {
+        "id": "es-b2-10-q1",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the beginning?",
+          "pl": "Co dzieje się na początku?",
+          "es": "¿Qué pasa al principio?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "In conversations we often only wait for our turn to speak again.",
+            "In conversations we often only wait for our turn to speak again."
+          ],
+          "pl": [
+            "W rozmowach często jedynie czekamy na swoją kolej, by znów mówić.",
+            "W rozmowach często jedynie czekamy na swoją kolej, by znów mówić."
+          ],
+          "es": [
+            "En las conversaciones a menudo solo esperamos nuestro turno para volver a hablar."
+          ]
+        },
+        "explanation": {
+          "en": "In conversations we often only wait for our turn to speak again.",
+          "pl": "W rozmowach często jedynie czekamy na swoją kolej, by znów mówić."
+        }
+      },
+      {
+        "id": "es-b2-10-q2",
+        "type": "comprehension",
+        "prompt": {
+          "en": "What happens at the end?",
+          "pl": "Co dzieje się na końcu?",
+          "es": "¿Qué pasa al final?"
+        },
+        "acceptedAnswers": {
+          "en": [
+            "Good listening is therefore an active skill, not just a pause in speaking.",
+            "Good listening is therefore an active skill, not just a pause in speaking."
+          ],
+          "pl": [
+            "Dlatego dobre słuchanie jest aktywną umiejętnością, a nie zwykłą przerwą w mówieniu.",
+            "Dlatego dobre słuchanie jest aktywną umiejętnością, a nie zwykłą przerwą w mówieniu."
+          ],
+          "es": [
+            "Por eso escuchar bien es una habilidad activa y no simplemente una pausa para dejar hablar al otro."
+          ]
+        },
+        "explanation": {
+          "en": "Good listening is therefore an active skill, not just a pause in speaking.",
+          "pl": "Dlatego dobre słuchanie jest aktywną umiejętnością, a nie zwykłą przerwą w mówieniu."
+        }
+      }
+    ],
+    "audioRecommended": true
+  }
+]

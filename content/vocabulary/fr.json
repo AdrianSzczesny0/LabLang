@@ -1,0 +1,3330 @@
+[
+  {
+    "week": 1,
+    "title": {
+      "en": "Body and toys",
+      "pl": "Ciało i zabawki"
+    },
+    "words": [
+      {
+        "id": "fr-w01-01",
+        "word": "la poupée",
+        "article": "la",
+        "example": "La poupée est sur le lit.",
+        "gloss": {
+          "pl": "lalka",
+          "en": "doll"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w01-02",
+        "word": "le ballon",
+        "article": "le",
+        "example": "Le ballon est rouge.",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w01-03",
+        "word": "la main",
+        "article": "la",
+        "example": "Elle se lave la main.",
+        "gloss": {
+          "pl": "dłoń",
+          "en": "hand"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w01-04",
+        "word": "la jambe",
+        "article": "la",
+        "example": "La jambe fait un peu mal.",
+        "gloss": {
+          "pl": "noga",
+          "en": "leg"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w01-05",
+        "word": "la tête",
+        "article": "la",
+        "example": "Il hoche la tête.",
+        "gloss": {
+          "pl": "głowa",
+          "en": "head"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "title": {
+      "en": "Home",
+      "pl": "Dom"
+    },
+    "words": [
+      {
+        "id": "fr-w02-01",
+        "word": "la maison",
+        "article": "la",
+        "example": "La maison est vieille.",
+        "gloss": {
+          "pl": "dom",
+          "en": "house"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w02-02",
+        "word": "la porte",
+        "article": "la",
+        "example": "Ferme la porte, s'il te plaît.",
+        "gloss": {
+          "pl": "drzwi",
+          "en": "door"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w02-03",
+        "word": "la fenêtre",
+        "article": "la",
+        "example": "La fenêtre est ouverte.",
+        "gloss": {
+          "pl": "okno",
+          "en": "window"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w02-04",
+        "word": "la table",
+        "article": "la",
+        "example": "La table est grande.",
+        "gloss": {
+          "pl": "stół",
+          "en": "table"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w02-05",
+        "word": "la chaise",
+        "article": "la",
+        "example": "Assieds-toi sur la chaise.",
+        "gloss": {
+          "pl": "krzesło",
+          "en": "chair"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "title": {
+      "en": "Animals",
+      "pl": "Zwierzęta"
+    },
+    "words": [
+      {
+        "id": "fr-w03-01",
+        "word": "le chat",
+        "article": "le",
+        "example": "Le chat dort.",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w03-02",
+        "word": "le chien",
+        "article": "le",
+        "example": "Le chien court vite.",
+        "gloss": {
+          "pl": "pies",
+          "en": "dog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w03-03",
+        "word": "l'oiseau",
+        "article": "l'",
+        "example": "L'oiseau chante.",
+        "gloss": {
+          "pl": "ptak",
+          "en": "bird"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w03-04",
+        "word": "le poisson",
+        "article": "le",
+        "example": "Le poisson nage.",
+        "gloss": {
+          "pl": "ryba",
+          "en": "fish"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w03-05",
+        "word": "la souris",
+        "article": "la",
+        "example": "La souris est petite.",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "title": {
+      "en": "Family",
+      "pl": "Rodzina"
+    },
+    "words": [
+      {
+        "id": "fr-w04-01",
+        "word": "la mère",
+        "article": "la",
+        "example": "Ma mère cuisine.",
+        "gloss": {
+          "pl": "mama",
+          "en": "mother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w04-02",
+        "word": "le père",
+        "article": "le",
+        "example": "Mon père lit.",
+        "gloss": {
+          "pl": "tata",
+          "en": "father"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w04-03",
+        "word": "la sœur",
+        "article": "la",
+        "example": "Ma sœur est gentille.",
+        "gloss": {
+          "pl": "siostra",
+          "en": "sister"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w04-04",
+        "word": "le frère",
+        "article": "le",
+        "example": "Mon frère joue.",
+        "gloss": {
+          "pl": "brat",
+          "en": "brother"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w04-05",
+        "word": "l'enfant",
+        "article": "l'",
+        "example": "L'enfant rit.",
+        "gloss": {
+          "pl": "dziecko",
+          "en": "child"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "title": {
+      "en": "Food",
+      "pl": "Jedzenie"
+    },
+    "words": [
+      {
+        "id": "fr-w05-01",
+        "word": "le pain",
+        "article": "le",
+        "example": "Le pain est frais.",
+        "gloss": {
+          "pl": "chleb",
+          "en": "bread"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w05-02",
+        "word": "l'eau",
+        "article": "l'",
+        "example": "L'eau est froide.",
+        "gloss": {
+          "pl": "woda",
+          "en": "water"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w05-03",
+        "word": "la pomme",
+        "article": "la",
+        "example": "La pomme est verte.",
+        "gloss": {
+          "pl": "jabłko",
+          "en": "apple"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w05-04",
+        "word": "le lait",
+        "article": "le",
+        "example": "Le lait est tiède.",
+        "gloss": {
+          "pl": "mleko",
+          "en": "milk"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w05-05",
+        "word": "l'œuf",
+        "article": "l'",
+        "example": "L'œuf est dans l'assiette.",
+        "gloss": {
+          "pl": "jajko",
+          "en": "egg"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "title": {
+      "en": "Travel and fun",
+      "pl": "Podróż i rozrywka"
+    },
+    "words": [
+      {
+        "id": "fr-w06-01",
+        "word": "le vélo",
+        "article": "le",
+        "example": "Le vélo est neuf.",
+        "gloss": {
+          "pl": "rower",
+          "en": "bicycle"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w06-02",
+        "word": "la voiture",
+        "article": "la",
+        "example": "La voiture est bleue.",
+        "gloss": {
+          "pl": "samochód",
+          "en": "car"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w06-03",
+        "word": "le train",
+        "article": "le",
+        "example": "Le train arrive.",
+        "gloss": {
+          "pl": "pociąg",
+          "en": "train"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w06-04",
+        "word": "le livre",
+        "article": "le",
+        "example": "Le livre est intéressant.",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w06-05",
+        "word": "le jouet",
+        "article": "le",
+        "example": "Le jouet est cassé.",
+        "gloss": {
+          "pl": "zabawka",
+          "en": "toy"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "title": {
+      "en": "Clothes",
+      "pl": "Ubrania"
+    },
+    "words": [
+      {
+        "id": "fr-w07-01",
+        "word": "le bonnet",
+        "article": "le",
+        "example": "Le bonnet est chaud.",
+        "gloss": {
+          "pl": "czapka",
+          "en": "cap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w07-02",
+        "word": "la chaussure",
+        "article": "la",
+        "example": "La chaussure est sale.",
+        "gloss": {
+          "pl": "but",
+          "en": "shoe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w07-03",
+        "word": "le manteau",
+        "article": "le",
+        "example": "Le manteau est lourd.",
+        "gloss": {
+          "pl": "płaszcz",
+          "en": "coat"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w07-04",
+        "word": "la chemise",
+        "article": "la",
+        "example": "La chemise est blanche.",
+        "gloss": {
+          "pl": "koszula",
+          "en": "shirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w07-05",
+        "word": "la robe",
+        "article": "la",
+        "example": "La robe est jolie.",
+        "gloss": {
+          "pl": "sukienka",
+          "en": "dress"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "title": {
+      "en": "Nature",
+      "pl": "Przyroda"
+    },
+    "words": [
+      {
+        "id": "fr-w08-01",
+        "word": "l'arbre",
+        "article": "l'",
+        "example": "L'arbre est grand.",
+        "gloss": {
+          "pl": "drzewo",
+          "en": "tree"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w08-02",
+        "word": "le soleil",
+        "article": "le",
+        "example": "Le soleil brille.",
+        "gloss": {
+          "pl": "słońce",
+          "en": "sun"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w08-03",
+        "word": "la lune",
+        "article": "la",
+        "example": "La lune est pleine.",
+        "gloss": {
+          "pl": "księżyc",
+          "en": "moon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w08-04",
+        "word": "la pluie",
+        "article": "la",
+        "example": "La pluie commence.",
+        "gloss": {
+          "pl": "deszcz",
+          "en": "rain"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w08-05",
+        "word": "la fleur",
+        "article": "la",
+        "example": "La fleur sent bon.",
+        "gloss": {
+          "pl": "kwiat",
+          "en": "flower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "title": {
+      "en": "Face and body",
+      "pl": "Twarz i ciało"
+    },
+    "words": [
+      {
+        "id": "fr-w09-01",
+        "word": "l'œil",
+        "article": "l'",
+        "example": "Son œil est bleu.",
+        "gloss": {
+          "pl": "oko",
+          "en": "eye"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w09-02",
+        "word": "l'oreille",
+        "article": "l'",
+        "example": "Mon oreille me fait mal.",
+        "gloss": {
+          "pl": "ucho",
+          "en": "ear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w09-03",
+        "word": "le nez",
+        "article": "le",
+        "example": "Son nez est rouge.",
+        "gloss": {
+          "pl": "nos",
+          "en": "nose"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w09-04",
+        "word": "la bouche",
+        "article": "la",
+        "example": "Ouvre la bouche.",
+        "gloss": {
+          "pl": "usta",
+          "en": "mouth"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w09-05",
+        "word": "le doigt",
+        "article": "le",
+        "example": "Elle montre du doigt.",
+        "gloss": {
+          "pl": "palec",
+          "en": "finger"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "title": {
+      "en": "School",
+      "pl": "Szkoła"
+    },
+    "words": [
+      {
+        "id": "fr-w10-01",
+        "word": "l'école",
+        "article": "l'",
+        "example": "L'école est proche.",
+        "gloss": {
+          "pl": "szkoła",
+          "en": "school"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w10-02",
+        "word": "le stylo",
+        "article": "le",
+        "example": "Le stylo écrit bien.",
+        "gloss": {
+          "pl": "długopis",
+          "en": "pen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w10-03",
+        "word": "le cahier",
+        "article": "le",
+        "example": "Le cahier est plein.",
+        "gloss": {
+          "pl": "zeszyt",
+          "en": "notebook"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w10-04",
+        "word": "le sac à dos",
+        "article": "le",
+        "example": "Le sac à dos est lourd.",
+        "gloss": {
+          "pl": "plecak",
+          "en": "backpack"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w10-05",
+        "word": "le professeur",
+        "article": "le",
+        "example": "Le professeur sourit.",
+        "gloss": {
+          "pl": "nauczyciel",
+          "en": "teacher"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "title": {
+      "en": "City",
+      "pl": "Miasto"
+    },
+    "words": [
+      {
+        "id": "fr-w11-01",
+        "word": "la rue",
+        "article": "la",
+        "example": "La rue est calme.",
+        "gloss": {
+          "pl": "ulica",
+          "en": "street"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w11-02",
+        "word": "le magasin",
+        "article": "le",
+        "example": "Le magasin ouvre à neuf heures.",
+        "gloss": {
+          "pl": "sklep",
+          "en": "shop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w11-03",
+        "word": "le pont",
+        "article": "le",
+        "example": "Le pont est long.",
+        "gloss": {
+          "pl": "most",
+          "en": "bridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w11-04",
+        "word": "la place",
+        "article": "la",
+        "example": "On se retrouve sur la place.",
+        "gloss": {
+          "pl": "plac",
+          "en": "square"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w11-05",
+        "word": "le parc",
+        "article": "le",
+        "example": "Les enfants jouent au parc.",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "title": {
+      "en": "At home",
+      "pl": "W domu"
+    },
+    "words": [
+      {
+        "id": "fr-w12-01",
+        "word": "le lit",
+        "article": "le",
+        "example": "Le lit est moelleux.",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "bed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w12-02",
+        "word": "la lampe",
+        "article": "la",
+        "example": "Allume la lampe.",
+        "gloss": {
+          "pl": "lampa",
+          "en": "lamp"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w12-03",
+        "word": "la tasse",
+        "article": "la",
+        "example": "La tasse est chaude.",
+        "gloss": {
+          "pl": "kubek",
+          "en": "mug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w12-04",
+        "word": "l'assiette",
+        "article": "l'",
+        "example": "L'assiette est propre.",
+        "gloss": {
+          "pl": "talerz",
+          "en": "plate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w12-05",
+        "word": "la clé",
+        "article": "la",
+        "example": "J'ai perdu la clé.",
+        "gloss": {
+          "pl": "klucz",
+          "en": "key"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "title": {
+      "en": "Kitchen",
+      "pl": "Kuchnia"
+    },
+    "words": [
+      {
+        "id": "fr-w13-01",
+        "word": "la cuillère",
+        "article": "la",
+        "example": "Utilise la cuillère.",
+        "gloss": {
+          "pl": "łyżka",
+          "en": "spoon"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w13-02",
+        "word": "la fourchette",
+        "article": "la",
+        "example": "La fourchette est sur la table.",
+        "gloss": {
+          "pl": "widelec",
+          "en": "fork"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w13-03",
+        "word": "le couteau",
+        "article": "le",
+        "example": "Le couteau est tranchant.",
+        "gloss": {
+          "pl": "nóż",
+          "en": "knife"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w13-04",
+        "word": "le réfrigérateur",
+        "article": "le",
+        "example": "Le réfrigérateur est plein.",
+        "gloss": {
+          "pl": "lodówka",
+          "en": "fridge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w13-05",
+        "word": "le four",
+        "article": "le",
+        "example": "Le four est chaud.",
+        "gloss": {
+          "pl": "piec",
+          "en": "oven"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "title": {
+      "en": "Vacation",
+      "pl": "Wakacje"
+    },
+    "words": [
+      {
+        "id": "fr-w14-01",
+        "word": "la plage",
+        "article": "la",
+        "example": "Nous marchons sur la plage.",
+        "gloss": {
+          "pl": "plaża",
+          "en": "beach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w14-02",
+        "word": "la mer",
+        "article": "la",
+        "example": "La mer est calme.",
+        "gloss": {
+          "pl": "morze",
+          "en": "sea"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w14-03",
+        "word": "l'hôtel",
+        "article": "l'",
+        "example": "L'hôtel a une piscine.",
+        "gloss": {
+          "pl": "hotel",
+          "en": "hotel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w14-04",
+        "word": "le billet",
+        "article": "le",
+        "example": "J'achète un billet.",
+        "gloss": {
+          "pl": "bilet",
+          "en": "ticket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w14-05",
+        "word": "la valise",
+        "article": "la",
+        "example": "La valise est prête.",
+        "gloss": {
+          "pl": "walizka",
+          "en": "suitcase"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "title": {
+      "en": "Work and technology",
+      "pl": "Praca i technologia"
+    },
+    "words": [
+      {
+        "id": "fr-w15-01",
+        "word": "l'ordinateur",
+        "article": "l'",
+        "example": "L'ordinateur est lent.",
+        "gloss": {
+          "pl": "komputer",
+          "en": "computer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w15-02",
+        "word": "l'écran",
+        "article": "l'",
+        "example": "L'écran est lumineux.",
+        "gloss": {
+          "pl": "ekran",
+          "en": "screen"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w15-03",
+        "word": "le téléphone",
+        "article": "le",
+        "example": "Le téléphone sonne.",
+        "gloss": {
+          "pl": "telefon",
+          "en": "phone"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w15-04",
+        "word": "le bureau",
+        "article": "le",
+        "example": "Le bureau est fermé.",
+        "gloss": {
+          "pl": "biuro",
+          "en": "office"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w15-05",
+        "word": "le clavier",
+        "article": "le",
+        "example": "Le clavier est sans fil.",
+        "gloss": {
+          "pl": "klawiatura",
+          "en": "keyboard"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "title": {
+      "en": "Time and weather",
+      "pl": "Czas i pogoda"
+    },
+    "words": [
+      {
+        "id": "fr-w16-01",
+        "word": "le jour",
+        "article": "le",
+        "example": "Aujourd'hui est un bon jour.",
+        "gloss": {
+          "pl": "dzień",
+          "en": "day"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w16-02",
+        "word": "la nuit",
+        "article": "la",
+        "example": "La nuit est sombre.",
+        "gloss": {
+          "pl": "noc",
+          "en": "night"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w16-03",
+        "word": "l'heure",
+        "article": "l'",
+        "example": "Attends une heure.",
+        "gloss": {
+          "pl": "godzina",
+          "en": "hour"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w16-04",
+        "word": "le vent",
+        "article": "le",
+        "example": "Le vent est fort.",
+        "gloss": {
+          "pl": "wiatr",
+          "en": "wind"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w16-05",
+        "word": "le nuage",
+        "article": "le",
+        "example": "Un nuage couvre le soleil.",
+        "gloss": {
+          "pl": "chmura",
+          "en": "cloud"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "title": {
+      "en": "Winter weather",
+      "pl": "Zimowa pogoda"
+    },
+    "words": [
+      {
+        "id": "fr-w17-01",
+        "word": "la neige",
+        "article": "la",
+        "example": "La neige tombe doucement.",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w17-02",
+        "word": "la glace",
+        "article": "la",
+        "example": "La glace est glissante.",
+        "gloss": {
+          "pl": "lód",
+          "en": "ice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w17-03",
+        "word": "l'orage",
+        "article": "l'",
+        "example": "L'orage passe vite.",
+        "gloss": {
+          "pl": "burza",
+          "en": "storm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w17-04",
+        "word": "le brouillard",
+        "article": "le",
+        "example": "Le brouillard est épais.",
+        "gloss": {
+          "pl": "mgła",
+          "en": "fog"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w17-05",
+        "word": "le tonnerre",
+        "article": "le",
+        "example": "Le tonnerre suit l'éclair.",
+        "gloss": {
+          "pl": "grzmot",
+          "en": "thunder"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "title": {
+      "en": "Public transport",
+      "pl": "W komunikacji miejskiej"
+    },
+    "words": [
+      {
+        "id": "fr-w18-01",
+        "word": "le tramway",
+        "article": "le",
+        "example": "Le tramway s'arrête ici.",
+        "gloss": {
+          "pl": "tramwaj",
+          "en": "tram"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w18-02",
+        "word": "le bus",
+        "article": "le",
+        "example": "Le bus est en retard.",
+        "gloss": {
+          "pl": "autobus",
+          "en": "bus"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w18-03",
+        "word": "l'arrêt",
+        "article": "l'",
+        "example": "Nous attendons à l'arrêt.",
+        "gloss": {
+          "pl": "przystanek",
+          "en": "stop"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w18-04",
+        "word": "le quai",
+        "article": "le",
+        "example": "Le quai est bondé.",
+        "gloss": {
+          "pl": "peron",
+          "en": "platform"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w18-05",
+        "word": "le conducteur",
+        "article": "le",
+        "example": "Le conducteur est prudent.",
+        "gloss": {
+          "pl": "kierowca",
+          "en": "driver"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "title": {
+      "en": "At the airport",
+      "pl": "Na lotnisku"
+    },
+    "words": [
+      {
+        "id": "fr-w19-01",
+        "word": "l'avion",
+        "article": "l'",
+        "example": "L'avion atterrit.",
+        "gloss": {
+          "pl": "samolot",
+          "en": "airplane"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w19-02",
+        "word": "l'aéroport",
+        "article": "l'",
+        "example": "L'aéroport est animé.",
+        "gloss": {
+          "pl": "lotnisko",
+          "en": "airport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w19-03",
+        "word": "le passeport",
+        "article": "le",
+        "example": "Montrez votre passeport.",
+        "gloss": {
+          "pl": "paszport",
+          "en": "passport"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w19-04",
+        "word": "la porte d'embarquement",
+        "article": "la",
+        "example": "Notre porte est le numéro douze.",
+        "gloss": {
+          "pl": "bramka",
+          "en": "gate"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w19-05",
+        "word": "le vol",
+        "article": "le",
+        "example": "Le vol est à l'heure.",
+        "gloss": {
+          "pl": "lot",
+          "en": "flight"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "title": {
+      "en": "At the restaurant",
+      "pl": "W restauracji"
+    },
+    "words": [
+      {
+        "id": "fr-w20-01",
+        "word": "le menu",
+        "article": "le",
+        "example": "Lisez le menu.",
+        "gloss": {
+          "pl": "menu",
+          "en": "menu"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w20-02",
+        "word": "le serveur",
+        "article": "le",
+        "example": "Le serveur apporte de l'eau.",
+        "gloss": {
+          "pl": "kelner",
+          "en": "waiter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w20-03",
+        "word": "l'addition",
+        "article": "l'",
+        "example": "L'addition, s'il vous plaît.",
+        "gloss": {
+          "pl": "rachunek",
+          "en": "bill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w20-04",
+        "word": "le verre",
+        "article": "le",
+        "example": "Le verre est vide.",
+        "gloss": {
+          "pl": "szklanka",
+          "en": "glass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w20-05",
+        "word": "la serviette",
+        "article": "la",
+        "example": "Utilise une serviette.",
+        "gloss": {
+          "pl": "serwetka",
+          "en": "napkin"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "title": {
+      "en": "Tools",
+      "pl": "Narzędzia"
+    },
+    "words": [
+      {
+        "id": "fr-w21-01",
+        "word": "le marteau",
+        "article": "le",
+        "example": "Il frappe le clou avec un marteau.",
+        "gloss": {
+          "pl": "młotek",
+          "en": "hammer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w21-02",
+        "word": "le tournevis",
+        "article": "le",
+        "example": "J'ai besoin d'un tournevis.",
+        "gloss": {
+          "pl": "śrubokręt",
+          "en": "screwdriver"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w21-03",
+        "word": "le clou",
+        "article": "le",
+        "example": "Le clou est tordu.",
+        "gloss": {
+          "pl": "gwóźdź",
+          "en": "nail"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w21-04",
+        "word": "la vis",
+        "article": "la",
+        "example": "Serre la vis.",
+        "gloss": {
+          "pl": "śruba",
+          "en": "screw"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w21-05",
+        "word": "la scie",
+        "article": "la",
+        "example": "La scie est affûtée.",
+        "gloss": {
+          "pl": "piła",
+          "en": "saw"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "title": {
+      "en": "Bathroom",
+      "pl": "Łazienka"
+    },
+    "words": [
+      {
+        "id": "fr-w22-01",
+        "word": "le lavabo",
+        "article": "le",
+        "example": "Lave les mains au lavabo.",
+        "gloss": {
+          "pl": "umywalka",
+          "en": "sink"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w22-02",
+        "word": "le miroir",
+        "article": "le",
+        "example": "Regarde dans le miroir.",
+        "gloss": {
+          "pl": "lustro",
+          "en": "mirror"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w22-03",
+        "word": "la serviette de bain",
+        "article": "la",
+        "example": "La serviette est sèche.",
+        "gloss": {
+          "pl": "ręcznik",
+          "en": "towel"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w22-04",
+        "word": "le savon",
+        "article": "le",
+        "example": "Le savon sent bon.",
+        "gloss": {
+          "pl": "mydło",
+          "en": "soap"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w22-05",
+        "word": "la douche",
+        "article": "la",
+        "example": "Prends une douche.",
+        "gloss": {
+          "pl": "prysznic",
+          "en": "shower"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "title": {
+      "en": "Gadgets",
+      "pl": "Gadżety elektroniczne"
+    },
+    "words": [
+      {
+        "id": "fr-w23-01",
+        "word": "la souris",
+        "article": "la",
+        "example": "La souris ne fonctionne pas.",
+        "gloss": {
+          "pl": "mysz komputerowa",
+          "en": "mouse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w23-02",
+        "word": "le chargeur",
+        "article": "le",
+        "example": "J'ai oublié le chargeur.",
+        "gloss": {
+          "pl": "ładowarka",
+          "en": "charger"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w23-03",
+        "word": "la pile",
+        "article": "la",
+        "example": "La pile est faible.",
+        "gloss": {
+          "pl": "bateria",
+          "en": "battery"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w23-04",
+        "word": "l'enceinte",
+        "article": "l'",
+        "example": "L'enceinte est forte.",
+        "gloss": {
+          "pl": "głośnik",
+          "en": "speaker"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w23-05",
+        "word": "le casque",
+        "article": "le",
+        "example": "Elle porte un casque.",
+        "gloss": {
+          "pl": "słuchawki",
+          "en": "headphones"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "title": {
+      "en": "Desk work",
+      "pl": "Praca przy biurku"
+    },
+    "words": [
+      {
+        "id": "fr-w24-01",
+        "word": "le document",
+        "article": "le",
+        "example": "Signe le document.",
+        "gloss": {
+          "pl": "dokument",
+          "en": "document"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w24-02",
+        "word": "le projet",
+        "article": "le",
+        "example": "Le projet commence lundi.",
+        "gloss": {
+          "pl": "projekt",
+          "en": "project"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w24-03",
+        "word": "la réunion",
+        "article": "la",
+        "example": "La réunion finit à cinq heures.",
+        "gloss": {
+          "pl": "spotkanie",
+          "en": "meeting"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w24-04",
+        "word": "la date limite",
+        "article": "la",
+        "example": "La date limite est demain.",
+        "gloss": {
+          "pl": "termin",
+          "en": "deadline"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w24-05",
+        "word": "le rapport",
+        "article": "le",
+        "example": "Envoie le rapport aujourd'hui.",
+        "gloss": {
+          "pl": "raport",
+          "en": "report"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "title": {
+      "en": "In the forest",
+      "pl": "W lesie"
+    },
+    "words": [
+      {
+        "id": "fr-w25-01",
+        "word": "la feuille",
+        "article": "la",
+        "example": "Une feuille tombe.",
+        "gloss": {
+          "pl": "liść",
+          "en": "leaf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w25-02",
+        "word": "la branche",
+        "article": "la",
+        "example": "La branche casse.",
+        "gloss": {
+          "pl": "gałąź",
+          "en": "branch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w25-03",
+        "word": "la racine",
+        "article": "la",
+        "example": "La racine est profonde.",
+        "gloss": {
+          "pl": "korzeń",
+          "en": "root"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w25-04",
+        "word": "le champignon",
+        "article": "le",
+        "example": "Ne mange pas ce champignon.",
+        "gloss": {
+          "pl": "grzyb",
+          "en": "mushroom"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w25-05",
+        "word": "le sentier",
+        "article": "le",
+        "example": "Le sentier monte.",
+        "gloss": {
+          "pl": "ścieżka",
+          "en": "path"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "title": {
+      "en": "Mountains",
+      "pl": "Góry"
+    },
+    "words": [
+      {
+        "id": "fr-w26-01",
+        "word": "la vallée",
+        "article": "la",
+        "example": "La vallée est verte.",
+        "gloss": {
+          "pl": "dolina",
+          "en": "valley"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w26-02",
+        "word": "le sommet",
+        "article": "le",
+        "example": "Nous atteignons le sommet.",
+        "gloss": {
+          "pl": "szczyt",
+          "en": "summit"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w26-03",
+        "word": "le rocher",
+        "article": "le",
+        "example": "Le rocher est glissant.",
+        "gloss": {
+          "pl": "skała",
+          "en": "rock"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w26-04",
+        "word": "la pente",
+        "article": "la",
+        "example": "La pente est raide.",
+        "gloss": {
+          "pl": "zbocze",
+          "en": "slope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w26-05",
+        "word": "le sac de randonnée",
+        "article": "le",
+        "example": "Le sac de randonnée est léger.",
+        "gloss": {
+          "pl": "plecak turystyczny",
+          "en": "hiking backpack"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "title": {
+      "en": "By the water",
+      "pl": "Nad wodą"
+    },
+    "words": [
+      {
+        "id": "fr-w27-01",
+        "word": "la rivière",
+        "article": "la",
+        "example": "La rivière coule vite.",
+        "gloss": {
+          "pl": "rzeka",
+          "en": "river"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w27-02",
+        "word": "le lac",
+        "article": "le",
+        "example": "Le lac est calme.",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "lake"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w27-03",
+        "word": "le rivage",
+        "article": "le",
+        "example": "Nous nous asseyons sur le rivage.",
+        "gloss": {
+          "pl": "brzeg",
+          "en": "shore"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w27-04",
+        "word": "la vague",
+        "article": "la",
+        "example": "La vague est grande.",
+        "gloss": {
+          "pl": "fala",
+          "en": "wave"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w27-05",
+        "word": "le navire",
+        "article": "le",
+        "example": "Le navire quitte le port.",
+        "gloss": {
+          "pl": "statek",
+          "en": "ship"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "title": {
+      "en": "Garden",
+      "pl": "Ogród"
+    },
+    "words": [
+      {
+        "id": "fr-w28-01",
+        "word": "la pelouse",
+        "article": "la",
+        "example": "Tonds la pelouse.",
+        "gloss": {
+          "pl": "trawnik",
+          "en": "lawn"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w28-02",
+        "word": "le pot de fleurs",
+        "article": "le",
+        "example": "Le pot de fleurs se casse.",
+        "gloss": {
+          "pl": "donica",
+          "en": "flowerpot"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w28-03",
+        "word": "la clôture",
+        "article": "la",
+        "example": "Peins la clôture.",
+        "gloss": {
+          "pl": "płot",
+          "en": "fence"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w28-04",
+        "word": "la graine",
+        "article": "la",
+        "example": "Plante la graine.",
+        "gloss": {
+          "pl": "nasiono",
+          "en": "seed"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w28-05",
+        "word": "la pelle",
+        "article": "la",
+        "example": "Creuse avec une pelle.",
+        "gloss": {
+          "pl": "łopata",
+          "en": "shovel"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "title": {
+      "en": "Groceries",
+      "pl": "Produkty spożywcze"
+    },
+    "words": [
+      {
+        "id": "fr-w29-01",
+        "word": "le fromage",
+        "article": "le",
+        "example": "Le fromage est bon.",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w29-02",
+        "word": "le beurre",
+        "article": "le",
+        "example": "Étale du beurre sur le pain.",
+        "gloss": {
+          "pl": "masło",
+          "en": "butter"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w29-03",
+        "word": "le riz",
+        "article": "le",
+        "example": "Fais cuire le riz.",
+        "gloss": {
+          "pl": "ryż",
+          "en": "rice"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w29-04",
+        "word": "les pâtes",
+        "article": "les",
+        "example": "Les pâtes sont prêtes.",
+        "gloss": {
+          "pl": "makaron",
+          "en": "pasta"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w29-05",
+        "word": "la carotte",
+        "article": "la",
+        "example": "Épluche la carotte.",
+        "gloss": {
+          "pl": "marchewka",
+          "en": "carrot"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "title": {
+      "en": "Fruit and vegetables",
+      "pl": "Owoce i warzywa"
+    },
+    "words": [
+      {
+        "id": "fr-w30-01",
+        "word": "la banane",
+        "article": "la",
+        "example": "La banane est mûre.",
+        "gloss": {
+          "pl": "banan",
+          "en": "banana"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w30-02",
+        "word": "la tomate",
+        "article": "la",
+        "example": "Coupe la tomate.",
+        "gloss": {
+          "pl": "pomidor",
+          "en": "tomato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w30-03",
+        "word": "la pomme de terre",
+        "article": "la",
+        "example": "Fais bouillir la pomme de terre.",
+        "gloss": {
+          "pl": "ziemniak",
+          "en": "potato"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w30-04",
+        "word": "l'oignon",
+        "article": "l'",
+        "example": "L'oignon me fait pleurer.",
+        "gloss": {
+          "pl": "cebula",
+          "en": "onion"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w30-05",
+        "word": "l'orange",
+        "article": "l'",
+        "example": "Épluche l'orange.",
+        "gloss": {
+          "pl": "pomarańcza",
+          "en": "orange"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "title": {
+      "en": "Home repair",
+      "pl": "Naprawa domu"
+    },
+    "words": [
+      {
+        "id": "fr-w31-01",
+        "word": "le mur",
+        "article": "le",
+        "example": "Peins le mur en blanc.",
+        "gloss": {
+          "pl": "ściana",
+          "en": "wall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w31-02",
+        "word": "le sol",
+        "article": "le",
+        "example": "Balaye le sol.",
+        "gloss": {
+          "pl": "podłoga",
+          "en": "floor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w31-03",
+        "word": "le plafond",
+        "article": "le",
+        "example": "Le plafond est haut.",
+        "gloss": {
+          "pl": "sufit",
+          "en": "ceiling"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w31-04",
+        "word": "la peinture",
+        "article": "la",
+        "example": "Achète de la peinture blanche.",
+        "gloss": {
+          "pl": "farba",
+          "en": "paint"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w31-05",
+        "word": "le pinceau",
+        "article": "le",
+        "example": "Nettoie le pinceau.",
+        "gloss": {
+          "pl": "pędzel",
+          "en": "brush"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "title": {
+      "en": "Health",
+      "pl": "Zdrowie"
+    },
+    "words": [
+      {
+        "id": "fr-w32-01",
+        "word": "le médecin",
+        "article": "le",
+        "example": "Le médecin écoute.",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w32-02",
+        "word": "l'infirmière",
+        "article": "l'",
+        "example": "L'infirmière est gentille.",
+        "gloss": {
+          "pl": "pielęgniarka",
+          "en": "nurse"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w32-03",
+        "word": "la pharmacie",
+        "article": "la",
+        "example": "Va à la pharmacie.",
+        "gloss": {
+          "pl": "apteka",
+          "en": "pharmacy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w32-04",
+        "word": "l'ordonnance",
+        "article": "l'",
+        "example": "J'ai besoin d'une ordonnance.",
+        "gloss": {
+          "pl": "recepta",
+          "en": "prescription"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w32-05",
+        "word": "le thermomètre",
+        "article": "le",
+        "example": "Le thermomètre indique de la fièvre.",
+        "gloss": {
+          "pl": "termometr",
+          "en": "thermometer"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "title": {
+      "en": "Body parts",
+      "pl": "Części ciała"
+    },
+    "words": [
+      {
+        "id": "fr-w33-01",
+        "word": "le bras",
+        "article": "le",
+        "example": "Il s'est cassé le bras.",
+        "gloss": {
+          "pl": "ramię",
+          "en": "arm"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w33-02",
+        "word": "le genou",
+        "article": "le",
+        "example": "Mon genou me fait mal.",
+        "gloss": {
+          "pl": "kolano",
+          "en": "knee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w33-03",
+        "word": "le dos",
+        "article": "le",
+        "example": "Redresse le dos.",
+        "gloss": {
+          "pl": "plecy",
+          "en": "back"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w33-04",
+        "word": "le ventre",
+        "article": "le",
+        "example": "Mon ventre est plein.",
+        "gloss": {
+          "pl": "brzuch",
+          "en": "stomach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w33-05",
+        "word": "le cœur",
+        "article": "le",
+        "example": "Mon cœur bat vite.",
+        "gloss": {
+          "pl": "serce",
+          "en": "heart"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "title": {
+      "en": "Sports",
+      "pl": "Sport"
+    },
+    "words": [
+      {
+        "id": "fr-w34-01",
+        "word": "le match",
+        "article": "le",
+        "example": "Le match commence bientôt.",
+        "gloss": {
+          "pl": "mecz",
+          "en": "match"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w34-02",
+        "word": "le but",
+        "article": "le",
+        "example": "Il marque un but.",
+        "gloss": {
+          "pl": "bramka (sport)",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w34-03",
+        "word": "le joueur",
+        "article": "le",
+        "example": "Le joueur court.",
+        "gloss": {
+          "pl": "zawodnik",
+          "en": "player"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w34-04",
+        "word": "l'entraîneur",
+        "article": "l'",
+        "example": "L'entraîneur crie des conseils.",
+        "gloss": {
+          "pl": "trener",
+          "en": "coach"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w34-05",
+        "word": "la victoire",
+        "article": "la",
+        "example": "La victoire est belle.",
+        "gloss": {
+          "pl": "zwycięstwo",
+          "en": "victory"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "title": {
+      "en": "Music",
+      "pl": "Muzyka"
+    },
+    "words": [
+      {
+        "id": "fr-w35-01",
+        "word": "la chanson",
+        "article": "la",
+        "example": "Chante la chanson.",
+        "gloss": {
+          "pl": "piosenka",
+          "en": "song"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w35-02",
+        "word": "la mélodie",
+        "article": "la",
+        "example": "La mélodie est simple.",
+        "gloss": {
+          "pl": "melodia",
+          "en": "melody"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w35-03",
+        "word": "la guitare",
+        "article": "la",
+        "example": "Il joue de la guitare.",
+        "gloss": {
+          "pl": "gitara",
+          "en": "guitar"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w35-04",
+        "word": "le piano",
+        "article": "le",
+        "example": "Le piano est désaccordé.",
+        "gloss": {
+          "pl": "pianino",
+          "en": "piano"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w35-05",
+        "word": "le concert",
+        "article": "le",
+        "example": "Nous allons à un concert.",
+        "gloss": {
+          "pl": "koncert",
+          "en": "concert"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "title": {
+      "en": "Learning",
+      "pl": "Nauka"
+    },
+    "words": [
+      {
+        "id": "fr-w36-01",
+        "word": "la leçon",
+        "article": "la",
+        "example": "La leçon est difficile.",
+        "gloss": {
+          "pl": "lekcja",
+          "en": "lesson"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w36-02",
+        "word": "l'exercice",
+        "article": "l'",
+        "example": "Fais l'exercice.",
+        "gloss": {
+          "pl": "ćwiczenie",
+          "en": "exercise"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w36-03",
+        "word": "la question",
+        "article": "la",
+        "example": "Pose une question.",
+        "gloss": {
+          "pl": "pytanie",
+          "en": "question"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w36-04",
+        "word": "la réponse",
+        "article": "la",
+        "example": "Écris la réponse.",
+        "gloss": {
+          "pl": "odpowiedź",
+          "en": "answer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w36-05",
+        "word": "l'erreur",
+        "article": "l'",
+        "example": "Tout le monde fait des erreurs.",
+        "gloss": {
+          "pl": "błąd",
+          "en": "mistake"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "title": {
+      "en": "Shopping",
+      "pl": "Zakupy"
+    },
+    "words": [
+      {
+        "id": "fr-w37-01",
+        "word": "le prix",
+        "article": "le",
+        "example": "Le prix est juste.",
+        "gloss": {
+          "pl": "cena",
+          "en": "price"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w37-02",
+        "word": "l'argent",
+        "article": "l'",
+        "example": "J'ai besoin d'argent.",
+        "gloss": {
+          "pl": "pieniądz",
+          "en": "money"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w37-03",
+        "word": "la réduction",
+        "article": "la",
+        "example": "Il y a une réduction aujourd'hui.",
+        "gloss": {
+          "pl": "zniżka",
+          "en": "discount"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w37-04",
+        "word": "le panier",
+        "article": "le",
+        "example": "Remplis le panier.",
+        "gloss": {
+          "pl": "koszyk",
+          "en": "basket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w37-05",
+        "word": "le ticket de caisse",
+        "article": "le",
+        "example": "Garde le ticket de caisse.",
+        "gloss": {
+          "pl": "paragon",
+          "en": "receipt"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "title": {
+      "en": "Emotions",
+      "pl": "Ludzkie emocje"
+    },
+    "words": [
+      {
+        "id": "fr-w38-01",
+        "word": "la joie",
+        "article": "la",
+        "example": "La joie remplit la pièce.",
+        "gloss": {
+          "pl": "radość",
+          "en": "joy"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w38-02",
+        "word": "la peur",
+        "article": "la",
+        "example": "La peur est normale.",
+        "gloss": {
+          "pl": "strach",
+          "en": "fear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w38-03",
+        "word": "la tristesse",
+        "article": "la",
+        "example": "La tristesse passe.",
+        "gloss": {
+          "pl": "smutek",
+          "en": "sadness"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w38-04",
+        "word": "l'espoir",
+        "article": "l'",
+        "example": "L'espoir nous fait avancer.",
+        "gloss": {
+          "pl": "nadzieja",
+          "en": "hope"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w38-05",
+        "word": "le calme",
+        "article": "le",
+        "example": "Profite du calme.",
+        "gloss": {
+          "pl": "spokój",
+          "en": "calm"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "title": {
+      "en": "Time and deadlines",
+      "pl": "Czas i terminy"
+    },
+    "words": [
+      {
+        "id": "fr-w39-01",
+        "word": "la semaine",
+        "article": "la",
+        "example": "Cette semaine est chargée.",
+        "gloss": {
+          "pl": "tydzień",
+          "en": "week"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w39-02",
+        "word": "le mois",
+        "article": "le",
+        "example": "Le mois prochain nous voyageons.",
+        "gloss": {
+          "pl": "miesiąc",
+          "en": "month"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w39-03",
+        "word": "l'année",
+        "article": "l'",
+        "example": "Bonne année !",
+        "gloss": {
+          "pl": "rok",
+          "en": "year"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w39-04",
+        "word": "la minute",
+        "article": "la",
+        "example": "Attends une minute.",
+        "gloss": {
+          "pl": "minuta",
+          "en": "minute"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w39-05",
+        "word": "la seconde",
+        "article": "la",
+        "example": "Une seconde, s'il vous plaît.",
+        "gloss": {
+          "pl": "sekunda",
+          "en": "second"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "title": {
+      "en": "Celebrations",
+      "pl": "Uroczystości"
+    },
+    "words": [
+      {
+        "id": "fr-w40-01",
+        "word": "l'anniversaire",
+        "article": "l'",
+        "example": "Joyeux anniversaire !",
+        "gloss": {
+          "pl": "urodziny",
+          "en": "birthday"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w40-02",
+        "word": "le mariage",
+        "article": "le",
+        "example": "Le mariage est en juin.",
+        "gloss": {
+          "pl": "ślub",
+          "en": "wedding"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w40-03",
+        "word": "le cadeau",
+        "article": "le",
+        "example": "Elle ouvre le cadeau.",
+        "gloss": {
+          "pl": "prezent",
+          "en": "gift"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w40-04",
+        "word": "la fête",
+        "article": "la",
+        "example": "La fête dure jusqu'à minuit.",
+        "gloss": {
+          "pl": "impreza",
+          "en": "party"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w40-05",
+        "word": "l'invitation",
+        "article": "l'",
+        "example": "J'envoie une invitation.",
+        "gloss": {
+          "pl": "zaproszenie",
+          "en": "invitation"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 41,
+    "title": {
+      "en": "City landmarks",
+      "pl": "W mieście 2"
+    },
+    "words": [
+      {
+        "id": "fr-w41-01",
+        "word": "l'hôtel de ville",
+        "article": "l'",
+        "example": "L'hôtel de ville est ancien.",
+        "gloss": {
+          "pl": "ratusz",
+          "en": "town hall"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w41-02",
+        "word": "la bibliothèque",
+        "article": "la",
+        "example": "La bibliothèque est silencieuse.",
+        "gloss": {
+          "pl": "biblioteka",
+          "en": "library"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w41-03",
+        "word": "le musée",
+        "article": "le",
+        "example": "Nous visitons le musée.",
+        "gloss": {
+          "pl": "muzeum",
+          "en": "museum"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w41-04",
+        "word": "l'église",
+        "article": "l'",
+        "example": "La cloche de l'église sonne.",
+        "gloss": {
+          "pl": "kościół",
+          "en": "church"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w41-05",
+        "word": "l'hôpital",
+        "article": "l'",
+        "example": "L'hôpital est proche.",
+        "gloss": {
+          "pl": "szpital",
+          "en": "hospital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 42,
+    "title": {
+      "en": "Apartment",
+      "pl": "Mieszkanie"
+    },
+    "words": [
+      {
+        "id": "fr-w42-01",
+        "word": "l'armoire",
+        "article": "l'",
+        "example": "L'armoire est pleine.",
+        "gloss": {
+          "pl": "szafa",
+          "en": "wardrobe"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w42-02",
+        "word": "le canapé",
+        "article": "le",
+        "example": "Assieds-toi sur le canapé.",
+        "gloss": {
+          "pl": "sofa",
+          "en": "sofa"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w42-03",
+        "word": "le tapis",
+        "article": "le",
+        "example": "Le tapis est doux.",
+        "gloss": {
+          "pl": "dywan",
+          "en": "rug"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w42-04",
+        "word": "le balcon",
+        "article": "le",
+        "example": "Des fleurs sont sur le balcon.",
+        "gloss": {
+          "pl": "balkon",
+          "en": "balcony"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w42-05",
+        "word": "la cheminée",
+        "article": "la",
+        "example": "Le feu brûle dans la cheminée.",
+        "gloss": {
+          "pl": "kominek",
+          "en": "fireplace"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 43,
+    "title": {
+      "en": "More clothes",
+      "pl": "Ubrania 2"
+    },
+    "words": [
+      {
+        "id": "fr-w43-01",
+        "word": "le pantalon",
+        "article": "le",
+        "example": "Ce pantalon va bien.",
+        "gloss": {
+          "pl": "spodnie",
+          "en": "trousers"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w43-02",
+        "word": "la jupe",
+        "article": "la",
+        "example": "La jupe est bleue.",
+        "gloss": {
+          "pl": "spódnica",
+          "en": "skirt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w43-03",
+        "word": "le gant",
+        "article": "le",
+        "example": "J'ai perdu un gant.",
+        "gloss": {
+          "pl": "rękawiczka",
+          "en": "glove"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w43-04",
+        "word": "la ceinture",
+        "article": "la",
+        "example": "Serre ta ceinture.",
+        "gloss": {
+          "pl": "pasek",
+          "en": "belt"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w43-05",
+        "word": "l'écharpe",
+        "article": "l'",
+        "example": "Porte une écharpe chaude.",
+        "gloss": {
+          "pl": "szalik",
+          "en": "scarf"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 44,
+    "title": {
+      "en": "Birds and insects",
+      "pl": "Ptaki i owady"
+    },
+    "words": [
+      {
+        "id": "fr-w44-01",
+        "word": "le papillon",
+        "article": "le",
+        "example": "Un papillon se pose sur la fleur.",
+        "gloss": {
+          "pl": "motyl",
+          "en": "butterfly"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w44-02",
+        "word": "l'abeille",
+        "article": "l'",
+        "example": "L'abeille collecte du nectar.",
+        "gloss": {
+          "pl": "pszczoła",
+          "en": "bee"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w44-03",
+        "word": "la fourmi",
+        "article": "la",
+        "example": "Une fourmi porte une miette.",
+        "gloss": {
+          "pl": "mrówka",
+          "en": "ant"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w44-04",
+        "word": "la corneille",
+        "article": "la",
+        "example": "La corneille s'envole.",
+        "gloss": {
+          "pl": "wrona",
+          "en": "crow"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w44-05",
+        "word": "le canard",
+        "article": "le",
+        "example": "Le canard nage.",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "duck"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 45,
+    "title": {
+      "en": "Wild animals",
+      "pl": "Dzikie zwierzęta"
+    },
+    "words": [
+      {
+        "id": "fr-w45-01",
+        "word": "le loup",
+        "article": "le",
+        "example": "Le loup hurle la nuit.",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wolf"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w45-02",
+        "word": "le renard",
+        "article": "le",
+        "example": "Le renard est rusé.",
+        "gloss": {
+          "pl": "lis",
+          "en": "fox"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w45-03",
+        "word": "l'ours",
+        "article": "l'",
+        "example": "L'ours dort en hiver.",
+        "gloss": {
+          "pl": "niedźwiedź",
+          "en": "bear"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w45-04",
+        "word": "le cerf",
+        "article": "le",
+        "example": "Le cerf court dans la forêt.",
+        "gloss": {
+          "pl": "jeleń",
+          "en": "deer"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w45-05",
+        "word": "le lièvre",
+        "article": "le",
+        "example": "Le lièvre saute vite.",
+        "gloss": {
+          "pl": "zając",
+          "en": "hare"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 46,
+    "title": {
+      "en": "Everyday objects",
+      "pl": "Przedmioty codzienne"
+    },
+    "words": [
+      {
+        "id": "fr-w46-01",
+        "word": "le portefeuille",
+        "article": "le",
+        "example": "Mon portefeuille est dans mon sac.",
+        "gloss": {
+          "pl": "portfel",
+          "en": "wallet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w46-02",
+        "word": "la montre",
+        "article": "la",
+        "example": "La montre retarde.",
+        "gloss": {
+          "pl": "zegarek",
+          "en": "watch"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w46-03",
+        "word": "le parapluie",
+        "article": "le",
+        "example": "Prends un parapluie.",
+        "gloss": {
+          "pl": "parasol",
+          "en": "umbrella"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w46-04",
+        "word": "les lunettes",
+        "article": "les",
+        "example": "J'ai besoin de mes lunettes.",
+        "gloss": {
+          "pl": "okulary",
+          "en": "glasses"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w46-05",
+        "word": "le hochet",
+        "article": "le",
+        "example": "Le bébé secoue le hochet.",
+        "gloss": {
+          "pl": "grzechotka",
+          "en": "rattle"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 47,
+    "title": {
+      "en": "Travel again",
+      "pl": "W podróży 2"
+    },
+    "words": [
+      {
+        "id": "fr-w47-01",
+        "word": "la carte",
+        "article": "la",
+        "example": "Étudie la carte.",
+        "gloss": {
+          "pl": "mapa",
+          "en": "map"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w47-02",
+        "word": "la boussole",
+        "article": "la",
+        "example": "La boussole indique le nord.",
+        "gloss": {
+          "pl": "kompas",
+          "en": "compass"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w47-03",
+        "word": "la direction",
+        "article": "la",
+        "example": "Dans quelle direction allons-nous ?",
+        "gloss": {
+          "pl": "kierunek",
+          "en": "direction"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w47-04",
+        "word": "la frontière",
+        "article": "la",
+        "example": "Nous traversons la frontière.",
+        "gloss": {
+          "pl": "granica",
+          "en": "border"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w47-05",
+        "word": "la capitale",
+        "article": "la",
+        "example": "Paris est la capitale de la France.",
+        "gloss": {
+          "pl": "stolica",
+          "en": "capital"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 48,
+    "title": {
+      "en": "Architecture",
+      "pl": "Architektura"
+    },
+    "words": [
+      {
+        "id": "fr-w48-01",
+        "word": "la tour",
+        "article": "la",
+        "example": "La tour est visible.",
+        "gloss": {
+          "pl": "wieża",
+          "en": "tower"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w48-02",
+        "word": "l'escalier",
+        "article": "l'",
+        "example": "Monte l'escalier.",
+        "gloss": {
+          "pl": "schody",
+          "en": "stairs"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w48-03",
+        "word": "le sous-sol",
+        "article": "le",
+        "example": "Le vin est au sous-sol.",
+        "gloss": {
+          "pl": "piwnica",
+          "en": "basement"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w48-04",
+        "word": "le toit",
+        "article": "le",
+        "example": "La neige couvre le toit.",
+        "gloss": {
+          "pl": "dach",
+          "en": "roof"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w48-05",
+        "word": "le portail",
+        "article": "le",
+        "example": "Ferme le portail.",
+        "gloss": {
+          "pl": "brama",
+          "en": "gate"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 49,
+    "title": {
+      "en": "World geography",
+      "pl": "Świat i geografia"
+    },
+    "words": [
+      {
+        "id": "fr-w49-01",
+        "word": "le continent",
+        "article": "le",
+        "example": "L'Europe est un continent.",
+        "gloss": {
+          "pl": "kontynent",
+          "en": "continent"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w49-02",
+        "word": "l'île",
+        "article": "l'",
+        "example": "Nous vivons sur une île.",
+        "gloss": {
+          "pl": "wyspa",
+          "en": "island"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w49-03",
+        "word": "le désert",
+        "article": "le",
+        "example": "Le désert est sec.",
+        "gloss": {
+          "pl": "pustynia",
+          "en": "desert"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w49-04",
+        "word": "l'océan",
+        "article": "l'",
+        "example": "L'océan est profond.",
+        "gloss": {
+          "pl": "ocean",
+          "en": "ocean"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w49-05",
+        "word": "le volcan",
+        "article": "le",
+        "example": "Le volcan est actif.",
+        "gloss": {
+          "pl": "wulkan",
+          "en": "volcano"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 50,
+    "title": {
+      "en": "Stars and sky",
+      "pl": "Gwiazdy i niebo"
+    },
+    "words": [
+      {
+        "id": "fr-w50-01",
+        "word": "l'étoile",
+        "article": "l'",
+        "example": "Une étoile brille.",
+        "gloss": {
+          "pl": "gwiazda",
+          "en": "star"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w50-02",
+        "word": "la planète",
+        "article": "la",
+        "example": "La Terre est une planète.",
+        "gloss": {
+          "pl": "planeta",
+          "en": "planet"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w50-03",
+        "word": "la fusée",
+        "article": "la",
+        "example": "La fusée décolle.",
+        "gloss": {
+          "pl": "rakieta",
+          "en": "rocket"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w50-04",
+        "word": "le ciel",
+        "article": "le",
+        "example": "Le ciel devient rose.",
+        "gloss": {
+          "pl": "niebo",
+          "en": "sky"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w50-05",
+        "word": "la comète",
+        "article": "la",
+        "example": "Nous voyons une comète.",
+        "gloss": {
+          "pl": "kometa",
+          "en": "comet"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 51,
+    "title": {
+      "en": "Media and culture",
+      "pl": "Media i kultura"
+    },
+    "words": [
+      {
+        "id": "fr-w51-01",
+        "word": "le film",
+        "article": "le",
+        "example": "Le film commence à huit heures.",
+        "gloss": {
+          "pl": "film",
+          "en": "film"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w51-02",
+        "word": "la série",
+        "article": "la",
+        "example": "Nous regardons la série d'affilée.",
+        "gloss": {
+          "pl": "serial",
+          "en": "series"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w51-03",
+        "word": "l'acteur",
+        "article": "l'",
+        "example": "L'acteur gagne un prix.",
+        "gloss": {
+          "pl": "aktor",
+          "en": "actor"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w51-04",
+        "word": "le réalisateur",
+        "article": "le",
+        "example": "Le réalisateur coupe une scène.",
+        "gloss": {
+          "pl": "reżyser",
+          "en": "director"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w51-05",
+        "word": "l'exposition",
+        "article": "l'",
+        "example": "L'exposition ouvre aujourd'hui.",
+        "gloss": {
+          "pl": "wystawa",
+          "en": "exhibition"
+        },
+        "pos": "noun"
+      }
+    ]
+  },
+  {
+    "week": 52,
+    "title": {
+      "en": "Work and growth",
+      "pl": "Praca i rozwój"
+    },
+    "words": [
+      {
+        "id": "fr-w52-01",
+        "word": "la compétence",
+        "article": "la",
+        "example": "La pratique améliore la compétence.",
+        "gloss": {
+          "pl": "umiejętność",
+          "en": "skill"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w52-02",
+        "word": "l'expérience",
+        "article": "l'",
+        "example": "L'expérience compte.",
+        "gloss": {
+          "pl": "doświadczenie",
+          "en": "experience"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w52-03",
+        "word": "l'objectif",
+        "article": "l'",
+        "example": "Fixe un objectif clair.",
+        "gloss": {
+          "pl": "cel",
+          "en": "goal"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w52-04",
+        "word": "le défi",
+        "article": "le",
+        "example": "Accepte le défi.",
+        "gloss": {
+          "pl": "wyzwanie",
+          "en": "challenge"
+        },
+        "pos": "noun"
+      },
+      {
+        "id": "fr-w52-05",
+        "word": "la réussite",
+        "article": "la",
+        "example": "Célèbre la réussite.",
+        "gloss": {
+          "pl": "osiągnięcie",
+          "en": "achievement"
+        },
+        "pos": "noun"
+      }
+    ]
+  }
+]

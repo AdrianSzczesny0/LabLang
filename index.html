@@ -4,49 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0b1424">
-  <meta name="description" content="LangLab: niemiecki i hiszpański od podstaw. 100 czytanek, dialogi, odsłuch, fiszki i postępy offline.">
+  <meta name="description" content="LangLab 3.0: German, Spanish, English, French and Italian. Readings, flashcards, tests and offline PWA progress.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" sizes="any" href="./icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
   <link rel="stylesheet" href="./styles.css">
-  <title>LangLab — German & Spanish</title>
-  <script defer src="./app.js"></script>
+  <title>LangLab — Multilingual Learning</title>
+  <script type="module" src="./js/app.js"></script>
 </head>
 <body>
   <div class="app-shell">
     <header class="topbar">
-      <a class="brand" href="#home" aria-label="LangLab strona główna">
+      <a class="brand" href="#dashboard" aria-label="LangLab home">
         <span class="brand-mark">L<span>↗</span></span>
         <span>Lang<span class="accent">Lab</span><small>LANGUAGE STUDIO</small></span>
       </a>
       <div class="top-actions">
-        <div class="lang-switch" aria-label="Wybierz język" role="group">
-          <button class="lang-btn active" data-lang="de">🇩🇪 DE</button>
-          <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
-        </div>
-        <button id="install-btn" class="icon-btn install-cta" hidden aria-label="Zainstaluj aplikację" title="Zainstaluj aplikację">↓</button>
+        <button id="install-btn" class="icon-btn install-cta" hidden aria-label="Install" title="Install">↓</button>
       </div>
     </header>
     <main>
       <section class="intro" id="welcome">
-        <div class="eyebrow">TWÓJ CODZIENNY KONTAKT Z JĘZYKIEM <span class="eyebrow-line"></span> <span id="lang-name">DEUTSCH</span></div>
-        <h1 id="welcome-title">Ucz się poprzez <em>historie.</em></h1>
-        <p>Najpierw słuchasz, potem czytasz, powtarzasz i opowiadasz własnymi słowami. Bez presji i bez wkuwania tabel.</p>
-        <div class="intro-meta"><span class="dot"></span> <span id="language-meta">50 czytanek · 5 poziomów · 52 tygodnie fiszek</span></div>
+        <div class="eyebrow">YOUR DAILY LANGUAGE CONTACT <span class="eyebrow-line"></span> <span id="lang-name">DEUTSCH</span></div>
+        <h1 id="welcome-title">Learn through <em>stories.</em></h1>
+        <p id="welcome-lead">Listen, read, review, and take tests. Progress is tracked separately for each language you study.</p>
+        <div class="intro-meta"><span class="dot"></span> <span id="language-meta">50 readings · 5 levels · flashcards · tests</span></div>
       </section>
-      <nav class="main-tabs" aria-label="Sekcje aplikacji">
-        <button class="main-tab active" data-tab="home"><span>⌂</span> Dzisiaj</button>
-        <button class="main-tab" data-tab="library"><span>▤</span> Czytanki</button>
-        <button class="main-tab" data-tab="flashcards"><span>▧</span> Fiszki</button>
-        <button class="main-tab" data-tab="progress"><span>◫</span> Postępy</button>
+      <nav class="main-tabs" aria-label="App sections">
+        <button class="main-tab active" data-tab="dashboard" data-i18n="navDashboard" data-icon="⌂"><span>⌂</span> Dashboard</button>
+        <button class="main-tab" data-tab="learn" data-i18n="navLearn" data-icon="☰"><span>☰</span> Plan</button>
+        <button class="main-tab" data-tab="reading" data-i18n="navReading" data-icon="▤"><span>▤</span> Reading</button>
+        <button class="main-tab" data-tab="vocab" data-i18n="navVocab" data-icon="▧"><span>▧</span> Vocab</button>
+        <button class="main-tab" data-tab="tests" data-i18n="navTests" data-icon="◐"><span>◐</span> Tests</button>
+        <button class="main-tab" data-tab="history" data-i18n="navHistory" data-icon="◷"><span>◷</span> History</button>
+        <button class="main-tab" data-tab="progress" data-i18n="navProgress" data-icon="◫"><span>◫</span> Progress</button>
+        <button class="main-tab" data-tab="settings" data-i18n="navSettings" data-icon="⚙"><span>⚙</span> Settings</button>
       </nav>
       <div id="app-content" aria-live="polite"></div>
-      <footer>LangLab · Nauka offline · Postępy zapisują się lokalnie. <button type="button" id="privacy-open" class="text-link">Jak działa instalacja i backup?</button></footer>
+      <footer>LangLab 3.0 · Offline-capable · Local progress only. <button type="button" id="privacy-open" class="text-link">Backup &amp; install</button></footer>
     </main>
   </div>
   <div id="toast" role="status" aria-live="polite"></div>
-  <dialog id="modal"><div id="modal-content"></div><div class="modal-actions"><button class="btn secondary" type="button" id="modal-close">Zamknij</button></div></dialog>
+  <dialog id="modal"><div id="modal-content"></div><div class="modal-actions"><button class="btn secondary" type="button" id="modal-close">OK</button></div></dialog>
 </body>
 </html>
