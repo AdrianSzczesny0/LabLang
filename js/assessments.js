@@ -26,43 +26,71 @@ function shuffle(arr, rng = Math.random) {
   return a;
 }
 
+/** Leading articles/determiners that must not be required in typed vocab answers. */
+const ARTICLE_RE = /^(?:(?:the|a|an|der|die|das|den|dem|des|ein|eine|einen|einem|einer|eines|el|la|los|las|un|una|unos|unas|le|la|les|un|une|des|du|il|lo|i|gli|le|uno|una|l')\s+|l')/i;
+
 /**
  * Normalize for comparison without blindly stripping meaning-bearing accents
  * for languages where accents distinguish answers. We compare both accent-aware
  * and a carefully lowercased form; accents are preserved in the primary check.
  */
-export function normalizeAnswer(text, { stripAccents = false } = {}) {
+export function normalizeAnswer(text, { stripAccents = false, stripArticle = false } = {}) {
   let s = String(text ?? '').trim().toLocaleLowerCase();
   s = s.replace(/[“”«»„]/g, '"').replace(/[‘’]/g, "'");
   s = s.replace(/\s+/g, ' ');
   // Strip surrounding punctuation but keep internal apostrophes/hyphens.
   s = s.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
+  if (stripArticle) {
+    s = s.replace(ARTICLE_RE, '').trim();
+  }
   if (stripAccents) {
     s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
   return s;
 }
 
-export function answersMatch(user, acceptedList, { lang } = {}) {
-  const accepted = (acceptedList || []).filter(Boolean);
-  if (!accepted.length) return false;
-  // German nouns: capitalization matters for common nouns in accepted forms —
-  // we still allow case-insensitive match but do NOT strip umlauts.
-  const stripAccents = false;
-  const u = normalizeAnswer(user, { stripAccents });
-  const uLoose = normalizeAnswer(user, { stripAccents: true });
-  for (const a of accepted) {
-    const n = normalizeAnswer(a, { stripAccents });
-    if (u === n) return true;
-    // Secondary loose match only when accent-stripped forms are identical AND
-    // the original accepted answer has no accented characters that distinguish meaning
-    // for Spanish-like langs we require accent match first; loose is fallback for typed ASCII.
-    if (lang === 'es' || lang === 'fr' || lang === 'it') {
-      const accented = /[áéíóúàèìòùâêîôûäëïöüãõñç]/i.test(a);
-      if (!accented && uLoose === normalizeAnswer(a, { stripAccents: true })) return true;
-    } else if (uLoose === normalizeAnswer(a, { stripAccents: true })) {
-      return true;
+/** Expand accepted answers with article-free variants (the doll → doll). */
+export function expandAcceptedAnswers(acceptedList) {
+  const out = [];
+  const seen = new Set();
+  for (const raw of (acceptedList || []).filter(Boolean)) {
+    for (const variant of [raw, normalizeAnswer(raw, { stripArticle: true })]) {
+      const key = normalizeAnswer(variant);
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      out.push(variant);
     }
+  }
+  return out;
+}
+
+export function answersMatch(user, acceptedList, { lang } = {}) {
+  const accepted = expandAcceptedAnswers(acceptedList);
+  if (!accepted.length) return false;
+  // Compare with and without leading articles so "doll" matches "the doll".
+  const userForms = [
+    normalizeAnswer(user),
+    normalizeAnswer(user, { stripArticle: true }),
+    normalizeAnswer(user, { stripAccents: true }),
+    normalizeAnswer(user, { stripAccents: true, stripArticle: true }),
+  ].filter(Boolean);
+
+  for (const a of accepted) {
+    const forms = [
+      normalizeAnswer(a),
+      normalizeAnswer(a, { stripArticle: true }),
+    ];
+    for (const n of forms) {
+      if (userForms.includes(n)) return true;
+    }
+    // Accent-insensitive fallback only when accents do not distinguish the answer,
+    // or for en/de where ASCII typing of umlauts is sometimes accepted loosely.
+    const accented = /[áéíóúàèìòùâêîôûäëïöüãõñç]/i.test(a);
+    if (!accented || lang === 'de' || lang === 'en' || !lang) {
+      const aLoose = normalizeAnswer(a, { stripAccents: true, stripArticle: true });
+      if (aLoose && userForms.includes(aLoose)) return true;
+    }
+    // es/fr/it with accents: require the accented form (article still optional).
   }
   return false;
 }
@@ -94,7 +122,7 @@ function buildMatch(word, referenceLang, targetLang) {
     id: uid('q'),
     type: 'match',
     prompt: { text: gloss(word, referenceLang), kind: 'word_for' },
-    acceptedAnswers: [word.word, word.word.replace(/^(der|die|das|el|la|le|la|il|lo)\s+/i, '').trim()].filter(Boolean),
+    acceptedAnswers: expandAcceptedAnswers([word.word]),
     explanation: `${gloss(word, referenceLang)} → ${word.word}`,
     meta: { word: word.word, targetLang, referenceLang },
   };
@@ -105,7 +133,7 @@ function buildTranslate(word, referenceLang, targetLang) {
     id: uid('q'),
     type: 'translate',
     prompt: { text: gloss(word, referenceLang), kind: 'translate_to_target' },
-    acceptedAnswers: [word.word],
+    acceptedAnswers: expandAcceptedAnswers([word.word]),
     explanation: `${gloss(word, referenceLang)} = ${word.word}`,
     meta: { word: word.word, targetLang, referenceLang, caseSensitiveHint: targetLang === 'de' },
   };

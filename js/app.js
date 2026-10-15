@@ -16,6 +16,7 @@ import {
 import {
   TEST_TYPES, QUESTION_SIZES, generateTest, scoreTest, filterAttempts,
   scoreSeries, mistakesToFlashcards, revisionAreas, estimateDiagnosticLevel,
+  answersMatch,
 } from './assessments.js';
 import { t, weekDayNames, planFor } from './i18n.js';
 
@@ -435,9 +436,9 @@ function renderTestRunner() {
       ${test.questions.map((q, i) => {
     let body = '';
     if (q.type === 'mc_vocab' || q.type === 'listening') {
-      body = (q.options || []).map((opt) => `<label class="qa"><input type="radio" name="${q.id}" value="${esc(opt)}"> ${esc(opt)}</label>`).join('');
+      body = `<div class="test-options">${(q.options || []).map((opt) => `<label class="test-option"><input type="radio" name="${q.id}" value="${esc(opt)}"><span>${esc(opt)}</span></label>`).join('')}</div>`;
       if (q.type === 'listening') {
-        body = `<button type="button" class="btn secondary" data-action="speak-test" data-text="${esc(q.meta.listenText)}" data-lang="${esc(q.meta.targetLang)}">▶</button>` + body;
+        body = `<button type="button" class="btn secondary" data-action="speak-test" data-text="${esc(q.meta.listenText)}" data-lang="${esc(q.meta.targetLang)}">▶</button>${body}`;
       }
     } else if (q.type === 'reorder') {
       body = `<p class="muted">${esc((q.prompt.tokens || []).join(' / '))}</p><input class="field" name="${q.id}" placeholder="…">`;
@@ -737,7 +738,8 @@ function bindEvents() {
         const inp = $('#card-answer');
         const status = $('#card-status');
         if (!w || !status) return;
-        const ok = wordKey(inp.value) === wordKey(w.word) || inp.value.trim().toLowerCase() === w.word.trim().toLowerCase();
+        // Accept "doll" for "the doll", "Katze" for "die Katze", etc.
+        const ok = answersMatch(inp.value, [w.word], { lang: state.targetLang });
         status.textContent = ok ? '✓' : w.word;
         status.className = 'answer-status ' + (ok ? 'ok' : 'bad');
       } else if (action === 'score-card') {

@@ -271,6 +271,15 @@ await test('assessment generation, scoring, accents', async () => {
   // Accents matter for Spanish when present
   assert.equal(answersMatch('cafe', ['café'], { lang: 'es' }), false);
   assert.equal(answersMatch('café', ['café'], { lang: 'es' }), true);
+  // Articles are optional for typed vocabulary answers
+  assert.equal(answersMatch('doll', ['the doll'], { lang: 'en' }), true);
+  assert.equal(answersMatch('the doll', ['the doll'], { lang: 'en' }), true);
+  assert.equal(answersMatch('hand', ['the hand'], { lang: 'en' }), true);
+  assert.equal(answersMatch('Katze', ['die Katze'], { lang: 'de' }), true);
+  assert.equal(answersMatch('gata', ['la gata'], { lang: 'es' }), true);
+  assert.equal(answersMatch('poupée', ['la poupée'], { lang: 'fr' }), true);
+  assert.equal(answersMatch('bambola', ['la bambola'], { lang: 'it' }), true);
+  assert.equal(answersMatch('ball', ['the doll'], { lang: 'en' }), false);
 });
 
 await test('speech controller: replace utterance safely with mock', async () => {

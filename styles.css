@@ -19,3 +19,14 @@
 @media(max-width:800px){
   .main-tab{padding:12px 8px 15px;font-size:11px}
 }
+
+/* Test multiple-choice: always one option per row (mobile-safe) */
+.test-options{display:flex;flex-direction:column;gap:10px;margin-top:12px;width:100%}
+.test-option{display:flex;align-items:flex-start;gap:12px;width:100%;margin:0;padding:14px 16px;border:1px solid #35506a;border-radius:12px;background:#142338;color:#edf4fc;cursor:pointer;line-height:1.45;box-sizing:border-box}
+.test-option:has(input:checked){border-color:#6fdac4;background:#1b3449}
+.test-option input{margin-top:3px;flex-shrink:0;accent-color:#7ee3c9;transform:scale(1.15)}
+.test-option span{flex:1;min-width:0;word-break:break-word}
+#test-form .card{overflow:visible}
+@media(max-width:800px){
+  .test-option{padding:14px 14px;font-size:15px}
+}
