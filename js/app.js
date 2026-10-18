@@ -19,6 +19,9 @@ import {
   answersMatch,
 } from './assessments.js';
 import { t, weekDayNames, planFor } from './i18n.js';
+import {
+  filterFairytales, vocabularyByPos, generateFairyWordQuiz, fullTranslationText,
+} from './fairytales.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -27,9 +30,16 @@ const esc = (x) => String(x ?? '').replace(/[&<>"']/g, (c) => (
 ));
 
 let state = loadState();
-let content = { stories: {}, vocabulary: {}, validation: {} };
+let content = { stories: {}, vocabulary: {}, fairytales: {}, validation: {} };
 let tab = 'dashboard';
 let openId = null;
+let openFairyId = null;
+let fairySearch = '';
+let fairyKindFilter = 'all';
+let fairyPosTab = 'noun';
+let fairyShowFullTr = false;
+let fairySentenceTr = null;
+let fairyQuiz = null;
 let levelFilter = 'A0';
 let kindFilter = 'all';
 let search = '';
@@ -64,6 +74,7 @@ function bucket(lang = state.targetLang) {
   return state.byLanguage[lang];
 }
 function stories() { return content.stories[state.targetLang] || []; }
+function fairytales() { return content.fairytales[state.targetLang] || []; }
 function persist() {
   const res = saveState(state);
   if (!res.ok) toast('Storage full — export a backup.');
@@ -173,6 +184,7 @@ function render() {
     dashboard: renderDashboard,
     learn: renderLearn,
     reading: renderReading,
+    fairytales: renderFairytales,
     vocab: renderVocab,
     tests: renderTests,
     history: renderHistory,
@@ -346,6 +358,148 @@ function renderReader() {
       <textarea class="field editor" id="writing" placeholder="…">${esc(b.writing[s.id] || '')}</textarea>
     </div>
   </aside></div>`;
+}
+
+function renderFairytales() {
+  if (fairyQuiz?.active && openFairyId) return renderFairyQuiz();
+  if (openFairyId) return renderFairyReader();
+  const list = fairytales();
+  const matches = filterFairytales(list, { level: 'A0', kind: fairyKindFilter, search: fairySearch });
+  const b = bucket();
+  if (!list.length) {
+    return `<div class="card"><div class="micro">${esc(tr('navFairytales'))}</div>
+      <h2 class="section-title" style="margin-top:8px">${esc(tr('navFairytales'))}</h2>
+      <p class="muted">${esc(tr('fairytalesEmpty'))}</p></div>`;
+  }
+  return `<div class="card"><div class="card-header"><div>
+    <div class="micro">${esc(tr('navFairytales'))} / ${state.targetLang.toUpperCase()} · A0</div>
+    <h2 class="section-title" style="margin-top:7px">${esc(displayName(state.targetLang, state.interfaceLang))}</h2>
+    <p class="muted fairy-lead">${esc(tr('fairytalesLead'))}</p>
+    <p class="muted" style="font-size:13px;margin:0">${list.length} · ${matches.length}</p>
+  </div><span class="badge light">A0</span></div>
+  <div class="toolrow">
+    <select class="field small" id="fairy-kind-filter">
+      <option value="all" ${fairyKindFilter === 'all' ? 'selected' : ''}>all</option>
+      <option value="story" ${fairyKindFilter === 'story' ? 'selected' : ''}>story</option>
+      <option value="dialogue" ${fairyKindFilter === 'dialogue' ? 'selected' : ''}>dialogue</option>
+    </select>
+    <input class="field" id="search-fairy" type="search" value="${esc(fairySearch)}" placeholder="…">
+  </div>
+  <div class="story-grid">${matches.map((s) => `<button type="button" class="story-tile fairy-tile" data-action="open-fairy" data-id="${s.id}">
+    <div class="row"><span class="badge">${esc(s.level)} · ${s.kind}</span>${b.fairytalesDone[s.id] ? `<span class="completion">✓</span>` : ''}</div>
+    <div><h3>${esc(storyTitle(s, [state.targetLang, state.referenceLang, 'en']))}</h3>
+    <p>${esc(storyTitle(s, [state.referenceLang, 'en', 'pl']))}</p></div>
+    <div class="tile-end"><span class="muted" style="font-size:12px">${s.sentences.length} · ~${s.estimatedMinutes || 5}m</span><span>→</span></div>
+  </button>`).join('')}</div></div>`;
+}
+
+function renderFairyWordList(tale) {
+  const groups = vocabularyByPos(tale);
+  const ref = state.referenceLang;
+  const items = groups[fairyPosTab] || [];
+  const tabs = [
+    ['noun', tr('posNoun'), groups.noun.length],
+    ['verb', tr('posVerb'), groups.verb.length],
+    ['adjective', tr('posAdjective'), groups.adjective.length],
+  ];
+  return `<div class="card fairy-words-card"><div class="micro">${esc(tr('wordPreview'))}</div>
+    <div class="fairy-pos-tabs" role="tablist">${tabs.map(([key, label, n]) => `<button type="button" class="fairy-pos-tab ${fairyPosTab === key ? 'active' : ''}" data-action="fairy-pos" data-pos="${key}" role="tab">${esc(label)} <small>${n}</small></button>`).join('')}</div>
+    <div class="fairy-word-list">${items.length ? items.map((v) => {
+    const gloss = v.gloss?.[ref] || v.gloss?.pl || v.gloss?.en || '';
+    const reading = v.reading?.[ref] || v.reading?.pl || v.reading?.en || '';
+    return `<div class="fairy-word-chip">
+      <div class="fairy-word-main"><strong>${esc(v.word)}</strong><span class="muted">${esc(gloss)}</span></div>
+      <div class="fairy-word-meta"><span class="badge light">${esc(tr('howToRead'))}: ${esc(reading)}</span>
+      <button type="button" class="btn secondary fairy-speak-btn" data-action="speak-fairy-word" data-text="${esc(v.word)}">▶</button></div>
+    </div>`;
+  }).join('') : `<div class="empty" style="padding:20px">${esc(tr('noData'))}</div>`}
+    </div>
+    <div class="actions"><button class="btn primary" data-action="start-fairy-quiz">${esc(tr('fairyQuizStart'))}</button></div>
+  </div>`;
+}
+
+function renderFairyReader() {
+  const tale = fairytales().find((x) => x.id === openFairyId) || fairytales()[0];
+  if (!tale) return `<div class="empty">—</div>`;
+  const b = bucket();
+  b.lastFairyId = tale.id;
+  b.fairytalesStarted[tale.id] = true;
+  touchStudy();
+  persist();
+  const resolved = resolveTranslations(tale, state.referenceLang);
+  const showTr = state.settings.showTranslations || fairyShowFullTr;
+  const read = state.settings.readOnly;
+  let notice = '';
+  if (resolved.notice === 'fallback_en') notice = `<div class="notice">${esc(tr('fallbackEn'))}</div>`;
+  else if (resolved.notice === 'fallback_pl') notice = `<div class="notice">${esc(tr('fallbackPl'))}</div>`;
+  else if (resolved.missing) notice = `<div class="notice">${esc(tr('missingTr'))}</div>`;
+  const fullTr = fullTranslationText(tale, state.referenceLang);
+
+  return `<div class="layout fairy-layout"><section class="stack"><div class="card fairy-read-card">
+    <div class="story-header"><div>
+      <button class="tiny-link" data-action="back-fairy-library">← ${esc(tr('back'))}</button>
+      <div class="micro" style="margin-top:16px">${esc(tale.level)} · ${esc(tale.category || tale.kind)} · ${tale.sentences.length}</div>
+      <h2>${esc(storyTitle(tale, [state.targetLang]))}</h2>
+      <p class="muted" style="margin:0;font-size:13px">${esc(storyTitle(tale, [state.referenceLang, 'en', 'pl']))}</p>
+    </div><span class="badge ${b.fairytalesDone[tale.id] ? 'light' : ''}">${b.fairytalesDone[tale.id] ? esc(tr('completed')) : esc(tr('unread'))}</span></div>
+    <div class="thin-line"></div>
+    ${notice}
+    <div class="reading-options fairy-read-options">
+      <label><input class="check" id="fairy-show-translations" type="checkbox" ${state.settings.showTranslations ? 'checked' : ''}> ${esc(tr('showTranslations'))}</label>
+      <button type="button" class="btn secondary" data-action="toggle-fairy-full-tr">${fairyShowFullTr ? esc(tr('hideTranslation')) : esc(tr('translateAll'))}</button>
+      <label><input class="check" id="fairy-read-only" type="checkbox" ${read ? 'checked' : ''}> ${esc(tr('readOnly'))}</label>
+    </div>
+    ${fairyShowFullTr && fullTr.text ? `<div class="fairy-full-translation read-mode"><div class="micro">${esc(tr('translateAll'))}${fullTr.fallback ? ` · [${esc(fullTr.locale)}]` : ''}</div><p class="writing-prompt">${esc(fullTr.text)}</p></div>` : ''}
+    ${read ? '' : `<div class="actions">
+      <button class="btn primary" data-action="speak-fairy-story">${esc(tr('listenStory'))}</button>
+      <button class="btn secondary" data-action="stop-audio">${esc(tr('stop'))}</button>
+    </div><div class="voice-indicator" id="voice-status"></div>`}
+    <div class="story-reader fairy-reader">${tale.sentences.map((line, i) => {
+    const trLine = resolved.lines?.[i];
+    const showLineTr = showTr || fairySentenceTr === i;
+    return `<div class="sentence-row fairy-sentence ${fairySentenceTr === i ? 'tr-open' : ''}" data-sentence="${i}">
+      <div class="number">${i + 1}</div>
+      <div class="sentence-text"><strong>${esc(line)}</strong>
+        ${showLineTr && trLine ? `<span class="translation">${esc(trLine)}${resolved.fallback ? ` <em class="fallback-tag">[${esc(resolved.locale)}]</em>` : ''}</span>` : ''}
+      </div>
+      <div class="sentence-actions">
+        <button class="btn secondary fairy-tr-btn" type="button" data-action="toggle-fairy-sentence-tr" data-line="${i}" title="${esc(tr('translateSentence'))}">⇄</button>
+        ${read ? '' : `<button class="btn secondary" type="button" data-action="speak-fairy-line" data-line="${i}" aria-label="play ${i + 1}">▶</button>`}
+      </div>
+    </div>`;
+  }).join('')}</div>
+    <div class="actions">
+      <button class="btn primary" data-action="mark-fairy">${b.fairytalesDone[tale.id] ? '✓' : esc(tr('markRead'))}</button>
+      <button class="btn secondary" data-action="save-fairy-vocab">${esc(tr('saveVocab'))}</button>
+      <button class="btn secondary" data-action="next-fairy">${esc(tr('next'))} →</button>
+    </div>
+  </div></section>
+  <aside class="stack">${renderFairyWordList(tale)}</aside></div>`;
+}
+
+function renderFairyQuiz() {
+  const tale = fairytales().find((x) => x.id === openFairyId);
+  if (!tale || !fairyQuiz?.questions?.length) return `<div class="empty">—</div>`;
+  if (fairyQuiz.completed) {
+    const pct = Math.round((fairyQuiz.correct / fairyQuiz.questions.length) * 100);
+    return `<div class="card fairy-quiz-card"><button class="tiny-link" data-action="close-fairy-quiz">← ${esc(tr('back'))}</button>
+      <div class="micro" style="margin-top:12px">${esc(tr('fairyWordQuiz'))}</div>
+      <h2 class="section-title">${esc(tr('fairyQuizScore'))}: ${pct}%</h2>
+      <p class="muted">${fairyQuiz.correct}/${fairyQuiz.questions.length}</p>
+      <div class="actions">
+        <button class="btn primary" data-action="start-fairy-quiz">${esc(tr('fairyQuizAgain'))}</button>
+        <button class="btn secondary" data-action="close-fairy-quiz">${esc(tr('back'))}</button>
+      </div></div>`;
+  }
+  const q = fairyQuiz.questions[fairyQuiz.index];
+  const ix = fairyQuiz.index;
+  return `<div class="card fairy-quiz-card"><button class="tiny-link" data-action="close-fairy-quiz">← ${esc(tr('back'))}</button>
+    <div class="micro" style="margin-top:12px">${esc(tr('fairyWordQuiz'))} · ${ix + 1}/${fairyQuiz.questions.length}</div>
+    <p class="muted">${esc(tr('fairyQuizPrompt'))}</p>
+    <div class="fairy-quiz-prompt"><span class="badge">${esc(q.pos)}</span><strong>${esc(q.prompt)}</strong>
+    ${q.reading ? `<small class="muted">${esc(tr('howToRead'))}: ${esc(q.reading)}</small>` : ''}</div>
+    <div class="test-options">${q.options.map((opt) => `<button type="button" class="test-option fairy-quiz-opt" data-action="answer-fairy-quiz" data-answer="${esc(opt)}"><span>${esc(opt)}</span></button>`).join('')}</div>
+  </div>`;
 }
 
 function renderVocab() {
@@ -573,6 +727,9 @@ function selectTab(which) {
   speech.stop(true);
   tab = which;
   openId = null;
+  openFairyId = null;
+  fairyQuiz = null;
+  fairySentenceTr = null;
   openAttemptId = null;
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -672,9 +829,88 @@ function bindEvents() {
         openId = bucket().lastStoryId || stories()[0]?.id;
         tab = 'reading';
         render();
-      } else if (action === 'back-library') {
+      }       else if (action === 'back-library') {
         speech.stop(true);
         openId = null;
+        render();
+      } else if (action === 'open-fairy') {
+        openFairyId = btn.dataset.id;
+        tab = 'fairytales';
+        fairyQuiz = null;
+        fairySentenceTr = null;
+        speech.stop(true);
+        render();
+      } else if (action === 'back-fairy-library') {
+        speech.stop(true);
+        openFairyId = null;
+        fairyQuiz = null;
+        fairySentenceTr = null;
+        render();
+      } else if (action === 'next-fairy') {
+        const list = fairytales();
+        const ix = list.findIndex((x) => x.id === openFairyId);
+        openFairyId = list[(ix + 1) % list.length]?.id;
+        fairyQuiz = null;
+        speech.stop(true);
+        render();
+      } else if (action === 'mark-fairy') {
+        const b = bucket();
+        b.fairytalesDone[openFairyId] = !b.fairytalesDone[openFairyId];
+        touchStudy();
+        persist();
+        render();
+      } else if (action === 'save-fairy-vocab') {
+        const tale = fairytales().find((x) => x.id === openFairyId);
+        if (tale) {
+          const n = addStoryVocabAsCards(bucket(), tale, state.referenceLang);
+          persist();
+          toast(`${tr('toastSaved')} (${n})`);
+        }
+      } else if (action === 'toggle-fairy-full-tr') {
+        fairyShowFullTr = !fairyShowFullTr;
+        render();
+      } else if (action === 'toggle-fairy-sentence-tr') {
+        const line = Number(btn.dataset.line);
+        fairySentenceTr = fairySentenceTr === line ? null : line;
+        render();
+      } else if (action === 'speak-fairy-line') {
+        const tale = fairytales().find((x) => x.id === openFairyId);
+        const line = tale?.sentences[Number(btn.dataset.line)];
+        if (line) speech.speakText(line, state.targetLang, Number(btn.dataset.line));
+      } else if (action === 'speak-fairy-story') {
+        const tale = fairytales().find((x) => x.id === openFairyId);
+        if (tale) speech.speakSequence(tale.sentences, state.targetLang);
+      } else if (action === 'speak-fairy-word') {
+        speech.speakText(btn.dataset.text, state.targetLang);
+      } else if (action === 'fairy-pos') {
+        fairyPosTab = btn.dataset.pos || 'noun';
+        render();
+      } else if (action === 'start-fairy-quiz') {
+        const tale = fairytales().find((x) => x.id === openFairyId);
+        if (!tale) return;
+        const res = generateFairyWordQuiz(tale, state.referenceLang, 8);
+        if (!res.ok) {
+          toast(tr('notEnoughQuestions'));
+          return;
+        }
+        fairyQuiz = { active: true, questions: res.questions, index: 0, correct: 0, completed: false };
+        touchStudy();
+        render();
+      } else if (action === 'close-fairy-quiz') {
+        fairyQuiz = null;
+        render();
+      } else if (action === 'answer-fairy-quiz') {
+        if (!fairyQuiz || fairyQuiz.completed) return;
+        const q = fairyQuiz.questions[fairyQuiz.index];
+        const ok = answersMatch(btn.dataset.answer, q.expected, { lang: state.targetLang });
+        if (ok) fairyQuiz.correct += 1;
+        if (fairyQuiz.index + 1 >= fairyQuiz.questions.length) {
+          fairyQuiz.completed = true;
+        } else {
+          fairyQuiz.index += 1;
+        }
+        touchStudy();
+        persist();
         render();
       } else if (action === 'next-story') {
         const list = stories();
@@ -839,7 +1075,10 @@ function bindEvents() {
     if (id === 'level-filter') { levelFilter = ev.target.value; render(); }
     else if (id === 'kind-filter') { kindFilter = ev.target.value; render(); }
     else if (id === 'show-translations') { state.settings.showTranslations = ev.target.checked; persist(); render(); }
+    else if (id === 'fairy-show-translations') { state.settings.showTranslations = ev.target.checked; persist(); render(); }
+    else if (id === 'fairy-read-only') { state.settings.readOnly = ev.target.checked; speech.stop(true); persist(); render(); }
     else if (id === 'read-only') { state.settings.readOnly = ev.target.checked; speech.stop(true); persist(); render(); }
+    else if (id === 'fairy-kind-filter') { fairyKindFilter = ev.target.value; render(); }
     else if (id === 'speed') { state.settings.rate = Number(ev.target.value); persist(); }
     else if (id === 'voice-select') {
       state.settings.voice[state.targetLang] = ev.target.value;
@@ -882,6 +1121,12 @@ function bindEvents() {
       const pos = ev.target.selectionStart;
       render();
       const inp = $('#search-stories');
+      if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
+    } else if (ev.target.id === 'search-fairy') {
+      fairySearch = ev.target.value;
+      const pos = ev.target.selectionStart;
+      render();
+      const inp = $('#search-fairy');
       if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
     }
   });

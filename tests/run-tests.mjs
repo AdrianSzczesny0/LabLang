@@ -114,6 +114,18 @@ await test('content schema: 50 stories × 5 languages, 10 per level', async () =
   }
 });
 
+await test('fairy tales: German A0 bank validates (10 stories)', async () => {
+  const { validateFairyTaleBank } = await importMod('js/fairytales.js');
+  const tales = loadJSON('content/fairytales/de.json');
+  assert.equal(tales.length, 10);
+  const vf = validateFairyTaleBank(tales, 'de');
+  assert.equal(vf.ok, true, vf.errors.slice(0, 8).join('; '));
+  const { generateFairyWordQuiz } = await importMod('js/fairytales.js');
+  const quiz = generateFairyWordQuiz(tales[0], 'pl', 5);
+  assert.equal(quiz.ok, true);
+  assert.equal(quiz.questions.length, 5);
+});
+
 await test('translation resolver: fallback labeled, never silent mislabel', async () => {
   const { resolveTranslations } = await importMod('js/content.js');
   const story = {

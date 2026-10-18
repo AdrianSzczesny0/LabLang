@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "de-fairy-a0-01",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "story",
+    "category": "fairy",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Rotkäppchen",
+      "pl": "Czerwony Kapturek",
+      "en": "Little Red Riding Hood"
+    },
+    "sentences": [
+      "Es war einmal ein kleines Mädchen.",
+      "Das Mädchen hat eine rote Mütze.",
+      "Alle sagen: „Rotkäppchen!“",
+      "Rotkäppchen geht in den Wald.",
+      "Im Wald ist es ruhig und grün.",
+      "Rotkäppchen sieht einen Wolf.",
+      "Der Wolf ist groß und grau.",
+      "„Guten Tag!“, sagt der Wolf.",
+      "„Guten Tag!“, sagt Rotkäppchen.",
+      "Rotkäppchen geht zur Großmutter.",
+      "Die Großmutter wohnt in einem kleinen Haus.",
+      "Rotkäppchen klopft an die Tür.",
+      "„Herein!“, ruft die Großmutter.",
+      "Rotkäppchen gibt der Großmutter Brot und Milch.",
+      "Die Großmutter ist glücklich.",
+      "Sie essen zusammen und trinken Tee.",
+      "Rotkäppchen geht nach Hause.",
+      "Der Tag ist schön und warm."
+    ],
+    "translations": {
+      "pl": [
+        "Było sobie mała dziewczynka.",
+        "Dziewczynka ma czerwony czepek.",
+        "Wszyscy mówią: „Czerwony Kapturek!“",
+        "Czerwony Kapturek idzie do lasu.",
+        "W lesie jest cicho i zielono.",
+        "Czerwony Kapturek widzi wilka.",
+        "Wilk jest duży i szary.",
+        "„Dzień dobry!“, mówi wilk.",
+        "„Dzień dobry!“, mówi Czerwony Kapturek.",
+        "Czerwony Kapturek idzie do babci.",
+        "Babcia mieszka w małym domu.",
+        "Czerwony Kapturek puka do drzwi.",
+        "„Wejdź!“, woła babcia.",
+        "Czerwony Kapturek daje babci chleb i mleko.",
+        "Babcia jest szczęśliwa.",
+        "Jedzą razem i piją herbatę.",
+        "Czerwony Kapturek idzie do domu.",
+        "Dzień jest piękny i ciepły."
+      ],
+      "en": [
+        "Once upon a time there was a little girl.",
+        "The girl has a red cap.",
+        "Everyone says: \"Little Red Riding Hood!\"",
+        "Little Red Riding Hood goes into the forest.",
+        "In the forest it is quiet and green.",
+        "She sees a wolf.",
+        "The wolf is big and grey.",
+        "\"Good day!\", says the wolf.",
+        "\"Good day!\", she says.",
+        "She goes to her grandmother.",
+        "Grandmother lives in a small house.",
+        "She knocks on the door.",
+        "\"Come in!\", calls grandmother.",
+        "She gives grandmother bread and milk.",
+        "Grandmother is happy.",
+        "They eat together and drink tea.",
+        "She goes home.",
+        "The day is beautiful and warm."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "das Mädchen",
+        "pos": "noun",
+        "gloss": {
+          "pl": "dziewczynka",
+          "en": "girl"
+        },
+        "reading": {
+          "pl": "das medchen",
+          "en": "das medchen"
+        },
+        "article": "das"
+      },
+      {
+        "word": "der Wald",
+        "pos": "noun",
+        "gloss": {
+          "pl": "las",
+          "en": "forest"
+        },
+        "reading": {
+          "pl": "der valt",
+          "en": "der valt"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Wolf",
+        "pos": "noun",
+        "gloss": {
+          "pl": "wilk",
+          "en": "wolf"
+        },
+        "reading": {
+          "pl": "der volf",
+          "en": "der volf"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Großmutter",
+        "pos": "noun",
+        "gloss": {
+          "pl": "babcia",
+          "en": "grandmother"
+        },
+        "reading": {
+          "pl": "die gros-muter",
+          "en": "die gros-muter"
+        },
+        "article": "die"
+      },
+      {
+        "word": "gehen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "iść",
+          "en": "to go"
+        },
+        "reading": {
+          "pl": "ge-en",
+          "en": "ge-en"
+        }
+      },
+      {
+        "word": "sehen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "widzieć",
+          "en": "to see"
+        },
+        "reading": {
+          "pl": "ze-en",
+          "en": "ze-en"
+        }
+      },
+      {
+        "word": "klein",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "mały",
+          "en": "small"
+        },
+        "reading": {
+          "pl": "klajn",
+          "en": "klajn"
+        }
+      },
+      {
+        "word": "rot",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "czerwony",
+          "en": "red"
+        },
+        "reading": {
+          "pl": "rot",
+          "en": "rot"
+        }
+      },
+      {
+        "word": "glücklich",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "szczęśliwy",
+          "en": "happy"
+        },
+        "reading": {
+          "pl": "glük-lih",
+          "en": "glük-lih"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-02",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "everyday",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "In der Bäckerei",
+      "pl": "W piekarni",
+      "en": "At the bakery"
+    },
+    "sentences": [
+      "Anna geht in die Bäckerei.",
+      "Die Bäckerei ist hell und warm.",
+      "„Guten Morgen!“, sagt der Bäcker.",
+      "„Guten Morgen!“, sagt Anna.",
+      "Anna möchte ein Brötchen.",
+      "Sie möchte auch ein kleines Brot.",
+      "„Das kostet zwei Euro“, sagt der Bäcker.",
+      "Anna bezahlt mit Münzen.",
+      "Der Bäcker gibt Anna eine Tüte.",
+      "In der Tüte sind das Brötchen und das Brot.",
+      "Anna riecht das frische Brot.",
+      "Das Brot ist warm und gut.",
+      "„Danke schön!“, sagt Anna.",
+      "„Bitte schön!“, sagt der Bäcker.",
+      "Anna geht nach Hause.",
+      "Zu Hause isst sie das Brötchen.",
+      "Es schmeckt sehr gut.",
+      "Anna ist zufrieden."
+    ],
+    "translations": {
+      "pl": [
+        "Ana idzie do piekarni.",
+        "Piekarnia jest jasna i ciepła.",
+        "„Dzień dobry!“, mówi piekarz.",
+        "„Dzień dobry!“, mówi Ana.",
+        "Ana chce bułkę.",
+        "Chce też mały chleb.",
+        "„To kosztuje dwa euro“, mówi piekarz.",
+        "Ana płaci monetami.",
+        "Piekarz daje Annie torbę.",
+        "W torbie są bułka i chleb.",
+        "Ana czuje zapach świeżego chleba.",
+        "Chleb jest ciepły i dobry.",
+        "„Dziękuję!“, mówi Ana.",
+        "„Proszę bardzo!“, mówi piekarz.",
+        "Ana idzie do domu.",
+        "W domu je bułkę.",
+        "Smakuje bardzo dobrze.",
+        "Ana jest zadowolona."
+      ],
+      "en": [
+        "Anna goes to the bakery.",
+        "The bakery is bright and warm.",
+        "\"Good morning!\", says the baker.",
+        "\"Good morning!\", says Anna.",
+        "Anna wants a roll.",
+        "She also wants a small loaf.",
+        "\"That costs two euros,\" says the baker.",
+        "Anna pays with coins.",
+        "The baker gives Anna a bag.",
+        "The bag has the roll and the bread.",
+        "Anna smells the fresh bread.",
+        "The bread is warm and good.",
+        "\"Thank you!\", says Anna.",
+        "\"You're welcome!\", says the baker.",
+        "Anna goes home.",
+        "At home she eats the roll.",
+        "It tastes very good.",
+        "Anna is satisfied."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "die Bäckerei",
+        "pos": "noun",
+        "gloss": {
+          "pl": "piekarnia",
+          "en": "bakery"
+        },
+        "reading": {
+          "pl": "die bekerei",
+          "en": "die bekerei"
+        },
+        "article": "die"
+      },
+      {
+        "word": "das Brötchen",
+        "pos": "noun",
+        "gloss": {
+          "pl": "bułka",
+          "en": "roll"
+        },
+        "reading": {
+          "pl": "das bre-tchen",
+          "en": "das bre-tchen"
+        },
+        "article": "das"
+      },
+      {
+        "word": "der Bäcker",
+        "pos": "noun",
+        "gloss": {
+          "pl": "piekarz",
+          "en": "baker"
+        },
+        "reading": {
+          "pl": "der beker",
+          "en": "der beker"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Tüte",
+        "pos": "noun",
+        "gloss": {
+          "pl": "torba",
+          "en": "bag"
+        },
+        "reading": {
+          "pl": "die tü-te",
+          "en": "die tü-te"
+        },
+        "article": "die"
+      },
+      {
+        "word": "bezahlen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "płacić",
+          "en": "to pay"
+        },
+        "reading": {
+          "pl": "be-tsa-len",
+          "en": "be-tsa-len"
+        }
+      },
+      {
+        "word": "kosten",
+        "pos": "verb",
+        "gloss": {
+          "pl": "kosztować",
+          "en": "to cost"
+        },
+        "reading": {
+          "pl": "kos-ten",
+          "en": "kos-ten"
+        }
+      },
+      {
+        "word": "riechen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "czuć zapach",
+          "en": "to smell"
+        },
+        "reading": {
+          "pl": "ri-hen",
+          "en": "ri-hen"
+        }
+      },
+      {
+        "word": "frisch",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "świeży",
+          "en": "fresh"
+        },
+        "reading": {
+          "pl": "frish",
+          "en": "frish"
+        }
+      },
+      {
+        "word": "warm",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "ciepły",
+          "en": "warm"
+        },
+        "reading": {
+          "pl": "varm",
+          "en": "varm"
+        }
+      },
+      {
+        "word": "zufrieden",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zadowolony",
+          "en": "satisfied"
+        },
+        "reading": {
+          "pl": "tsu-fri-den",
+          "en": "tsu-fri-den"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-03",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "story",
+    "category": "nature",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Die Ente im Park",
+      "pl": "Kaczka w parku",
+      "en": "The duck in the park"
+    },
+    "sentences": [
+      "Tom geht in den Park.",
+      "Im Park ist ein See.",
+      "Auf dem See schwimmt eine Ente.",
+      "Die Ente ist klein und gelb.",
+      "Tom wirft Brot ins Wasser.",
+      "Die Ente frisst das Brot.",
+      "Viele Kinder kommen zum See.",
+      "Sie sehen die Ente und lachen.",
+      "Die Ente schwimmt schnell.",
+      "Tom macht ein Foto.",
+      "Die Sonne scheint.",
+      "Der Himmel ist blau.",
+      "Tom sitzt auf einer Bank.",
+      "Er liest ein Buch.",
+      "Die Ente kommt nah ans Ufer.",
+      "Tom sagt: „Hallo, Ente!“",
+      "Die Ente antwortet mit „Quak!“",
+      "Tom geht glücklich nach Hause."
+    ],
+    "translations": {
+      "pl": [
+        "Tom idzie do parku.",
+        "W parku jest jezioro.",
+        "Na jeziorze pływa kaczka.",
+        "Kaczka jest mała i żółta.",
+        "Tom rzuca chleb do wody.",
+        "Kaczka je chleb.",
+        "Wiele dzieci przychodzi nad jezioro.",
+        "Widzą kaczkę i śmieją się.",
+        "Kaczka pływa szybko.",
+        "Tom robi zdjęcie.",
+        "Słońce świeci.",
+        "Niebo jest niebieskie.",
+        "Tom siedzi na ławce.",
+        "Czyta książkę.",
+        "Kaczka pływa blisko brzegu.",
+        "Tom mówi: „Cześć, kaczko!“",
+        "Kaczka odpowiada: „Kwak!“",
+        "Tom idzie szczęśliwy do domu."
+      ],
+      "en": [
+        "Tom goes to the park.",
+        "There is a lake in the park.",
+        "A duck swims on the lake.",
+        "The duck is small and yellow.",
+        "Tom throws bread into the water.",
+        "The duck eats the bread.",
+        "Many children come to the lake.",
+        "They see the duck and laugh.",
+        "The duck swims fast.",
+        "Tom takes a photo.",
+        "The sun shines.",
+        "The sky is blue.",
+        "Tom sits on a bench.",
+        "He reads a book.",
+        "The duck comes close to the shore.",
+        "Tom says: \"Hello, duck!\"",
+        "The duck answers with \"Quack!\"",
+        "Tom goes home happily."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "die Ente",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kaczka",
+          "en": "duck"
+        },
+        "reading": {
+          "pl": "die en-te",
+          "en": "die en-te"
+        },
+        "article": "die"
+      },
+      {
+        "word": "der Park",
+        "pos": "noun",
+        "gloss": {
+          "pl": "park",
+          "en": "park"
+        },
+        "reading": {
+          "pl": "der park",
+          "en": "der park"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der See",
+        "pos": "noun",
+        "gloss": {
+          "pl": "jezioro",
+          "en": "lake"
+        },
+        "reading": {
+          "pl": "der ze",
+          "en": "der ze"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Bank",
+        "pos": "noun",
+        "gloss": {
+          "pl": "ławka",
+          "en": "bench"
+        },
+        "reading": {
+          "pl": "die bank",
+          "en": "die bank"
+        },
+        "article": "die"
+      },
+      {
+        "word": "schwimmen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "pływać",
+          "en": "to swim"
+        },
+        "reading": {
+          "pl": "shvim-men",
+          "en": "shvim-men"
+        }
+      },
+      {
+        "word": "werfen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "rzucać",
+          "en": "to throw"
+        },
+        "reading": {
+          "pl": "ver-fen",
+          "en": "ver-fen"
+        }
+      },
+      {
+        "word": "lachen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "śmiać się",
+          "en": "to laugh"
+        },
+        "reading": {
+          "pl": "la-hhen",
+          "en": "la-hhen"
+        }
+      },
+      {
+        "word": "gelb",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "żółty",
+          "en": "yellow"
+        },
+        "reading": {
+          "pl": "gelp",
+          "en": "gelp"
+        }
+      },
+      {
+        "word": "blau",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "niebieski",
+          "en": "blue"
+        },
+        "reading": {
+          "pl": "blau",
+          "en": "blau"
+        }
+      },
+      {
+        "word": "schnell",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "szybki",
+          "en": "fast"
+        },
+        "reading": {
+          "pl": "shnel",
+          "en": "shnel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-04",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "everyday",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Eis am Kiosk",
+      "pl": "Lody przy kiosku",
+      "en": "Ice cream at the kiosk"
+    },
+    "sentences": [
+      "Lisa und Max stehen am Kiosk.",
+      "Der Kiosk verkauft Eis.",
+      "„Hallo!“, sagt der Verkäufer.",
+      "„Wir möchten Eis, bitte“, sagt Lisa.",
+      "„Welche Sorte?“, fragt der Verkäufer.",
+      "„Schokolade und Erdbeere“, sagt Max.",
+      "Der Verkäufer gibt zwei Kugeln.",
+      "Das Eis ist kalt und süß.",
+      "Lisa isst langsam.",
+      "Max isst schnell.",
+      "„Schmeckt es gut?“, fragt der Verkäufer.",
+      "„Ja, sehr gut!“, sagen Lisa und Max.",
+      "Sie bezahlen drei Euro.",
+      "Der Verkäufer sagt: „Danke!“",
+      "Lisa und Max gehen spazieren.",
+      "Die Sonne ist heiß.",
+      "Das Eis schmilzt ein bisschen.",
+      "Sie lachen und sind glücklich."
+    ],
+    "translations": {
+      "pl": [
+        "Lisa i Max stoją przy kiosku.",
+        "Kiosk sprzedaje lody.",
+        "„Cześć!“, mówi sprzedawca.",
+        "„Chcemy lody, proszę“, mówi Lisa.",
+        "„Jaki smak?“, pyta sprzedawca.",
+        "„Czekolada i truskawka“, mówi Max.",
+        "Sprzedawca daje dwie gałki.",
+        "Lody są zimne i słodkie.",
+        "Lisa je powoli.",
+        "Max je szybko.",
+        "„Smakuje dobrze?“, pyta sprzedawca.",
+        "„Tak, bardzo!“, mówią Lisa i Max.",
+        "Płacą trzy euro.",
+        "Sprzedawca mówi: „Dziękuję!“",
+        "Lisa i Max idą na spacer.",
+        "Słońce jest gorące.",
+        "Lody trochę się topią.",
+        "Śmieją się i są szczęśliwi."
+      ],
+      "en": [
+        "Lisa and Max stand at the kiosk.",
+        "The kiosk sells ice cream.",
+        "\"Hello!\", says the seller.",
+        "\"We want ice cream, please,\" says Lisa.",
+        "\"Which flavour?\", asks the seller.",
+        "\"Chocolate and strawberry,\" says Max.",
+        "The seller gives two scoops.",
+        "The ice cream is cold and sweet.",
+        "Lisa eats slowly.",
+        "Max eats quickly.",
+        "\"Does it taste good?\", asks the seller.",
+        "\"Yes, very good!\", say Lisa and Max.",
+        "They pay three euros.",
+        "The seller says: \"Thanks!\"",
+        "Lisa and Max go for a walk.",
+        "The sun is hot.",
+        "The ice cream melts a little.",
+        "They laugh and are happy."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "das Eis",
+        "pos": "noun",
+        "gloss": {
+          "pl": "lody",
+          "en": "ice cream"
+        },
+        "reading": {
+          "pl": "das ais",
+          "en": "das ais"
+        },
+        "article": "das"
+      },
+      {
+        "word": "der Kiosk",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kiosk",
+          "en": "kiosk"
+        },
+        "reading": {
+          "pl": "der ki-osk",
+          "en": "der ki-osk"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Kugel",
+        "pos": "noun",
+        "gloss": {
+          "pl": "gałka",
+          "en": "scoop"
+        },
+        "reading": {
+          "pl": "die ku-gel",
+          "en": "die ku-gel"
+        },
+        "article": "die"
+      },
+      {
+        "word": "der Verkäufer",
+        "pos": "noun",
+        "gloss": {
+          "pl": "sprzedawca",
+          "en": "seller"
+        },
+        "reading": {
+          "pl": "der fer-koi-fer",
+          "en": "der fer-koi-fer"
+        },
+        "article": "der"
+      },
+      {
+        "word": "verkaufen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "sprzedawać",
+          "en": "to sell"
+        },
+        "reading": {
+          "pl": "fer-kau-fen",
+          "en": "fer-kau-fen"
+        }
+      },
+      {
+        "word": "bezahlen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "płacić",
+          "en": "to pay"
+        },
+        "reading": {
+          "pl": "be-tsa-len",
+          "en": "be-tsa-len"
+        }
+      },
+      {
+        "word": "schmelzen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "topić się",
+          "en": "to melt"
+        },
+        "reading": {
+          "pl": "shmel-tsen",
+          "en": "shmel-tsen"
+        }
+      },
+      {
+        "word": "kalt",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zimny",
+          "en": "cold"
+        },
+        "reading": {
+          "pl": "kalt",
+          "en": "kalt"
+        }
+      },
+      {
+        "word": "süß",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "słodki",
+          "en": "sweet"
+        },
+        "reading": {
+          "pl": "züs",
+          "en": "züs"
+        }
+      },
+      {
+        "word": "heiß",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "gorący",
+          "en": "hot"
+        },
+        "reading": {
+          "pl": "hais",
+          "en": "hais"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-05",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "story",
+    "category": "everyday",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Tims Teddy",
+      "pl": "Miś Timka",
+      "en": "Tim's teddy bear"
+    },
+    "sentences": [
+      "Es ist Morgen.",
+      "Tim wacht auf.",
+      "Sein Teddy liegt im Bett.",
+      "Der Teddy ist braun und weich.",
+      "Tim sagt: „Guten Morgen, Teddy!“",
+      "Tim frühstückt mit Mama.",
+      "Er isst Brot und trinkt Milch.",
+      "Dann zieht er sich an.",
+      "Tim nimmt den Teddy mit.",
+      "Sie gehen in den Kindergarten.",
+      "Im Kindergarten spielen viele Kinder.",
+      "Tim zeigt den Teddy seinen Freunden.",
+      "Die Freunde finden den Teddy süß.",
+      "Am Mittag schläft Tim ein bisschen.",
+      "Der Teddy liegt neben ihm.",
+      "Am Abend liest Papa eine Geschichte.",
+      "Tim und Teddy schlafen gut.",
+      "Der Tag war schön."
+    ],
+    "translations": {
+      "pl": [
+        "Jest ranek.",
+        "Tim budzi się.",
+        "Jego miś leży w łóżku.",
+        "Miś jest brązowy i miękki.",
+        "Tim mówi: „Dzień dobry, misiu!“",
+        "Tim je śniadanie z mamą.",
+        "Je chleb i pije mleko.",
+        "Potem się ubiera.",
+        "Tim bierze misia ze sobą.",
+        "Idą do przedszkola.",
+        "W przedszkolu bawi się wiele dzieci.",
+        "Tim pokazuje misia przyjaciołom.",
+        "Przyjaciele uważają misia za słodkiego.",
+        "W południe Tim trochę śpi.",
+        "Miś leży obok niego.",
+        "Wieczorem tata czyta bajkę.",
+        "Tim i miś dobrze śpią.",
+        "Dzień był piękny."
+      ],
+      "en": [
+        "It is morning.",
+        "Tim wakes up.",
+        "His teddy is in bed.",
+        "The teddy is brown and soft.",
+        "Tim says: \"Good morning, Teddy!\"",
+        "Tim has breakfast with mum.",
+        "He eats bread and drinks milk.",
+        "Then he gets dressed.",
+        "Tim takes the teddy with him.",
+        "They go to kindergarten.",
+        "Many children play in kindergarten.",
+        "Tim shows the teddy to his friends.",
+        "The friends find the teddy sweet.",
+        "At noon Tim sleeps a little.",
+        "The teddy lies next to him.",
+        "In the evening dad reads a story.",
+        "Tim and Teddy sleep well.",
+        "The day was beautiful."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "der Teddy",
+        "pos": "noun",
+        "gloss": {
+          "pl": "miś",
+          "en": "teddy bear"
+        },
+        "reading": {
+          "pl": "der te-di",
+          "en": "der te-di"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Kindergarten",
+        "pos": "noun",
+        "gloss": {
+          "pl": "przedszkole",
+          "en": "kindergarten"
+        },
+        "reading": {
+          "pl": "der kin-der-gar-ten",
+          "en": "der kin-der-gar-ten"
+        },
+        "article": "der"
+      },
+      {
+        "word": "das Bett",
+        "pos": "noun",
+        "gloss": {
+          "pl": "łóżko",
+          "en": "bed"
+        },
+        "reading": {
+          "pl": "das bet",
+          "en": "das bet"
+        },
+        "article": "das"
+      },
+      {
+        "word": "der Freund",
+        "pos": "noun",
+        "gloss": {
+          "pl": "przyjaciel",
+          "en": "friend"
+        },
+        "reading": {
+          "pl": "der freunt",
+          "en": "der freunt"
+        },
+        "article": "der"
+      },
+      {
+        "word": "aufwachen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "budzić się",
+          "en": "to wake up"
+        },
+        "reading": {
+          "pl": "auf-va-hhen",
+          "en": "auf-va-hhen"
+        }
+      },
+      {
+        "word": "spielen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "bawić się",
+          "en": "to play"
+        },
+        "reading": {
+          "pl": "shpi-len",
+          "en": "shpi-len"
+        }
+      },
+      {
+        "word": "schlafen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "spać",
+          "en": "to sleep"
+        },
+        "reading": {
+          "pl": "shla-fen",
+          "en": "shla-fen"
+        }
+      },
+      {
+        "word": "braun",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "brązowy",
+          "en": "brown"
+        },
+        "reading": {
+          "pl": "braun",
+          "en": "braun"
+        }
+      },
+      {
+        "word": "weich",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "miękki",
+          "en": "soft"
+        },
+        "reading": {
+          "pl": "vaikh",
+          "en": "vaikh"
+        }
+      },
+      {
+        "word": "schön",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "piękny",
+          "en": "beautiful"
+        },
+        "reading": {
+          "pl": "sön",
+          "en": "sön"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-06",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "health",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Beim Arzt",
+      "pl": "U lekarza",
+      "en": "At the doctor"
+    },
+    "sentences": [
+      "Lena ist krank.",
+      "Sie hat Husten.",
+      "Mama geht mit Lena zum Arzt.",
+      "Im Wartezimmer sitzen zwei Personen.",
+      "„Guten Tag“, sagt die Ärztin.",
+      "„Meine Tochter hustet“, sagt Mama.",
+      "Die Ärztin hört Lena an.",
+      "Sie ist freundlich.",
+      "„Mach den Mund auf“, sagt die Ärztin.",
+      "Lena öffnet den Mund.",
+      "Die Ärztin sagt: „Es ist nicht schlimm.“",
+      "Sie gibt Lena Medizin.",
+      "„Trink viel Wasser“, sagt die Ärztin.",
+      "Lena nickt.",
+      "Mama bedankt sich.",
+      "Zu Hause trinkt Lena Tee.",
+      "Am nächsten Tag fühlt sie sich besser.",
+      "Lena ist wieder gesund."
+    ],
+    "translations": {
+      "pl": [
+        "Lena jest chora.",
+        "Ma kaszel.",
+        "Mama idzie z Leną do lekarza.",
+        "W poczekalni siedzą dwie osoby.",
+        "„Dzień dobry“, mówi lekarka.",
+        "„Moja córka kaszle“, mówi mama.",
+        "Lekarka słucha Leny.",
+        "Jest miła.",
+        "„Otwórz buzię“, mówi lekarka.",
+        "Lena otwiera usta.",
+        "Lekarka mówi: „To nic poważnego.“",
+        "Daje Lenie lekarstwo.",
+        "„Pij dużo wody“, mówi lekarka.",
+        "Lena kiwa głową.",
+        "Mama dziękuje.",
+        "W domu Lena pije herbatę.",
+        "Następnego dnia czuje się lepiej.",
+        "Lena znów jest zdrowa."
+      ],
+      "en": [
+        "Lena is ill.",
+        "She has a cough.",
+        "Mum goes with Lena to the doctor.",
+        "Two people sit in the waiting room.",
+        "\"Good day,\" says the doctor.",
+        "\"My daughter is coughing,\" says mum.",
+        "The doctor listens to Lena.",
+        "She is friendly.",
+        "\"Open your mouth,\" says the doctor.",
+        "Lena opens her mouth.",
+        "The doctor says: \"It is not serious.\"",
+        "She gives Lena medicine.",
+        "\"Drink a lot of water,\" says the doctor.",
+        "Lena nods.",
+        "Mum says thank you.",
+        "At home Lena drinks tea.",
+        "The next day she feels better.",
+        "Lena is healthy again."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "der Arzt",
+        "pos": "noun",
+        "gloss": {
+          "pl": "lekarz",
+          "en": "doctor"
+        },
+        "reading": {
+          "pl": "der artst",
+          "en": "der artst"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Ärztin",
+        "pos": "noun",
+        "gloss": {
+          "pl": "lekarka",
+          "en": "doctor (f)"
+        },
+        "reading": {
+          "pl": "die erts-tin",
+          "en": "die erts-tin"
+        },
+        "article": "die"
+      },
+      {
+        "word": "der Husten",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kaszel",
+          "en": "cough"
+        },
+        "reading": {
+          "pl": "der hus-ten",
+          "en": "der hus-ten"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Medizin",
+        "pos": "noun",
+        "gloss": {
+          "pl": "lekarstwo",
+          "en": "medicine"
+        },
+        "reading": {
+          "pl": "die me-di-tsin",
+          "en": "die me-di-tsin"
+        },
+        "article": "die"
+      },
+      {
+        "word": "husten",
+        "pos": "verb",
+        "gloss": {
+          "pl": "kaszleć",
+          "en": "to cough"
+        },
+        "reading": {
+          "pl": "hus-ten",
+          "en": "hus-ten"
+        }
+      },
+      {
+        "word": "trinken",
+        "pos": "verb",
+        "gloss": {
+          "pl": "pić",
+          "en": "to drink"
+        },
+        "reading": {
+          "pl": "trin-ken",
+          "en": "trin-ken"
+        }
+      },
+      {
+        "word": "fühlen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "czuć się",
+          "en": "to feel"
+        },
+        "reading": {
+          "pl": "fü-len",
+          "en": "fü-len"
+        }
+      },
+      {
+        "word": "krank",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "chory",
+          "en": "ill"
+        },
+        "reading": {
+          "pl": "krank",
+          "en": "krank"
+        }
+      },
+      {
+        "word": "freundlich",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "miły",
+          "en": "friendly"
+        },
+        "reading": {
+          "pl": "froint-lih",
+          "en": "froint-lih"
+        }
+      },
+      {
+        "word": "gesund",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zdrowy",
+          "en": "healthy"
+        },
+        "reading": {
+          "pl": "ge-zunt",
+          "en": "ge-zunt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-07",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "story",
+    "category": "season",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Schnee im Winter",
+      "pl": "Śnieg zimą",
+      "en": "Snow in winter"
+    },
+    "sentences": [
+      "Es ist Winter.",
+      "Draußen liegt viel Schnee.",
+      "Der Schnee ist weiß und kalt.",
+      "Paul zieht eine dicke Jacke an.",
+      "Er nimmt Mütze und Handschuhe.",
+      "Paul geht in den Garten.",
+      "Er baut einen Schneemann.",
+      "Der Schneemann hat eine Karotte als Nase.",
+      "Paul findet das lustig.",
+      "Seine Schwester Sara kommt auch.",
+      "Sie werfen Schneebälle.",
+      "Die Schneebälle fliegen durch die Luft.",
+      "Mama ruft: „Kommt herein!“",
+      "Die Kinder trinken heiße Schokolade.",
+      "Sie sind warm und glücklich.",
+      "Am Fenster sehen sie den Schneemann.",
+      "Der Schneemann lächelt mit Steinkohle.",
+      "Der Winter ist schön."
+    ],
+    "translations": {
+      "pl": [
+        "Jest zima.",
+        "Na zewnątrz leży dużo śniegu.",
+        "Śnieg jest biały i zimny.",
+        "Paweł zakłada grubą kurtkę.",
+        "Bierze czapkę i rękawiczki.",
+        "Paweł idzie do ogrodu.",
+        "Buduje bałwana.",
+        "Bałwan ma marchewkę jako nos.",
+        "Paweł uważa to za zabawne.",
+        "Jego siostra Sara też przychodzi.",
+        "Rzucają śnieżkami.",
+        "Śnieżki lecą przez powietrze.",
+        "Mama woła: „Chodźcie do środka!“",
+        "Dzieci piją gorącą czekoladę.",
+        "Są ciepli i szczęśliwi.",
+        "Przy oknie widzą bałwana.",
+        "Bałwan uśmiecha się węglem.",
+        "Zima jest piękna."
+      ],
+      "en": [
+        "It is winter.",
+        "There is a lot of snow outside.",
+        "The snow is white and cold.",
+        "Paul puts on a thick jacket.",
+        "He takes a hat and gloves.",
+        "Paul goes into the garden.",
+        "He builds a snowman.",
+        "The snowman has a carrot as a nose.",
+        "Paul finds that funny.",
+        "His sister Sara comes too.",
+        "They throw snowballs.",
+        "The snowballs fly through the air.",
+        "Mum calls: \"Come inside!\"",
+        "The children drink hot chocolate.",
+        "They are warm and happy.",
+        "At the window they see the snowman.",
+        "The snowman smiles with coal.",
+        "Winter is beautiful."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "der Schnee",
+        "pos": "noun",
+        "gloss": {
+          "pl": "śnieg",
+          "en": "snow"
+        },
+        "reading": {
+          "pl": "der shne",
+          "en": "der shne"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Schneemann",
+        "pos": "noun",
+        "gloss": {
+          "pl": "bałwan",
+          "en": "snowman"
+        },
+        "reading": {
+          "pl": "der shne-man",
+          "en": "der shne-man"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Garten",
+        "pos": "noun",
+        "gloss": {
+          "pl": "ogród",
+          "en": "garden"
+        },
+        "reading": {
+          "pl": "der gar-ten",
+          "en": "der gar-ten"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Jacke",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kurtka",
+          "en": "jacket"
+        },
+        "reading": {
+          "pl": "die ja-ke",
+          "en": "die ja-ke"
+        },
+        "article": "die"
+      },
+      {
+        "word": "bauen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "budować",
+          "en": "to build"
+        },
+        "reading": {
+          "pl": "bau-en",
+          "en": "bau-en"
+        }
+      },
+      {
+        "word": "werfen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "rzucać",
+          "en": "to throw"
+        },
+        "reading": {
+          "pl": "ver-fen",
+          "en": "ver-fen"
+        }
+      },
+      {
+        "word": "liegen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "leżeć",
+          "en": "to lie"
+        },
+        "reading": {
+          "pl": "li-gen",
+          "en": "li-gen"
+        }
+      },
+      {
+        "word": "weiß",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "biały",
+          "en": "white"
+        },
+        "reading": {
+          "pl": "vais",
+          "en": "vais"
+        }
+      },
+      {
+        "word": "dick",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "gruby",
+          "en": "thick"
+        },
+        "reading": {
+          "pl": "dik",
+          "en": "dik"
+        }
+      },
+      {
+        "word": "lustig",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zabawny",
+          "en": "funny"
+        },
+        "reading": {
+          "pl": "lus-tih",
+          "en": "lus-tih"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-08",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "social",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Ein neuer Freund",
+      "pl": "Nowy przyjaciel",
+      "en": "A new friend"
+    },
+    "sentences": [
+      "Ben ist neu in der Stadt.",
+      "Er kennt noch niemanden.",
+      "Ben geht auf den Spielplatz.",
+      "Ein Junge spielt mit einem Ball.",
+      "„Hallo, ich heiße Ben“, sagt Ben.",
+      "„Ich heiße Jonas“, sagt der Junge.",
+      "„Möchtest du mitspielen?“, fragt Jonas.",
+      "„Ja, gern!“, sagt Ben.",
+      "Sie spielen Fußball.",
+      "Der Ball ist grün und weiß.",
+      "Ben schießt ein Tor.",
+      "Jonas klatscht.",
+      "„Du spielst gut!“, sagt Jonas.",
+      "Ben lächelt.",
+      "Sie trinken Wasser aus Flaschen.",
+      "„Komm morgen wieder“, sagt Jonas.",
+      "Ben ist froh.",
+      "Er hat einen neuen Freund."
+    ],
+    "translations": {
+      "pl": [
+        "Ben jest nowy w mieście.",
+        "Jeszcze nikogo nie zna.",
+        "Ben idzie na plac zabaw.",
+        "Jakiś chłopiec bawi się piłką.",
+        "„Cześć, nazywam się Ben“, mówi Ben.",
+        "„Nazywam się Jonas“, mówi chłopiec.",
+        "„Chcesz pobawić się?“, pyta Jonas.",
+        "„Tak, chętnie!“, mówi Ben.",
+        "Grają w piłkę nożną.",
+        "Piłka jest zielona i biała.",
+        "Ben strzela gola.",
+        "Jonas klaska.",
+        "„Dobrze grasz!“, mówi Jonas.",
+        "Ben się uśmiecha.",
+        "Piją wodę z butelek.",
+        "„Przyjdź jutro znowu“, mówi Jonas.",
+        "Ben jest zadowolony.",
+        "Ma nowego przyjaciela."
+      ],
+      "en": [
+        "Ben is new in the city.",
+        "He does not know anyone yet.",
+        "Ben goes to the playground.",
+        "A boy plays with a ball.",
+        "\"Hello, my name is Ben,\" says Ben.",
+        "\"My name is Jonas,\" says the boy.",
+        "\"Do you want to play?\", asks Jonas.",
+        "\"Yes, gladly!\", says Ben.",
+        "They play football.",
+        "The ball is green and white.",
+        "Ben scores a goal.",
+        "Jonas claps.",
+        "\"You play well!\", says Jonas.",
+        "Ben smiles.",
+        "They drink water from bottles.",
+        "\"Come again tomorrow,\" says Jonas.",
+        "Ben is glad.",
+        "He has a new friend."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "der Spielplatz",
+        "pos": "noun",
+        "gloss": {
+          "pl": "plac zabaw",
+          "en": "playground"
+        },
+        "reading": {
+          "pl": "der shpil-plats",
+          "en": "der shpil-plats"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Ball",
+        "pos": "noun",
+        "gloss": {
+          "pl": "piłka",
+          "en": "ball"
+        },
+        "reading": {
+          "pl": "der bal",
+          "en": "der bal"
+        },
+        "article": "der"
+      },
+      {
+        "word": "der Freund",
+        "pos": "noun",
+        "gloss": {
+          "pl": "przyjaciel",
+          "en": "friend"
+        },
+        "reading": {
+          "pl": "der freunt",
+          "en": "der freunt"
+        },
+        "article": "der"
+      },
+      {
+        "word": "das Tor",
+        "pos": "noun",
+        "gloss": {
+          "pl": "bramka/gol",
+          "en": "goal"
+        },
+        "reading": {
+          "pl": "das tor",
+          "en": "das tor"
+        },
+        "article": "das"
+      },
+      {
+        "word": "spielen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "grać",
+          "en": "to play"
+        },
+        "reading": {
+          "pl": "shpi-len",
+          "en": "shpi-len"
+        }
+      },
+      {
+        "word": "kennen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "znać",
+          "en": "to know"
+        },
+        "reading": {
+          "pl": "ke-nen",
+          "en": "ke-nen"
+        }
+      },
+      {
+        "word": "lächeln",
+        "pos": "verb",
+        "gloss": {
+          "pl": "uśmiechać się",
+          "en": "to smile"
+        },
+        "reading": {
+          "pl": "le-hheln",
+          "en": "le-hheln"
+        }
+      },
+      {
+        "word": "neu",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "nowy",
+          "en": "new"
+        },
+        "reading": {
+          "pl": "noi",
+          "en": "noi"
+        }
+      },
+      {
+        "word": "froh",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zadowolony",
+          "en": "glad"
+        },
+        "reading": {
+          "pl": "fro",
+          "en": "fro"
+        }
+      },
+      {
+        "word": "gut",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "dobry",
+          "en": "good"
+        },
+        "reading": {
+          "pl": "gut",
+          "en": "gut"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-09",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "story",
+    "category": "fairy",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "Die hungrige Maus",
+      "pl": "Głodna mysz",
+      "en": "The hungry mouse"
+    },
+    "sentences": [
+      "In einem alten Haus lebt eine Maus.",
+      "Die Maus ist klein und schnell.",
+      "Sie ist oft hungrig.",
+      "In der Küche liegt Käse.",
+      "Der Käse riecht gut.",
+      "Die Maus läuft leise über den Boden.",
+      "Sie findet den Käse auf dem Tisch.",
+      "Die Katze schläft auf dem Stuhl.",
+      "Die Maus nimmt ein Stück Käse.",
+      "Sie isst sehr schnell.",
+      "Plötzlich wacht die Katze auf.",
+      "Die Maus rennt unter den Tisch.",
+      "Die Katze ist zu langsam.",
+      "Die Maus ist sicher.",
+      "Am Abend schläft die Maus im Loch.",
+      "Sie träumt von mehr Käse.",
+      "Der Mond scheint durch das Fenster.",
+      "Die kleine Maus ist zufrieden."
+    ],
+    "translations": {
+      "pl": [
+        "W starym domu mieszka mysz.",
+        "Mysz jest mała i szybka.",
+        "Często jest głodna.",
+        "W kuchni leży ser.",
+        "Ser dobrze pachnie.",
+        "Mysz cicho biegnie po podłodze.",
+        "Znajduje ser na stole.",
+        "Kot śpi na krześle.",
+        "Mysz bierze kawałek sera.",
+        "Je bardzo szybko.",
+        "Nagle kot się budzi.",
+        "Mysz biegnie pod stół.",
+        "Kot jest za wolny.",
+        "Mysz jest bezpieczna.",
+        "Wieczorem mysz śpi w dziurze.",
+        "Śni o większej ilości sera.",
+        "Księżyc świeci przez okno.",
+        "Mała mysz jest zadowolona."
+      ],
+      "en": [
+        "In an old house lives a mouse.",
+        "The mouse is small and fast.",
+        "It is often hungry.",
+        "Cheese lies in the kitchen.",
+        "The cheese smells good.",
+        "The mouse runs quietly across the floor.",
+        "It finds the cheese on the table.",
+        "The cat sleeps on the chair.",
+        "The mouse takes a piece of cheese.",
+        "It eats very quickly.",
+        "Suddenly the cat wakes up.",
+        "The mouse runs under the table.",
+        "The cat is too slow.",
+        "The mouse is safe.",
+        "In the evening the mouse sleeps in its hole.",
+        "It dreams of more cheese.",
+        "The moon shines through the window.",
+        "The little mouse is satisfied."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "die Maus",
+        "pos": "noun",
+        "gloss": {
+          "pl": "mysz",
+          "en": "mouse"
+        },
+        "reading": {
+          "pl": "die maus",
+          "en": "die maus"
+        },
+        "article": "die"
+      },
+      {
+        "word": "der Käse",
+        "pos": "noun",
+        "gloss": {
+          "pl": "ser",
+          "en": "cheese"
+        },
+        "reading": {
+          "pl": "der ke-ze",
+          "en": "der ke-ze"
+        },
+        "article": "der"
+      },
+      {
+        "word": "die Katze",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kot",
+          "en": "cat"
+        },
+        "reading": {
+          "pl": "die kat-ze",
+          "en": "die kat-ze"
+        },
+        "article": "die"
+      },
+      {
+        "word": "die Küche",
+        "pos": "noun",
+        "gloss": {
+          "pl": "kuchnia",
+          "en": "kitchen"
+        },
+        "reading": {
+          "pl": "die kü-he",
+          "en": "die kü-he"
+        },
+        "article": "die"
+      },
+      {
+        "word": "rennen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "biec",
+          "en": "to run"
+        },
+        "reading": {
+          "pl": "re-nen",
+          "en": "re-nen"
+        }
+      },
+      {
+        "word": "schlafen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "spać",
+          "en": "to sleep"
+        },
+        "reading": {
+          "pl": "shla-fen",
+          "en": "shla-fen"
+        }
+      },
+      {
+        "word": "wachen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "budzić się",
+          "en": "to wake"
+        },
+        "reading": {
+          "pl": "va-hhen",
+          "en": "va-hhen"
+        }
+      },
+      {
+        "word": "hungrig",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "głodny",
+          "en": "hungry"
+        },
+        "reading": {
+          "pl": "hung-rih",
+          "en": "hung-rih"
+        }
+      },
+      {
+        "word": "leise",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "cicho",
+          "en": "quiet"
+        },
+        "reading": {
+          "pl": "lai-ze",
+          "en": "lai-ze"
+        }
+      },
+      {
+        "word": "alt",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "stary",
+          "en": "old"
+        },
+        "reading": {
+          "pl": "alt",
+          "en": "alt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "de-fairy-a0-10",
+    "targetLang": "de",
+    "level": "A0",
+    "kind": "dialogue",
+    "category": "school",
+    "estimatedMinutes": 6,
+    "titles": {
+      "de": "In der Klasse",
+      "pl": "W klasie",
+      "en": "In the classroom"
+    },
+    "sentences": [
+      "Die Schule beginnt um acht Uhr.",
+      "Die Kinder sitzen in der Klasse.",
+      "Die Lehrerin heißt Frau Weber.",
+      "„Guten Morgen, Kinder!“, sagt Frau Weber.",
+      "„Guten Morgen!“, sagen die Kinder.",
+      "Heute lernen sie Farben.",
+      "Frau Weber zeigt ein rotes Buch.",
+      "„Das ist rot“, sagt sie.",
+      "Dann zeigt sie ein blaues Heft.",
+      "„Das ist blau“, sagt sie.",
+      "Emma hebt die Hand.",
+      "„Und grün?“, fragt Emma.",
+      "Frau Weber zeigt einen grünen Stift.",
+      "Die Kinder wiederholen: „rot, blau, grün“.",
+      "Sie malen ein Bild.",
+      "Das Bild ist bunt.",
+      "Frau Weber sagt: „Sehr gut!“",
+      "Die Kinder sind stolz."
+    ],
+    "translations": {
+      "pl": [
+        "Lekcje zaczynają się o ósmej.",
+        "Dzieci siedzą w klasie.",
+        "Nauczycielka nazywa się pani Weber.",
+        "„Dzień dobry, dzieci!“, mówi pani Weber.",
+        "„Dzień dobry!“, mówią dzieci.",
+        "Dziś uczą się kolorów.",
+        "Pani Weber pokazuje czerwoną książkę.",
+        "„To jest czerwony“, mówi.",
+        "Potem pokazuje niebieski zeszyt.",
+        "„To jest niebieski“, mówi.",
+        "Emma podnosi rękę.",
+        "„A zielony?“, pyta Emma.",
+        "Pani Weber pokazuje zielony długopis.",
+        "Dzieci powtarzają: „czerwony, niebieski, zielony“.",
+        "Malują obrazek.",
+        "Obrazek jest kolorowy.",
+        "Pani Weber mówi: „Bardzo dobrze!“",
+        "Dzieci są dumne."
+      ],
+      "en": [
+        "School starts at eight o'clock.",
+        "The children sit in the classroom.",
+        "The teacher is called Mrs Weber.",
+        "\"Good morning, children!\", says Mrs Weber.",
+        "\"Good morning!\", say the children.",
+        "Today they learn colours.",
+        "Mrs Weber shows a red book.",
+        "\"That is red,\" she says.",
+        "Then she shows a blue notebook.",
+        "\"That is blue,\" she says.",
+        "Emma raises her hand.",
+        "\"And green?\", asks Emma.",
+        "Mrs Weber shows a green pen.",
+        "The children repeat: \"red, blue, green\".",
+        "They paint a picture.",
+        "The picture is colourful.",
+        "Mrs Weber says: \"Very good!\"",
+        "The children are proud."
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "die Klasse",
+        "pos": "noun",
+        "gloss": {
+          "pl": "klasa",
+          "en": "classroom"
+        },
+        "reading": {
+          "pl": "die kla-se",
+          "en": "die kla-se"
+        },
+        "article": "die"
+      },
+      {
+        "word": "die Lehrerin",
+        "pos": "noun",
+        "gloss": {
+          "pl": "nauczycielka",
+          "en": "teacher"
+        },
+        "reading": {
+          "pl": "die le-re-rin",
+          "en": "die le-re-rin"
+        },
+        "article": "die"
+      },
+      {
+        "word": "das Buch",
+        "pos": "noun",
+        "gloss": {
+          "pl": "książka",
+          "en": "book"
+        },
+        "reading": {
+          "pl": "das buh",
+          "en": "das buh"
+        },
+        "article": "das"
+      },
+      {
+        "word": "der Stift",
+        "pos": "noun",
+        "gloss": {
+          "pl": "długopis",
+          "en": "pen"
+        },
+        "reading": {
+          "pl": "der shtift",
+          "en": "der shtift"
+        },
+        "article": "der"
+      },
+      {
+        "word": "lernen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "uczyć się",
+          "en": "to learn"
+        },
+        "reading": {
+          "pl": "ler-nen",
+          "en": "ler-nen"
+        }
+      },
+      {
+        "word": "malen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "malować",
+          "en": "to paint"
+        },
+        "reading": {
+          "pl": "ma-len",
+          "en": "ma-len"
+        }
+      },
+      {
+        "word": "wiederholen",
+        "pos": "verb",
+        "gloss": {
+          "pl": "powtarzać",
+          "en": "to repeat"
+        },
+        "reading": {
+          "pl": "vi-der-ho-len",
+          "en": "vi-der-ho-len"
+        }
+      },
+      {
+        "word": "bunt",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "kolorowy",
+          "en": "colourful"
+        },
+        "reading": {
+          "pl": "bunt",
+          "en": "bunt"
+        }
+      },
+      {
+        "word": "stolz",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "dumny",
+          "en": "proud"
+        },
+        "reading": {
+          "pl": "shtolts",
+          "en": "shtolts"
+        }
+      },
+      {
+        "word": "grün",
+        "pos": "adjective",
+        "gloss": {
+          "pl": "zielony",
+          "en": "green"
+        },
+        "reading": {
+          "pl": "grün",
+          "en": "grün"
+        }
+      }
+    ]
+  }
+]

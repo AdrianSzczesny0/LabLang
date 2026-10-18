@@ -124,25 +124,32 @@ export function coverageFor(targetLang, referenceLang) {
 export async function loadAllContent(fetchImpl = fetch) {
   const stories = {};
   const vocabulary = {};
+  const fairytales = {};
   const validation = {};
 
   await Promise.all(TARGET_LANGS.map(async (lang) => {
-    const [sRes, vRes] = await Promise.all([
+    const [sRes, vRes, fRes] = await Promise.all([
       fetchImpl(`./content/stories/${lang}.json`),
       fetchImpl(`./content/vocabulary/${lang}.json`),
+      fetchImpl(`./content/fairytales/${lang}.json`),
     ]);
     if (!sRes.ok || !vRes.ok) throw new Error(`Failed loading content for ${lang}`);
     const sJson = await sRes.json();
     const vJson = await vRes.json();
     stories[lang] = sJson;
     vocabulary[lang] = vJson;
+    let fJson = [];
+    if (fRes.ok) {
+      fJson = await fRes.json();
+    }
+    fairytales[lang] = Array.isArray(fJson) ? fJson : [];
     validation[lang] = {
       stories: validateStoryBank(sJson, lang),
       vocabulary: validateVocabBank(vJson, lang),
     };
   }));
 
-  return { stories, vocabulary, validation };
+  return { stories, vocabulary, fairytales, validation };
 }
 
 export function storiesForLang(stories, lang) {
