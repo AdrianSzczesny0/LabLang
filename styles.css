@@ -30,3 +30,34 @@
 @media(max-width:800px){
   .test-option{padding:14px 14px;font-size:15px}
 }
+
+/* Fairy tales / long stories */
+.fairy-lead{max-width:640px;line-height:1.65;margin:8px 0 0}
+.fairy-read-card .fairy-reader .sentence-text strong{font-size:clamp(16px,4.2vw,18px);line-height:1.8}
+.fairy-sentence{align-items:center}
+.fairy-sentence.tr-open{background:#1a3344;border-radius:10px;border-top-color:transparent}
+.sentence-actions{display:flex;gap:6px;flex-shrink:0}
+.fairy-tr-btn{min-width:40px;padding:6px 10px}
+.fairy-read-options{gap:10px;margin:12px 0}
+.fairy-full-translation{margin:12px 0 4px;max-height:min(42vh,320px);overflow-y:auto;-webkit-overflow-scrolling:touch}
+.fairy-pos-tabs{display:flex;gap:8px;flex-wrap:nowrap;overflow-x:auto;margin:14px 0 12px;padding-bottom:4px;scrollbar-width:none}
+.fairy-pos-tabs::-webkit-scrollbar{display:none}
+.fairy-pos-tab{flex-shrink:0;border:1px solid #35506a;background:#142338;color:#c5d8e8;border-radius:999px;padding:10px 14px;font-size:12px;font-weight:800}
+.fairy-pos-tab.active{border-color:#6fdac4;background:#1b3449;color:#b3ffe8}
+.fairy-pos-tab small{opacity:.75;font-weight:700;margin-left:4px}
+.fairy-word-list{display:grid;gap:10px;max-height:min(52vh,420px);overflow-y:auto;-webkit-overflow-scrolling:touch}
+.fairy-word-chip{border:1px solid #304962;border-radius:14px;padding:12px 14px;background:#142338;display:grid;gap:8px}
+.fairy-word-main{display:grid;gap:4px}
+.fairy-word-main strong{font-size:17px;line-height:1.4;word-break:break-word}
+.fairy-word-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.fairy-speak-btn{min-width:40px;min-height:40px;padding:6px 10px}
+.fairy-quiz-card{max-width:640px;margin:0 auto}
+.fairy-quiz-prompt{display:grid;gap:8px;margin:16px 0;padding:16px;border-radius:14px;background:#1a3344;border:1px solid #35506a}
+.fairy-quiz-prompt strong{font-size:clamp(20px,5vw,26px)}
+.fairy-quiz-opt{text-align:left;width:100%}
+.fairy-tile{min-height:170px}
+@media(max-width:800px){
+  .fairy-word-list{max-height:none}
+  .fairy-full-translation{max-height:none}
+  .sentence-actions .btn,.fairy-tr-btn{min-height:44px;min-width:44px}
+}

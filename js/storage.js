@@ -27,6 +27,8 @@ function ensureLangBucket(state, lang) {
   const bucket = state.byLanguage[lang];
   bucket.storiesDone ||= {};
   bucket.storiesStarted ||= {};
+  bucket.fairytalesDone ||= {};
+  bucket.fairytalesStarted ||= {};
   bucket.writing ||= {};
   bucket.customCards ||= [];
   bucket.cardStats ||= {};
@@ -244,6 +246,8 @@ export function importBackup(current, data, mode = 'merge') {
     const b = ensureLangBucket(incoming, lang);
     a.storiesDone = { ...a.storiesDone, ...b.storiesDone };
     a.storiesStarted = { ...a.storiesStarted, ...b.storiesStarted };
+    a.fairytalesDone = { ...a.fairytalesDone, ...b.fairytalesDone };
+    a.fairytalesStarted = { ...a.fairytalesStarted, ...b.fairytalesStarted };
     a.writing = { ...a.writing, ...b.writing };
     a.weekCompleted = { ...a.weekCompleted, ...b.weekCompleted };
     a.cardStats = { ...a.cardStats, ...b.cardStats };
@@ -256,6 +260,7 @@ export function importBackup(current, data, mode = 'merge') {
       }
     }
     if (b.lastStoryId) a.lastStoryId = b.lastStoryId;
+    if (b.lastFairyId) a.lastFairyId = b.lastFairyId;
     a.studyMinutes = Math.max(a.studyMinutes || 0, b.studyMinutes || 0);
     a.streak = Math.max(a.streak || 0, b.streak || 0);
     if (b.lastStudyDate && (!a.lastStudyDate || b.lastStudyDate > a.lastStudyDate)) {
