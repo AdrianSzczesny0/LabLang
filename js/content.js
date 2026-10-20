@@ -151,7 +151,12 @@ export async function loadAllContent(fetchImpl = fetch) {
   }));
 
   // Optional language starter packs (MC-only). Missing file is OK.
-  const packFiles = ['en-starter.json', 'en-pronouns.json'];
+  const packFiles = [
+    'en-starter.json',
+    'en-pronouns.json',
+    'de-starter.json',
+    'de-pronouns.json',
+  ];
   await Promise.all(packFiles.map(async (file) => {
     try {
       const packRes = await fetchImpl(`./content/packs/${file}`);

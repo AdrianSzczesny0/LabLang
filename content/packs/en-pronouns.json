@@ -11,8 +11,8 @@
     "it": "Completa: He/She is, His/her, isn't"
   },
   "description": {
-    "pl": "Wybierz brakujące słowo lub wyrażenie. Ćwiczysz: He is, She is, His, her, He isn't, She isn't oraz pytania Is he / Is she.",
-    "en": "Pick the missing word or phrase. Practice: He is, She is, His, her, He isn't, She isn't, and questions Is he / Is she."
+    "pl": "Wybierz brakujące słowo. Tylko słowa z działu Podstawy: name, prince, princess, knight, wizard, witch, queen, dragon, from Poland…",
+    "en": "Pick the missing word. Only words from the Starter section: name, prince, princess, knight, wizard, witch, queen, dragon, from Poland…"
   },
   "vocabulary": [
     { "word": "He is", "gloss": { "pl": "On jest", "en": "He is" } },
@@ -29,38 +29,94 @@
       "id": "en-pr-b01",
       "category": "be",
       "prompt": {
-        "pl": "Uzupełnij: _____ a teacher. (o mężczyźnie)",
-        "en": "Fill in: _____ a teacher. (about a man)"
+        "pl": "Uzupełnij: _____ a knight. (o mężczyźnie)",
+        "en": "Fill in: _____ a knight. (about a man)"
       },
       "options": ["He is", "She is", "His", "her"],
       "answer": "He is",
       "explanation": {
-        "pl": "He is = On jest. Mówimy o mężczyźnie.",
-        "en": "He is — for a man/boy."
+        "pl": "He is a knight. = On jest rycerzem.",
+        "en": "He is a knight."
       }
     },
     {
       "id": "en-pr-b02",
       "category": "be",
       "prompt": {
-        "pl": "Uzupełnij: _____ a teacher. (o kobiecie)",
-        "en": "Fill in: _____ a teacher. (about a woman)"
+        "pl": "Uzupełnij: _____ a princess. (o kobiecie)",
+        "en": "Fill in: _____ a princess. (about a woman)"
       },
       "options": ["She is", "He is", "His", "her"],
       "answer": "She is",
       "explanation": {
-        "pl": "She is = Ona jest. Mówimy o kobiecie.",
-        "en": "She is — for a woman/girl."
+        "pl": "She is a princess. = Ona jest księżniczką.",
+        "en": "She is a princess."
       }
     },
     {
       "id": "en-pr-b03",
       "category": "be",
       "prompt": {
+        "pl": "Uzupełnij: _____ a wizard. (on)",
+        "en": "Fill in: _____ a wizard. (he)"
+      },
+      "options": ["He is", "She is", "He isn't", "His"],
+      "answer": "He is",
+      "explanation": {
+        "pl": "He is a wizard. = On jest czarodziejem.",
+        "en": "He is a wizard."
+      }
+    },
+    {
+      "id": "en-pr-b04",
+      "category": "be",
+      "prompt": {
+        "pl": "Uzupełnij: _____ a witch. (ona)",
+        "en": "Fill in: _____ a witch. (she)"
+      },
+      "options": ["She is", "He is", "She isn't", "her"],
+      "answer": "She is",
+      "explanation": {
+        "pl": "She is a witch. = Ona jest czarownicą.",
+        "en": "She is a witch."
+      }
+    },
+    {
+      "id": "en-pr-b05",
+      "category": "be",
+      "prompt": {
+        "pl": "Uzupełnij: _____ a prince. (chłopiec)",
+        "en": "Fill in: _____ a prince. (boy)"
+      },
+      "options": ["He is", "She is", "His", "Is he"],
+      "answer": "He is",
+      "explanation": {
+        "pl": "He is a prince. = On jest księciem.",
+        "en": "He is a prince."
+      }
+    },
+    {
+      "id": "en-pr-b06",
+      "category": "be",
+      "prompt": {
+        "pl": "Uzupełnij: _____ a queen. (dziewczynka)",
+        "en": "Fill in: _____ a queen. (girl)"
+      },
+      "options": ["She is", "He is", "her", "Is she"],
+      "answer": "She is",
+      "explanation": {
+        "pl": "She is a queen. = Ona jest królową.",
+        "en": "She is a queen."
+      }
+    },
+    {
+      "id": "en-pr-b07",
+      "category": "be",
+      "prompt": {
         "pl": "Uzupełnij: _____ from Poland. (on)",
         "en": "Fill in: _____ from Poland. (he)"
       },
-      "options": ["He is", "She is", "He isn't", "His"],
+      "options": ["He is", "She is", "His", "her"],
       "answer": "He is",
       "explanation": {
         "pl": "He is from Poland. = On jest z Polski.",
@@ -68,58 +124,30 @@
       }
     },
     {
-      "id": "en-pr-b04",
+      "id": "en-pr-b08",
       "category": "be",
       "prompt": {
-        "pl": "Uzupełnij: _____ from Spain. (ona)",
-        "en": "Fill in: _____ from Spain. (she)"
+        "pl": "Uzupełnij: _____ from Germany. (ona)",
+        "en": "Fill in: _____ from Germany. (she)"
       },
-      "options": ["She is", "He is", "She isn't", "her"],
+      "options": ["She is", "He is", "His", "her"],
       "answer": "She is",
       "explanation": {
-        "pl": "She is from Spain. = Ona jest z Hiszpanii.",
-        "en": "She is from Spain."
-      }
-    },
-    {
-      "id": "en-pr-b05",
-      "category": "be",
-      "prompt": {
-        "pl": "Uzupełnij: _____ 8 years old. (chłopiec)",
-        "en": "Fill in: _____ 8 years old. (boy)"
-      },
-      "options": ["He is", "She is", "His", "Is he"],
-      "answer": "He is",
-      "explanation": {
-        "pl": "He is 8 years old. = On ma 8 lat.",
-        "en": "He is 8 years old."
-      }
-    },
-    {
-      "id": "en-pr-b06",
-      "category": "be",
-      "prompt": {
-        "pl": "Uzupełnij: _____ happy today. (dziewczynka)",
-        "en": "Fill in: _____ happy today. (girl)"
-      },
-      "options": ["She is", "He is", "her", "Is she"],
-      "answer": "She is",
-      "explanation": {
-        "pl": "She is happy today. = Ona jest dziś szczęśliwa.",
-        "en": "She is happy today."
+        "pl": "She is from Germany. = Ona jest z Niemiec.",
+        "en": "She is from Germany."
       }
     },
     {
       "id": "en-pr-p01",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: _____ name is Tom. (jego)",
-        "en": "Fill in: _____ name is Tom. (jego → his)"
+        "pl": "Uzupełnij: _____ name is Tom. (jego imię)",
+        "en": "Fill in: _____ name is Tom. (his)"
       },
       "options": ["His", "her", "He is", "She is"],
       "answer": "His",
       "explanation": {
-        "pl": "His name = jego imię. His = jego.",
+        "pl": "His name = jego imię.",
         "en": "His name = jego imię."
       }
     },
@@ -127,13 +155,13 @@
       "id": "en-pr-p02",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: _____ name is Anna. (jej)",
-        "en": "Fill in: _____ name is Anna. (jej → her)"
+        "pl": "Uzupełnij: _____ name is Anna. (jej imię)",
+        "en": "Fill in: _____ name is Anna. (her)"
       },
       "options": ["her", "His", "He is", "She is"],
       "answer": "her",
       "explanation": {
-        "pl": "her name = jej imię. her = jej.",
+        "pl": "her name = jej imię.",
         "en": "her name = jej imię."
       }
     },
@@ -141,308 +169,364 @@
       "id": "en-pr-p03",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: _____ bag is blue. (jego torba)",
-        "en": "Fill in: _____ bag is blue. (jego)"
+        "pl": "Uzupełnij: _____ name is Adrian. (jego)",
+        "en": "Fill in: _____ name is Adrian. (his)"
       },
       "options": ["His", "her", "He is", "He isn't"],
       "answer": "His",
       "explanation": {
-        "pl": "His bag = jego torba.",
-        "en": "His bag = jego torba."
+        "pl": "His name is Adrian.",
+        "en": "His name is Adrian."
       }
     },
     {
       "id": "en-pr-p04",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: _____ cat is black. (jej kot)",
-        "en": "Fill in: _____ cat is black. (jej)"
+        "pl": "Uzupełnij: _____ name is Aniela. (jej)",
+        "en": "Fill in: _____ name is Aniela. (her)"
       },
       "options": ["her", "His", "She is", "She isn't"],
       "answer": "her",
       "explanation": {
-        "pl": "her cat = jej kot.",
-        "en": "her cat = jej kot."
+        "pl": "Her name is Aniela.",
+        "en": "Her name is Aniela."
       }
     },
     {
       "id": "en-pr-p05",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: This is _____ brother. (jej brat)",
-        "en": "Fill in: This is _____ brother. (jej)"
+        "pl": "Uzupełnij: _____ favorite dragon is blue. (jego)",
+        "en": "Fill in: _____ favorite dragon is blue. (his)"
       },
-      "options": ["her", "His", "She is", "Is she"],
-      "answer": "her",
+      "options": ["His", "her", "He is", "Is he"],
+      "answer": "His",
       "explanation": {
-        "pl": "her brother = jej brat.",
-        "en": "her brother = jej brat."
+        "pl": "His favorite… = Jego ulubiony…",
+        "en": "His favorite dragon…"
       }
     },
     {
       "id": "en-pr-p06",
       "category": "possessive",
       "prompt": {
-        "pl": "Uzupełnij: This is _____ sister. (jego siostra)",
-        "en": "Fill in: This is _____ sister. (jego)"
+        "pl": "Uzupełnij: _____ favorite princess is Aniela. (jej)",
+        "en": "Fill in: _____ favorite princess is Aniela. (her)"
       },
-      "options": ["His", "her", "He is", "Is he"],
-      "answer": "His",
+      "options": ["her", "His", "She is", "Is she"],
+      "answer": "her",
       "explanation": {
-        "pl": "His sister = jego siostra.",
-        "en": "His sister = jego siostra."
+        "pl": "her favorite… = Jej ulubiona…",
+        "en": "her favorite princess…"
       }
     },
     {
       "id": "en-pr-n01",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ at home. (on nie jest)",
-        "en": "Fill in: _____ at home. (on nie jest)"
+        "pl": "Uzupełnij: _____ a knight. (on — nie)",
+        "en": "Fill in: _____ a knight. (he — no)"
       },
       "options": ["He isn't", "She isn't", "He is", "His"],
       "answer": "He isn't",
       "explanation": {
-        "pl": "He isn't = On nie jest. (isn't = is not)",
-        "en": "He isn't = He is not."
+        "pl": "He isn't a knight. = On nie jest rycerzem.",
+        "en": "He isn't a knight."
       }
     },
     {
       "id": "en-pr-n02",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ at school. (ona nie jest)",
-        "en": "Fill in: _____ at school. (ona nie jest)"
+        "pl": "Uzupełnij: _____ a princess. (ona — nie)",
+        "en": "Fill in: _____ a princess. (she — no)"
       },
       "options": ["She isn't", "He isn't", "She is", "her"],
       "answer": "She isn't",
       "explanation": {
-        "pl": "She isn't = Ona nie jest.",
-        "en": "She isn't = She is not."
+        "pl": "She isn't a princess. = Ona nie jest księżniczką.",
+        "en": "She isn't a princess."
       }
     },
     {
       "id": "en-pr-n03",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ a doctor. (on — przeczenie)",
-        "en": "Fill in: _____ a doctor. (he — negative)"
+        "pl": "Uzupełnij: _____ a wizard. (on — przeczenie)",
+        "en": "Fill in: _____ a wizard. (he — negative)"
       },
       "options": ["He isn't", "She isn't", "He is", "Is he"],
       "answer": "He isn't",
       "explanation": {
-        "pl": "He isn't a doctor. = On nie jest lekarzem.",
-        "en": "He isn't a doctor."
+        "pl": "He isn't a wizard.",
+        "en": "He isn't a wizard."
       }
     },
     {
       "id": "en-pr-n04",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ tired. (ona — przeczenie)",
-        "en": "Fill in: _____ tired. (she — negative)"
+        "pl": "Uzupełnij: _____ a witch. (ona — przeczenie)",
+        "en": "Fill in: _____ a witch. (she — negative)"
       },
       "options": ["She isn't", "He isn't", "She is", "Is she"],
       "answer": "She isn't",
       "explanation": {
-        "pl": "She isn't tired. = Ona nie jest zmęczona.",
-        "en": "She isn't tired."
+        "pl": "She isn't a witch.",
+        "en": "She isn't a witch."
       }
     },
     {
       "id": "en-pr-n05",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ from Germany. (on — nie)",
-        "en": "Fill in: _____ from Germany. (he — no)"
+        "pl": "Uzupełnij: _____ from Poland. (on — nie)",
+        "en": "Fill in: _____ from Poland. (he — no)"
       },
       "options": ["He isn't", "She isn't", "His", "He is"],
       "answer": "He isn't",
       "explanation": {
-        "pl": "He isn't from Germany. = On nie jest z Niemiec.",
-        "en": "He isn't from Germany."
+        "pl": "He isn't from Poland.",
+        "en": "He isn't from Poland."
       }
     },
     {
       "id": "en-pr-n06",
       "category": "negative",
       "prompt": {
-        "pl": "Uzupełnij: _____ my sister. (ona — nie)",
-        "en": "Fill in: _____ my sister. (she — no)"
+        "pl": "Uzupełnij: _____ a queen. (ona — nie)",
+        "en": "Fill in: _____ a queen. (she — no)"
       },
       "options": ["She isn't", "He isn't", "her", "She is"],
       "answer": "She isn't",
       "explanation": {
-        "pl": "She isn't my sister. = Ona nie jest moją siostrą.",
-        "en": "She isn't my sister."
+        "pl": "She isn't a queen.",
+        "en": "She isn't a queen."
       }
     },
     {
       "id": "en-pr-q01",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ a student? (o chłopcu)",
-        "en": "Question — fill in: _____ a student? (boy)"
+        "pl": "Pytanie — uzupełnij: _____ a prince?",
+        "en": "Question — fill in: _____ a prince?"
       },
       "options": ["Is he", "Is she", "He is", "She is"],
       "answer": "Is he",
       "explanation": {
-        "pl": "Is he…? = Czy on jest…? W pytaniu: Is + he.",
-        "en": "Questions: Is he…?"
+        "pl": "Is he a prince? = Czy on jest księciem?",
+        "en": "Is he a prince?"
       }
     },
     {
       "id": "en-pr-q02",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ a student? (o dziewczynce)",
-        "en": "Question — fill in: _____ a student? (girl)"
+        "pl": "Pytanie — uzupełnij: _____ a princess?",
+        "en": "Question — fill in: _____ a princess?"
       },
       "options": ["Is she", "Is he", "She is", "He is"],
       "answer": "Is she",
       "explanation": {
-        "pl": "Is she…? = Czy ona jest…? W pytaniu: Is + she.",
-        "en": "Questions: Is she…?"
+        "pl": "Is she a princess? = Czy ona jest księżniczką?",
+        "en": "Is she a princess?"
       }
     },
     {
       "id": "en-pr-q03",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ your brother?",
-        "en": "Question — fill in: _____ your brother?"
+        "pl": "Pytanie — uzupełnij: _____ a knight?",
+        "en": "Question — fill in: _____ a knight?"
       },
       "options": ["Is he", "Is she", "He is", "His"],
       "answer": "Is he",
       "explanation": {
-        "pl": "Is he your brother? = Czy on jest twoim bratem?",
-        "en": "Is he your brother?"
+        "pl": "Is he a knight?",
+        "en": "Is he a knight?"
       }
     },
     {
       "id": "en-pr-q04",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ your sister?",
-        "en": "Question — fill in: _____ your sister?"
+        "pl": "Pytanie — uzupełnij: _____ a witch?",
+        "en": "Question — fill in: _____ a witch?"
       },
       "options": ["Is she", "Is he", "She is", "her"],
       "answer": "Is she",
       "explanation": {
-        "pl": "Is she your sister? = Czy ona jest twoją siostrą?",
-        "en": "Is she your sister?"
+        "pl": "Is she a witch?",
+        "en": "Is she a witch?"
       }
     },
     {
       "id": "en-pr-q05",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ from Italy? (o mężczyźnie)",
-        "en": "Question — fill in: _____ from Italy? (man)"
+        "pl": "Pytanie — uzupełnij: _____ a wizard?",
+        "en": "Question — fill in: _____ a wizard?"
       },
       "options": ["Is he", "Is she", "He isn't", "He is"],
       "answer": "Is he",
       "explanation": {
-        "pl": "Is he from Italy? — pytanie o mężczyznę.",
-        "en": "Is he from Italy?"
+        "pl": "Is he a wizard?",
+        "en": "Is he a wizard?"
       }
     },
     {
       "id": "en-pr-q06",
       "category": "question",
       "prompt": {
-        "pl": "Pytanie — uzupełnij: _____ happy? (o kobiecie)",
-        "en": "Question — fill in: _____ happy? (woman)"
+        "pl": "Pytanie — uzupełnij: _____ a queen?",
+        "en": "Question — fill in: _____ a queen?"
       },
       "options": ["Is she", "Is he", "She isn't", "She is"],
       "answer": "Is she",
       "explanation": {
-        "pl": "Is she happy? — pytanie o kobietę.",
-        "en": "Is she happy?"
+        "pl": "Is she a queen?",
+        "en": "Is she a queen?"
       }
     },
     {
-      "id": "en-pr-m01",
-      "category": "be",
-      "prompt": {
-        "pl": "Wybierz poprawne uzupełnienie: _____ my friend. (chłopak)",
-        "en": "Choose: _____ my friend. (boy)"
-      },
-      "options": ["He is", "She is", "His", "Is he"],
-      "answer": "He is",
-      "explanation": {
-        "pl": "Zdanie twierdzące: He is… Pytanie byłoby: Is he…?",
-        "en": "Statement: He is… Question: Is he…?"
-      }
-    },
-    {
-      "id": "en-pr-m02",
+      "id": "en-pr-q07",
       "category": "question",
       "prompt": {
-        "pl": "To pytanie o dziewczynkę. Uzupełnij: _____ your friend?",
-        "en": "This asks about a girl. Fill in: _____ your friend?"
+        "pl": "Pytanie o imię — uzupełnij: What's _____ name? (jego)",
+        "en": "About a name — fill in: What's _____ name? (his)"
       },
-      "options": ["Is she", "She is", "her", "Is he"],
-      "answer": "Is she",
+      "options": ["his", "her", "He is", "Is he"],
+      "answer": "his",
       "explanation": {
-        "pl": "Pytanie → Is she…? Nie: She is… (to zdanie).",
-        "en": "Question form: Is she…? Not: She is…"
+        "pl": "What's his name? = Jak on ma na imię?",
+        "en": "What's his name?"
       }
     },
     {
-      "id": "en-pr-m03",
-      "category": "possessive",
+      "id": "en-pr-q08",
+      "category": "question",
       "prompt": {
-        "pl": "Uzupełnij: _____ favorite color is green. (jego)",
-        "en": "Fill in: _____ favorite color is green. (jego)"
+        "pl": "Pytanie o imię — uzupełnij: What's _____ name? (jej)",
+        "en": "About a name — fill in: What's _____ name? (her)"
       },
-      "options": ["His", "her", "He is", "He isn't"],
-      "answer": "His",
-      "explanation": {
-        "pl": "His favorite… = Jego ulubiony…",
-        "en": "His = jego (possessive)."
-      }
-    },
-    {
-      "id": "en-pr-m04",
-      "category": "possessive",
-      "prompt": {
-        "pl": "Uzupełnij: _____ favorite color is red. (jej)",
-        "en": "Fill in: _____ favorite color is red. (jej)"
-      },
-      "options": ["her", "His", "She is", "She isn't"],
+      "options": ["her", "his", "She is", "Is she"],
       "answer": "her",
       "explanation": {
-        "pl": "her favorite… = Jej ulubiony…",
-        "en": "her = jej (possessive)."
+        "pl": "What's her name? = Jak ona ma na imię?",
+        "en": "What's her name?"
       }
     },
     {
-      "id": "en-pr-m05",
-      "category": "negative",
+      "id": "en-pr-y01",
+      "category": "yesno",
       "prompt": {
-        "pl": "Przeczenie o chłopcu: _____ hungry.",
-        "en": "Negative about a boy: _____ hungry."
+        "pl": "Is he a prince?\n\nOdpowiedź: tak / jest",
+        "en": "Is he a prince?\n\nAnswer: yes"
       },
-      "options": ["He isn't", "She isn't", "He is", "Is he"],
-      "answer": "He isn't",
+      "options": ["Yes, he is.", "No, he isn't.", "Yes, she is.", "No, she isn't."],
+      "answer": "Yes, he is.",
       "explanation": {
-        "pl": "He isn't hungry. = On nie jest głodny.",
-        "en": "He isn't = He is not."
+        "pl": "Tak → Yes, he is.",
+        "en": "Yes, he is."
       }
     },
     {
-      "id": "en-pr-m06",
-      "category": "negative",
+      "id": "en-pr-y02",
+      "category": "yesno",
       "prompt": {
-        "pl": "Przeczenie o dziewczynce: _____ ready.",
-        "en": "Negative about a girl: _____ ready."
+        "pl": "Is she a princess?\n\nOdpowiedź: nie / nie jest",
+        "en": "Is she a princess?\n\nAnswer: no"
       },
-      "options": ["She isn't", "He isn't", "She is", "Is she"],
-      "answer": "She isn't",
+      "options": ["No, she isn't.", "Yes, she is.", "No, he isn't.", "Yes, he is."],
+      "answer": "No, she isn't.",
       "explanation": {
-        "pl": "She isn't ready. = Ona nie jest gotowa.",
-        "en": "She isn't = She is not."
+        "pl": "Nie → No, she isn't.",
+        "en": "No, she isn't."
+      }
+    },
+    {
+      "id": "en-pr-y03",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is he a knight?\n\nOdpowiedź: nie",
+        "en": "Is he a knight?\n\nAnswer: no"
+      },
+      "options": ["No, he isn't.", "No, she isn't.", "Yes, he is.", "Yes, she is."],
+      "answer": "No, he isn't.",
+      "explanation": {
+        "pl": "Nie → No, he isn't.",
+        "en": "No, he isn't."
+      }
+    },
+    {
+      "id": "en-pr-y04",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is she a witch?\n\nOdpowiedź: tak",
+        "en": "Is she a witch?\n\nAnswer: yes"
+      },
+      "options": ["Yes, she is.", "Yes, he is.", "No, she isn't.", "No, he isn't."],
+      "answer": "Yes, she is.",
+      "explanation": {
+        "pl": "Tak → Yes, she is.",
+        "en": "Yes, she is."
+      }
+    },
+    {
+      "id": "en-pr-y05",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is he a wizard?\n\nOdpowiedź: tak",
+        "en": "Is he a wizard?\n\nAnswer: yes"
+      },
+      "options": ["Yes, he is.", "Yes, she is.", "No, he isn't.", "No, she isn't."],
+      "answer": "Yes, he is.",
+      "explanation": {
+        "pl": "Tak → Yes, he is.",
+        "en": "Yes, he is."
+      }
+    },
+    {
+      "id": "en-pr-y06",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is she a queen?\n\nOdpowiedź: nie",
+        "en": "Is she a queen?\n\nAnswer: no"
+      },
+      "options": ["No, she isn't.", "No, he isn't.", "Yes, she is.", "Yes, he is."],
+      "answer": "No, she isn't.",
+      "explanation": {
+        "pl": "Nie → No, she isn't.",
+        "en": "No, she isn't."
+      }
+    },
+    {
+      "id": "en-pr-y07",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is he from Poland?\n\nOdpowiedź: tak",
+        "en": "Is he from Poland?\n\nAnswer: yes"
+      },
+      "options": ["Yes, he is.", "No, he isn't.", "Yes, she is.", "No, she isn't."],
+      "answer": "Yes, he is.",
+      "explanation": {
+        "pl": "Tak → Yes, he is.",
+        "en": "Yes, he is."
+      }
+    },
+    {
+      "id": "en-pr-y08",
+      "category": "yesno",
+      "prompt": {
+        "pl": "Is she from France?\n\nOdpowiedź: nie",
+        "en": "Is she from France?\n\nAnswer: no"
+      },
+      "options": ["No, she isn't.", "Yes, she is.", "No, he isn't.", "Yes, he is."],
+      "answer": "No, she isn't.",
+      "explanation": {
+        "pl": "Nie → No, she isn't.",
+        "en": "No, she isn't."
       }
     }
   ]

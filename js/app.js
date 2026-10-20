@@ -238,7 +238,7 @@ function renderDashboard() {
       <div class="actions">
         <button class="btn primary" data-action="go" data-tab="reading">${esc(tr('navReading'))} →</button>
         <button class="btn secondary" data-action="go" data-tab="tests">${esc(tr('navTests'))}</button>
-        ${state.targetLang === 'en' && englishStarterPack() ? `<button class="btn secondary" data-action="start-starter" data-size="all">${esc(tr('starterShort'))}</button>` : ''}
+        ${packsForLang(state.targetLang)[0] ? `<button class="btn secondary" data-action="start-pack" data-pack="${esc(packsForLang(state.targetLang)[0].id)}" data-size="all">${esc(tr(state.targetLang === 'de' ? 'deStarterShort' : 'starterShort'))}</button>` : ''}
       </div>
     </div>
     <div class="card"><h2 class="section-title">${esc(tr('byLevel'))}</h2>${levelBars(state.targetLang)}</div>
@@ -565,7 +565,10 @@ function renderVocab() {
   </div></aside></div>`;
 }
 
-const EN_PACK_ORDER = ['en-starter', 'en-pronouns'];
+const PACKS_BY_LANG = {
+  en: ['en-starter', 'en-pronouns'],
+  de: ['de-starter', 'de-pronouns'],
+};
 
 function getPack(packId) {
   return content.packs?.[packId] || null;
@@ -575,8 +578,15 @@ function englishStarterPack() {
   return getPack('en-starter');
 }
 
+function packsForLang(lang = state.targetLang) {
+  return (PACKS_BY_LANG[lang] || []).map((id) => getPack(id)).filter(Boolean);
+}
+
 function packBadgeKey(packId) {
-  return packId === 'en-pronouns' ? 'pronounsBadge' : 'starterBadge';
+  if (packId === 'en-pronouns') return 'enPronounsBadge';
+  if (packId === 'de-pronouns') return 'dePronounsBadge';
+  if (packId === 'de-starter') return 'deStarterBadge';
+  return 'starterBadge';
 }
 
 function renderStarterScoreChart(chart) {
@@ -662,20 +672,8 @@ function renderOnePackSection(pack) {
 }
 
 function renderStarterPackCard() {
-  // English A0 packs are always listed on Tests; starting one switches target to EN.
-  const sections = EN_PACK_ORDER.map((id) => getPack(id)).filter(Boolean).map(renderOnePackSection);
-  if (!sections.length) return '';
-  if (state.targetLang !== 'en') {
-    return `<div class="card" style="margin-bottom:18px">
-      <div class="micro">${esc(tr('starterBadge'))}</div>
-      <h2 class="section-title" style="margin-top:8px">${esc(tr('enPacksHintTitle'))}</h2>
-      <p class="muted">${esc(tr('enPacksHint'))}</p>
-      <div class="actions">
-        <button class="btn primary" data-action="select-target" data-lang="en">${esc(tr('switchToEnglish'))}</button>
-      </div>
-    </div>${sections.join('')}`;
-  }
-  return sections.join('');
+  // Show A0 packs for the current study language (EN / DE).
+  return packsForLang(state.targetLang).map(renderOnePackSection).join('');
 }
 
 function unfinishedSessionBanner() {
@@ -1057,8 +1055,13 @@ function startStarterPack(size = 'all', mode = 'full', packId = 'en-starter') {
     toast(tr('noData'));
     return;
   }
-  if (state.targetLang !== 'en') {
-    state.targetLang = 'en';
+  const packLang = pack.targetLang || 'en';
+  if (state.targetLang !== packLang) {
+    if (packLang === state.referenceLang) {
+      toast(tr('langConflict'));
+      return;
+    }
+    state.targetLang = packLang;
     persist();
   }
   const progress = computeStarterProgress(
