@@ -22,6 +22,7 @@ import {
   generateStarterTest, packTitle, packDescription, summarizeStarterAttempt,
   computeStarterProgress,
 } from './starter-pack.js';
+import { playSoftFanfare, starBurstHtml } from './celebrate.js';
 import { t, weekDayNames, planFor } from './i18n.js';
 import {
   filterFairytales, vocabularyByPos, generateFairyWordQuiz, fullTranslationText,
@@ -52,6 +53,7 @@ let cardIndex = 0;
 let showCardBack = false;
 let activeTest = null;
 let testAnswers = {};
+let testStep = 0;
 let testStartedAt = 0;
 let historyFilter = { lang: 'all', level: 'all', type: 'all' };
 let openAttemptId = null;
@@ -678,33 +680,70 @@ function hasMcOptions(q) {
   return Array.isArray(q.options) && q.options.length > 0;
 }
 
+function useSteppedTest(test) {
+  if (!test?.questions?.length) return false;
+  if (test.multipleChoiceOnly || test.type === 'starter') return true;
+  return test.questions.every((q) => hasMcOptions(q));
+}
+
+function renderQuestionBody(q, selected) {
+  if (hasMcOptions(q) || q.type === 'mc_vocab' || q.type === 'mc_choice' || q.type === 'listening') {
+    let body = `<div class="test-options">${(q.options || []).map((opt) => {
+      const on = selected === opt ? 'selected' : '';
+      return `<button type="button" class="test-option ${on}" data-action="test-pick" data-value="${esc(opt)}"><span>${esc(opt)}</span></button>`;
+    }).join('')}</div>`;
+    if (q.type === 'listening' && q.meta?.listenText) {
+      body = `<button type="button" class="btn secondary" data-action="speak-test" data-text="${esc(q.meta.listenText)}" data-lang="${esc(q.meta.targetLang)}">▶</button>${body}`;
+    }
+    return body;
+  }
+  if (q.type === 'reorder') {
+    return `<p class="muted">${esc((q.prompt.tokens || []).join(' / '))}</p>
+      <input class="field" id="step-answer" value="${esc(selected || '')}" placeholder="…" autocomplete="off">`;
+  }
+  return `<input class="field" id="step-answer" value="${esc(selected || '')}" placeholder="…" autocomplete="off">`;
+}
+
 function renderTestRunner() {
   const test = activeTest.test;
+  const total = test.questions.length;
+  const step = Math.min(Math.max(0, testStep), total - 1);
+  const q = test.questions[step];
+  const selected = testAnswers[q.id] || '';
+  const pct = Math.round(((step) / total) * 100);
+  const isLast = step >= total - 1;
+  const canNext = hasMcOptions(q) ? !!selected : true;
   const mcOnly = !!test.multipleChoiceOnly || test.type === 'starter';
-  return `<div class="card"><div class="micro">${esc(test.type)} · ${esc(test.targetLang)}${mcOnly ? ` · ${esc(tr('mcOnly'))}` : ''}</div>
-    <h2 class="section-title">${esc(tr('questions'))}: ${test.questions.length}</h2>
-    ${test.diagnosticNote ? `<div class="notice">${esc(tr('diagnosticNote'))}</div>` : ''}
-    <form id="test-form" class="stack" style="gap:16px;margin-top:12px">
-      ${test.questions.map((q, i) => {
-    let body = '';
-    if (hasMcOptions(q) || q.type === 'mc_vocab' || q.type === 'mc_choice' || q.type === 'listening') {
-      body = `<div class="test-options">${(q.options || []).map((opt) => `<label class="test-option"><input type="radio" name="${q.id}" value="${esc(opt)}" required><span>${esc(opt)}</span></label>`).join('')}</div>`;
-      if (q.type === 'listening' && q.meta?.listenText) {
-        body = `<button type="button" class="btn secondary" data-action="speak-test" data-text="${esc(q.meta.listenText)}" data-lang="${esc(q.meta.targetLang)}">▶</button>${body}`;
-      }
-    } else if (mcOnly) {
-      body = `<div class="notice">${esc(tr('mcOnly'))}</div>`;
-    } else if (q.type === 'reorder') {
-      body = `<p class="muted">${esc((q.prompt.tokens || []).join(' / '))}</p><input class="field" name="${q.id}" placeholder="…">`;
-    } else {
-      body = `<input class="field" name="${q.id}" placeholder="…">`;
-    }
-    const promptText = q.prompt?.text || '';
-    const cat = q.meta?.category || q.type;
-    return `<div class="card" style="padding:16px"><div class="micro">${i + 1}. ${esc(cat)}</div><p class="test-prompt"><strong>${esc(promptText).replace(/\n/g, '<br>')}</strong></p>${body}</div>`;
-  }).join('')}
-      <button class="btn primary" type="submit">${esc(tr('showSummary'))}</button>
-    </form>
+  const promptText = q.prompt?.text || '';
+  const cat = q.meta?.category || q.type;
+
+  if (!useSteppedTest(test)) {
+    // Fallback: classic full form for unusual mix (kept rare)
+    return `<div class="card"><div class="micro">${esc(test.type)}</div>
+      <form id="test-form" class="stack" style="gap:16px;margin-top:12px">
+        ${test.questions.map((qq, i) => `<div class="card" style="padding:16px"><div class="micro">${i + 1}</div>
+          <p class="test-prompt"><strong>${esc(qq.prompt?.text || '').replace(/\n/g, '<br>')}</strong></p>
+          ${hasMcOptions(qq)
+    ? `<div class="test-options">${qq.options.map((opt) => `<label class="test-option"><input type="radio" name="${qq.id}" value="${esc(opt)}"><span>${esc(opt)}</span></label>`).join('')}</div>`
+    : `<input class="field" name="${qq.id}">`}
+        </div>`).join('')}
+        <button class="btn primary" type="submit">${esc(tr('showSummary'))}</button>
+      </form></div>`;
+  }
+
+  return `<div class="card test-step-card">
+    <div class="micro">${esc(test.type)} · ${esc(test.targetLang)}${mcOnly ? ` · ${esc(tr('mcOnly'))}` : ''}</div>
+    <div class="test-step-meta">
+      <span>${esc(tr('questionOf'))} <b>${step + 1}</b> / ${total}</span>
+      <span class="badge">${esc(cat)}</span>
+    </div>
+    <div class="bar test-step-bar"><div style="width:${pct}%"></div></div>
+    <p class="test-prompt test-step-prompt"><strong>${esc(promptText).replace(/\n/g, '<br>')}</strong></p>
+    ${renderQuestionBody(q, selected)}
+    <div class="actions test-step-actions">
+      <button class="btn secondary" data-action="test-prev" ${step === 0 ? 'disabled' : ''}>${esc(tr('prevQuestion'))}</button>
+      <button class="btn primary" data-action="test-next" ${canNext ? '' : 'disabled'}>${isLast ? esc(tr('finishTest')) : esc(tr('nextQuestion'))}</button>
+    </div>
   </div>`;
 }
 
@@ -715,9 +754,17 @@ function renderTestResult(attempt) {
   const summary = attempt.type === 'starter' && pack
     ? summarizeStarterAttempt(attempt, pack, state.interfaceLang)
     : null;
-  return `<div class="card">
+  const celebrate = !!activeTest?.celebrate;
+  const showMistakes = !!activeTest?.showMistakes;
+  const stars = attempt.scorePercent >= 50 ? 3 : attempt.scorePercent >= 30 ? 2 : 1;
+  return `<div class="card result-card ${celebrate ? 'celebrate-on' : ''}">
+    ${celebrate ? `<div class="celeb-sky" aria-hidden="true">${starBurstHtml(10)}</div>` : ''}
     <div class="micro">${esc(tr('testSummary'))}</div>
-    <h2 class="section-title">${attempt.scorePercent}%</h2>
+    <div class="result-hero">
+      <div class="result-stars" aria-hidden="true">${'★'.repeat(stars)}${'☆'.repeat(Math.max(0, 3 - stars))}</div>
+      <h2 class="section-title result-score">${attempt.scorePercent}%</h2>
+      <p class="muted">${esc(tr('wellDone'))}</p>
+    </div>
     ${summary ? `<p class="notice">${esc(summary.message)}</p>
       <div class="statgrid">
         <div class="stat"><b>${summary.correct}/${summary.total}</b><span>OK</span></div>
@@ -732,12 +779,17 @@ function renderTestResult(attempt) {
       <div class="stat"><b>${attempt.mistakes.length}</b><span>✗</span></div>
     </div>`}
     ${est ? `<div class="notice">${esc(tr('estimateNotCert'))}: ${est}</div>` : ''}
-    <h3 class="subheading">${esc(tr('reviewMistakes'))}</h3>
-    ${attempt.answers.map((a, i) => `<div class="qa"><strong>${i + 1}. ${a.correct ? '✓' : '✗'}</strong>
-      <p class="test-prompt">${esc(a.prompt?.text || '').replace(/\n/g, '<br>')}</p>
-      <p class="muted">${esc(tr('yourAnswer'))}: ${esc(a.userAnswer || '—')} · ${esc(tr('correctAnswer'))}: ${esc((a.expected || [])[0] || '')}</p>
-      ${a.explanation ? `<p class="qa-answer">${esc(a.explanation)}</p>` : ''}
-    </div>`).join('')}
+    <div class="actions" style="margin-top:16px">
+      <button class="btn primary" data-action="toggle-mistakes">${showMistakes ? esc(tr('hideMistakes')) : esc(tr('showMistakes'))}</button>
+    </div>
+    ${showMistakes ? `<div id="mistakes-panel" class="mistakes-panel">
+      <h3 class="subheading">${esc(tr('reviewMistakes'))}</h3>
+      ${attempt.answers.map((a, i) => `<div class="qa ${a.correct ? 'qa-ok' : 'qa-bad'}"><strong>${i + 1}. ${a.correct ? '✓' : '✗'}</strong>
+        <p class="test-prompt">${esc(a.prompt?.text || '').replace(/\n/g, '<br>')}</p>
+        <p class="muted">${esc(tr('yourAnswer'))}: ${esc(a.userAnswer || '—')}${a.correct ? '' : ` · ${esc(tr('correctAnswer'))}: ${esc((a.expected || [])[0] || '')}`}</p>
+        ${!a.correct && a.explanation ? `<p class="qa-answer">${esc(a.explanation)}</p>` : ''}
+      </div>`).join('')}
+    </div>` : ''}
     ${areas.length && !summary ? `<p class="muted">${areas.map((a) => `${a.type}: ${a.count}`).join(' · ')}</p>` : ''}
     <div class="actions">
       ${attempt.type === 'starter' ? `
@@ -909,12 +961,14 @@ function startConfiguredTest(cfg) {
     toast(tr('notEnoughQuestions'));
     return;
   }
-  activeTest = { test: result.test, completed: false };
+  activeTest = { test: result.test, completed: false, celebrate: false, showMistakes: false };
   testAnswers = {};
+  testStep = 0;
   testStartedAt = Date.now();
   touchStudy();
   persist();
   render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function startStarterPack(size = 'all', mode = 'full') {
@@ -945,8 +999,9 @@ function startStarterPack(size = 'all', mode = 'full') {
     toast(mode === 'weak' ? tr('noWeakYet') : tr('notEnoughQuestions'));
     return;
   }
-  activeTest = { test: result.test, completed: false };
+  activeTest = { test: result.test, completed: false, celebrate: false, showMistakes: false };
   testAnswers = {};
+  testStep = 0;
   testStartedAt = Date.now();
   openAttemptId = null;
   tab = 'tests';
@@ -954,6 +1009,35 @@ function startStarterPack(size = 'all', mode = 'full') {
   persist();
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function captureStepAnswer() {
+  if (!activeTest?.test) return;
+  const q = activeTest.test.questions[testStep];
+  if (!q) return;
+  if (hasMcOptions(q)) return;
+  const inp = $('#step-answer');
+  if (inp) testAnswers[q.id] = inp.value;
+}
+
+function finishSteppedTest() {
+  captureStepAnswer();
+  const attempt = scoreTest(activeTest.test, testAnswers, testStartedAt);
+  state.testAttempts.push(attempt);
+  openAttemptId = null;
+  activeTest = { completed: true, attempt, celebrate: true, showMistakes: false };
+  persist();
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  try { playSoftFanfare(); } catch { /* ignore */ }
+  // Keep stars visible, then settle
+  setTimeout(() => {
+    if (activeTest?.completed) {
+      activeTest.celebrate = false;
+      const sky = document.querySelector('.celeb-sky');
+      if (sky) sky.classList.add('celeb-done');
+    }
+  }, 2800);
 }
 
 function finishTest(form) {
@@ -965,10 +1049,11 @@ function finishTest(form) {
   const attempt = scoreTest(activeTest.test, answers, testStartedAt);
   state.testAttempts.push(attempt);
   openAttemptId = null;
-  activeTest = { completed: true, attempt };
+  activeTest = { completed: true, attempt, celebrate: true, showMistakes: false };
   persist();
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  try { playSoftFanfare(); } catch { /* ignore */ }
 }
 
 function bindEvents() {
@@ -1192,6 +1277,40 @@ function bindEvents() {
         startStarterPack(btn.dataset.size || 'all', 'full');
       } else if (action === 'start-starter-weak') {
         startStarterPack('all', 'weak');
+      } else if (action === 'test-pick') {
+        if (!activeTest?.test || activeTest.completed) return;
+        const q = activeTest.test.questions[testStep];
+        if (!q) return;
+        testAnswers[q.id] = btn.dataset.value || '';
+        render();
+      } else if (action === 'test-next') {
+        if (!activeTest?.test || activeTest.completed) return;
+        captureStepAnswer();
+        const q = activeTest.test.questions[testStep];
+        if (hasMcOptions(q) && !testAnswers[q.id]) {
+          toast(tr('pickAnswerFirst'));
+          return;
+        }
+        if (testStep >= activeTest.test.questions.length - 1) {
+          finishSteppedTest();
+        } else {
+          testStep += 1;
+          render();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      } else if (action === 'test-prev') {
+        if (!activeTest?.test || activeTest.completed || testStep <= 0) return;
+        captureStepAnswer();
+        testStep -= 1;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (action === 'toggle-mistakes') {
+        if (!activeTest?.completed) return;
+        activeTest.showMistakes = !activeTest.showMistakes;
+        render();
+        if (activeTest.showMistakes) {
+          setTimeout(() => document.getElementById('mistakes-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+        }
       } else if (action === 'clear-test') {
         activeTest = null;
         openAttemptId = null;
@@ -1201,7 +1320,7 @@ function bindEvents() {
         const attempt = state.testAttempts.find((a) => a.id === openAttemptId);
         if (attempt?.type === 'starter') {
           // Review starter run on the Tests screen (with pack progress nearby after close)
-          activeTest = { completed: true, attempt };
+          activeTest = { completed: true, attempt, celebrate: false, showMistakes: true };
           tab = 'tests';
         } else {
           activeTest = null;
