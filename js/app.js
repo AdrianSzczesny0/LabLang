@@ -1581,8 +1581,26 @@ function bindEvents() {
   });
 }
 
+/** Drop obsolete SW caches that still hold old test packs (e.g. doctor/teacher questions). */
+async function purgeStaleAppCaches() {
+  const current = 'langlab-offline-v4.1';
+  if (!('caches' in window)) return false;
+  const keys = await caches.keys();
+  const stale = keys.filter((k) => k.startsWith('langlab-offline-') && k !== current);
+  await Promise.all(stale.map((k) => caches.delete(k)));
+  return stale.length > 0;
+}
+
 async function start() {
   try {
+    // One reload after purging old offline caches so packs load fresh
+    const purged = await purgeStaleAppCaches();
+    if (purged && !sessionStorage.getItem('ll-cache-purged-v41')) {
+      sessionStorage.setItem('ll-cache-purged-v41', '1');
+      location.reload();
+      return;
+    }
+
     content = await loadAllContent();
     const invalid = TARGET_LANGS.filter((l) => !content.validation[l]?.stories?.ok);
     if (invalid.length) console.warn('Content validation issues', invalid.map((l) => content.validation[l]));
