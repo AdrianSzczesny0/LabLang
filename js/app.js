@@ -565,8 +565,18 @@ function renderVocab() {
   </div></aside></div>`;
 }
 
+const EN_PACK_ORDER = ['en-starter', 'en-pronouns'];
+
+function getPack(packId) {
+  return content.packs?.[packId] || null;
+}
+
 function englishStarterPack() {
-  return content.packs?.['en-starter'] || null;
+  return getPack('en-starter');
+}
+
+function packBadgeKey(packId) {
+  return packId === 'en-pronouns' ? 'pronounsBadge' : 'starterBadge';
 }
 
 function renderStarterScoreChart(chart) {
@@ -583,10 +593,8 @@ function renderStarterScoreChart(chart) {
     <p class="muted" style="font-size:12px;margin:8px 0 0">${esc(tr('tapBarHint'))}</p>`;
 }
 
-function renderStarterPackCard() {
-  if (state.targetLang !== 'en') return '';
-  const pack = englishStarterPack();
-  if (!pack) return '';
+function renderOnePackSection(pack) {
+  const packId = pack.id;
   const title = packTitle(pack, state.interfaceLang, state.referenceLang);
   const desc = packDescription(pack, state.interfaceLang, state.referenceLang);
   const n = pack.questions?.length || 0;
@@ -601,16 +609,16 @@ function renderStarterPackCard() {
     : 0;
   const weakCount = progress.weakSourceIds.length;
 
-  return `<div class="stack" style="margin-bottom:18px;gap:18px">
+  return `<div class="stack pack-section" style="margin-bottom:18px;gap:18px">
     <div class="card warm">
-      <div class="micro">${esc(tr('starterBadge'))}</div>
+      <div class="micro">${esc(tr(packBadgeKey(packId)))}</div>
       <h2 class="section-title" style="margin-top:10px">${esc(title)}</h2>
       <p class="muted">${esc(desc)}</p>
       <p class="muted" style="font-size:13px">${n} ${esc(tr('questions'))} · ${esc(tr('mcOnly'))}</p>
       <div class="actions">
-        <button class="btn primary" data-action="start-starter" data-size="all">${esc(tr('startStarterAll'))}</button>
-        <button class="btn secondary" data-action="start-starter" data-size="10">${esc(tr('startStarter10'))}</button>
-        <button class="btn secondary" data-action="start-starter-weak" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}${weakCount ? ` (${weakCount})` : ''}</button>
+        <button class="btn primary" data-action="start-pack" data-pack="${esc(packId)}" data-size="all">${esc(tr('startStarterAll'))}</button>
+        <button class="btn secondary" data-action="start-pack" data-pack="${esc(packId)}" data-size="10">${esc(tr('startStarter10'))}</button>
+        <button class="btn secondary" data-action="start-pack-weak" data-pack="${esc(packId)}" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}${weakCount ? ` (${weakCount})` : ''}</button>
       </div>
     </div>
 
@@ -635,7 +643,7 @@ function renderStarterPackCard() {
           <div><strong>${esc(w.answer)}</strong><br><span class="muted" style="font-size:12px">${esc(w.label)}</span></div>
           <span class="badge">${w.wrong}× ✗ · ${w.right}× ✓</span>
         </li>`).join('')}</ul>
-        <div class="actions"><button class="btn primary" data-action="start-starter-weak" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}</button></div>`
+        <div class="actions"><button class="btn primary" data-action="start-pack-weak" data-pack="${esc(packId)}" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}</button></div>`
     : `<div class="empty">${esc(tr('noWeakYet'))}</div>`}
     </div>
 
@@ -651,6 +659,11 @@ function renderStarterPackCard() {
     : `<div class="empty">${esc(tr('starterNoRuns'))}</div>`}
     </div>
   </div>`;
+}
+
+function renderStarterPackCard() {
+  if (state.targetLang !== 'en') return '';
+  return EN_PACK_ORDER.map((id) => getPack(id)).filter(Boolean).map(renderOnePackSection).join('');
 }
 
 function unfinishedSessionBanner() {
@@ -784,7 +797,8 @@ function renderTestRunner() {
 function renderTestResult(attempt) {
   const areas = revisionAreas(attempt);
   const est = attempt.type === 'diagnostic' ? estimateDiagnosticLevel(attempt) : null;
-  const pack = attempt.packId || attempt.lessonId === 'en-starter' ? englishStarterPack() : null;
+  const packId = attempt.packId || attempt.lessonId || null;
+  const pack = packId ? getPack(packId) : null;
   const summary = attempt.type === 'starter' && pack
     ? summarizeStarterAttempt(attempt, pack, state.interfaceLang)
     : null;
@@ -826,9 +840,9 @@ function renderTestResult(attempt) {
     </div>` : ''}
     ${areas.length && !summary ? `<p class="muted">${areas.map((a) => `${a.type}: ${a.count}`).join(' · ')}</p>` : ''}
     <div class="actions">
-      ${attempt.type === 'starter' ? `
-        <button class="btn primary" data-action="start-starter" data-size="all">${esc(tr('retryStarter'))}</button>
-        <button class="btn secondary" data-action="start-starter-weak">${esc(tr('retryWeak'))}</button>
+      ${attempt.type === 'starter' && packId ? `
+        <button class="btn primary" data-action="start-pack" data-pack="${esc(packId)}" data-size="all">${esc(tr('retryStarter'))}</button>
+        <button class="btn secondary" data-action="start-pack-weak" data-pack="${esc(packId)}">${esc(tr('retryWeak'))}</button>
         <button class="btn secondary" data-action="clear-test">${esc(tr('starterProgress'))}</button>
       ` : `<button class="btn primary" data-action="smart-review" data-attempt="${attempt.id}">${esc(tr('smartReview'))}</button>
       <button class="btn secondary" data-action="clear-test">${esc(tr('navTests'))}</button>`}
@@ -1025,8 +1039,8 @@ function startConfiguredTest(cfg) {
   beginTestSession(result.test, { replaceToast: true });
 }
 
-function startStarterPack(size = 'all', mode = 'full') {
-  const pack = englishStarterPack();
+function startStarterPack(size = 'all', mode = 'full', packId = 'en-starter') {
+  const pack = getPack(packId) || (packId === 'en-starter' ? englishStarterPack() : null);
   if (!pack) {
     toast(tr('noData'));
     return;
@@ -1327,10 +1341,10 @@ function bindEvents() {
           size: 5,
           listening: state.settings.includeListeningInTests,
         });
-      } else if (action === 'start-starter') {
-        startStarterPack(btn.dataset.size || 'all', 'full');
-      } else if (action === 'start-starter-weak') {
-        startStarterPack('all', 'weak');
+      } else if (action === 'start-starter' || action === 'start-pack') {
+        startStarterPack(btn.dataset.size || 'all', 'full', btn.dataset.pack || 'en-starter');
+      } else if (action === 'start-starter-weak' || action === 'start-pack-weak') {
+        startStarterPack('all', 'weak', btn.dataset.pack || 'en-starter');
       } else if (action === 'test-pick') {
         if (!activeTest?.test || activeTest.completed) return;
         const q = activeTest.test.questions[testStep];
