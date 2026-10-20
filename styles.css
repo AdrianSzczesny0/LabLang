@@ -69,3 +69,5 @@
 .weak-list li{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid #2c3e56}
 .weak-list li:last-child{border:0}
 
+
+.test-prompt{white-space:pre-line;line-height:1.55}

@@ -701,7 +701,7 @@ function renderTestRunner() {
     }
     const promptText = q.prompt?.text || '';
     const cat = q.meta?.category || q.type;
-    return `<div class="card" style="padding:16px"><div class="micro">${i + 1}. ${esc(cat)}</div><p><strong>${esc(promptText)}</strong></p>${body}</div>`;
+    return `<div class="card" style="padding:16px"><div class="micro">${i + 1}. ${esc(cat)}</div><p class="test-prompt"><strong>${esc(promptText).replace(/\n/g, '<br>')}</strong></p>${body}</div>`;
   }).join('')}
       <button class="btn primary" type="submit">${esc(tr('showSummary'))}</button>
     </form>
@@ -734,7 +734,7 @@ function renderTestResult(attempt) {
     ${est ? `<div class="notice">${esc(tr('estimateNotCert'))}: ${est}</div>` : ''}
     <h3 class="subheading">${esc(tr('reviewMistakes'))}</h3>
     ${attempt.answers.map((a, i) => `<div class="qa"><strong>${i + 1}. ${a.correct ? '✓' : '✗'}</strong>
-      <p>${esc(a.prompt?.text || '')}</p>
+      <p class="test-prompt">${esc(a.prompt?.text || '').replace(/\n/g, '<br>')}</p>
       <p class="muted">${esc(tr('yourAnswer'))}: ${esc(a.userAnswer || '—')} · ${esc(tr('correctAnswer'))}: ${esc((a.expected || [])[0] || '')}</p>
       ${a.explanation ? `<p class="qa-answer">${esc(a.explanation)}</p>` : ''}
     </div>`).join('')}

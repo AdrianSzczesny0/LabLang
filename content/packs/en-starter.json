@@ -3,7 +3,7 @@
   "targetLang": "en",
   "level": "A0",
   "title": {
-    "pl": "Podstawy: imię, wiek, kraje i fantasy",
+    "pl": "Podstawy: imię, wiek, kraje i bajki",
     "en": "Starter: name, age, countries & fantasy",
     "de": "Starter: Name, Alter, Länder & Fantasy",
     "es": "Inicial: nombre, edad, países y fantasía",
@@ -11,412 +11,1079 @@
     "it": "Base: nome, età, paesi e fantasy"
   },
   "description": {
-    "pl": "Tylko wybór odpowiedzi. Uczysz się pytań o imię i wiek, zaimków, krajów oraz prostych ról fantasy. Pisownia angielska jest poprawna (witch, wizard, isn't).",
-    "en": "Multiple choice only. Learn name/age questions, pronouns, countries, and simple fantasy roles."
+    "pl": "Kliknij dobrą odpowiedź. Uczysz się prostych słów, pytań i zdań.",
+    "en": "Tap the right answer. Learn simple words, questions and sentences."
   },
   "vocabulary": [
-    { "word": "she", "gloss": { "pl": "ona", "en": "she" } },
-    { "word": "he", "gloss": { "pl": "on", "en": "he" } },
-    { "word": "her", "gloss": { "pl": "jej", "en": "her" } },
-    { "word": "his", "gloss": { "pl": "jego", "en": "his" } },
-    { "word": "he's", "gloss": { "pl": "on jest / on ma", "en": "he is / he has" } },
-    { "word": "she's", "gloss": { "pl": "ona jest / ona ma", "en": "she is / she has" } },
-    { "word": "name", "gloss": { "pl": "imię / nazwisko", "en": "name" } },
-    { "word": "favorite", "gloss": { "pl": "ulubiony / ulubiona", "en": "favorite" } },
-    { "word": "prince", "gloss": { "pl": "książę", "en": "prince" } },
-    { "word": "princess", "gloss": { "pl": "księżniczka", "en": "princess" } },
-    { "word": "dragon", "gloss": { "pl": "smok", "en": "dragon" } },
-    { "word": "wizard", "gloss": { "pl": "czarodziej", "en": "wizard" } },
-    { "word": "witch", "gloss": { "pl": "czarownica", "en": "witch" } },
-    { "word": "knight", "gloss": { "pl": "rycerz", "en": "knight" } },
-    { "word": "queen", "gloss": { "pl": "królowa", "en": "queen" } },
-    { "word": "Poland", "gloss": { "pl": "Polska", "en": "Poland" } },
-    { "word": "Germany", "gloss": { "pl": "Niemcy", "en": "Germany" } },
-    { "word": "France", "gloss": { "pl": "Francja", "en": "France" } },
-    { "word": "Ukraine", "gloss": { "pl": "Ukraina", "en": "Ukraine" } },
-    { "word": "Egypt", "gloss": { "pl": "Egipt", "en": "Egypt" } },
-    { "word": "India", "gloss": { "pl": "Indie", "en": "India" } },
-    { "word": "China", "gloss": { "pl": "Chiny", "en": "China" } },
-    { "word": "Spain", "gloss": { "pl": "Hiszpania", "en": "Spain" } },
-    { "word": "Italy", "gloss": { "pl": "Włochy", "en": "Italy" } },
-    { "word": "Great Britain", "gloss": { "pl": "Wielka Brytania", "en": "Great Britain" } }
+    {
+      "word": "she",
+      "gloss": {
+        "pl": "ona",
+        "en": "she"
+      }
+    },
+    {
+      "word": "he",
+      "gloss": {
+        "pl": "on",
+        "en": "he"
+      }
+    },
+    {
+      "word": "her",
+      "gloss": {
+        "pl": "jej",
+        "en": "her"
+      }
+    },
+    {
+      "word": "his",
+      "gloss": {
+        "pl": "jego",
+        "en": "his"
+      }
+    },
+    {
+      "word": "he's",
+      "gloss": {
+        "pl": "on jest / on ma",
+        "en": "he is / he has"
+      }
+    },
+    {
+      "word": "she's",
+      "gloss": {
+        "pl": "ona jest / ona ma",
+        "en": "she is / she has"
+      }
+    },
+    {
+      "word": "name",
+      "gloss": {
+        "pl": "imię / nazwisko",
+        "en": "name"
+      }
+    },
+    {
+      "word": "favorite",
+      "gloss": {
+        "pl": "ulubiony / ulubiona",
+        "en": "favorite"
+      }
+    },
+    {
+      "word": "prince",
+      "gloss": {
+        "pl": "książę",
+        "en": "prince"
+      }
+    },
+    {
+      "word": "princess",
+      "gloss": {
+        "pl": "księżniczka",
+        "en": "princess"
+      }
+    },
+    {
+      "word": "dragon",
+      "gloss": {
+        "pl": "smok",
+        "en": "dragon"
+      }
+    },
+    {
+      "word": "wizard",
+      "gloss": {
+        "pl": "czarodziej",
+        "en": "wizard"
+      }
+    },
+    {
+      "word": "witch",
+      "gloss": {
+        "pl": "czarownica",
+        "en": "witch"
+      }
+    },
+    {
+      "word": "knight",
+      "gloss": {
+        "pl": "rycerz",
+        "en": "knight"
+      }
+    },
+    {
+      "word": "queen",
+      "gloss": {
+        "pl": "królowa",
+        "en": "queen"
+      }
+    },
+    {
+      "word": "Poland",
+      "gloss": {
+        "pl": "Polska",
+        "en": "Poland"
+      }
+    },
+    {
+      "word": "Germany",
+      "gloss": {
+        "pl": "Niemcy",
+        "en": "Germany"
+      }
+    },
+    {
+      "word": "France",
+      "gloss": {
+        "pl": "Francja",
+        "en": "France"
+      }
+    },
+    {
+      "word": "Ukraine",
+      "gloss": {
+        "pl": "Ukraina",
+        "en": "Ukraine"
+      }
+    },
+    {
+      "word": "Egypt",
+      "gloss": {
+        "pl": "Egipt",
+        "en": "Egypt"
+      }
+    },
+    {
+      "word": "India",
+      "gloss": {
+        "pl": "Indie",
+        "en": "India"
+      }
+    },
+    {
+      "word": "China",
+      "gloss": {
+        "pl": "Chiny",
+        "en": "China"
+      }
+    },
+    {
+      "word": "Spain",
+      "gloss": {
+        "pl": "Hiszpania",
+        "en": "Spain"
+      }
+    },
+    {
+      "word": "Italy",
+      "gloss": {
+        "pl": "Włochy",
+        "en": "Italy"
+      }
+    },
+    {
+      "word": "Great Britain",
+      "gloss": {
+        "pl": "Wielka Brytania",
+        "en": "Great Britain"
+      }
+    }
   ],
   "questions": [
     {
       "id": "en-st-v01",
       "category": "vocab",
-      "prompt": { "pl": "Co znaczy po angielsku: ona?", "en": "What is the English word for: she?" },
-      "options": ["she", "he", "his", "her"],
+      "prompt": {
+        "pl": "Po angielsku: ona",
+        "en": "English for: ona (she)"
+      },
+      "options": [
+        "she",
+        "he",
+        "his",
+        "her"
+      ],
       "answer": "she",
-      "explanation": { "pl": "she = ona", "en": "she = ona" }
+      "explanation": {
+        "pl": "she = ona",
+        "en": "she = ona"
+      }
     },
     {
       "id": "en-st-v02",
       "category": "vocab",
-      "prompt": { "pl": "Co znaczy po angielsku: on?", "en": "What is the English word for: he?" },
-      "options": ["he", "she", "her", "name"],
+      "prompt": {
+        "pl": "Po angielsku: on",
+        "en": "English for: on (he)"
+      },
+      "options": [
+        "he",
+        "she",
+        "her",
+        "name"
+      ],
       "answer": "he",
-      "explanation": { "pl": "he = on", "en": "he = on" }
+      "explanation": {
+        "pl": "he = on",
+        "en": "he = on"
+      }
     },
     {
       "id": "en-st-v03",
       "category": "vocab",
-      "prompt": { "pl": "Wybierz tłumaczenie: her", "en": "Choose the meaning of: her" },
-      "options": ["jej", "jego", "ona", "on"],
+      "prompt": {
+        "pl": "her = ?",
+        "en": "her = ?"
+      },
+      "options": [
+        "jej",
+        "jego",
+        "ona",
+        "on"
+      ],
       "answer": "jej",
-      "explanation": { "pl": "her = jej (np. her name)", "en": "her = jej" }
+      "explanation": {
+        "pl": "her = jej (np. her name)",
+        "en": "her = jej"
+      }
     },
     {
       "id": "en-st-v04",
       "category": "vocab",
-      "prompt": { "pl": "Wybierz tłumaczenie: his", "en": "Choose the meaning of: his" },
-      "options": ["jego", "jej", "ona", "imię"],
+      "prompt": {
+        "pl": "his = ?",
+        "en": "his = ?"
+      },
+      "options": [
+        "jego",
+        "jej",
+        "ona",
+        "imię"
+      ],
       "answer": "jego",
-      "explanation": { "pl": "his = jego (np. his name)", "en": "his = jego" }
+      "explanation": {
+        "pl": "his = jego (np. his name)",
+        "en": "his = jego"
+      }
     },
     {
       "id": "en-st-v05",
       "category": "vocab",
-      "prompt": { "pl": "Co znaczy: she's?", "en": "What does she's mean?" },
-      "options": ["ona jest / ona ma", "on jest / on ma", "jej imię", "jego imię"],
-      "answer": "ona jest / ona ma",
-      "explanation": { "pl": "she's = she is / she has", "en": "she's = she is / she has" }
+      "prompt": {
+        "pl": "she's = ?",
+        "en": "she's = ?"
+      },
+      "options": [
+        "ona jest",
+        "on jest",
+        "jej imię",
+        "jego imię"
+      ],
+      "answer": "ona jest",
+      "explanation": {
+        "pl": "she's = ona jest",
+        "en": "she's = she is"
+      }
     },
     {
       "id": "en-st-v06",
       "category": "vocab",
-      "prompt": { "pl": "Co znaczy: he's?", "en": "What does he's mean?" },
-      "options": ["on jest / on ma", "ona jest / ona ma", "jego", "jej"],
-      "answer": "on jest / on ma",
-      "explanation": { "pl": "he's = he is / he has", "en": "he's = he is / he has" }
+      "prompt": {
+        "pl": "he's = ?",
+        "en": "he's = ?"
+      },
+      "options": [
+        "on jest",
+        "ona jest",
+        "jego",
+        "jej"
+      ],
+      "answer": "on jest",
+      "explanation": {
+        "pl": "he's = on jest",
+        "en": "he's = he is"
+      }
     },
     {
       "id": "en-st-v07",
       "category": "vocab",
-      "prompt": { "pl": "Wybierz angielskie słowo: imię", "en": "Choose the English word: name" },
-      "options": ["name", "favorite", "knight", "dragon"],
+      "prompt": {
+        "pl": "Po angielsku: imię",
+        "en": "English for: imię (name)"
+      },
+      "options": [
+        "name",
+        "favorite",
+        "knight",
+        "dragon"
+      ],
       "answer": "name",
-      "explanation": { "pl": "name = imię", "en": "name = imię" }
+      "explanation": {
+        "pl": "name = imię",
+        "en": "name = imię"
+      }
     },
     {
       "id": "en-st-v08",
       "category": "vocab",
-      "prompt": { "pl": "Wybierz angielskie słowo: ulubiony", "en": "Choose the English word: favorite" },
-      "options": ["favorite", "name", "queen", "prince"],
+      "prompt": {
+        "pl": "Po angielsku: ulubiony",
+        "en": "English for: ulubiony (favorite)"
+      },
+      "options": [
+        "favorite",
+        "name",
+        "queen",
+        "prince"
+      ],
       "answer": "favorite",
-      "explanation": { "pl": "favorite = ulubiony / ulubiona", "en": "favorite = ulubiony" }
+      "explanation": {
+        "pl": "favorite = ulubiony / ulubiona",
+        "en": "favorite = ulubiony"
+      }
     },
     {
       "id": "en-st-v09",
       "category": "vocab",
-      "prompt": { "pl": "prince = ?", "en": "prince = ?" },
-      "options": ["książę", "księżniczka", "rycerz", "królowa"],
+      "prompt": {
+        "pl": "prince = ?",
+        "en": "prince = ?"
+      },
+      "options": [
+        "książę",
+        "księżniczka",
+        "rycerz",
+        "królowa"
+      ],
       "answer": "książę",
-      "explanation": { "pl": "prince = książę", "en": "prince = książę" }
+      "explanation": {
+        "pl": "prince = książę",
+        "en": "prince = książę"
+      }
     },
     {
       "id": "en-st-v10",
       "category": "vocab",
-      "prompt": { "pl": "princess = ?", "en": "princess = ?" },
-      "options": ["księżniczka", "książę", "czarownica", "smok"],
+      "prompt": {
+        "pl": "princess = ?",
+        "en": "princess = ?"
+      },
+      "options": [
+        "księżniczka",
+        "książę",
+        "czarownica",
+        "smok"
+      ],
       "answer": "księżniczka",
-      "explanation": { "pl": "princess = księżniczka", "en": "princess = księżniczka" }
+      "explanation": {
+        "pl": "princess = księżniczka",
+        "en": "princess = księżniczka"
+      }
     },
     {
       "id": "en-st-v11",
       "category": "vocab",
-      "prompt": { "pl": "dragon = ?", "en": "dragon = ?" },
-      "options": ["smok", "rycerz", "czarodziej", "królowa"],
+      "prompt": {
+        "pl": "dragon = ?",
+        "en": "dragon = ?"
+      },
+      "options": [
+        "smok",
+        "rycerz",
+        "czarodziej",
+        "królowa"
+      ],
       "answer": "smok",
-      "explanation": { "pl": "dragon = smok", "en": "dragon = smok" }
+      "explanation": {
+        "pl": "dragon = smok",
+        "en": "dragon = smok"
+      }
     },
     {
       "id": "en-st-v12",
       "category": "vocab",
-      "prompt": { "pl": "wizard = ?", "en": "wizard = ?" },
-      "options": ["czarodziej", "czarownica", "rycerz", "książę"],
+      "prompt": {
+        "pl": "wizard = ?",
+        "en": "wizard = ?"
+      },
+      "options": [
+        "czarodziej",
+        "czarownica",
+        "rycerz",
+        "książę"
+      ],
       "answer": "czarodziej",
-      "explanation": { "pl": "wizard = czarodziej (poprawna pisownia: wizard)", "en": "wizard = czarodziej" }
+      "explanation": {
+        "pl": "wizard = czarodziej (poprawna pisownia: wizard)",
+        "en": "wizard = czarodziej"
+      }
     },
     {
       "id": "en-st-v13",
       "category": "vocab",
-      "prompt": { "pl": "witch = ?", "en": "witch = ?" },
-      "options": ["czarownica", "czarodziej", "księżniczka", "smok"],
+      "prompt": {
+        "pl": "witch = ?",
+        "en": "witch = ?"
+      },
+      "options": [
+        "czarownica",
+        "czarodziej",
+        "księżniczka",
+        "smok"
+      ],
       "answer": "czarownica",
-      "explanation": { "pl": "witch = czarownica", "en": "witch = czarownica" }
+      "explanation": {
+        "pl": "witch = czarownica",
+        "en": "witch = czarownica"
+      }
     },
     {
       "id": "en-st-v14",
       "category": "vocab",
-      "prompt": { "pl": "knight = ?", "en": "knight = ?" },
-      "options": ["rycerz", "książę", "czarodziej", "królowa"],
+      "prompt": {
+        "pl": "knight = ?",
+        "en": "knight = ?"
+      },
+      "options": [
+        "rycerz",
+        "książę",
+        "czarodziej",
+        "królowa"
+      ],
       "answer": "rycerz",
-      "explanation": { "pl": "knight = rycerz", "en": "knight = rycerz" }
+      "explanation": {
+        "pl": "knight = rycerz",
+        "en": "knight = rycerz"
+      }
     },
     {
       "id": "en-st-c01",
       "category": "country",
-      "prompt": { "pl": "Poland = ?", "en": "Poland = ?" },
-      "options": ["Polska", "Francja", "Niemcy", "Hiszpania"],
+      "prompt": {
+        "pl": "Poland = ?",
+        "en": "Poland = ?"
+      },
+      "options": [
+        "Polska",
+        "Francja",
+        "Niemcy",
+        "Hiszpania"
+      ],
       "answer": "Polska",
-      "explanation": { "pl": "Poland = Polska", "en": "Poland = Polska" }
+      "explanation": {
+        "pl": "Poland = Polska",
+        "en": "Poland = Polska"
+      }
     },
     {
       "id": "en-st-c02",
       "category": "country",
-      "prompt": { "pl": "Germany = ?", "en": "Germany = ?" },
-      "options": ["Niemcy", "Polska", "Włochy", "Chiny"],
+      "prompt": {
+        "pl": "Germany = ?",
+        "en": "Germany = ?"
+      },
+      "options": [
+        "Niemcy",
+        "Polska",
+        "Włochy",
+        "Chiny"
+      ],
       "answer": "Niemcy",
-      "explanation": { "pl": "Germany = Niemcy", "en": "Germany = Niemcy" }
+      "explanation": {
+        "pl": "Germany = Niemcy",
+        "en": "Germany = Niemcy"
+      }
     },
     {
       "id": "en-st-c03",
       "category": "country",
-      "prompt": { "pl": "France = ?", "en": "France = ?" },
-      "options": ["Francja", "Hiszpania", "Ukraina", "Egipt"],
+      "prompt": {
+        "pl": "France = ?",
+        "en": "France = ?"
+      },
+      "options": [
+        "Francja",
+        "Hiszpania",
+        "Ukraina",
+        "Egipt"
+      ],
       "answer": "Francja",
-      "explanation": { "pl": "France = Francja", "en": "France = Francja" }
+      "explanation": {
+        "pl": "France = Francja",
+        "en": "France = Francja"
+      }
     },
     {
       "id": "en-st-c04",
       "category": "country",
-      "prompt": { "pl": "Ukraine = ?", "en": "Ukraine = ?" },
-      "options": ["Ukraina", "Indie", "Włochy", "Polska"],
+      "prompt": {
+        "pl": "Ukraine = ?",
+        "en": "Ukraine = ?"
+      },
+      "options": [
+        "Ukraina",
+        "Indie",
+        "Włochy",
+        "Polska"
+      ],
       "answer": "Ukraina",
-      "explanation": { "pl": "Ukraine = Ukraina", "en": "Ukraine = Ukraina" }
+      "explanation": {
+        "pl": "Ukraine = Ukraina",
+        "en": "Ukraine = Ukraina"
+      }
     },
     {
       "id": "en-st-c05",
       "category": "country",
-      "prompt": { "pl": "Egypt = ?", "en": "Egypt = ?" },
-      "options": ["Egipt", "Chiny", "Francja", "Hiszpania"],
+      "prompt": {
+        "pl": "Egypt = ?",
+        "en": "Egypt = ?"
+      },
+      "options": [
+        "Egipt",
+        "Chiny",
+        "Francja",
+        "Hiszpania"
+      ],
       "answer": "Egipt",
-      "explanation": { "pl": "Egypt = Egipt", "en": "Egypt = Egipt" }
+      "explanation": {
+        "pl": "Egypt = Egipt",
+        "en": "Egypt = Egipt"
+      }
     },
     {
       "id": "en-st-c06",
       "category": "country",
-      "prompt": { "pl": "India = ?", "en": "India = ?" },
-      "options": ["Indie", "Włochy", "Niemcy", "Ukraina"],
+      "prompt": {
+        "pl": "India = ?",
+        "en": "India = ?"
+      },
+      "options": [
+        "Indie",
+        "Włochy",
+        "Niemcy",
+        "Ukraina"
+      ],
       "answer": "Indie",
-      "explanation": { "pl": "India = Indie (po angielsku: India)", "en": "India = Indie" }
+      "explanation": {
+        "pl": "India = Indie (po angielsku: India)",
+        "en": "India = Indie"
+      }
     },
     {
       "id": "en-st-c07",
       "category": "country",
-      "prompt": { "pl": "China = ?", "en": "China = ?" },
-      "options": ["Chiny", "Egipt", "Polska", "Francja"],
+      "prompt": {
+        "pl": "China = ?",
+        "en": "China = ?"
+      },
+      "options": [
+        "Chiny",
+        "Egipt",
+        "Polska",
+        "Francja"
+      ],
       "answer": "Chiny",
-      "explanation": { "pl": "China = Chiny", "en": "China = Chiny" }
+      "explanation": {
+        "pl": "China = Chiny",
+        "en": "China = Chiny"
+      }
     },
     {
       "id": "en-st-c08",
       "category": "country",
-      "prompt": { "pl": "Spain = ?", "en": "Spain = ?" },
-      "options": ["Hiszpania", "Włochy", "Niemcy", "Indie"],
+      "prompt": {
+        "pl": "Spain = ?",
+        "en": "Spain = ?"
+      },
+      "options": [
+        "Hiszpania",
+        "Włochy",
+        "Niemcy",
+        "Indie"
+      ],
       "answer": "Hiszpania",
-      "explanation": { "pl": "Spain = Hiszpania", "en": "Spain = Hiszpania" }
+      "explanation": {
+        "pl": "Spain = Hiszpania",
+        "en": "Spain = Hiszpania"
+      }
     },
     {
       "id": "en-st-c09",
       "category": "country",
-      "prompt": { "pl": "Italy = ?", "en": "Italy = ?" },
-      "options": ["Włochy", "Hiszpania", "Francja", "Ukraina"],
+      "prompt": {
+        "pl": "Italy = ?",
+        "en": "Italy = ?"
+      },
+      "options": [
+        "Włochy",
+        "Hiszpania",
+        "Francja",
+        "Ukraina"
+      ],
       "answer": "Włochy",
-      "explanation": { "pl": "Italy = Włochy", "en": "Italy = Włochy" }
+      "explanation": {
+        "pl": "Italy = Włochy",
+        "en": "Italy = Włochy"
+      }
     },
     {
       "id": "en-st-c10",
       "category": "country",
-      "prompt": { "pl": "Great Britain = ?", "en": "Great Britain = ?" },
-      "options": ["Wielka Brytania", "Niemcy", "Polska", "Chiny"],
+      "prompt": {
+        "pl": "Great Britain = ?",
+        "en": "Great Britain = ?"
+      },
+      "options": [
+        "Wielka Brytania",
+        "Niemcy",
+        "Polska",
+        "Chiny"
+      ],
       "answer": "Wielka Brytania",
-      "explanation": { "pl": "Great Britain = Wielka Brytania", "en": "Great Britain = Wielka Brytania" }
+      "explanation": {
+        "pl": "Great Britain = Wielka Brytania",
+        "en": "Great Britain = Wielka Brytania"
+      }
     },
     {
       "id": "en-st-q01",
       "category": "question",
-      "prompt": { "pl": "Jak po angielsku: Jak ona ma na imię?", "en": "How do you ask: What's her name?" },
-      "options": ["What's her name?", "What's his name?", "How old is she?", "How old is he?"],
+      "prompt": {
+        "pl": "Jak zapytać: Jak ona ma na imię?",
+        "en": "Ask: What's her name?"
+      },
+      "options": [
+        "What's her name?",
+        "What's his name?",
+        "How old is she?",
+        "How old is he?"
+      ],
       "answer": "What's her name?",
-      "explanation": { "pl": "What's her name? = Jak ona ma na imię?", "en": "Use her for a girl/woman." }
+      "explanation": {
+        "pl": "What's her name? = Jak ona ma na imię?",
+        "en": "Use her for a girl/woman."
+      }
     },
     {
       "id": "en-st-q02",
       "category": "question",
-      "prompt": { "pl": "Jak po angielsku: Jak on ma na imię?", "en": "How do you ask: What's his name?" },
-      "options": ["What's his name?", "What's her name?", "How old are you?", "Is he a prince?"],
+      "prompt": {
+        "pl": "Jak zapytać: Jak on ma na imię?",
+        "en": "Ask: What's his name?"
+      },
+      "options": [
+        "What's his name?",
+        "What's her name?",
+        "How old are you?",
+        "Is he a prince?"
+      ],
       "answer": "What's his name?",
-      "explanation": { "pl": "What's his name? = Jak on ma na imię?", "en": "Use his for a boy/man." }
+      "explanation": {
+        "pl": "What's his name? = Jak on ma na imię?",
+        "en": "Use his for a boy/man."
+      }
     },
     {
       "id": "en-st-q03",
       "category": "question",
-      "prompt": { "pl": "Jak po angielsku: Ile masz lat?", "en": "How do you ask: How old are you?" },
-      "options": ["How old are you?", "How old is she?", "What's her name?", "How old is he?"],
+      "prompt": {
+        "pl": "Jak zapytać: Ile masz lat?",
+        "en": "Ask: How old are you?"
+      },
+      "options": [
+        "How old are you?",
+        "How old is she?",
+        "What's her name?",
+        "How old is he?"
+      ],
       "answer": "How old are you?",
-      "explanation": { "pl": "How old are you? = Ile masz lat?", "en": "How old are you?" }
+      "explanation": {
+        "pl": "How old are you? = Ile masz lat?",
+        "en": "How old are you?"
+      }
     },
     {
       "id": "en-st-q04",
       "category": "question",
-      "prompt": { "pl": "Jak po angielsku: Ile ona ma lat?", "en": "How do you ask about a girl's age?" },
-      "options": ["How old is she?", "How old is he?", "How old are you?", "What's her name?"],
+      "prompt": {
+        "pl": "Jak zapytać: Ile ona ma lat?",
+        "en": "Ask: How old is she?"
+      },
+      "options": [
+        "How old is she?",
+        "How old is he?",
+        "How old are you?",
+        "What's her name?"
+      ],
       "answer": "How old is she?",
-      "explanation": { "pl": "How old is she? = Ile ona ma lat?", "en": "she → is she" }
+      "explanation": {
+        "pl": "How old is she? = Ile ona ma lat?",
+        "en": "she → is she"
+      }
     },
     {
       "id": "en-st-q05",
       "category": "question",
-      "prompt": { "pl": "Jak po angielsku: Ile on ma lat?", "en": "How do you ask about a boy's age?" },
-      "options": ["How old is he?", "How old is she?", "How old are you?", "What's his name?"],
+      "prompt": {
+        "pl": "Jak zapytać: Ile on ma lat?",
+        "en": "Ask: How old is he?"
+      },
+      "options": [
+        "How old is he?",
+        "How old is she?",
+        "How old are you?",
+        "What's his name?"
+      ],
       "answer": "How old is he?",
-      "explanation": { "pl": "How old is he? = Ile on ma lat?", "en": "he → is he" }
+      "explanation": {
+        "pl": "How old is he? = Ile on ma lat?",
+        "en": "he → is he"
+      }
     },
     {
       "id": "en-st-s01",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz poprawne zdanie: Ona ma na imię Aniela.", "en": "Choose the correct sentence for a girl named Aniela." },
-      "options": ["Her name is Aniela.", "His name is Aniela.", "He is Aniela.", "What's her name?"],
+      "prompt": {
+        "pl": "Powiedz: Ona ma na imię Aniela.",
+        "en": "Say: Her name is Aniela."
+      },
+      "options": [
+        "Her name is Aniela.",
+        "His name is Aniela.",
+        "He is Aniela.",
+        "What's her name?"
+      ],
       "answer": "Her name is Aniela.",
-      "explanation": { "pl": "Her name is Aniela. (her = jej)", "en": "Her name is Aniela." }
+      "explanation": {
+        "pl": "Her name is Aniela. (her = jej)",
+        "en": "Her name is Aniela."
+      }
     },
     {
       "id": "en-st-s02",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz poprawne zdanie: On ma na imię Adrian.", "en": "Choose the correct sentence for a boy named Adrian." },
-      "options": ["His name is Adrian.", "Her name is Adrian.", "She is Adrian.", "What's his name?"],
+      "prompt": {
+        "pl": "Powiedz: On ma na imię Adrian.",
+        "en": "Say: His name is Adrian."
+      },
+      "options": [
+        "His name is Adrian.",
+        "Her name is Adrian.",
+        "She is Adrian.",
+        "What's his name?"
+      ],
       "answer": "His name is Adrian.",
-      "explanation": { "pl": "His name is Adrian. (his = jego)", "en": "His name is Adrian." }
+      "explanation": {
+        "pl": "His name is Adrian. (his = jego)",
+        "en": "His name is Adrian."
+      }
     },
     {
       "id": "en-st-s03",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz poprawne zdanie: On ma 10 lat.", "en": "Choose: He is 10 years old." },
-      "options": ["He is 10 years old.", "She is 10 years old.", "His name is 10.", "How old is he?"],
+      "prompt": {
+        "pl": "Powiedz: On ma 10 lat.",
+        "en": "Say: He is 10 years old."
+      },
+      "options": [
+        "He is 10 years old.",
+        "She is 10 years old.",
+        "His name is 10.",
+        "How old is he?"
+      ],
       "answer": "He is 10 years old.",
-      "explanation": { "pl": "He is 10 years old.", "en": "He is 10 years old." }
+      "explanation": {
+        "pl": "He is 10 years old.",
+        "en": "He is 10 years old."
+      }
     },
     {
       "id": "en-st-s04",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz poprawne zdanie: Ona ma 10 lat.", "en": "Choose: She is 10 years old." },
-      "options": ["She is 10 years old.", "He is 10 years old.", "Her name is 10.", "How old is she?"],
+      "prompt": {
+        "pl": "Powiedz: Ona ma 10 lat.",
+        "en": "Say: She is 10 years old."
+      },
+      "options": [
+        "She is 10 years old.",
+        "He is 10 years old.",
+        "Her name is 10.",
+        "How old is she?"
+      ],
       "answer": "She is 10 years old.",
-      "explanation": { "pl": "She is 10 years old.", "en": "She is 10 years old." }
+      "explanation": {
+        "pl": "She is 10 years old.",
+        "en": "She is 10 years old."
+      }
     },
     {
       "id": "en-st-s05",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz: On jest rycerzem.", "en": "Choose: He is a knight." },
-      "options": ["He is a knight.", "She is a knight.", "He is a queen.", "Is he a knight?"],
+      "prompt": {
+        "pl": "Powiedz: On jest rycerzem.",
+        "en": "Say: He is a knight."
+      },
+      "options": [
+        "He is a knight.",
+        "She is a knight.",
+        "He is a queen.",
+        "Is he a knight?"
+      ],
       "answer": "He is a knight.",
-      "explanation": { "pl": "He is a knight.", "en": "He is a knight." }
+      "explanation": {
+        "pl": "He is a knight.",
+        "en": "He is a knight."
+      }
     },
     {
       "id": "en-st-s06",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz: Ona jest królową.", "en": "Choose: She is a queen." },
-      "options": ["She is a queen.", "He is a queen.", "She is a knight.", "Is she a queen?"],
+      "prompt": {
+        "pl": "Powiedz: Ona jest królową.",
+        "en": "Say: She is a queen."
+      },
+      "options": [
+        "She is a queen.",
+        "He is a queen.",
+        "She is a knight.",
+        "Is she a queen?"
+      ],
       "answer": "She is a queen.",
-      "explanation": { "pl": "She is a queen.", "en": "She is a queen." }
+      "explanation": {
+        "pl": "She is a queen.",
+        "en": "She is a queen."
+      }
     },
     {
       "id": "en-st-s07",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz pytanie: Czy ona jest księżniczką?", "en": "Choose the question: Is she a princess?" },
-      "options": ["Is she a princess?", "Is he a princess?", "She is a princess.", "Is she a prince?"],
+      "prompt": {
+        "pl": "Zapytaj: Czy ona jest księżniczką?",
+        "en": "Ask: Is she a princess?"
+      },
+      "options": [
+        "Is she a princess?",
+        "Is he a princess?",
+        "She is a princess.",
+        "Is she a prince?"
+      ],
       "answer": "Is she a princess?",
-      "explanation": { "pl": "Is she a princess?", "en": "Is she a princess?" }
+      "explanation": {
+        "pl": "Is she a princess?",
+        "en": "Is she a princess?"
+      }
     },
     {
       "id": "en-st-s08",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz pytanie: Czy on jest księciem?", "en": "Choose: Is he a prince?" },
-      "options": ["Is he a prince?", "Is she a prince?", "He is a prince.", "Is he a princess?"],
+      "prompt": {
+        "pl": "Zapytaj: Czy on jest księciem?",
+        "en": "Ask: Is he a prince?"
+      },
+      "options": [
+        "Is he a prince?",
+        "Is she a prince?",
+        "He is a prince.",
+        "Is he a princess?"
+      ],
       "answer": "Is he a prince?",
-      "explanation": { "pl": "Is he a prince?", "en": "Is he a prince?" }
+      "explanation": {
+        "pl": "Is he a prince?",
+        "en": "Is he a prince?"
+      }
     },
     {
       "id": "en-st-s09",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz pytanie: Czy ona jest czarownicą?", "en": "Choose: Is she a witch?" },
-      "options": ["Is she a witch?", "Is he a witch?", "Is she a wizard?", "She is a witch."],
+      "prompt": {
+        "pl": "Zapytaj: Czy ona jest czarownicą?",
+        "en": "Ask: Is she a witch?"
+      },
+      "options": [
+        "Is she a witch?",
+        "Is he a witch?",
+        "Is she a wizard?",
+        "She is a witch."
+      ],
       "answer": "Is she a witch?",
-      "explanation": { "pl": "Is she a witch? = Czy ona jest czarownicą?", "en": "Is she a witch?" }
+      "explanation": {
+        "pl": "Is she a witch? = Czy ona jest czarownicą?",
+        "en": "Is she a witch?"
+      }
     },
     {
       "id": "en-st-s10",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz zdanie: Ona jest czarownicą.", "en": "Choose: She is a witch." },
-      "options": ["She is a witch.", "He is a witch.", "She is a wizard.", "She is a queen."],
+      "prompt": {
+        "pl": "Powiedz: Ona jest czarownicą.",
+        "en": "Say: She is a witch."
+      },
+      "options": [
+        "She is a witch.",
+        "He is a witch.",
+        "She is a wizard.",
+        "She is a queen."
+      ],
       "answer": "She is a witch.",
-      "explanation": { "pl": "She is a witch. = Ona jest czarownicą.", "en": "She is a witch." }
+      "explanation": {
+        "pl": "She is a witch. = Ona jest czarownicą.",
+        "en": "She is a witch."
+      }
     },
     {
       "id": "en-st-s11",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz pytanie: Czy on jest czarodziejem?", "en": "Choose: Is he a wizard?" },
-      "options": ["Is he a wizard?", "Is she a wizard?", "Is he a witch?", "He is a wizard."],
+      "prompt": {
+        "pl": "Zapytaj: Czy on jest czarodziejem?",
+        "en": "Ask: Is he a wizard?"
+      },
+      "options": [
+        "Is he a wizard?",
+        "Is she a wizard?",
+        "Is he a witch?",
+        "He is a wizard."
+      ],
       "answer": "Is he a wizard?",
-      "explanation": { "pl": "Is he a wizard? = Czy on jest czarodziejem?", "en": "Is he a wizard?" }
+      "explanation": {
+        "pl": "Is he a wizard? = Czy on jest czarodziejem?",
+        "en": "Is he a wizard?"
+      }
     },
     {
       "id": "en-st-s12",
       "category": "sentence",
-      "prompt": { "pl": "Wybierz zdanie: On jest czarodziejem.", "en": "Choose: He is a wizard." },
-      "options": ["He is a wizard.", "She is a wizard.", "He is a witch.", "He is a knight."],
+      "prompt": {
+        "pl": "Powiedz: On jest czarodziejem.",
+        "en": "Say: He is a wizard."
+      },
+      "options": [
+        "He is a wizard.",
+        "She is a wizard.",
+        "He is a witch.",
+        "He is a knight."
+      ],
       "answer": "He is a wizard.",
-      "explanation": { "pl": "He is a wizard. = On jest czarodziejem.", "en": "He is a wizard." }
+      "explanation": {
+        "pl": "He is a wizard. = On jest czarodziejem.",
+        "en": "He is a wizard."
+      }
     },
     {
       "id": "en-st-y01",
       "category": "yesno",
-      "prompt": { "pl": "Pytanie: Is she a princess? → wybierz poprawną odpowiedź twierdzącą", "en": "Question: Is she a princess? → choose the correct YES answer" },
-      "options": ["Yes, she is.", "No, she isn't.", "Yes, he is.", "No, he isn't."],
+      "prompt": {
+        "pl": "Is she a princess?\n\nOdpowiedź: jest",
+        "en": "Is she a princess?\n\nAnswer: yes / she is"
+      },
+      "options": [
+        "Yes, she is.",
+        "No, she isn't.",
+        "Yes, he is.",
+        "No, he isn't."
+      ],
       "answer": "Yes, she is.",
-      "explanation": { "pl": "Do she pasuje: Yes, she is.", "en": "she → Yes, she is." }
+      "explanation": {
+        "pl": "Odpowiedź „jest” = Yes, she is.",
+        "en": "Yes, she is."
+      }
     },
     {
       "id": "en-st-y02",
       "category": "yesno",
-      "prompt": { "pl": "Pytanie: Is she a princess? → wybierz poprawną odpowiedź przeczącą", "en": "Question: Is she a princess? → choose the correct NO answer" },
-      "options": ["No, she isn't.", "Yes, she is.", "No, he isn't.", "Yes, he is."],
+      "prompt": {
+        "pl": "Is she a princess?\n\nOdpowiedź: nie jest",
+        "en": "Is she a princess?\n\nAnswer: no / she is not"
+      },
+      "options": [
+        "No, she isn't.",
+        "Yes, she is.",
+        "No, he isn't.",
+        "Yes, he is."
+      ],
       "answer": "No, she isn't.",
-      "explanation": { "pl": "isn't = is not. Do she: No, she isn't.", "en": "No, she isn't." }
+      "explanation": {
+        "pl": "Odpowiedź „nie jest” = No, she isn't.",
+        "en": "No, she isn't."
+      }
     },
     {
       "id": "en-st-y03",
       "category": "yesno",
-      "prompt": { "pl": "Pytanie: Is he a knight? → wybierz poprawną odpowiedź twierdzącą", "en": "Question: Is he a knight? → correct YES answer" },
-      "options": ["Yes, he is.", "Yes, she is.", "No, he isn't.", "No, she isn't."],
+      "prompt": {
+        "pl": "Is he a knight?\n\nOdpowiedź: jest",
+        "en": "Is he a knight?\n\nAnswer: yes / he is"
+      },
+      "options": [
+        "Yes, he is.",
+        "Yes, she is.",
+        "No, he isn't.",
+        "No, she isn't."
+      ],
       "answer": "Yes, he is.",
-      "explanation": { "pl": "Do he pasuje: Yes, he is. (nie Yes, she is)", "en": "he → Yes, he is." }
+      "explanation": {
+        "pl": "Odpowiedź „jest” = Yes, he is.",
+        "en": "Yes, he is."
+      }
     },
     {
       "id": "en-st-y04",
       "category": "yesno",
-      "prompt": { "pl": "Pytanie: Is he a knight? → wybierz poprawną odpowiedź przeczącą", "en": "Question: Is he a knight? → correct NO answer" },
-      "options": ["No, he isn't.", "No, she isn't.", "Yes, he is.", "Yes, she is."],
+      "prompt": {
+        "pl": "Is he a knight?\n\nOdpowiedź: nie jest",
+        "en": "Is he a knight?\n\nAnswer: no / he is not"
+      },
+      "options": [
+        "No, he isn't.",
+        "No, she isn't.",
+        "Yes, he is.",
+        "Yes, she is."
+      ],
       "answer": "No, he isn't.",
-      "explanation": { "pl": "Do he: No, he isn't.", "en": "No, he isn't." }
+      "explanation": {
+        "pl": "Odpowiedź „nie jest” = No, he isn't.",
+        "en": "No, he isn't."
+      }
     },
     {
       "id": "en-st-y05",
       "category": "yesno",
-      "prompt": { "pl": "Is she a witch? → TAK", "en": "Is she a witch? → YES" },
-      "options": ["Yes, she is.", "Yes, he is.", "No, she isn't.", "She is a wizard."],
+      "prompt": {
+        "pl": "Is she a witch?\n\nOdpowiedź: jest",
+        "en": "Is she a witch?\n\nAnswer: yes / she is"
+      },
+      "options": [
+        "Yes, she is.",
+        "Yes, he is.",
+        "No, she isn't.",
+        "She is a wizard."
+      ],
       "answer": "Yes, she is.",
-      "explanation": { "pl": "Yes, she is.", "en": "Yes, she is." }
+      "explanation": {
+        "pl": "Odpowiedź „jest” = Yes, she is.",
+        "en": "Yes, she is."
+      }
     },
     {
       "id": "en-st-y06",
       "category": "yesno",
-      "prompt": { "pl": "Is he a wizard? → NIE", "en": "Is he a wizard? → NO" },
-      "options": ["No, he isn't.", "No, she isn't.", "Yes, he is.", "Yes, she is."],
+      "prompt": {
+        "pl": "Is he a wizard?\n\nOdpowiedź: nie jest",
+        "en": "Is he a wizard?\n\nAnswer: no / he is not"
+      },
+      "options": [
+        "No, he isn't.",
+        "No, she isn't.",
+        "Yes, he is.",
+        "Yes, she is."
+      ],
       "answer": "No, he isn't.",
-      "explanation": { "pl": "No, he isn't.", "en": "No, he isn't." }
+      "explanation": {
+        "pl": "Odpowiedź „nie jest” = No, he isn't.",
+        "en": "No, he isn't."
+      }
     }
   ]
 }
