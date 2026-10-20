@@ -14,6 +14,7 @@ const RESOURCES = [
   './js/i18n.js',
   './js/fairytales.js',
   './js/starter-pack.js',
+  './js/celebrate.js',
   './content/fairytales/de.json',
   './content/packs/en-starter.json',
   './content/stories/de.json',
