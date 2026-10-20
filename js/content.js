@@ -157,9 +157,11 @@ export async function loadAllContent(fetchImpl = fetch) {
     'de-starter.json',
     'de-pronouns.json',
   ];
+  // Cache-bust so old service-worker entries cannot keep stale questions.
+  const packVersion = 'v4.0';
   await Promise.all(packFiles.map(async (file) => {
     try {
-      const packRes = await fetchImpl(`./content/packs/${file}`);
+      const packRes = await fetchImpl(`./content/packs/${file}?v=${packVersion}`);
       if (packRes.ok) {
         const pack = await packRes.json();
         packs[pack.id || file.replace(/\.json$/, '')] = pack;
