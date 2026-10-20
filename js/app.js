@@ -52,6 +52,7 @@ let cardFilter = 'week';
 let cardIndex = 0;
 let showCardBack = false;
 let activeTest = null;
+let testRunning = false; // true only while actively answering (or viewing just-finished result)
 let testAnswers = {};
 let testStep = 0;
 let testStartedAt = 0;
@@ -182,8 +183,17 @@ function setActiveTabs() {
   $$('[data-tab]').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
 }
 
+function isTestFocusMode() {
+  return tab === 'tests' && testRunning && activeTest && !activeTest.completed;
+}
+
+function syncTestChrome() {
+  document.body.classList.toggle('mode-test-runner', isTestFocusMode());
+}
+
 function render() {
   setHeader();
+  syncTestChrome();
   const root = $('#app-content');
   if (!root) return;
   const map = {
@@ -643,13 +653,30 @@ function renderStarterPackCard() {
   </div>`;
 }
 
+function unfinishedSessionBanner() {
+  if (!activeTest?.test || activeTest.completed) return '';
+  const total = activeTest.test.questions?.length || 0;
+  const answered = Object.keys(testAnswers).length;
+  const step = Math.min(testStep + 1, total);
+  return `<div class="card warm unfinished-session">
+    <div class="micro">${esc(tr('unfinishedTest'))}</div>
+    <p class="muted" style="margin-top:8px">${esc(tr('unfinishedHint'))}</p>
+    <p class="muted" style="font-size:13px">${esc(activeTest.test.type)} · ${esc(tr('questionProgress', { n: step, total }))}${answered ? ` · ${answered} ✓` : ''}</p>
+    <div class="actions">
+      <button class="btn primary" data-action="resume-test">${esc(tr('resumeTest'))}</button>
+      <button class="btn secondary" data-action="discard-test">${esc(tr('discardSession'))}</button>
+    </div>
+  </div>`;
+}
+
 function renderTests() {
-  if (activeTest && !activeTest.completed) return renderTestRunner();
-  if (activeTest?.completed) return renderTestResult(activeTest.attempt);
+  // Only show the live runner when the user explicitly started/resumed it
+  if (testRunning && activeTest && !activeTest.completed) return renderTestRunner();
+  if (testRunning && activeTest?.completed) return renderTestResult(activeTest.attempt);
 
   const b = bucket();
   const lastStory = b.lastStoryId || stories()[0]?.id || '';
-  return `${renderStarterPackCard()}<div class="card"><div class="micro">${esc(tr('navTests'))}</div>
+  return `${unfinishedSessionBanner()}${renderStarterPackCard()}<div class="card"><div class="micro">${esc(tr('navTests'))}</div>
     <h2 class="section-title" style="margin-top:8px">${esc(displayName(state.targetLang, state.interfaceLang))}</h2>
     <p class="muted">${esc(tr('diagnosticNote'))}</p>
     <form id="test-config" class="stack" style="gap:12px;margin-top:16px">
@@ -719,7 +746,11 @@ function renderTestRunner() {
 
   if (!useSteppedTest(test)) {
     // Fallback: classic full form for unusual mix (kept rare)
-    return `<div class="card"><div class="micro">${esc(test.type)}</div>
+    return `<div class="card">
+      <div class="test-step-top">
+        <div class="micro">${esc(test.type)} · ${total} ${esc(tr('questions')).toLowerCase()}</div>
+        <button type="button" class="btn flat test-exit" data-action="exit-test">${esc(tr('exitTest'))}</button>
+      </div>
       <form id="test-form" class="stack" style="gap:16px;margin-top:12px">
         ${test.questions.map((qq, i) => `<div class="card" style="padding:16px"><div class="micro">${i + 1}</div>
           <p class="test-prompt"><strong>${esc(qq.prompt?.text || '').replace(/\n/g, '<br>')}</strong></p>
@@ -732,12 +763,15 @@ function renderTestRunner() {
   }
 
   return `<div class="card test-step-card">
-    <div class="micro">${esc(test.type)} · ${esc(test.targetLang)}${mcOnly ? ` · ${esc(tr('mcOnly'))}` : ''}</div>
-    <div class="test-step-meta">
-      <span>${esc(tr('questionOf'))} <b>${step + 1}</b> / ${total}</span>
-      <span class="badge">${esc(cat)}</span>
+    <div class="test-step-top">
+      <div class="test-step-meta">
+        <span class="test-step-progress">${esc(tr('questionProgress', { n: step + 1, total }))}</span>
+        <span class="badge">${esc(cat)}</span>
+      </div>
+      <button type="button" class="btn flat test-exit" data-action="exit-test">${esc(tr('exitTest'))}</button>
     </div>
     <div class="bar test-step-bar"><div style="width:${pct}%"></div></div>
+    <p class="micro test-step-type">${esc(test.type)} · ${esc(test.targetLang)}${mcOnly ? ` · ${esc(tr('mcOnly'))}` : ''}</p>
     <p class="test-prompt test-step-prompt"><strong>${esc(promptText).replace(/\n/g, '<br>')}</strong></p>
     ${renderQuestionBody(q, selected)}
     <div class="actions test-step-actions">
@@ -894,12 +928,39 @@ function updateVoiceUI() {
 
 function selectTab(which) {
   speech.stop(true);
+  // Leaving the runner keeps an unfinished session for optional resume
+  if (testRunning) testRunning = false;
+  // Drop completed result view when navigating away from it
+  if (activeTest?.completed) activeTest = null;
   tab = which;
   openId = null;
   openFairyId = null;
   fairyQuiz = null;
   fairySentenceTr = null;
   openAttemptId = null;
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function clearUnfinishedSession() {
+  activeTest = null;
+  testAnswers = {};
+  testStep = 0;
+  testStartedAt = 0;
+  testRunning = false;
+}
+
+function beginTestSession(test, { replaceToast = false } = {}) {
+  const hadUnfinished = !!(activeTest && !activeTest.completed);
+  activeTest = { test, completed: false, celebrate: false, showMistakes: false };
+  testAnswers = {};
+  testStep = 0;
+  testStartedAt = Date.now();
+  testRunning = true;
+  openAttemptId = null;
+  touchStudy();
+  persist();
+  if (replaceToast && hadUnfinished) toast(tr('newSessionReplaces'));
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -917,7 +978,7 @@ function selectTarget(lang) {
   persist();
   openId = null;
   cardIndex = 0;
-  activeTest = null;
+  clearUnfinishedSession();
   render();
 }
 
@@ -961,14 +1022,7 @@ function startConfiguredTest(cfg) {
     toast(tr('notEnoughQuestions'));
     return;
   }
-  activeTest = { test: result.test, completed: false, celebrate: false, showMistakes: false };
-  testAnswers = {};
-  testStep = 0;
-  testStartedAt = Date.now();
-  touchStudy();
-  persist();
-  render();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  beginTestSession(result.test, { replaceToast: true });
 }
 
 function startStarterPack(size = 'all', mode = 'full') {
@@ -999,16 +1053,8 @@ function startStarterPack(size = 'all', mode = 'full') {
     toast(mode === 'weak' ? tr('noWeakYet') : tr('notEnoughQuestions'));
     return;
   }
-  activeTest = { test: result.test, completed: false, celebrate: false, showMistakes: false };
-  testAnswers = {};
-  testStep = 0;
-  testStartedAt = Date.now();
-  openAttemptId = null;
   tab = 'tests';
-  touchStudy();
-  persist();
-  render();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  beginTestSession(result.test, { replaceToast: true });
 }
 
 function captureStepAnswer() {
@@ -1058,6 +1104,15 @@ function finishTest(form) {
 
 function bindEvents() {
   document.addEventListener('click', (ev) => {
+    const brand = ev.target.closest('a.brand');
+    if (brand && isTestFocusMode()) {
+      ev.preventDefault();
+      captureStepAnswer();
+      testRunning = false;
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
     const btn = ev.target.closest('[data-action]');
     if (btn) {
       const action = btn.dataset.action;
@@ -1263,7 +1318,8 @@ function bindEvents() {
         state.settings.selectedWeek = autoWeek();
         persist();
         render();
-      }       else if (action === 'lesson-test') {
+      } else if (action === 'lesson-test') {
+        tab = 'tests';
         startConfiguredTest({
           type: TEST_TYPES.lesson,
           level: null,
@@ -1271,8 +1327,6 @@ function bindEvents() {
           size: 5,
           listening: state.settings.includeListeningInTests,
         });
-        tab = 'tests';
-        render();
       } else if (action === 'start-starter') {
         startStarterPack(btn.dataset.size || 'all', 'full');
       } else if (action === 'start-starter-weak') {
@@ -1311,8 +1365,25 @@ function bindEvents() {
         if (activeTest.showMistakes) {
           setTimeout(() => document.getElementById('mistakes-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
         }
+      } else if (action === 'exit-test') {
+        // Keep unfinished session; return to Tests hub
+        if (!activeTest?.test || activeTest.completed) return;
+        captureStepAnswer();
+        testRunning = false;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (action === 'resume-test') {
+        if (!activeTest?.test || activeTest.completed) return;
+        testRunning = true;
+        tab = 'tests';
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (action === 'discard-test') {
+        clearUnfinishedSession();
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (action === 'clear-test') {
-        activeTest = null;
+        clearUnfinishedSession();
         openAttemptId = null;
         render();
       } else if (action === 'open-attempt') {
@@ -1321,16 +1392,17 @@ function bindEvents() {
         if (attempt?.type === 'starter') {
           // Review starter run on the Tests screen (with pack progress nearby after close)
           activeTest = { completed: true, attempt, celebrate: false, showMistakes: true };
+          testRunning = true;
           tab = 'tests';
         } else {
-          activeTest = null;
+          clearUnfinishedSession();
           tab = 'history';
         }
         render();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (action === 'close-attempt') {
         openAttemptId = null;
-        activeTest = null;
+        clearUnfinishedSession();
         render();
       } else if (action === 'smart-review') {
         const attempt = state.testAttempts.find((a) => a.id === btn.dataset.attempt);
