@@ -662,8 +662,20 @@ function renderOnePackSection(pack) {
 }
 
 function renderStarterPackCard() {
-  if (state.targetLang !== 'en') return '';
-  return EN_PACK_ORDER.map((id) => getPack(id)).filter(Boolean).map(renderOnePackSection).join('');
+  // English A0 packs are always listed on Tests; starting one switches target to EN.
+  const sections = EN_PACK_ORDER.map((id) => getPack(id)).filter(Boolean).map(renderOnePackSection);
+  if (!sections.length) return '';
+  if (state.targetLang !== 'en') {
+    return `<div class="card" style="margin-bottom:18px">
+      <div class="micro">${esc(tr('starterBadge'))}</div>
+      <h2 class="section-title" style="margin-top:8px">${esc(tr('enPacksHintTitle'))}</h2>
+      <p class="muted">${esc(tr('enPacksHint'))}</p>
+      <div class="actions">
+        <button class="btn primary" data-action="select-target" data-lang="en">${esc(tr('switchToEnglish'))}</button>
+      </div>
+    </div>${sections.join('')}`;
+  }
+  return sections.join('');
 }
 
 function unfinishedSessionBanner() {
