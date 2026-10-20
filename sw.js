@@ -1,5 +1,5 @@
 /* LangLab 3.0 service worker — cache bump preserves localStorage progress. */
-const CACHE = 'langlab-offline-v3.2';
+const CACHE = 'langlab-offline-v3.3';
 const RESOURCES = [
   './',
   './index.html',

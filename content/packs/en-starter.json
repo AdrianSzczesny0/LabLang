@@ -144,7 +144,7 @@
       "prompt": { "pl": "witch = ?", "en": "witch = ?" },
       "options": ["czarownica", "czarodziej", "księżniczka", "smok"],
       "answer": "czarownica",
-      "explanation": { "pl": "witch = czarownica (nie „which” — which znaczy „który”)", "en": "witch = czarownica" }
+      "explanation": { "pl": "witch = czarownica", "en": "witch = czarownica" }
     },
     {
       "id": "en-st-v14",
@@ -342,33 +342,33 @@
       "id": "en-st-s09",
       "category": "sentence",
       "prompt": { "pl": "Wybierz pytanie: Czy ona jest czarownicą?", "en": "Choose: Is she a witch?" },
-      "options": ["Is she a witch?", "Is he a witch?", "She is a wizard.", "Is she a which?"],
+      "options": ["Is she a witch?", "Is he a witch?", "Is she a wizard?", "She is a witch."],
       "answer": "Is she a witch?",
-      "explanation": { "pl": "Is she a witch? (witch, nie which)", "en": "witch = czarownica" }
+      "explanation": { "pl": "Is she a witch? = Czy ona jest czarownicą?", "en": "Is she a witch?" }
     },
     {
       "id": "en-st-s10",
       "category": "sentence",
       "prompt": { "pl": "Wybierz zdanie: Ona jest czarownicą.", "en": "Choose: She is a witch." },
-      "options": ["She is a witch.", "He is a witch.", "She is a wizard.", "She is a which."],
+      "options": ["She is a witch.", "He is a witch.", "She is a wizard.", "She is a queen."],
       "answer": "She is a witch.",
-      "explanation": { "pl": "She is a witch.", "en": "She is a witch." }
+      "explanation": { "pl": "She is a witch. = Ona jest czarownicą.", "en": "She is a witch." }
     },
     {
       "id": "en-st-s11",
       "category": "sentence",
       "prompt": { "pl": "Wybierz pytanie: Czy on jest czarodziejem?", "en": "Choose: Is he a wizard?" },
-      "options": ["Is he a wizard?", "Is she a wizard?", "He is a witch.", "Is he a wizzard?"],
+      "options": ["Is he a wizard?", "Is she a wizard?", "Is he a witch?", "He is a wizard."],
       "answer": "Is he a wizard?",
-      "explanation": { "pl": "Is he a wizard? (wizard, nie wizzard)", "en": "wizard" }
+      "explanation": { "pl": "Is he a wizard? = Czy on jest czarodziejem?", "en": "Is he a wizard?" }
     },
     {
       "id": "en-st-s12",
       "category": "sentence",
       "prompt": { "pl": "Wybierz zdanie: On jest czarodziejem.", "en": "Choose: He is a wizard." },
-      "options": ["He is a wizard.", "She is a wizard.", "He is a witch.", "He is a wizzard."],
+      "options": ["He is a wizard.", "She is a wizard.", "He is a witch.", "He is a knight."],
       "answer": "He is a wizard.",
-      "explanation": { "pl": "He is a wizard.", "en": "He is a wizard." }
+      "explanation": { "pl": "He is a wizard. = On jest czarodziejem.", "en": "He is a wizard." }
     },
     {
       "id": "en-st-y01",
