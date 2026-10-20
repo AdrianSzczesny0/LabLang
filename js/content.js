@@ -126,6 +126,7 @@ export async function loadAllContent(fetchImpl = fetch) {
   const vocabulary = {};
   const fairytales = {};
   const validation = {};
+  const packs = {};
 
   await Promise.all(TARGET_LANGS.map(async (lang) => {
     const [sRes, vRes, fRes] = await Promise.all([
@@ -149,7 +150,18 @@ export async function loadAllContent(fetchImpl = fetch) {
     };
   }));
 
-  return { stories, vocabulary, fairytales, validation };
+  // Optional language starter packs (MC-only). Missing file is OK.
+  try {
+    const packRes = await fetchImpl('./content/packs/en-starter.json');
+    if (packRes.ok) {
+      const pack = await packRes.json();
+      packs[pack.id || 'en-starter'] = pack;
+    }
+  } catch {
+    /* offline / missing pack */
+  }
+
+  return { stories, vocabulary, fairytales, validation, packs };
 }
 
 export function storiesForLang(stories, lang) {

@@ -331,6 +331,56 @@ await test('target language switch does not erase other language records', async
   assert.equal(assertLangPair('de', 'de').ok, false);
 });
 
+await test('English starter pack is MC-only with summary categories', async () => {
+  const pack = loadJSON('content/packs/en-starter.json');
+  assert.ok(pack.questions.length >= 20);
+  const { generateStarterTest, summarizeStarterAttempt, computeStarterProgress } = await importMod('js/starter-pack.js');
+  const { scoreTest, answersMatch } = await importMod('js/assessments.js');
+  const gen = generateStarterTest({ pack, referenceLang: 'pl', interfaceLang: 'pl', size: 'all', rng: () => 0.3 });
+  assert.equal(gen.ok, true);
+  assert.ok(gen.test.multipleChoiceOnly);
+  assert.equal(gen.test.type, 'starter');
+  for (const q of gen.test.questions) {
+    assert.equal(q.type, 'mc_choice');
+    assert.ok(Array.isArray(q.options) && q.options.length >= 2);
+    assert.ok(q.options.includes(q.acceptedAnswers[0]));
+  }
+  // Mix: first half wrong, rest correct — creates weak items + progress history
+  const answers = {};
+  gen.test.questions.forEach((q, i) => {
+    answers[q.id] = i < 5 ? (q.options.find((o) => o !== q.acceptedAnswers[0]) || '') : q.acceptedAnswers[0];
+  });
+  const attempt = scoreTest(gen.test, answers, Date.now() - 500);
+  assert.equal(attempt.packId, 'en-starter');
+  assert.ok(attempt.mistakes.length >= 1);
+  assert.ok(attempt.mistakes[0].sourceId);
+  const summary = summarizeStarterAttempt(attempt, pack, 'pl');
+  assert.ok(summary.message);
+  assert.ok(summary.categories.length >= 1);
+
+  const progress = computeStarterProgress([attempt], pack, 'pl', 'pl');
+  assert.equal(progress.maxPoints, pack.questions.length);
+  assert.ok(progress.points < progress.maxPoints);
+  assert.equal(progress.runCount, 1);
+  assert.equal(progress.chart.length, 1);
+  assert.ok(progress.problematic.length >= 1);
+  assert.ok(progress.weakSourceIds.length >= 1);
+
+  const weakGen = generateStarterTest({
+    pack,
+    referenceLang: 'pl',
+    interfaceLang: 'pl',
+    mode: 'weak',
+    weakSourceIds: progress.weakSourceIds,
+    rng: () => 0.2,
+  });
+  assert.equal(weakGen.ok, true);
+  assert.equal(weakGen.test.mode, 'weak');
+  assert.ok(weakGen.test.questions.every((q) => progress.weakSourceIds.includes(q.sourceId)));
+
+  assert.equal(answersMatch('doll', ['the doll'], { lang: 'en' }), true);
+});
+
 await test('regression scenario DE→ES→ref EN→back DE', async () => {
   store.clear();
   const { createDefaultState } = await importMod('js/registry.js');

@@ -9,6 +9,7 @@ export const TEST_TYPES = {
   level: 'level',
   practice: 'practice',
   diagnostic: 'diagnostic',
+  starter: 'starter',
 };
 
 export const QUESTION_SIZES = [5, 10, 20, 30];
@@ -315,8 +316,14 @@ export function generateTest({
 export function gradeAnswer(question, userAnswer) {
   const lang = question.meta?.targetLang;
   let correct = false;
-  if (question.type === 'mc_vocab' || question.type === 'listening') {
-    correct = answersMatch(userAnswer, question.acceptedAnswers, { lang });
+  if (question.type === 'mc_vocab' || question.type === 'mc_choice' || question.type === 'listening') {
+    // Exact option match first (MC answers are chosen from a fixed list).
+    if ((question.options || []).includes(userAnswer)
+      && (question.acceptedAnswers || []).includes(userAnswer)) {
+      correct = true;
+    } else {
+      correct = answersMatch(userAnswer, question.acceptedAnswers, { lang });
+    }
   } else if (question.type === 'reorder') {
     const normalizedUser = normalizeAnswer(userAnswer, { stripAccents: false });
     correct = (question.acceptedAnswers || []).some((a) => normalizeAnswer(a) === normalizedUser);
@@ -342,14 +349,23 @@ export function scoreTest(test, answersById, startedAt, finishedAt = Date.now())
     else {
       mistakes.push({
         questionId: q.id,
+        sourceId: q.sourceId || q.meta?.sourceId || null,
         type: q.type,
         prompt: q.prompt,
         userAnswer: user,
         expected: q.acceptedAnswers,
         word: q.meta?.word || null,
+        category: q.meta?.category || q.category || null,
       });
     }
-    details.push({ questionId: q.id, ...graded, type: q.type, prompt: q.prompt });
+    details.push({
+      questionId: q.id,
+      sourceId: q.sourceId || q.meta?.sourceId || null,
+      ...graded,
+      type: q.type,
+      prompt: q.prompt,
+      category: q.meta?.category || q.category || null,
+    });
   }
   const total = test.questions.length;
   const scorePercent = total ? Math.round((100 * correctCount) / total) : 0;
@@ -361,6 +377,8 @@ export function scoreTest(test, answersById, startedAt, finishedAt = Date.now())
     type: test.type,
     level: test.level,
     lessonId: test.lessonId || null,
+    packId: test.packId || null,
+    mode: test.mode || null,
     questionCount: total,
     correctCount,
     scorePercent,
@@ -370,6 +388,7 @@ export function scoreTest(test, answersById, startedAt, finishedAt = Date.now())
     mistakes,
     questionBankVersion: test.questionBankVersion || QUESTION_BANK_VERSION,
     diagnosticNote: test.diagnosticNote || null,
+    multipleChoiceOnly: !!test.multipleChoiceOnly,
   };
   return attempt;
 }

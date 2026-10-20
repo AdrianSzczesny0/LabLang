@@ -18,6 +18,10 @@ import {
   scoreSeries, mistakesToFlashcards, revisionAreas, estimateDiagnosticLevel,
   answersMatch,
 } from './assessments.js';
+import {
+  generateStarterTest, packTitle, packDescription, summarizeStarterAttempt,
+  computeStarterProgress,
+} from './starter-pack.js';
 import { t, weekDayNames, planFor } from './i18n.js';
 import {
   filterFairytales, vocabularyByPos, generateFairyWordQuiz, fullTranslationText,
@@ -30,7 +34,7 @@ const esc = (x) => String(x ?? '').replace(/[&<>"']/g, (c) => (
 ));
 
 let state = loadState();
-let content = { stories: {}, vocabulary: {}, fairytales: {}, validation: {} };
+let content = { stories: {}, vocabulary: {}, fairytales: {}, validation: {}, packs: {} };
 let tab = 'dashboard';
 let openId = null;
 let openFairyId = null;
@@ -222,6 +226,7 @@ function renderDashboard() {
       <div class="actions">
         <button class="btn primary" data-action="go" data-tab="reading">${esc(tr('navReading'))} →</button>
         <button class="btn secondary" data-action="go" data-tab="tests">${esc(tr('navTests'))}</button>
+        ${state.targetLang === 'en' && englishStarterPack() ? `<button class="btn secondary" data-action="start-starter" data-size="all">${esc(tr('starterShort'))}</button>` : ''}
       </div>
     </div>
     <div class="card"><h2 class="section-title">${esc(tr('byLevel'))}</h2>${levelBars(state.targetLang)}</div>
@@ -548,13 +553,101 @@ function renderVocab() {
   </div></aside></div>`;
 }
 
+function englishStarterPack() {
+  return content.packs?.['en-starter'] || null;
+}
+
+function renderStarterScoreChart(chart) {
+  if (!chart.length) return `<div class="empty">${esc(tr('starterNoRuns'))}</div>`;
+  const max = 100;
+  const bars = chart.map((s) => {
+    const h = Math.max(4, Math.round((s.score / max) * 72));
+    return `<button type="button" class="chart-bar chart-bar-btn" data-action="open-attempt" data-id="${esc(s.id)}" title="${esc(tr('runLabel'))} ${s.run}: ${s.score}%">
+      <span style="height:${h}px"></span>
+      <small>${s.score}%</small>
+    </button>`;
+  }).join('');
+  return `<div class="chart-row starter-chart" role="img" aria-label="${esc(tr('starterChart'))}">${bars}</div>
+    <p class="muted" style="font-size:12px;margin:8px 0 0">${esc(tr('tapBarHint'))}</p>`;
+}
+
+function renderStarterPackCard() {
+  if (state.targetLang !== 'en') return '';
+  const pack = englishStarterPack();
+  if (!pack) return '';
+  const title = packTitle(pack, state.interfaceLang, state.referenceLang);
+  const desc = packDescription(pack, state.interfaceLang, state.referenceLang);
+  const n = pack.questions?.length || 0;
+  const progress = computeStarterProgress(
+    state.testAttempts,
+    pack,
+    state.interfaceLang,
+    state.referenceLang,
+  );
+  const pct = progress.maxPoints
+    ? Math.round((100 * progress.points) / progress.maxPoints)
+    : 0;
+  const weakCount = progress.weakSourceIds.length;
+
+  return `<div class="stack" style="margin-bottom:18px;gap:18px">
+    <div class="card warm">
+      <div class="micro">${esc(tr('starterBadge'))}</div>
+      <h2 class="section-title" style="margin-top:10px">${esc(title)}</h2>
+      <p class="muted">${esc(desc)}</p>
+      <p class="muted" style="font-size:13px">${n} ${esc(tr('questions'))} · ${esc(tr('mcOnly'))}</p>
+      <div class="actions">
+        <button class="btn primary" data-action="start-starter" data-size="all">${esc(tr('startStarterAll'))}</button>
+        <button class="btn secondary" data-action="start-starter" data-size="10">${esc(tr('startStarter10'))}</button>
+        <button class="btn secondary" data-action="start-starter-weak" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}${weakCount ? ` (${weakCount})` : ''}</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="micro">${esc(tr('starterProgress'))}</div>
+      <h2 class="section-title" style="margin-top:8px">${esc(tr('pointsVsMax'))}</h2>
+      <div class="statgrid" style="margin-top:12px">
+        <div class="stat"><b>${progress.points}/${progress.maxPoints}</b><span>${esc(tr('pointsLabel'))}</span></div>
+        <div class="stat"><b>${pct}%</b><span>${esc(tr('masteryLabel'))}</span></div>
+        <div class="stat"><b>${progress.runCount}</b><span>${esc(tr('runsLabel'))}</span></div>
+      </div>
+      <div class="bar"><div style="width:${pct}%"></div></div>
+      <p class="muted" style="font-size:12px">${esc(tr('pointsExplain'))}${progress.bestScore != null ? ` · ${esc(tr('bestScore'))}: ${progress.bestScore}%` : ''}</p>
+      <h3 class="subheading" style="margin-top:18px">${esc(tr('starterChart'))}</h3>
+      ${renderStarterScoreChart(progress.chart)}
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">${esc(tr('problematicWords'))}</h2>
+      ${progress.problematic.length
+    ? `<ul class="weak-list">${progress.problematic.map((w) => `<li>
+          <div><strong>${esc(w.answer)}</strong><br><span class="muted" style="font-size:12px">${esc(w.label)}</span></div>
+          <span class="badge">${w.wrong}× ✗ · ${w.right}× ✓</span>
+        </li>`).join('')}</ul>
+        <div class="actions"><button class="btn primary" data-action="start-starter-weak" ${weakCount ? '' : 'disabled'}>${esc(tr('retryWeak'))}</button></div>`
+    : `<div class="empty">${esc(tr('noWeakYet'))}</div>`}
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">${esc(tr('starterHistory'))}</h2>
+      <p class="muted" style="font-size:13px">${esc(tr('starterHistoryHint'))}</p>
+      ${progress.runs.length
+    ? progress.runs.map((a) => `<button type="button" class="story-tile" data-action="open-attempt" data-id="${a.id}">
+          <div class="row"><span class="badge">${esc(a.mode === 'weak' ? tr('weakRun') : tr('fullRun'))}</span><span>${a.scorePercent}%</span></div>
+          <div><h3>${esc(a.createdAt.slice(0, 16).replace('T', ' '))}</h3>
+          <p>${a.correctCount}/${a.questionCount} ${esc(tr('pointsLabel').toLowerCase())}</p></div>
+        </button>`).join('')
+    : `<div class="empty">${esc(tr('starterNoRuns'))}</div>`}
+    </div>
+  </div>`;
+}
+
 function renderTests() {
   if (activeTest && !activeTest.completed) return renderTestRunner();
   if (activeTest?.completed) return renderTestResult(activeTest.attempt);
 
   const b = bucket();
   const lastStory = b.lastStoryId || stories()[0]?.id || '';
-  return `<div class="card"><div class="micro">${esc(tr('navTests'))}</div>
+  return `${renderStarterPackCard()}<div class="card"><div class="micro">${esc(tr('navTests'))}</div>
     <h2 class="section-title" style="margin-top:8px">${esc(displayName(state.targetLang, state.interfaceLang))}</h2>
     <p class="muted">${esc(tr('diagnosticNote'))}</p>
     <form id="test-config" class="stack" style="gap:12px;margin-top:16px">
@@ -581,28 +674,36 @@ function renderTests() {
   </div>`;
 }
 
+function hasMcOptions(q) {
+  return Array.isArray(q.options) && q.options.length > 0;
+}
+
 function renderTestRunner() {
   const test = activeTest.test;
-  return `<div class="card"><div class="micro">${esc(test.type)} · ${esc(test.targetLang)}</div>
+  const mcOnly = !!test.multipleChoiceOnly || test.type === 'starter';
+  return `<div class="card"><div class="micro">${esc(test.type)} · ${esc(test.targetLang)}${mcOnly ? ` · ${esc(tr('mcOnly'))}` : ''}</div>
     <h2 class="section-title">${esc(tr('questions'))}: ${test.questions.length}</h2>
     ${test.diagnosticNote ? `<div class="notice">${esc(tr('diagnosticNote'))}</div>` : ''}
     <form id="test-form" class="stack" style="gap:16px;margin-top:12px">
       ${test.questions.map((q, i) => {
     let body = '';
-    if (q.type === 'mc_vocab' || q.type === 'listening') {
-      body = `<div class="test-options">${(q.options || []).map((opt) => `<label class="test-option"><input type="radio" name="${q.id}" value="${esc(opt)}"><span>${esc(opt)}</span></label>`).join('')}</div>`;
-      if (q.type === 'listening') {
+    if (hasMcOptions(q) || q.type === 'mc_vocab' || q.type === 'mc_choice' || q.type === 'listening') {
+      body = `<div class="test-options">${(q.options || []).map((opt) => `<label class="test-option"><input type="radio" name="${q.id}" value="${esc(opt)}" required><span>${esc(opt)}</span></label>`).join('')}</div>`;
+      if (q.type === 'listening' && q.meta?.listenText) {
         body = `<button type="button" class="btn secondary" data-action="speak-test" data-text="${esc(q.meta.listenText)}" data-lang="${esc(q.meta.targetLang)}">▶</button>${body}`;
       }
+    } else if (mcOnly) {
+      body = `<div class="notice">${esc(tr('mcOnly'))}</div>`;
     } else if (q.type === 'reorder') {
       body = `<p class="muted">${esc((q.prompt.tokens || []).join(' / '))}</p><input class="field" name="${q.id}" placeholder="…">`;
     } else {
       body = `<input class="field" name="${q.id}" placeholder="…">`;
     }
     const promptText = q.prompt?.text || '';
-    return `<div class="card" style="padding:16px"><div class="micro">${i + 1}. ${esc(q.type)}</div><p><strong>${esc(promptText)}</strong></p>${body}</div>`;
+    const cat = q.meta?.category || q.type;
+    return `<div class="card" style="padding:16px"><div class="micro">${i + 1}. ${esc(cat)}</div><p><strong>${esc(promptText)}</strong></p>${body}</div>`;
   }).join('')}
-      <button class="btn primary" type="submit">${esc(tr('score'))}</button>
+      <button class="btn primary" type="submit">${esc(tr('showSummary'))}</button>
     </form>
   </div>`;
 }
@@ -610,26 +711,42 @@ function renderTestRunner() {
 function renderTestResult(attempt) {
   const areas = revisionAreas(attempt);
   const est = attempt.type === 'diagnostic' ? estimateDiagnosticLevel(attempt) : null;
+  const pack = attempt.packId || attempt.lessonId === 'en-starter' ? englishStarterPack() : null;
+  const summary = attempt.type === 'starter' && pack
+    ? summarizeStarterAttempt(attempt, pack, state.interfaceLang)
+    : null;
   return `<div class="card">
-    <div class="micro">${esc(tr('score'))}</div>
+    <div class="micro">${esc(tr('testSummary'))}</div>
     <h2 class="section-title">${attempt.scorePercent}%</h2>
-    <div class="statgrid">
+    ${summary ? `<p class="notice">${esc(summary.message)}</p>
+      <div class="statgrid">
+        <div class="stat"><b>${summary.correct}/${summary.total}</b><span>OK</span></div>
+        <div class="stat"><b>${Math.round(attempt.durationMs / 1000)}s</b><span>${esc(tr('timeTaken'))}</span></div>
+        <div class="stat"><b>${summary.mistakes}</b><span>✗</span></div>
+      </div>
+      <h3 class="subheading">${esc(tr('byCategory'))}</h3>
+      ${summary.categories.map((c) => `<div class="progress-row"><div class="row"><b>${esc(c.label)}</b><small>${c.correct}/${c.total}</small></div><div class="bar"><div style="width:${c.percent}%"></div></div></div>`).join('')}
+    ` : `<div class="statgrid">
       <div class="stat"><b>${attempt.correctCount}/${attempt.questionCount}</b><span>OK</span></div>
       <div class="stat"><b>${Math.round(attempt.durationMs / 1000)}s</b><span>${esc(tr('timeTaken'))}</span></div>
       <div class="stat"><b>${attempt.mistakes.length}</b><span>✗</span></div>
-    </div>
+    </div>`}
     ${est ? `<div class="notice">${esc(tr('estimateNotCert'))}: ${est}</div>` : ''}
     <h3 class="subheading">${esc(tr('reviewMistakes'))}</h3>
     ${attempt.answers.map((a, i) => `<div class="qa"><strong>${i + 1}. ${a.correct ? '✓' : '✗'}</strong>
       <p>${esc(a.prompt?.text || '')}</p>
-      <p class="muted">you: ${esc(a.userAnswer)} · expected: ${esc((a.expected || [])[0] || '')}</p>
+      <p class="muted">${esc(tr('yourAnswer'))}: ${esc(a.userAnswer || '—')} · ${esc(tr('correctAnswer'))}: ${esc((a.expected || [])[0] || '')}</p>
       ${a.explanation ? `<p class="qa-answer">${esc(a.explanation)}</p>` : ''}
     </div>`).join('')}
-    ${areas.length ? `<p class="muted">${areas.map((a) => `${a.type}: ${a.count}`).join(' · ')}</p>` : ''}
+    ${areas.length && !summary ? `<p class="muted">${areas.map((a) => `${a.type}: ${a.count}`).join(' · ')}</p>` : ''}
     <div class="actions">
-      <button class="btn primary" data-action="smart-review" data-attempt="${attempt.id}">${esc(tr('smartReview'))}</button>
+      ${attempt.type === 'starter' ? `
+        <button class="btn primary" data-action="start-starter" data-size="all">${esc(tr('retryStarter'))}</button>
+        <button class="btn secondary" data-action="start-starter-weak">${esc(tr('retryWeak'))}</button>
+        <button class="btn secondary" data-action="clear-test">${esc(tr('starterProgress'))}</button>
+      ` : `<button class="btn primary" data-action="smart-review" data-attempt="${attempt.id}">${esc(tr('smartReview'))}</button>
+      <button class="btn secondary" data-action="clear-test">${esc(tr('navTests'))}</button>`}
       <button class="btn secondary" data-action="go" data-tab="history">${esc(tr('navHistory'))}</button>
-      <button class="btn secondary" data-action="clear-test">${esc(tr('navTests'))}</button>
     </div>
   </div>`;
 }
@@ -800,6 +917,45 @@ function startConfiguredTest(cfg) {
   render();
 }
 
+function startStarterPack(size = 'all', mode = 'full') {
+  const pack = englishStarterPack();
+  if (!pack) {
+    toast(tr('noData'));
+    return;
+  }
+  if (state.targetLang !== 'en') {
+    state.targetLang = 'en';
+    persist();
+  }
+  const progress = computeStarterProgress(
+    state.testAttempts,
+    pack,
+    state.interfaceLang,
+    state.referenceLang,
+  );
+  const result = generateStarterTest({
+    pack,
+    referenceLang: state.referenceLang,
+    interfaceLang: state.interfaceLang,
+    size: mode === 'weak' ? 'all' : size,
+    mode,
+    weakSourceIds: progress.weakSourceIds,
+  });
+  if (!result.ok) {
+    toast(mode === 'weak' ? tr('noWeakYet') : tr('notEnoughQuestions'));
+    return;
+  }
+  activeTest = { test: result.test, completed: false };
+  testAnswers = {};
+  testStartedAt = Date.now();
+  openAttemptId = null;
+  tab = 'tests';
+  touchStudy();
+  persist();
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function finishTest(form) {
   const answers = {};
   for (const q of activeTest.test.questions) {
@@ -808,9 +964,11 @@ function finishTest(form) {
   }
   const attempt = scoreTest(activeTest.test, answers, testStartedAt);
   state.testAttempts.push(attempt);
+  openAttemptId = null;
   activeTest = { completed: true, attempt };
   persist();
   render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function bindEvents() {
@@ -1020,7 +1178,7 @@ function bindEvents() {
         state.settings.selectedWeek = autoWeek();
         persist();
         render();
-      } else if (action === 'lesson-test') {
+      }       else if (action === 'lesson-test') {
         startConfiguredTest({
           type: TEST_TYPES.lesson,
           level: null,
@@ -1030,12 +1188,27 @@ function bindEvents() {
         });
         tab = 'tests';
         render();
+      } else if (action === 'start-starter') {
+        startStarterPack(btn.dataset.size || 'all', 'full');
+      } else if (action === 'start-starter-weak') {
+        startStarterPack('all', 'weak');
       } else if (action === 'clear-test') {
         activeTest = null;
+        openAttemptId = null;
         render();
       } else if (action === 'open-attempt') {
         openAttemptId = btn.dataset.id;
+        const attempt = state.testAttempts.find((a) => a.id === openAttemptId);
+        if (attempt?.type === 'starter') {
+          // Review starter run on the Tests screen (with pack progress nearby after close)
+          activeTest = { completed: true, attempt };
+          tab = 'tests';
+        } else {
+          activeTest = null;
+          tab = 'history';
+        }
         render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (action === 'close-attempt') {
         openAttemptId = null;
         activeTest = null;
