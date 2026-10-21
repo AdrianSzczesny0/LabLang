@@ -3,40 +3,52 @@
   "targetLang": "de",
   "level": "A0",
   "title": {
-    "pl": "Podstawy: powitania, imię i wiek",
-    "en": "Starter: greetings, name & age",
-    "de": "Starter: Begrüßung, Name & Alter"
+    "pl": "Podstawy: powitania, imię, wiek i bajki",
+    "en": "Starter: greetings, name, age & fantasy",
+    "de": "Starter: Begrüßung, Name, Alter & Fantasy"
   },
   "description": {
-    "pl": "Kliknij dobrą odpowiedź. Ćwiczysz: Hallo, Wie heißt du?, Wie alt bist du?, Ich heiße…, Er/Sie heißt…",
-    "en": "Tap the right answer. Practice: Hallo, Wie heißt du?, Wie alt bist du?, Ich heiße…, Er/Sie heißt…",
-    "de": "Tippe die richtige Antwort. Übung: Hallo, Wie heißt du?, Wie alt bist du?, Ich heiße…, Er/Sie heißt…"
+    "pl": "Kliknij dobrą odpowiedź. Hallo, Wie heißt du?, Wie alt?, Er/Sie ist, Er/Sie hat, Prinz, Ritter, Zauberer…",
+    "en": "Tap the right answer. Hallo, Wie heißt du?, Wie alt?, Er/Sie ist, Er/Sie hat, Prinz, Ritter, Zauberer…",
+    "de": "Tippe die richtige Antwort. Hallo, Wie heißt du?, Wie alt?, ist/hat, Prinz, Ritter…"
   },
   "vocabulary": [
-    { "word": "Hallo", "gloss": { "pl": "cześć / halo", "en": "hello", "de": "Hallo" } },
+    { "word": "Hallo", "gloss": { "pl": "cześć", "en": "hello", "de": "Hallo" } },
     { "word": "Guten Morgen", "gloss": { "pl": "dzień dobry (rano)", "en": "good morning", "de": "Guten Morgen" } },
     { "word": "Guten Tag", "gloss": { "pl": "dzień dobry", "en": "good day", "de": "Guten Tag" } },
     { "word": "ich", "gloss": { "pl": "ja", "en": "I", "de": "ich" } },
-    { "word": "du", "gloss": { "pl": "ty", "en": "you (informal)", "de": "du" } },
+    { "word": "du", "gloss": { "pl": "ty", "en": "you", "de": "du" } },
     { "word": "er", "gloss": { "pl": "on", "en": "he", "de": "er" } },
     { "word": "sie", "gloss": { "pl": "ona", "en": "she", "de": "sie" } },
     { "word": "heißen", "gloss": { "pl": "nazywać się", "en": "to be called", "de": "heißen" } },
-    { "word": "Name", "gloss": { "pl": "imię / nazwisko", "en": "name", "de": "Name" } },
-    { "word": "alt", "gloss": { "pl": "stary / mieć lat", "en": "old", "de": "alt" } },
-    { "word": "Jahre", "gloss": { "pl": "lata", "en": "years", "de": "Jahre" } },
+    { "word": "Name", "gloss": { "pl": "imię", "en": "name", "de": "Name" } },
     { "word": "sein", "gloss": { "pl": "jego", "en": "his", "de": "sein" } },
     { "word": "ihr", "gloss": { "pl": "jej", "en": "her", "de": "ihr" } },
-    { "word": "danke", "gloss": { "pl": "dziękuję", "en": "thanks", "de": "danke" } },
-    { "word": "bitte", "gloss": { "pl": "proszę", "en": "please / you're welcome", "de": "bitte" } },
-    { "word": "Freut mich", "gloss": { "pl": "miło mi", "en": "nice to meet you", "de": "Freut mich" } },
+    { "word": "ist", "gloss": { "pl": "jest", "en": "is", "de": "ist" } },
+    { "word": "hat", "gloss": { "pl": "ma", "en": "has", "de": "hat" } },
+    { "word": "Jahre", "gloss": { "pl": "lata", "en": "years", "de": "Jahre" } },
+    { "word": "Prinz", "gloss": { "pl": "książę", "en": "prince", "de": "Prinz" } },
+    { "word": "Prinzessin", "gloss": { "pl": "księżniczka", "en": "princess", "de": "Prinzessin" } },
+    { "word": "Ritter", "gloss": { "pl": "rycerz", "en": "knight", "de": "Ritter" } },
+    { "word": "Zauberer", "gloss": { "pl": "czarodziej", "en": "wizard", "de": "Zauberer" } },
+    { "word": "Hexe", "gloss": { "pl": "czarownica", "en": "witch", "de": "Hexe" } },
+    { "word": "Königin", "gloss": { "pl": "królowa", "en": "queen", "de": "Königin" } },
+    { "word": "Drache", "gloss": { "pl": "smok", "en": "dragon", "de": "Drache" } },
+    { "word": "Lieblings-", "gloss": { "pl": "ulubiony", "en": "favorite", "de": "Lieblings-" } },
     { "word": "Polen", "gloss": { "pl": "Polska", "en": "Poland", "de": "Polen" } },
-    { "word": "Deutschland", "gloss": { "pl": "Niemcy", "en": "Germany", "de": "Deutschland" } }
+    { "word": "Deutschland", "gloss": { "pl": "Niemcy", "en": "Germany", "de": "Deutschland" } },
+    { "word": "Frankreich", "gloss": { "pl": "Francja", "en": "France", "de": "Frankreich" } },
+    { "word": "Spanien", "gloss": { "pl": "Hiszpania", "en": "Spain", "de": "Spanien" } },
+    { "word": "Italien", "gloss": { "pl": "Włochy", "en": "Italy", "de": "Italien" } },
+    { "word": "danke", "gloss": { "pl": "dziękuję", "en": "thanks", "de": "danke" } },
+    { "word": "bitte", "gloss": { "pl": "proszę", "en": "please", "de": "bitte" } },
+    { "word": "Freut mich", "gloss": { "pl": "miło mi", "en": "nice to meet you", "de": "Freut mich" } }
   ],
   "questions": [
     {
       "id": "de-st-v01",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: ona", "en": "German for: she", "de": "Deutsch für: ona (sie)" },
+      "prompt": { "pl": "Po niemiecku: ona", "en": "German for: she", "de": "Deutsch: ona" },
       "options": ["sie", "er", "ihr", "sein"],
       "answer": "sie",
       "explanation": { "pl": "sie = ona", "en": "sie = she", "de": "sie = ona" }
@@ -44,7 +56,7 @@
     {
       "id": "de-st-v02",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: on", "en": "German for: he", "de": "Deutsch für: on (er)" },
+      "prompt": { "pl": "Po niemiecku: on", "en": "German for: he", "de": "Deutsch: on" },
       "options": ["er", "sie", "ihr", "du"],
       "answer": "er",
       "explanation": { "pl": "er = on", "en": "er = he", "de": "er = on" }
@@ -55,7 +67,7 @@
       "prompt": { "pl": "ihr = ?", "en": "ihr = ?", "de": "ihr = ?" },
       "options": ["jej", "jego", "ona", "on"],
       "answer": "jej",
-      "explanation": { "pl": "ihr = jej (np. ihr Name)", "en": "ihr = her", "de": "ihr = jej" }
+      "explanation": { "pl": "ihr = jej (ihr Name)", "en": "ihr = her", "de": "ihr = jej" }
     },
     {
       "id": "de-st-v04",
@@ -63,55 +75,87 @@
       "prompt": { "pl": "sein = ?", "en": "sein = ?", "de": "sein = ?" },
       "options": ["jego", "jej", "ona", "imię"],
       "answer": "jego",
-      "explanation": { "pl": "sein = jego (np. sein Name)", "en": "sein = his", "de": "sein = jego" }
+      "explanation": { "pl": "sein = jego (sein Name)", "en": "sein = his", "de": "sein = jego" }
     },
     {
       "id": "de-st-v05",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: cześć", "en": "German for: hello", "de": "Deutsch für: cześć" },
-      "options": ["Hallo", "Danke", "Bitte", "Jahre"],
-      "answer": "Hallo",
-      "explanation": { "pl": "Hallo = cześć", "en": "Hallo = hello", "de": "Hallo = cześć" }
+      "prompt": { "pl": "ist = ?", "en": "ist = ?", "de": "ist = ?" },
+      "options": ["jest", "ma", "nazywa się", "dziękuje"],
+      "answer": "jest",
+      "explanation": { "pl": "ist = jest (Er ist…)", "en": "ist = is", "de": "ist = jest" }
     },
     {
       "id": "de-st-v06",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: dzień dobry (rano)", "en": "German for: good morning", "de": "Deutsch für: dzień dobry (rano)" },
-      "options": ["Guten Morgen", "Guten Tag", "Hallo", "Freut mich"],
-      "answer": "Guten Morgen",
-      "explanation": { "pl": "Guten Morgen = dzień dobry (rano)", "en": "Guten Morgen = good morning", "de": "Guten Morgen" }
+      "prompt": { "pl": "hat = ?", "en": "hat = ?", "de": "hat = ?" },
+      "options": ["ma", "jest", "nazywa się", "proszę"],
+      "answer": "ma",
+      "explanation": { "pl": "hat = ma (Er hat…)", "en": "hat = has", "de": "hat = ma" }
     },
     {
       "id": "de-st-v07",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: dziękuję", "en": "German for: thank you", "de": "Deutsch für: dziękuję" },
-      "options": ["danke", "bitte", "Hallo", "alt"],
-      "answer": "danke",
-      "explanation": { "pl": "danke = dziękuję", "en": "danke = thanks", "de": "danke = dziękuję" }
+      "prompt": { "pl": "Prinz = ?", "en": "Prinz = ?", "de": "Prinz = ?" },
+      "options": ["książę", "księżniczka", "rycerz", "królowa"],
+      "answer": "książę",
+      "explanation": { "pl": "Prinz = książę", "en": "Prinz = prince", "de": "Prinz = książę" }
     },
     {
       "id": "de-st-v08",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: proszę", "en": "German for: please", "de": "Deutsch für: proszę" },
-      "options": ["bitte", "danke", "Jahre", "Name"],
-      "answer": "bitte",
-      "explanation": { "pl": "bitte = proszę", "en": "bitte = please", "de": "bitte = proszę" }
+      "prompt": { "pl": "Prinzessin = ?", "en": "Prinzessin = ?", "de": "Prinzessin = ?" },
+      "options": ["księżniczka", "książę", "czarownica", "smok"],
+      "answer": "księżniczka",
+      "explanation": { "pl": "Prinzessin = księżniczka", "en": "Prinzessin = princess", "de": "Prinzessin = księżniczka" }
     },
     {
       "id": "de-st-v09",
       "category": "vocab",
-      "prompt": { "pl": "heißen = ?", "en": "heißen = ?", "de": "heißen = ?" },
-      "options": ["nazywać się", "mieć lat", "dziękować", "przychodzić"],
-      "answer": "nazywać się",
-      "explanation": { "pl": "heißen = nazywać się", "en": "heißen = to be called", "de": "heißen = nazywać się" }
+      "prompt": { "pl": "Ritter = ?", "en": "Ritter = ?", "de": "Ritter = ?" },
+      "options": ["rycerz", "książę", "czarodziej", "królowa"],
+      "answer": "rycerz",
+      "explanation": { "pl": "Ritter = rycerz", "en": "Ritter = knight", "de": "Ritter = rycerz" }
     },
     {
       "id": "de-st-v10",
       "category": "vocab",
-      "prompt": { "pl": "Po niemiecku: lata (wiek)", "en": "German for: years (age)", "de": "Deutsch für: lata" },
-      "options": ["Jahre", "Name", "alt", "Hallo"],
-      "answer": "Jahre",
-      "explanation": { "pl": "Jahre = lata", "en": "Jahre = years", "de": "Jahre = lata" }
+      "prompt": { "pl": "Zauberer = ?", "en": "Zauberer = ?", "de": "Zauberer = ?" },
+      "options": ["czarodziej", "czarownica", "rycerz", "smok"],
+      "answer": "czarodziej",
+      "explanation": { "pl": "Zauberer = czarodziej", "en": "Zauberer = wizard", "de": "Zauberer = czarodziej" }
+    },
+    {
+      "id": "de-st-v11",
+      "category": "vocab",
+      "prompt": { "pl": "Hexe = ?", "en": "Hexe = ?", "de": "Hexe = ?" },
+      "options": ["czarownica", "czarodziej", "księżniczka", "królowa"],
+      "answer": "czarownica",
+      "explanation": { "pl": "Hexe = czarownica", "en": "Hexe = witch", "de": "Hexe = czarownica" }
+    },
+    {
+      "id": "de-st-v12",
+      "category": "vocab",
+      "prompt": { "pl": "Königin = ?", "en": "Königin = ?", "de": "Königin = ?" },
+      "options": ["królowa", "księżniczka", "czarownica", "rycerz"],
+      "answer": "królowa",
+      "explanation": { "pl": "Königin = królowa", "en": "Königin = queen", "de": "Königin = królowa" }
+    },
+    {
+      "id": "de-st-v13",
+      "category": "vocab",
+      "prompt": { "pl": "Drache = ?", "en": "Drache = ?", "de": "Drache = ?" },
+      "options": ["smok", "rycerz", "książę", "czarodziej"],
+      "answer": "smok",
+      "explanation": { "pl": "Drache = smok", "en": "Drache = dragon", "de": "Drache = smok" }
+    },
+    {
+      "id": "de-st-v14",
+      "category": "vocab",
+      "prompt": { "pl": "Po niemiecku: imię", "en": "German for: name", "de": "Deutsch: imię" },
+      "options": ["Name", "Jahre", "Ritter", "Hallo"],
+      "answer": "Name",
+      "explanation": { "pl": "Name = imię", "en": "Name = name", "de": "Name = imię" }
     },
     {
       "id": "de-st-c01",
@@ -132,18 +176,26 @@
     {
       "id": "de-st-c03",
       "category": "country",
-      "prompt": { "pl": "Po niemiecku: Francja", "en": "German for: France", "de": "Deutsch für: Francja" },
-      "options": ["Frankreich", "Spanien", "Italien", "Polen"],
-      "answer": "Frankreich",
+      "prompt": { "pl": "Frankreich = ?", "en": "Frankreich = ?", "de": "Frankreich = ?" },
+      "options": ["Francja", "Hiszpania", "Włochy", "Polska"],
+      "answer": "Francja",
       "explanation": { "pl": "Frankreich = Francja", "en": "Frankreich = France", "de": "Frankreich = Francja" }
     },
     {
       "id": "de-st-c04",
       "category": "country",
-      "prompt": { "pl": "Po niemiecku: Hiszpania", "en": "German for: Spain", "de": "Deutsch für: Hiszpania" },
-      "options": ["Spanien", "Italien", "Frankreich", "Österreich"],
-      "answer": "Spanien",
+      "prompt": { "pl": "Spanien = ?", "en": "Spanien = ?", "de": "Spanien = ?" },
+      "options": ["Hiszpania", "Włochy", "Francja", "Niemcy"],
+      "answer": "Hiszpania",
       "explanation": { "pl": "Spanien = Hiszpania", "en": "Spanien = Spain", "de": "Spanien = Hiszpania" }
+    },
+    {
+      "id": "de-st-c05",
+      "category": "country",
+      "prompt": { "pl": "Italien = ?", "en": "Italien = ?", "de": "Italien = ?" },
+      "options": ["Włochy", "Hiszpania", "Francja", "Polska"],
+      "answer": "Włochy",
+      "explanation": { "pl": "Italien = Włochy", "en": "Italien = Italy", "de": "Italien = Włochy" }
     },
     {
       "id": "de-st-q01",
@@ -151,7 +203,7 @@
       "prompt": { "pl": "Jak zapytać: Jak masz na imię?", "en": "Ask: What's your name?", "de": "Frage: Jak masz na imię?" },
       "options": ["Wie heißt du?", "Wie heißt er?", "Wie alt bist du?", "Wie heißt sie?"],
       "answer": "Wie heißt du?",
-      "explanation": { "pl": "Wie heißt du? = Jak masz na imię?", "en": "Wie heißt du? = What's your name?", "de": "Wie heißt du?" }
+      "explanation": { "pl": "Wie heißt du?", "en": "Wie heißt du?", "de": "Wie heißt du?" }
     },
     {
       "id": "de-st-q02",
@@ -159,7 +211,7 @@
       "prompt": { "pl": "Jak zapytać: Jak ona ma na imię?", "en": "Ask: What's her name?", "de": "Frage: Jak ona ma na imię?" },
       "options": ["Wie heißt sie?", "Wie heißt er?", "Wie heißt du?", "Wie alt ist sie?"],
       "answer": "Wie heißt sie?",
-      "explanation": { "pl": "Wie heißt sie? = Jak ona ma na imię?", "en": "Wie heißt sie?", "de": "sie = ona" }
+      "explanation": { "pl": "Wie heißt sie?", "en": "Wie heißt sie?", "de": "Wie heißt sie?" }
     },
     {
       "id": "de-st-q03",
@@ -167,7 +219,7 @@
       "prompt": { "pl": "Jak zapytać: Jak on ma na imię?", "en": "Ask: What's his name?", "de": "Frage: Jak on ma na imię?" },
       "options": ["Wie heißt er?", "Wie heißt sie?", "Wie heißt du?", "Wie alt ist er?"],
       "answer": "Wie heißt er?",
-      "explanation": { "pl": "Wie heißt er? = Jak on ma na imię?", "en": "Wie heißt er?", "de": "er = on" }
+      "explanation": { "pl": "Wie heißt er?", "en": "Wie heißt er?", "de": "Wie heißt er?" }
     },
     {
       "id": "de-st-q04",
@@ -175,7 +227,7 @@
       "prompt": { "pl": "Jak zapytać: Ile masz lat?", "en": "Ask: How old are you?", "de": "Frage: Ile masz lat?" },
       "options": ["Wie alt bist du?", "Wie alt ist sie?", "Wie heißt du?", "Wie alt ist er?"],
       "answer": "Wie alt bist du?",
-      "explanation": { "pl": "Wie alt bist du? = Ile masz lat?", "en": "Wie alt bist du?", "de": "Wie alt bist du?" }
+      "explanation": { "pl": "Wie alt bist du?", "en": "Wie alt bist du?", "de": "Wie alt bist du?" }
     },
     {
       "id": "de-st-q05",
@@ -183,7 +235,7 @@
       "prompt": { "pl": "Jak zapytać: Ile ona ma lat?", "en": "Ask: How old is she?", "de": "Frage: Ile ona ma lat?" },
       "options": ["Wie alt ist sie?", "Wie alt ist er?", "Wie alt bist du?", "Wie heißt sie?"],
       "answer": "Wie alt ist sie?",
-      "explanation": { "pl": "Wie alt ist sie? = Ile ona ma lat?", "en": "Wie alt ist sie?", "de": "sie → ist sie" }
+      "explanation": { "pl": "Wie alt ist sie?", "en": "Wie alt ist sie?", "de": "Wie alt ist sie?" }
     },
     {
       "id": "de-st-q06",
@@ -191,15 +243,7 @@
       "prompt": { "pl": "Jak zapytać: Ile on ma lat?", "en": "Ask: How old is he?", "de": "Frage: Ile on ma lat?" },
       "options": ["Wie alt ist er?", "Wie alt ist sie?", "Wie alt bist du?", "Wie heißt er?"],
       "answer": "Wie alt ist er?",
-      "explanation": { "pl": "Wie alt ist er? = Ile on ma lat?", "en": "Wie alt ist er?", "de": "er → ist er" }
-    },
-    {
-      "id": "de-st-q07",
-      "category": "question",
-      "prompt": { "pl": "Jak zapytać: Skąd jesteś?", "en": "Ask: Where are you from?", "de": "Frage: Skąd jesteś?" },
-      "options": ["Woher kommst du?", "Wie heißt du?", "Wie alt bist du?", "Wo wohnst du?"],
-      "answer": "Woher kommst du?",
-      "explanation": { "pl": "Woher kommst du? = Skąd jesteś / skąd pochodzisz?", "en": "Woher kommst du?", "de": "Woher kommst du?" }
+      "explanation": { "pl": "Wie alt ist er?", "en": "Wie alt ist er?", "de": "Wie alt ist er?" }
     },
     {
       "id": "de-st-s01",
@@ -207,23 +251,23 @@
       "prompt": { "pl": "Powiedz: Mam na imię Sara.", "en": "Say: My name is Sara.", "de": "Sag: Mam na imię Sara." },
       "options": ["Ich heiße Sara.", "Sie heißt Sara.", "Er heißt Sara.", "Wie heißt du?"],
       "answer": "Ich heiße Sara.",
-      "explanation": { "pl": "Ich heiße Sara. = Mam na imię Sara.", "en": "Ich heiße Sara.", "de": "Ich heiße…" }
+      "explanation": { "pl": "Ich heiße Sara.", "en": "Ich heiße Sara.", "de": "Ich heiße Sara." }
     },
     {
       "id": "de-st-s02",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: Ona ma na imię Aniela.", "en": "Say: Her name is Aniela. / She is called Aniela.", "de": "Sag: Ona ma na imię Aniela." },
+      "prompt": { "pl": "Powiedz: Ona ma na imię Aniela.", "en": "Say: She is called Aniela.", "de": "Sag: Ona ma na imię Aniela." },
       "options": ["Sie heißt Aniela.", "Er heißt Aniela.", "Ich heiße Aniela.", "Ihr Name ist Er."],
       "answer": "Sie heißt Aniela.",
-      "explanation": { "pl": "Sie heißt Aniela. (sie = ona)", "en": "Sie heißt Aniela.", "de": "Sie heißt…" }
+      "explanation": { "pl": "Sie heißt Aniela.", "en": "Sie heißt Aniela.", "de": "Sie heißt Aniela." }
     },
     {
       "id": "de-st-s03",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: On ma na imię Adrian.", "en": "Say: His name is Adrian. / He is called Adrian.", "de": "Sag: On ma na imię Adrian." },
+      "prompt": { "pl": "Powiedz: On ma na imię Adrian.", "en": "Say: He is called Adrian.", "de": "Sag: On ma na imię Adrian." },
       "options": ["Er heißt Adrian.", "Sie heißt Adrian.", "Ich heiße Adrian.", "Sein Name ist Sie."],
       "answer": "Er heißt Adrian.",
-      "explanation": { "pl": "Er heißt Adrian. (er = on)", "en": "Er heißt Adrian.", "de": "Er heißt…" }
+      "explanation": { "pl": "Er heißt Adrian.", "en": "Er heißt Adrian.", "de": "Er heißt Adrian." }
     },
     {
       "id": "de-st-s04",
@@ -244,90 +288,130 @@
     {
       "id": "de-st-s06",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: Mam 10 lat.", "en": "Say: I am 10 years old.", "de": "Sag: Mam 10 lat." },
-      "options": ["Ich bin 10 Jahre alt.", "Er ist 10 Jahre alt.", "Sie ist 10 Jahre alt.", "Wie alt bist du?"],
+      "prompt": { "pl": "Powiedz: Mam 10 lat. (użyj ist)", "en": "Say: I am 10 years old.", "de": "Sag: Mam 10 lat." },
+      "options": ["Ich bin 10 Jahre alt.", "Ich habe 10 Jahre.", "Er ist 10 Jahre alt.", "Wie alt bist du?"],
       "answer": "Ich bin 10 Jahre alt.",
-      "explanation": { "pl": "Ich bin … Jahre alt. = Mam … lat.", "en": "Ich bin … Jahre alt.", "de": "Ich bin … Jahre alt." }
+      "explanation": { "pl": "Wiek: bin/ist … Jahre alt (nie haben/hat).", "en": "Age uses bin/ist, not haben.", "de": "Jahre alt → sein" }
     },
     {
       "id": "de-st-s07",
       "category": "sentence",
       "prompt": { "pl": "Powiedz: On ma 10 lat.", "en": "Say: He is 10 years old.", "de": "Sag: On ma 10 lat." },
-      "options": ["Er ist 10 Jahre alt.", "Sie ist 10 Jahre alt.", "Ich bin 10 Jahre alt.", "Wie alt ist er?"],
+      "options": ["Er ist 10 Jahre alt.", "Er hat 10 Jahre.", "Sie ist 10 Jahre alt.", "Wie alt ist er?"],
       "answer": "Er ist 10 Jahre alt.",
-      "explanation": { "pl": "Er ist 10 Jahre alt.", "en": "Er ist 10 Jahre alt.", "de": "Er ist … Jahre alt." }
+      "explanation": { "pl": "Er ist 10 Jahre alt. (nie: Er hat…)", "en": "Er ist … Jahre alt.", "de": "Alter → ist" }
     },
     {
       "id": "de-st-s08",
       "category": "sentence",
       "prompt": { "pl": "Powiedz: Ona ma 10 lat.", "en": "Say: She is 10 years old.", "de": "Sag: Ona ma 10 lat." },
-      "options": ["Sie ist 10 Jahre alt.", "Er ist 10 Jahre alt.", "Ich bin 10 Jahre alt.", "Wie alt ist sie?"],
+      "options": ["Sie ist 10 Jahre alt.", "Sie hat 10 Jahre.", "Er ist 10 Jahre alt.", "Wie alt ist sie?"],
       "answer": "Sie ist 10 Jahre alt.",
-      "explanation": { "pl": "Sie ist 10 Jahre alt.", "en": "Sie ist 10 Jahre alt.", "de": "Sie ist … Jahre alt." }
+      "explanation": { "pl": "Sie ist 10 Jahre alt.", "en": "Sie ist … Jahre alt.", "de": "Alter → ist" }
     },
     {
       "id": "de-st-s09",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: Jestem z Polski.", "en": "Say: I am from Poland.", "de": "Sag: Jestem z Polski." },
-      "options": ["Ich komme aus Polen.", "Ich komme aus Deutschland.", "Er kommt aus Polen.", "Woher kommst du?"],
-      "answer": "Ich komme aus Polen.",
-      "explanation": { "pl": "Ich komme aus Polen. = Jestem / pochodzę z Polski.", "en": "Ich komme aus Polen.", "de": "aus Polen" }
+      "prompt": { "pl": "Powiedz: On jest rycerzem.", "en": "Say: He is a knight.", "de": "Sag: On jest rycerzem." },
+      "options": ["Er ist ein Ritter.", "Er hat einen Ritter.", "Sie ist ein Ritter.", "Ist er ein Ritter?"],
+      "answer": "Er ist ein Ritter.",
+      "explanation": { "pl": "Er ist ein Ritter. (ist = jest)", "en": "Er ist ein Ritter.", "de": "ist = jest" }
     },
     {
       "id": "de-st-s10",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: Miło mi.", "en": "Say: Nice to meet you.", "de": "Sag: Miło mi." },
-      "options": ["Freut mich!", "Danke!", "Bitte!", "Hallo!"],
-      "answer": "Freut mich!",
-      "explanation": { "pl": "Freut mich! = Miło mi!", "en": "Freut mich!", "de": "Freut mich!" }
+      "prompt": { "pl": "Powiedz: Ona jest księżniczką.", "en": "Say: She is a princess.", "de": "Sag: Ona jest księżniczką." },
+      "options": ["Sie ist eine Prinzessin.", "Sie hat eine Prinzessin.", "Er ist eine Prinzessin.", "Ist sie eine Prinzessin?"],
+      "answer": "Sie ist eine Prinzessin.",
+      "explanation": { "pl": "Sie ist eine Prinzessin.", "en": "Sie ist eine Prinzessin.", "de": "ist = jest" }
     },
     {
       "id": "de-st-s11",
       "category": "sentence",
-      "prompt": { "pl": "Powiedz: Dzień dobry! (w dzień)", "en": "Say: Good day!", "de": "Sag: Dzień dobry! (w dzień)" },
-      "options": ["Guten Tag!", "Guten Morgen!", "Hallo!", "Danke!"],
-      "answer": "Guten Tag!",
-      "explanation": { "pl": "Guten Tag! = Dzień dobry!", "en": "Guten Tag!", "de": "Guten Tag!" }
+      "prompt": { "pl": "Powiedz: On ma smoka. (hat)", "en": "Say: He has a dragon.", "de": "Sag: On ma smoka." },
+      "options": ["Er hat einen Drachen.", "Er ist einen Drachen.", "Sie hat einen Drachen.", "Er ist ein Drache."],
+      "answer": "Er hat einen Drachen.",
+      "explanation": { "pl": "hat = ma. Er hat einen Drachen.", "en": "hat = has.", "de": "hat = ma" }
     },
     {
       "id": "de-st-s12",
       "category": "sentence",
-      "prompt": { "pl": "Odpowiedź na „Wie heißt du?“: Mam na imię Leo.", "en": "Reply to “Wie heißt du?”: My name is Leo.", "de": "Antwort auf „Wie heißt du?“: Mam na imię Leo." },
-      "options": ["Ich heiße Leo.", "Er heißt Leo.", "Sie heißt Leo.", "Wie alt bist du?"],
-      "answer": "Ich heiße Leo.",
-      "explanation": { "pl": "Na pytanie o twoje imię: Ich heiße…", "en": "Answer with Ich heiße…", "de": "Ich heiße Leo." }
+      "prompt": { "pl": "Powiedz: Ona ma smoka. (hat)", "en": "Say: She has a dragon.", "de": "Sag: Ona ma smoka." },
+      "options": ["Sie hat einen Drachen.", "Sie ist einen Drachen.", "Er hat einen Drachen.", "Sie ist ein Drache."],
+      "answer": "Sie hat einen Drachen.",
+      "explanation": { "pl": "Sie hat einen Drachen.", "en": "Sie hat einen Drachen.", "de": "hat = ma" }
+    },
+    {
+      "id": "de-st-s13",
+      "category": "sentence",
+      "prompt": { "pl": "Zapytaj: Czy on jest księciem?", "en": "Ask: Is he a prince?", "de": "Frage: Czy on jest księciem?" },
+      "options": ["Ist er ein Prinz?", "Hat er einen Prinz?", "Er ist ein Prinz.", "Ist sie ein Prinz?"],
+      "answer": "Ist er ein Prinz?",
+      "explanation": { "pl": "Ist er…? = Czy on jest…?", "en": "Ist er ein Prinz?", "de": "Ist er…?" }
+    },
+    {
+      "id": "de-st-s14",
+      "category": "sentence",
+      "prompt": { "pl": "Zapytaj: Czy ona jest czarownicą?", "en": "Ask: Is she a witch?", "de": "Frage: Czy ona jest czarownicą?" },
+      "options": ["Ist sie eine Hexe?", "Hat sie eine Hexe?", "Sie ist eine Hexe.", "Ist er eine Hexe?"],
+      "answer": "Ist sie eine Hexe?",
+      "explanation": { "pl": "Ist sie eine Hexe?", "en": "Ist sie eine Hexe?", "de": "Ist sie…?" }
+    },
+    {
+      "id": "de-st-s15",
+      "category": "sentence",
+      "prompt": { "pl": "Powiedz: Jestem z Polski.", "en": "Say: I am from Poland.", "de": "Sag: Jestem z Polski." },
+      "options": ["Ich komme aus Polen.", "Ich komme aus Deutschland.", "Er kommt aus Polen.", "Woher kommst du?"],
+      "answer": "Ich komme aus Polen.",
+      "explanation": { "pl": "Ich komme aus Polen.", "en": "Ich komme aus Polen.", "de": "aus Polen" }
     },
     {
       "id": "de-st-y01",
       "category": "yesno",
-      "prompt": { "pl": "Ist sie aus Polen?\n\nOdpowiedź: jest", "en": "Ist sie aus Polen?\n\nAnswer: yes", "de": "Ist sie aus Polen?\n\nAntwort: ja" },
+      "prompt": { "pl": "Ist sie eine Prinzessin?\n\nOdpowiedź: jest", "en": "Ist sie eine Prinzessin?\n\nAnswer: yes", "de": "Ist sie eine Prinzessin?\n\nAntwort: ja" },
       "options": ["Ja, sie ist.", "Nein, sie ist nicht.", "Ja, er ist.", "Nein, er ist nicht."],
       "answer": "Ja, sie ist.",
-      "explanation": { "pl": "„jest” → Ja, sie ist.", "en": "Ja, sie ist.", "de": "Ja, sie ist." }
+      "explanation": { "pl": "Tak → Ja, sie ist.", "en": "Ja, sie ist.", "de": "Ja, sie ist." }
     },
     {
       "id": "de-st-y02",
       "category": "yesno",
-      "prompt": { "pl": "Ist sie aus Polen?\n\nOdpowiedź: nie jest", "en": "Ist sie aus Polen?\n\nAnswer: no", "de": "Ist sie aus Polen?\n\nAntwort: nein" },
+      "prompt": { "pl": "Ist sie eine Prinzessin?\n\nOdpowiedź: nie jest", "en": "Ist sie eine Prinzessin?\n\nAnswer: no", "de": "Ist sie eine Prinzessin?\n\nAntwort: nein" },
       "options": ["Nein, sie ist nicht.", "Ja, sie ist.", "Nein, er ist nicht.", "Ja, er ist."],
       "answer": "Nein, sie ist nicht.",
-      "explanation": { "pl": "„nie jest” → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
+      "explanation": { "pl": "Nie → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
     },
     {
       "id": "de-st-y03",
       "category": "yesno",
-      "prompt": { "pl": "Ist er 10 Jahre alt?\n\nOdpowiedź: jest", "en": "Ist er 10 Jahre alt?\n\nAnswer: yes", "de": "Ist er 10 Jahre alt?\n\nAntwort: ja" },
+      "prompt": { "pl": "Ist er ein Ritter?\n\nOdpowiedź: jest", "en": "Ist er ein Ritter?\n\nAnswer: yes", "de": "Ist er ein Ritter?\n\nAntwort: ja" },
       "options": ["Ja, er ist.", "Ja, sie ist.", "Nein, er ist nicht.", "Nein, sie ist nicht."],
       "answer": "Ja, er ist.",
-      "explanation": { "pl": "„jest” → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
+      "explanation": { "pl": "Tak → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
     },
     {
       "id": "de-st-y04",
       "category": "yesno",
-      "prompt": { "pl": "Ist er aus Deutschland?\n\nOdpowiedź: nie jest", "en": "Ist er aus Deutschland?\n\nAnswer: no", "de": "Ist er aus Deutschland?\n\nAntwort: nein" },
+      "prompt": { "pl": "Ist er ein Ritter?\n\nOdpowiedź: nie jest", "en": "Ist er ein Ritter?\n\nAnswer: no", "de": "Ist er ein Ritter?\n\nAntwort: nein" },
       "options": ["Nein, er ist nicht.", "Nein, sie ist nicht.", "Ja, er ist.", "Ja, sie ist."],
       "answer": "Nein, er ist nicht.",
-      "explanation": { "pl": "„nie jest” → Nein, er ist nicht.", "en": "Nein, er ist nicht.", "de": "Nein, er ist nicht." }
+      "explanation": { "pl": "Nie → Nein, er ist nicht.", "en": "Nein, er ist nicht.", "de": "Nein, er ist nicht." }
+    },
+    {
+      "id": "de-st-y05",
+      "category": "yesno",
+      "prompt": { "pl": "Ist sie eine Hexe?\n\nOdpowiedź: jest", "en": "Ist sie eine Hexe?\n\nAnswer: yes", "de": "Ist sie eine Hexe?\n\nAntwort: ja" },
+      "options": ["Ja, sie ist.", "Ja, er ist.", "Nein, sie ist nicht.", "Nein, er ist nicht."],
+      "answer": "Ja, sie ist.",
+      "explanation": { "pl": "Tak → Ja, sie ist.", "en": "Ja, sie ist.", "de": "Ja, sie ist." }
+    },
+    {
+      "id": "de-st-y06",
+      "category": "yesno",
+      "prompt": { "pl": "Ist er ein Zauberer?\n\nOdpowiedź: nie jest", "en": "Ist er ein Zauberer?\n\nAnswer: no", "de": "Ist er ein Zauberer?\n\nAntwort: nein" },
+      "options": ["Nein, er ist nicht.", "Nein, sie ist nicht.", "Ja, er ist.", "Ja, sie ist."],
+      "answer": "Nein, er ist nicht.",
+      "explanation": { "pl": "Nie → Nein, er ist nicht.", "en": "Nein, er ist nicht.", "de": "Nein, er ist nicht." }
     }
   ]
 }

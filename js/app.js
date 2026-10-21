@@ -567,7 +567,7 @@ function renderVocab() {
 
 const PACKS_BY_LANG = {
   en: ['en-starter', 'en-pronouns'],
-  de: ['de-starter', 'de-pronouns'],
+  de: ['de-starter', 'de-pronouns', 'de-has'],
 };
 
 function getPack(packId) {
@@ -585,6 +585,7 @@ function packsForLang(lang = state.targetLang) {
 function packBadgeKey(packId) {
   if (packId === 'en-pronouns') return 'enPronounsBadge';
   if (packId === 'de-pronouns') return 'dePronounsBadge';
+  if (packId === 'de-has') return 'deHasBadge';
   if (packId === 'de-starter') return 'deStarterBadge';
   return 'starterBadge';
 }
@@ -1583,7 +1584,7 @@ function bindEvents() {
 
 /** Drop obsolete SW caches that still hold old test packs (e.g. doctor/teacher questions). */
 async function purgeStaleAppCaches() {
-  const current = 'langlab-offline-v4.1';
+  const current = 'langlab-offline-v4.2';
   if (!('caches' in window)) return false;
   const keys = await caches.keys();
   const stale = keys.filter((k) => k.startsWith('langlab-offline-') && k !== current);
@@ -1595,8 +1596,8 @@ async function start() {
   try {
     // One reload after purging old offline caches so packs load fresh
     const purged = await purgeStaleAppCaches();
-    if (purged && !sessionStorage.getItem('ll-cache-purged-v41')) {
-      sessionStorage.setItem('ll-cache-purged-v41', '1');
+    if (purged && !sessionStorage.getItem('ll-cache-purged-v42')) {
+      sessionStorage.setItem('ll-cache-purged-v42', '1');
       location.reload();
       return;
     }

@@ -8,9 +8,9 @@
     "de": "Lücke füllen: Er/Sie ist, Sein/ihr, ist nicht"
   },
   "description": {
-    "pl": "Wybierz brakujące słowo. Tylko słowa z działu Podstawy DE: Name, heißen, Jahre, aus Polen, Hallo…",
-    "en": "Pick the missing word. Only words from German Starter: Name, heißen, Jahre, aus Polen, Hallo…",
-    "de": "Nur Wörter aus dem DE-Starter: Name, heißen, Jahre, aus Polen…"
+    "pl": "Tylko słowa z Podstaw DE: Name, Prinz, Prinzessin, Ritter, Zauberer, Hexe, Königin, Drache, aus Polen…",
+    "en": "Only Starter DE words: Name, Prinz, Prinzessin, Ritter, Zauberer, Hexe, Königin, Drache, aus Polen…",
+    "de": "Nur Starter-Wörter: Name, Prinz, Ritter, Zauberer, Hexe…"
   },
   "vocabulary": [
     { "word": "Er ist", "gloss": { "pl": "On jest", "en": "He is", "de": "Er ist" } },
@@ -26,71 +26,87 @@
     {
       "id": "de-pr-b01",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ 10 Jahre alt. (on)", "en": "Fill in: _____ 10 Jahre alt. (he)", "de": "Ergänze: _____ 10 Jahre alt. (er)" },
+      "prompt": { "pl": "Uzupełnij: _____ ein Ritter. (on)", "en": "Fill in: _____ ein Ritter. (he)", "de": "Ergänze: _____ ein Ritter." },
       "options": ["Er ist", "Sie ist", "Sein", "ihr"],
       "answer": "Er ist",
-      "explanation": { "pl": "Er ist 10 Jahre alt.", "en": "Er ist 10 Jahre alt.", "de": "Er ist 10 Jahre alt." }
+      "explanation": { "pl": "Er ist ein Ritter.", "en": "Er ist ein Ritter.", "de": "Er ist ein Ritter." }
     },
     {
       "id": "de-pr-b02",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ 10 Jahre alt. (ona)", "en": "Fill in: _____ 10 Jahre alt. (she)", "de": "Ergänze: _____ 10 Jahre alt. (sie)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Prinzessin. (ona)", "en": "Fill in: _____ eine Prinzessin. (she)", "de": "Ergänze: _____ eine Prinzessin." },
       "options": ["Sie ist", "Er ist", "Sein", "ihr"],
       "answer": "Sie ist",
-      "explanation": { "pl": "Sie ist 10 Jahre alt.", "en": "Sie ist 10 Jahre alt.", "de": "Sie ist 10 Jahre alt." }
+      "explanation": { "pl": "Sie ist eine Prinzessin.", "en": "Sie ist eine Prinzessin.", "de": "Sie ist eine Prinzessin." }
     },
     {
       "id": "de-pr-b03",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ aus Polen. (on)", "en": "Fill in: _____ aus Polen. (he)", "de": "Ergänze: _____ aus Polen. (er)" },
+      "prompt": { "pl": "Uzupełnij: _____ ein Zauberer. (on)", "en": "Fill in: _____ ein Zauberer. (he)", "de": "Ergänze: _____ ein Zauberer." },
       "options": ["Er ist", "Sie ist", "Er ist nicht", "Sein"],
       "answer": "Er ist",
-      "explanation": { "pl": "Er ist aus Polen.", "en": "Er ist aus Polen.", "de": "Er ist aus Polen." }
+      "explanation": { "pl": "Er ist ein Zauberer.", "en": "Er ist ein Zauberer.", "de": "Er ist ein Zauberer." }
     },
     {
       "id": "de-pr-b04",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ aus Deutschland. (ona)", "en": "Fill in: _____ aus Deutschland. (she)", "de": "Ergänze: _____ aus Deutschland. (sie)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Hexe. (ona)", "en": "Fill in: _____ eine Hexe. (she)", "de": "Ergänze: _____ eine Hexe." },
       "options": ["Sie ist", "Er ist", "Sie ist nicht", "ihr"],
       "answer": "Sie ist",
-      "explanation": { "pl": "Sie ist aus Deutschland.", "en": "Sie ist aus Deutschland.", "de": "Sie ist aus Deutschland." }
+      "explanation": { "pl": "Sie ist eine Hexe.", "en": "Sie ist eine Hexe.", "de": "Sie ist eine Hexe." }
     },
     {
       "id": "de-pr-b05",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ aus Frankreich. (on)", "en": "Fill in: _____ aus Frankreich. (he)", "de": "Ergänze: _____ aus Frankreich. (er)" },
+      "prompt": { "pl": "Uzupełnij: _____ ein Prinz. (on)", "en": "Fill in: _____ ein Prinz. (he)", "de": "Ergänze: _____ ein Prinz." },
       "options": ["Er ist", "Sie ist", "Sein", "Ist er"],
       "answer": "Er ist",
-      "explanation": { "pl": "Er ist aus Frankreich.", "en": "Er ist aus Frankreich.", "de": "Er ist aus Frankreich." }
+      "explanation": { "pl": "Er ist ein Prinz.", "en": "Er ist ein Prinz.", "de": "Er ist ein Prinz." }
     },
     {
       "id": "de-pr-b06",
       "category": "be",
-      "prompt": { "pl": "Uzupełnij: _____ aus Spanien. (ona)", "en": "Fill in: _____ aus Spanien. (she)", "de": "Ergänze: _____ aus Spanien. (sie)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Königin. (ona)", "en": "Fill in: _____ eine Königin. (she)", "de": "Ergänze: _____ eine Königin." },
       "options": ["Sie ist", "Er ist", "ihr", "Ist sie"],
       "answer": "Sie ist",
-      "explanation": { "pl": "Sie ist aus Spanien.", "en": "Sie ist aus Spanien.", "de": "Sie ist aus Spanien." }
+      "explanation": { "pl": "Sie ist eine Königin.", "en": "Sie ist eine Königin.", "de": "Sie ist eine Königin." }
+    },
+    {
+      "id": "de-pr-b07",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ aus Polen. (on)", "en": "Fill in: _____ aus Polen. (he)", "de": "Ergänze: _____ aus Polen." },
+      "options": ["Er ist", "Sie ist", "Sein", "ihr"],
+      "answer": "Er ist",
+      "explanation": { "pl": "Er ist aus Polen.", "en": "Er ist aus Polen.", "de": "Er ist aus Polen." }
+    },
+    {
+      "id": "de-pr-b08",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ aus Deutschland. (ona)", "en": "Fill in: _____ aus Deutschland. (she)", "de": "Ergänze: _____ aus Deutschland." },
+      "options": ["Sie ist", "Er ist", "Sein", "ihr"],
+      "answer": "Sie ist",
+      "explanation": { "pl": "Sie ist aus Deutschland.", "en": "Sie ist aus Deutschland.", "de": "Sie ist aus Deutschland." }
     },
     {
       "id": "de-pr-p01",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Tom. (jego)", "en": "Fill in: _____ Name ist Tom. (his)", "de": "Ergänze: _____ Name ist Tom." },
+      "prompt": { "pl": "Uzupełnij: _____ Name ist Tom. (jego)", "en": "Fill in: _____ Name ist Tom.", "de": "Ergänze: _____ Name ist Tom." },
       "options": ["Sein", "ihr", "Er ist", "Sie ist"],
       "answer": "Sein",
-      "explanation": { "pl": "Sein Name = jego imię.", "en": "Sein Name = his name.", "de": "sein = jego" }
+      "explanation": { "pl": "Sein Name = jego imię.", "en": "Sein Name.", "de": "sein = jego" }
     },
     {
       "id": "de-pr-p02",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Anna. (jej)", "en": "Fill in: _____ Name ist Anna. (her)", "de": "Ergänze: _____ Name ist Anna." },
+      "prompt": { "pl": "Uzupełnij: _____ Name ist Anna. (jej)", "en": "Fill in: _____ Name ist Anna.", "de": "Ergänze: _____ Name ist Anna." },
       "options": ["ihr", "Sein", "Er ist", "Sie ist"],
       "answer": "ihr",
-      "explanation": { "pl": "ihr Name = jej imię.", "en": "ihr Name = her name.", "de": "ihr = jej" }
+      "explanation": { "pl": "ihr Name = jej imię.", "en": "ihr Name.", "de": "ihr = jej" }
     },
     {
       "id": "de-pr-p03",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Adrian. (jego)", "en": "Fill in: _____ Name ist Adrian. (his)", "de": "Ergänze: _____ Name ist Adrian." },
+      "prompt": { "pl": "Uzupełnij: _____ Name ist Adrian. (jego)", "en": "Fill in: _____ Name ist Adrian.", "de": "Ergänze: _____ Name ist Adrian." },
       "options": ["Sein", "ihr", "Er ist", "Er ist nicht"],
       "answer": "Sein",
       "explanation": { "pl": "Sein Name ist Adrian.", "en": "Sein Name ist Adrian.", "de": "Sein Name ist Adrian." }
@@ -98,7 +114,7 @@
     {
       "id": "de-pr-p04",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Aniela. (jej)", "en": "Fill in: _____ Name ist Aniela. (her)", "de": "Ergänze: _____ Name ist Aniela." },
+      "prompt": { "pl": "Uzupełnij: _____ Name ist Aniela. (jej)", "en": "Fill in: _____ Name ist Aniela.", "de": "Ergänze: _____ Name ist Aniela." },
       "options": ["ihr", "Sein", "Sie ist", "Sie ist nicht"],
       "answer": "ihr",
       "explanation": { "pl": "Ihr Name ist Aniela.", "en": "Ihr Name ist Aniela.", "de": "Ihr Name ist Aniela." }
@@ -106,119 +122,135 @@
     {
       "id": "de-pr-p05",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Leo. (jego)", "en": "Fill in: _____ Name ist Leo. (his)", "de": "Ergänze: _____ Name ist Leo." },
+      "prompt": { "pl": "Uzupełnij: _____ Lieblingsdrache ist blau. (jego)", "en": "Fill in: _____ Lieblingsdrache ist blau.", "de": "Ergänze: _____ Lieblingsdrache ist blau." },
       "options": ["Sein", "ihr", "Er ist", "Ist er"],
       "answer": "Sein",
-      "explanation": { "pl": "Sein Name ist Leo.", "en": "Sein Name ist Leo.", "de": "Sein Name ist Leo." }
+      "explanation": { "pl": "Sein Lieblingsdrache…", "en": "Sein Lieblingsdrache…", "de": "sein = jego" }
     },
     {
       "id": "de-pr-p06",
       "category": "possessive",
-      "prompt": { "pl": "Uzupełnij: _____ Name ist Sara. (jej)", "en": "Fill in: _____ Name ist Sara. (her)", "de": "Ergänze: _____ Name ist Sara." },
+      "prompt": { "pl": "Uzupełnij: _____ Lieblingsprinzessin ist Aniela. (jej)", "en": "Fill in: _____ Lieblingsprinzessin ist Aniela.", "de": "Ergänze: _____ Lieblingsprinzessin ist Aniela." },
       "options": ["ihr", "Sein", "Sie ist", "Ist sie"],
       "answer": "ihr",
-      "explanation": { "pl": "Ihr Name ist Sara.", "en": "Ihr Name ist Sara.", "de": "Ihr Name ist Sara." }
+      "explanation": { "pl": "ihr Lieblingsprinzessin…", "en": "ihr Lieblingsprinzessin…", "de": "ihr = jej" }
     },
     {
       "id": "de-pr-n01",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ aus Polen. (on — nie)", "en": "Fill in: _____ aus Polen. (he — no)", "de": "Ergänze: _____ aus Polen. (er — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ ein Ritter. (on — nie)", "en": "Fill in: _____ ein Ritter. (he — no)", "de": "Ergänze: _____ ein Ritter. (nein)" },
       "options": ["Er ist nicht", "Sie ist nicht", "Er ist", "Sein"],
       "answer": "Er ist nicht",
-      "explanation": { "pl": "Er ist nicht aus Polen.", "en": "Er ist nicht aus Polen.", "de": "Er ist nicht aus Polen." }
+      "explanation": { "pl": "Er ist nicht ein Ritter. / Er ist kein Ritter.", "en": "Er ist nicht…", "de": "Er ist nicht…" }
     },
     {
       "id": "de-pr-n02",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ aus Deutschland. (ona — nie)", "en": "Fill in: _____ aus Deutschland. (she — no)", "de": "Ergänze: _____ aus Deutschland. (sie — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Prinzessin. (ona — nie)", "en": "Fill in: _____ eine Prinzessin. (she — no)", "de": "Ergänze: _____ eine Prinzessin. (nein)" },
       "options": ["Sie ist nicht", "Er ist nicht", "Sie ist", "ihr"],
       "answer": "Sie ist nicht",
-      "explanation": { "pl": "Sie ist nicht aus Deutschland.", "en": "Sie ist nicht aus Deutschland.", "de": "Sie ist nicht aus Deutschland." }
+      "explanation": { "pl": "Sie ist nicht…", "en": "Sie ist nicht…", "de": "Sie ist nicht…" }
     },
     {
       "id": "de-pr-n03",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ 10 Jahre alt. (on — nie)", "en": "Fill in: _____ 10 Jahre alt. (he — no)", "de": "Ergänze: _____ 10 Jahre alt. (er — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ ein Zauberer. (on — nie)", "en": "Fill in: _____ ein Zauberer. (he — no)", "de": "Ergänze: _____ ein Zauberer. (nein)" },
       "options": ["Er ist nicht", "Sie ist nicht", "Er ist", "Ist er"],
       "answer": "Er ist nicht",
-      "explanation": { "pl": "Er ist nicht 10 Jahre alt.", "en": "Er ist nicht 10 Jahre alt.", "de": "Er ist nicht 10 Jahre alt." }
+      "explanation": { "pl": "Er ist nicht ein Zauberer.", "en": "Er ist nicht…", "de": "Er ist nicht…" }
     },
     {
       "id": "de-pr-n04",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ 10 Jahre alt. (ona — nie)", "en": "Fill in: _____ 10 Jahre alt. (she — no)", "de": "Ergänze: _____ 10 Jahre alt. (sie — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Hexe. (ona — nie)", "en": "Fill in: _____ eine Hexe. (she — no)", "de": "Ergänze: _____ eine Hexe. (nein)" },
       "options": ["Sie ist nicht", "Er ist nicht", "Sie ist", "Ist sie"],
       "answer": "Sie ist nicht",
-      "explanation": { "pl": "Sie ist nicht 10 Jahre alt.", "en": "Sie ist nicht 10 Jahre alt.", "de": "Sie ist nicht 10 Jahre alt." }
+      "explanation": { "pl": "Sie ist nicht eine Hexe.", "en": "Sie ist nicht…", "de": "Sie ist nicht…" }
     },
     {
       "id": "de-pr-n05",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ aus Spanien. (on — nie)", "en": "Fill in: _____ aus Spanien. (he — no)", "de": "Ergänze: _____ aus Spanien. (er — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ aus Polen. (on — nie)", "en": "Fill in: _____ aus Polen. (he — no)", "de": "Ergänze: _____ aus Polen. (nein)" },
       "options": ["Er ist nicht", "Sie ist nicht", "Sein", "Er ist"],
       "answer": "Er ist nicht",
-      "explanation": { "pl": "Er ist nicht aus Spanien.", "en": "Er ist nicht aus Spanien.", "de": "Er ist nicht aus Spanien." }
+      "explanation": { "pl": "Er ist nicht aus Polen.", "en": "Er ist nicht aus Polen.", "de": "Er ist nicht aus Polen." }
     },
     {
       "id": "de-pr-n06",
       "category": "negative",
-      "prompt": { "pl": "Uzupełnij: _____ aus Frankreich. (ona — nie)", "en": "Fill in: _____ aus Frankreich. (she — no)", "de": "Ergänze: _____ aus Frankreich. (sie — nein)" },
+      "prompt": { "pl": "Uzupełnij: _____ eine Königin. (ona — nie)", "en": "Fill in: _____ eine Königin. (she — no)", "de": "Ergänze: _____ eine Königin. (nein)" },
       "options": ["Sie ist nicht", "Er ist nicht", "ihr", "Sie ist"],
       "answer": "Sie ist nicht",
-      "explanation": { "pl": "Sie ist nicht aus Frankreich.", "en": "Sie ist nicht aus Frankreich.", "de": "Sie ist nicht aus Frankreich." }
+      "explanation": { "pl": "Sie ist nicht eine Königin.", "en": "Sie ist nicht…", "de": "Sie ist nicht…" }
     },
     {
       "id": "de-pr-q01",
       "category": "question",
-      "prompt": { "pl": "Pytanie — uzupełnij: _____ aus Polen? (o chłopcu)", "en": "Question — fill in: _____ aus Polen? (boy)", "de": "Frage: _____ aus Polen? (Junge)" },
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ ein Prinz?", "en": "Question: _____ ein Prinz?", "de": "Frage: _____ ein Prinz?" },
       "options": ["Ist er", "Ist sie", "Er ist", "Sie ist"],
       "answer": "Ist er",
-      "explanation": { "pl": "Ist er aus Polen?", "en": "Ist er aus Polen?", "de": "Ist er aus Polen?" }
+      "explanation": { "pl": "Ist er ein Prinz?", "en": "Ist er ein Prinz?", "de": "Ist er…?" }
     },
     {
       "id": "de-pr-q02",
       "category": "question",
-      "prompt": { "pl": "Pytanie — uzupełnij: _____ aus Deutschland? (o dziewczynce)", "en": "Question — fill in: _____ aus Deutschland? (girl)", "de": "Frage: _____ aus Deutschland? (Mädchen)" },
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ eine Prinzessin?", "en": "Question: _____ eine Prinzessin?", "de": "Frage: _____ eine Prinzessin?" },
       "options": ["Ist sie", "Ist er", "Sie ist", "Er ist"],
       "answer": "Ist sie",
-      "explanation": { "pl": "Ist sie aus Deutschland?", "en": "Ist sie aus Deutschland?", "de": "Ist sie aus Deutschland?" }
+      "explanation": { "pl": "Ist sie eine Prinzessin?", "en": "Ist sie eine Prinzessin?", "de": "Ist sie…?" }
     },
     {
       "id": "de-pr-q03",
       "category": "question",
-      "prompt": { "pl": "Pytanie — uzupełnij: _____ 10 Jahre alt? (on)", "en": "Question — fill in: _____ 10 Jahre alt? (he)", "de": "Frage: _____ 10 Jahre alt? (er)" },
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ ein Ritter?", "en": "Question: _____ ein Ritter?", "de": "Frage: _____ ein Ritter?" },
       "options": ["Ist er", "Ist sie", "Er ist", "Sein"],
       "answer": "Ist er",
-      "explanation": { "pl": "Ist er 10 Jahre alt?", "en": "Ist er 10 Jahre alt?", "de": "Ist er 10 Jahre alt?" }
+      "explanation": { "pl": "Ist er ein Ritter?", "en": "Ist er ein Ritter?", "de": "Ist er…?" }
     },
     {
       "id": "de-pr-q04",
       "category": "question",
-      "prompt": { "pl": "Pytanie — uzupełnij: _____ 10 Jahre alt? (ona)", "en": "Question — fill in: _____ 10 Jahre alt? (she)", "de": "Frage: _____ 10 Jahre alt? (sie)" },
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ eine Hexe?", "en": "Question: _____ eine Hexe?", "de": "Frage: _____ eine Hexe?" },
       "options": ["Ist sie", "Ist er", "Sie ist", "ihr"],
       "answer": "Ist sie",
-      "explanation": { "pl": "Ist sie 10 Jahre alt?", "en": "Ist sie 10 Jahre alt?", "de": "Ist sie 10 Jahre alt?" }
+      "explanation": { "pl": "Ist sie eine Hexe?", "en": "Ist sie eine Hexe?", "de": "Ist sie…?" }
     },
     {
       "id": "de-pr-q05",
       "category": "question",
-      "prompt": { "pl": "Pytanie o imię — uzupełnij: Wie heißt _____? (on)", "en": "About a name — fill in: Wie heißt _____? (he)", "de": "Name — ergänze: Wie heißt _____? (er)" },
-      "options": ["er", "sie", "du", "ihr"],
-      "answer": "er",
-      "explanation": { "pl": "Wie heißt er? = Jak on ma na imię?", "en": "Wie heißt er?", "de": "Wie heißt er?" }
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ ein Zauberer?", "en": "Question: _____ ein Zauberer?", "de": "Frage: _____ ein Zauberer?" },
+      "options": ["Ist er", "Ist sie", "Er ist nicht", "Er ist"],
+      "answer": "Ist er",
+      "explanation": { "pl": "Ist er ein Zauberer?", "en": "Ist er ein Zauberer?", "de": "Ist er…?" }
     },
     {
       "id": "de-pr-q06",
       "category": "question",
-      "prompt": { "pl": "Pytanie o imię — uzupełnij: Wie heißt _____? (ona)", "en": "About a name — fill in: Wie heißt _____? (she)", "de": "Name — ergänze: Wie heißt _____? (sie)" },
+      "prompt": { "pl": "Pytanie — uzupełnij: _____ eine Königin?", "en": "Question: _____ eine Königin?", "de": "Frage: _____ eine Königin?" },
+      "options": ["Ist sie", "Ist er", "Sie ist nicht", "Sie ist"],
+      "answer": "Ist sie",
+      "explanation": { "pl": "Ist sie eine Königin?", "en": "Ist sie eine Königin?", "de": "Ist sie…?" }
+    },
+    {
+      "id": "de-pr-q07",
+      "category": "question",
+      "prompt": { "pl": "Pytanie o imię: Wie heißt _____? (on)", "en": "Name question: Wie heißt _____? (he)", "de": "Name: Wie heißt _____?" },
+      "options": ["er", "sie", "du", "ihr"],
+      "answer": "er",
+      "explanation": { "pl": "Wie heißt er?", "en": "Wie heißt er?", "de": "Wie heißt er?" }
+    },
+    {
+      "id": "de-pr-q08",
+      "category": "question",
+      "prompt": { "pl": "Pytanie o imię: Wie heißt _____? (ona)", "en": "Name question: Wie heißt _____? (she)", "de": "Name: Wie heißt _____?" },
       "options": ["sie", "er", "du", "sein"],
       "answer": "sie",
-      "explanation": { "pl": "Wie heißt sie? = Jak ona ma na imię?", "en": "Wie heißt sie?", "de": "Wie heißt sie?" }
+      "explanation": { "pl": "Wie heißt sie?", "en": "Wie heißt sie?", "de": "Wie heißt sie?" }
     },
     {
       "id": "de-pr-y01",
       "category": "yesno",
-      "prompt": { "pl": "Ist er aus Polen?\n\nOdpowiedź: tak", "en": "Ist er aus Polen?\n\nAnswer: yes", "de": "Ist er aus Polen?\n\nAntwort: ja" },
+      "prompt": { "pl": "Ist er ein Prinz?\n\nOdpowiedź: tak", "en": "Ist er ein Prinz?\n\nAnswer: yes", "de": "Ist er ein Prinz?\n\nAntwort: ja" },
       "options": ["Ja, er ist.", "Nein, er ist nicht.", "Ja, sie ist.", "Nein, sie ist nicht."],
       "answer": "Ja, er ist.",
       "explanation": { "pl": "Tak → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
@@ -226,7 +258,7 @@
     {
       "id": "de-pr-y02",
       "category": "yesno",
-      "prompt": { "pl": "Ist sie aus Deutschland?\n\nOdpowiedź: nie", "en": "Ist sie aus Deutschland?\n\nAnswer: no", "de": "Ist sie aus Deutschland?\n\nAntwort: nein" },
+      "prompt": { "pl": "Ist sie eine Prinzessin?\n\nOdpowiedź: nie", "en": "Ist sie eine Prinzessin?\n\nAnswer: no", "de": "Ist sie eine Prinzessin?\n\nAntwort: nein" },
       "options": ["Nein, sie ist nicht.", "Ja, sie ist.", "Nein, er ist nicht.", "Ja, er ist."],
       "answer": "Nein, sie ist nicht.",
       "explanation": { "pl": "Nie → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
@@ -234,34 +266,50 @@
     {
       "id": "de-pr-y03",
       "category": "yesno",
-      "prompt": { "pl": "Ist er 10 Jahre alt?\n\nOdpowiedź: tak", "en": "Ist er 10 Jahre alt?\n\nAnswer: yes", "de": "Ist er 10 Jahre alt?\n\nAntwort: ja" },
-      "options": ["Ja, er ist.", "Ja, sie ist.", "Nein, er ist nicht.", "Nein, sie ist nicht."],
-      "answer": "Ja, er ist.",
-      "explanation": { "pl": "Tak → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
-    },
-    {
-      "id": "de-pr-y04",
-      "category": "yesno",
-      "prompt": { "pl": "Ist sie 10 Jahre alt?\n\nOdpowiedź: nie", "en": "Ist sie 10 Jahre alt?\n\nAnswer: no", "de": "Ist sie 10 Jahre alt?\n\nAntwort: nein" },
-      "options": ["Nein, sie ist nicht.", "Nein, er ist nicht.", "Ja, sie ist.", "Ja, er ist."],
-      "answer": "Nein, sie ist nicht.",
-      "explanation": { "pl": "Nie → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
-    },
-    {
-      "id": "de-pr-y05",
-      "category": "yesno",
-      "prompt": { "pl": "Ist er aus Frankreich?\n\nOdpowiedź: nie", "en": "Ist er aus Frankreich?\n\nAnswer: no", "de": "Ist er aus Frankreich?\n\nAntwort: nein" },
+      "prompt": { "pl": "Ist er ein Ritter?\n\nOdpowiedź: nie", "en": "Ist er ein Ritter?\n\nAnswer: no", "de": "Ist er ein Ritter?\n\nAntwort: nein" },
       "options": ["Nein, er ist nicht.", "Nein, sie ist nicht.", "Ja, er ist.", "Ja, sie ist."],
       "answer": "Nein, er ist nicht.",
       "explanation": { "pl": "Nie → Nein, er ist nicht.", "en": "Nein, er ist nicht.", "de": "Nein, er ist nicht." }
     },
     {
-      "id": "de-pr-y06",
+      "id": "de-pr-y04",
       "category": "yesno",
-      "prompt": { "pl": "Ist sie aus Spanien?\n\nOdpowiedź: tak", "en": "Ist sie aus Spanien?\n\nAnswer: yes", "de": "Ist sie aus Spanien?\n\nAntwort: ja" },
+      "prompt": { "pl": "Ist sie eine Hexe?\n\nOdpowiedź: tak", "en": "Ist sie eine Hexe?\n\nAnswer: yes", "de": "Ist sie eine Hexe?\n\nAntwort: ja" },
       "options": ["Ja, sie ist.", "Ja, er ist.", "Nein, sie ist nicht.", "Nein, er ist nicht."],
       "answer": "Ja, sie ist.",
       "explanation": { "pl": "Tak → Ja, sie ist.", "en": "Ja, sie ist.", "de": "Ja, sie ist." }
+    },
+    {
+      "id": "de-pr-y05",
+      "category": "yesno",
+      "prompt": { "pl": "Ist er ein Zauberer?\n\nOdpowiedź: tak", "en": "Ist er ein Zauberer?\n\nAnswer: yes", "de": "Ist er ein Zauberer?\n\nAntwort: ja" },
+      "options": ["Ja, er ist.", "Ja, sie ist.", "Nein, er ist nicht.", "Nein, sie ist nicht."],
+      "answer": "Ja, er ist.",
+      "explanation": { "pl": "Tak → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
+    },
+    {
+      "id": "de-pr-y06",
+      "category": "yesno",
+      "prompt": { "pl": "Ist sie eine Königin?\n\nOdpowiedź: nie", "en": "Ist sie eine Königin?\n\nAnswer: no", "de": "Ist sie eine Königin?\n\nAntwort: nein" },
+      "options": ["Nein, sie ist nicht.", "Nein, er ist nicht.", "Ja, sie ist.", "Ja, er ist."],
+      "answer": "Nein, sie ist nicht.",
+      "explanation": { "pl": "Nie → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
+    },
+    {
+      "id": "de-pr-y07",
+      "category": "yesno",
+      "prompt": { "pl": "Ist er aus Polen?\n\nOdpowiedź: tak", "en": "Ist er aus Polen?\n\nAnswer: yes", "de": "Ist er aus Polen?\n\nAntwort: ja" },
+      "options": ["Ja, er ist.", "Nein, er ist nicht.", "Ja, sie ist.", "Nein, sie ist nicht."],
+      "answer": "Ja, er ist.",
+      "explanation": { "pl": "Tak → Ja, er ist.", "en": "Ja, er ist.", "de": "Ja, er ist." }
+    },
+    {
+      "id": "de-pr-y08",
+      "category": "yesno",
+      "prompt": { "pl": "Ist sie aus Frankreich?\n\nOdpowiedź: nie", "en": "Ist sie aus Frankreich?\n\nAnswer: no", "de": "Ist sie aus Frankreich?\n\nAntwort: nein" },
+      "options": ["Nein, sie ist nicht.", "Ja, sie ist.", "Nein, er ist nicht.", "Ja, er ist."],
+      "answer": "Nein, sie ist nicht.",
+      "explanation": { "pl": "Nie → Nein, sie ist nicht.", "en": "Nein, sie ist nicht.", "de": "Nein, sie ist nicht." }
     }
   ]
 }

@@ -156,9 +156,10 @@ export async function loadAllContent(fetchImpl = fetch) {
     'en-pronouns.json',
     'de-starter.json',
     'de-pronouns.json',
+    'de-has.json',
   ];
   // Cache-bust so old service-worker entries cannot keep stale questions.
-  const packVersion = 'v4.1';
+  const packVersion = 'v4.2';
   await Promise.all(packFiles.map(async (file) => {
     try {
       const packRes = await fetchImpl(`./content/packs/${file}?v=${packVersion}`);

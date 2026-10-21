@@ -1,0 +1,217 @@
+{
+  "id": "de-has",
+  "targetLang": "de",
+  "level": "A0",
+  "title": {
+    "pl": "ist czy hat? (jest / ma)",
+    "en": "ist or hat? (is / has)",
+    "de": "ist oder hat?"
+  },
+  "description": {
+    "pl": "Wybierz: Er/Sie ist (jest) vs Er/Sie hat (ma). Tylko słowa z Podstaw: Ritter, Drache, Prinzessin, Jahre alt, Name…",
+    "en": "Choose: Er/Sie ist (is) vs Er/Sie hat (has). Only Starter words: Ritter, Drache, Prinzessin, Jahre alt, Name…",
+    "de": "Wähle: ist (sein) oder hat (haben). Nur Starter-Wörter."
+  },
+  "vocabulary": [
+    { "word": "Er ist", "gloss": { "pl": "On jest", "en": "He is", "de": "Er ist" } },
+    { "word": "Sie ist", "gloss": { "pl": "Ona jest", "en": "She is", "de": "Sie ist" } },
+    { "word": "Er hat", "gloss": { "pl": "On ma", "en": "He has", "de": "Er hat" } },
+    { "word": "Sie hat", "gloss": { "pl": "Ona ma", "en": "She has", "de": "Sie hat" } },
+    { "word": "Er hat nicht", "gloss": { "pl": "On nie ma", "en": "He doesn't have", "de": "Er hat nicht" } },
+    { "word": "Sie hat nicht", "gloss": { "pl": "Ona nie ma", "en": "She doesn't have", "de": "Sie hat nicht" } }
+  ],
+  "questions": [
+    {
+      "id": "de-ha-01",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ ein Ritter. (jest)", "en": "Fill in: _____ ein Ritter. (is)", "de": "Ergänze: _____ ein Ritter. (ist)" },
+      "options": ["Er ist", "Er hat", "Sie ist", "Sie hat"],
+      "answer": "Er ist",
+      "explanation": { "pl": "Być kimś → ist. Er ist ein Ritter.", "en": "Being someone → ist.", "de": "Beruf/Rolle → ist" }
+    },
+    {
+      "id": "de-ha-02",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ eine Prinzessin. (jest)", "en": "Fill in: _____ eine Prinzessin. (is)", "de": "Ergänze: _____ eine Prinzessin." },
+      "options": ["Sie ist", "Sie hat", "Er ist", "Er hat"],
+      "answer": "Sie ist",
+      "explanation": { "pl": "Sie ist eine Prinzessin.", "en": "Sie ist eine Prinzessin.", "de": "ist = jest" }
+    },
+    {
+      "id": "de-ha-03",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ einen Drachen. (ma)", "en": "Fill in: _____ einen Drachen. (has)", "de": "Ergänze: _____ einen Drachen. (hat)" },
+      "options": ["Er hat", "Er ist", "Sie hat", "Sie ist"],
+      "answer": "Er hat",
+      "explanation": { "pl": "Mieć coś → hat. Er hat einen Drachen.", "en": "Having something → hat.", "de": "Besitz → hat" }
+    },
+    {
+      "id": "de-ha-04",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ einen Drachen. (ona ma)", "en": "Fill in: _____ einen Drachen. (she has)", "de": "Ergänze: _____ einen Drachen. (sie)" },
+      "options": ["Sie hat", "Sie ist", "Er hat", "Er ist"],
+      "answer": "Sie hat",
+      "explanation": { "pl": "Sie hat einen Drachen.", "en": "Sie hat einen Drachen.", "de": "hat = ma" }
+    },
+    {
+      "id": "de-ha-05",
+      "category": "be",
+      "prompt": { "pl": "Wiek — uzupełnij: _____ 10 Jahre alt. (on)", "en": "Age — fill in: _____ 10 Jahre alt. (he)", "de": "Alter: _____ 10 Jahre alt." },
+      "options": ["Er ist", "Er hat", "Sie ist", "Sie hat"],
+      "answer": "Er ist",
+      "explanation": { "pl": "Wiek zawsze z ist/bin — nie hat!", "en": "Age uses ist, never hat.", "de": "Alter → ist, nicht hat" }
+    },
+    {
+      "id": "de-ha-06",
+      "category": "be",
+      "prompt": { "pl": "Wiek — uzupełnij: _____ 10 Jahre alt. (ona)", "en": "Age — fill in: _____ 10 Jahre alt. (she)", "de": "Alter: _____ 10 Jahre alt. (sie)" },
+      "options": ["Sie ist", "Sie hat", "Er ist", "Er hat"],
+      "answer": "Sie ist",
+      "explanation": { "pl": "Sie ist 10 Jahre alt.", "en": "Sie ist 10 Jahre alt.", "de": "Alter → ist" }
+    },
+    {
+      "id": "de-ha-07",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ ein Zauberer. (jest)", "en": "Fill in: _____ ein Zauberer. (is)", "de": "Ergänze: _____ ein Zauberer." },
+      "options": ["Er ist", "Er hat", "Sie ist", "Sie hat"],
+      "answer": "Er ist",
+      "explanation": { "pl": "Er ist ein Zauberer.", "en": "Er ist ein Zauberer.", "de": "ist" }
+    },
+    {
+      "id": "de-ha-08",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ eine Hexe. (jest)", "en": "Fill in: _____ eine Hexe. (is)", "de": "Ergänze: _____ eine Hexe." },
+      "options": ["Sie ist", "Sie hat", "Er ist", "Er hat"],
+      "answer": "Sie ist",
+      "explanation": { "pl": "Sie ist eine Hexe.", "en": "Sie ist eine Hexe.", "de": "ist" }
+    },
+    {
+      "id": "de-ha-09",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ einen Lieblingsdrachen. (on ma)", "en": "Fill in: _____ einen Lieblingsdrachen. (he has)", "de": "Ergänze: _____ einen Lieblingsdrachen." },
+      "options": ["Er hat", "Er ist", "Sie hat", "Sie ist"],
+      "answer": "Er hat",
+      "explanation": { "pl": "Er hat einen Lieblingsdrachen.", "en": "Er hat…", "de": "hat" }
+    },
+    {
+      "id": "de-ha-10",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ eine Lieblingsprinzessin. (ona ma)", "en": "Fill in: _____ eine Lieblingsprinzessin. (she has)", "de": "Ergänze: _____ eine Lieblingsprinzessin." },
+      "options": ["Sie hat", "Sie ist", "Er hat", "Er ist"],
+      "answer": "Sie hat",
+      "explanation": { "pl": "Sie hat eine Lieblingsprinzessin.", "en": "Sie hat…", "de": "hat" }
+    },
+    {
+      "id": "de-ha-11",
+      "category": "negative",
+      "prompt": { "pl": "Przeczenie (ma): _____ einen Drachen. (on nie ma)", "en": "Negative (has): _____ einen Drachen. (he doesn't)", "de": "Verneinung: _____ einen Drachen." },
+      "options": ["Er hat nicht", "Er ist nicht", "Sie hat nicht", "Sie ist nicht"],
+      "answer": "Er hat nicht",
+      "explanation": { "pl": "nie ma → hat nicht", "en": "doesn't have → hat nicht", "de": "hat nicht" }
+    },
+    {
+      "id": "de-ha-12",
+      "category": "negative",
+      "prompt": { "pl": "Przeczenie (ma): _____ einen Drachen. (ona nie ma)", "en": "Negative (has): _____ einen Drachen. (she doesn't)", "de": "Verneinung: _____ einen Drachen. (sie)" },
+      "options": ["Sie hat nicht", "Sie ist nicht", "Er hat nicht", "Er ist nicht"],
+      "answer": "Sie hat nicht",
+      "explanation": { "pl": "Sie hat nicht…", "en": "Sie hat nicht…", "de": "hat nicht" }
+    },
+    {
+      "id": "de-ha-13",
+      "category": "negative",
+      "prompt": { "pl": "Przeczenie (jest): _____ ein Ritter. (on nie jest)", "en": "Negative (is): _____ ein Ritter. (he isn't)", "de": "Verneinung: _____ ein Ritter." },
+      "options": ["Er ist nicht", "Er hat nicht", "Sie ist nicht", "Sie hat nicht"],
+      "answer": "Er ist nicht",
+      "explanation": { "pl": "nie jest → ist nicht", "en": "isn't → ist nicht", "de": "ist nicht" }
+    },
+    {
+      "id": "de-ha-14",
+      "category": "negative",
+      "prompt": { "pl": "Przeczenie (jest): _____ eine Prinzessin. (ona nie jest)", "en": "Negative (is): _____ eine Prinzessin. (she isn't)", "de": "Verneinung: _____ eine Prinzessin." },
+      "options": ["Sie ist nicht", "Sie hat nicht", "Er ist nicht", "Er hat nicht"],
+      "answer": "Sie ist nicht",
+      "explanation": { "pl": "Sie ist nicht…", "en": "Sie ist nicht…", "de": "ist nicht" }
+    },
+    {
+      "id": "de-ha-15",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ aus Polen. (jest z…)", "en": "Fill in: _____ aus Polen. (is from)", "de": "Ergänze: _____ aus Polen." },
+      "options": ["Er ist", "Er hat", "Sie hat", "Er hat nicht"],
+      "answer": "Er ist",
+      "explanation": { "pl": "pochodzenie → ist aus…", "en": "from → ist aus…", "de": "aus → ist" }
+    },
+    {
+      "id": "de-ha-16",
+      "category": "be",
+      "prompt": { "pl": "Uzupełnij: _____ eine Königin. (jest)", "en": "Fill in: _____ eine Königin. (is)", "de": "Ergänze: _____ eine Königin." },
+      "options": ["Sie ist", "Sie hat", "Er ist", "Er hat"],
+      "answer": "Sie ist",
+      "explanation": { "pl": "Sie ist eine Königin.", "en": "Sie ist eine Königin.", "de": "ist" }
+    },
+    {
+      "id": "de-ha-17",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ einen Prinzen. (ona ma księcia — hat)", "en": "Fill in: _____ einen Prinzen. (she has a prince)", "de": "Ergänze: _____ einen Prinzen." },
+      "options": ["Sie hat", "Sie ist", "Er hat", "Er ist"],
+      "answer": "Sie hat",
+      "explanation": { "pl": "ma kogoś/coś → hat", "en": "has someone → hat", "de": "hat" }
+    },
+    {
+      "id": "de-ha-18",
+      "category": "have",
+      "prompt": { "pl": "Uzupełnij: _____ eine Prinzessin. (on ma księżniczkę — hat)", "en": "Fill in: _____ eine Prinzessin. (he has a princess)", "de": "Ergänze: _____ eine Prinzessin. (hat)" },
+      "options": ["Er hat", "Er ist", "Sie hat", "Sie ist"],
+      "answer": "Er hat",
+      "explanation": { "pl": "Er hat eine Prinzessin.", "en": "Er hat…", "de": "hat" }
+    },
+    {
+      "id": "de-ha-19",
+      "category": "question",
+      "prompt": { "pl": "Pytanie (jest): _____ ein Ritter?", "en": "Question (is): _____ ein Ritter?", "de": "Frage: _____ ein Ritter?" },
+      "options": ["Ist er", "Hat er", "Ist sie", "Hat sie"],
+      "answer": "Ist er",
+      "explanation": { "pl": "Czy jest? → Ist er…?", "en": "Is he? → Ist er…?", "de": "Ist er…?" }
+    },
+    {
+      "id": "de-ha-20",
+      "category": "question",
+      "prompt": { "pl": "Pytanie (ma): _____ einen Drachen?", "en": "Question (has): _____ einen Drachen?", "de": "Frage: _____ einen Drachen?" },
+      "options": ["Hat er", "Ist er", "Hat sie", "Ist sie"],
+      "answer": "Hat er",
+      "explanation": { "pl": "Czy ma? → Hat er…?", "en": "Does he have? → Hat er…?", "de": "Hat er…?" }
+    },
+    {
+      "id": "de-ha-21",
+      "category": "question",
+      "prompt": { "pl": "Pytanie (jest): _____ eine Hexe?", "en": "Question (is): _____ eine Hexe?", "de": "Frage: _____ eine Hexe?" },
+      "options": ["Ist sie", "Hat sie", "Ist er", "Hat er"],
+      "answer": "Ist sie",
+      "explanation": { "pl": "Ist sie eine Hexe?", "en": "Ist sie…?", "de": "Ist sie…?" }
+    },
+    {
+      "id": "de-ha-22",
+      "category": "question",
+      "prompt": { "pl": "Pytanie (ma): _____ einen Drachen? (ona)", "en": "Question (has): _____ einen Drachen? (she)", "de": "Frage: _____ einen Drachen? (sie)" },
+      "options": ["Hat sie", "Ist sie", "Hat er", "Ist er"],
+      "answer": "Hat sie",
+      "explanation": { "pl": "Hat sie einen Drachen?", "en": "Hat sie…?", "de": "Hat sie…?" }
+    },
+    {
+      "id": "de-ha-23",
+      "category": "be",
+      "prompt": { "pl": "Uwaga na wiek! Poprawne: On _____ 8 Jahre alt.", "en": "Age! Correct: Er _____ 8 Jahre alt.", "de": "Alter! Er _____ 8 Jahre alt." },
+      "options": ["ist", "hat", "heißt", "kommt"],
+      "answer": "ist",
+      "explanation": { "pl": "Er ist 8 Jahre alt — nigdy hat przy wieku.", "en": "Never hat for age.", "de": "Alter → ist" }
+    },
+    {
+      "id": "de-ha-24",
+      "category": "have",
+      "prompt": { "pl": "Uwaga na posiadanie! Poprawne: Sie _____ einen Drachen.", "en": "Possession! Correct: Sie _____ einen Drachen.", "de": "Besitz! Sie _____ einen Drachen." },
+      "options": ["hat", "ist", "heißt", "kommt"],
+      "answer": "hat",
+      "explanation": { "pl": "Sie hat einen Drachen.", "en": "Sie hat…", "de": "Besitz → hat" }
+    }
+  ]
+}
